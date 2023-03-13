@@ -1,0 +1,14 @@
+.header1Border1,
+.header1Border2,
+.header1Border3,
+.header1Border4,
+.header1Border5,
+.header1Border6 {
+  border: solid 1px black;
+}
+
+.headerDiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
