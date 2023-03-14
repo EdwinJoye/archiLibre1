@@ -1,3 +1,9 @@
-img {
-  max-width: 80%;
+body {
+  --def: #090e0c;
+  --inv: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
 }

@@ -5,22 +5,25 @@ const MenuHome = () => {
   return (
     <div className="menu1">
       <Link to="/aboutme">
-        <div>About Me</div>
+        <div className="btnMenuHome">About Me</div>
       </Link>
       <Link to="/exterieur">
-        <div>Extérieur</div>
+        <div className="btnMenuHome">Extérieur</div>
       </Link>
       <Link to="/interieur">
-        <div>Intérieur</div>
+        <div className="btnMenuHome">Intérieur</div>
       </Link>
       <Link to="/decoameublement">
-        <div>Décoration/Ameublement</div>
+        <div className="btnMenuHome">
+          Décoration & <br />
+          Aumeublement
+        </div>
       </Link>
       <Link to="/plans">
-        <div>Plans</div>
+        <div className="btnMenuHome">Plans</div>
       </Link>
       <Link to="/croquis">
-        <div>Croquis</div>
+        <div className="btnMenuHome">Croquis</div>
       </Link>
     </div>
   );
