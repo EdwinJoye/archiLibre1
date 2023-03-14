@@ -1,8 +1,12 @@
-.imgTexteAboutMe {
+.imgAboutMe {
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
-.imgTexteAboutMe img,
-.imgTexteAboutMe div {
+.imgAboutMe img,
+.imgAboutMe div {
   max-width: 500px;
+}
+.test {
+  position: relative;
 }

@@ -12,9 +12,13 @@ const Croquis = ({ onOff, setOnOff }) => {
           return (
             <div>
               <div>{data.title}</div>
-              <div className="imgTexteCroquis">
+              <div className="imgCroquis">
                 <img src={data.mainUrl} alt="croquis" />
                 <div>{data.texte}</div>
+                <div className="imageOverlay">
+                  <div className="imageTitle">{data.title}</div>
+                  <div className="descriptionImage">{data.description}</div>
+                </div>
               </div>
             </div>
           );

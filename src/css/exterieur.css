@@ -1,8 +1,9 @@
-.imgTexteExterieur {
+.imgExterieur {
   display: flex;
+  position: relative;
   justify-content: space-between;
 }
-.imgTexteExterieur img,
-.imgTexteExterieur div {
+.imgExterieur img,
+.imgExterieur div {
   max-width: 500px;
 }

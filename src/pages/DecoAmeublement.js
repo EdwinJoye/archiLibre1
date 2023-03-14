@@ -11,9 +11,13 @@ const DecoAmeublement = ({ onOff, setOnOff }) => {
           return (
             <div key={key}>
               <div>{data.title}</div>
-              <div className="imgTexteDecoAmeublement">
+              <div className="imgDecoAmeublement">
                 <img src={data.mainUrl} alt="interieur" />
-                <div>{data.texte}</div>
+                <div className="imageOverlay">
+                  <div className="imageTitle">{data.title}</div>
+                  <div className="descriptionImage">{data.description}</div>
+                </div>
+                <div> {data.texte}</div>
               </div>
             </div>
           );

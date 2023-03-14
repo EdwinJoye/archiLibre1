@@ -1,8 +1,10 @@
-.imgTexteIntérieur {
+.imgIntérieur {
+  position: relative;
   display: flex;
   justify-content: space-between;
 }
-.imgTexteIntérieur img,
-.imgTexteIntérieur div {
+.imgIntérieur img,
+.imgIntérieur div {
   max-width: 500px;
+  max-height: 500px;
 }

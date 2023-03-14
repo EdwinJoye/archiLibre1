@@ -4,7 +4,7 @@ export const aboutMe = [
     title: "BeauGoss1",
     description: "no description",
     mainUrl:
-      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678705677/archilibre1/Photos/aboutMe/Sans_titre_dy605i.jpg",
+      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678705858/archilibre1/Photos/aboutMe/Sans_titre_flux4p.jpg",
     zooms: [
       //   "https://res.cloudinary.com/dm0sv9nfx/image/upload/v1651683912/mozartWorksTattooPictures/5-Colored%20Drawings/ColoredDrawingsSlides/ColoredDrawingsSlide1/1_coshuo.jpg",
     ],
@@ -16,7 +16,7 @@ export const aboutMe = [
     title: "BeauGoss2",
     description: "no description",
     mainUrl:
-      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678705858/archilibre1/Photos/aboutMe/Sans_titre_flux4p.jpg",
+      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678705677/archilibre1/Photos/aboutMe/Sans_titre_dy605i.jpg",
     zooms: [
       //   "https://res.cloudinary.com/dm0sv9nfx/image/upload/v1651683912/mozartWorksTattooPictures/5-Colored%20Drawings/ColoredDrawingsSlides/ColoredDrawingsSlide1/1_coshuo.jpg",
     ],
