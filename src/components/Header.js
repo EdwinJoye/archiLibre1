@@ -1,14 +1,29 @@
 import { Link } from "react-router-dom";
 import "../css/header.css";
+import SignatureBlanche from "../img/signatureBlanche.png";
+import SignatureNoire from "../img/signatureNoire.png";
 
 const Header = ({ onOff, setOnOff }) => {
   return (
-    <div className="headerDiv container">
-      <Link to="/">
-        <div className="headerBox">
-          <span>H</span>
-          <span className="transLetters">OME</span>
-        </div>
+    <div className={onOff === 0 ? "headerDivBlanc container" : "headerDivNoir"}>
+      <Link
+        to="/"
+        onClick={() => {
+          setOnOff((onOff = 0));
+        }}
+      >
+        <img
+          to="/"
+          className="headerSignatureBlanche"
+          src={SignatureBlanche}
+          alt="blanche"
+        />
+        <img
+          to="/"
+          className="headerSignatureNoire"
+          src={SignatureNoire}
+          alt="noire"
+        />
       </Link>
       <Link
         to="/aboutme"

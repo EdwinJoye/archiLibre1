@@ -4,7 +4,7 @@ import { croquis } from "../data/croquis";
 
 const Croquis = ({ onOff, setOnOff }) => {
   return (
-    <div>
+    <div className="container">
       <Header onOff={onOff} setOnOff={setOnOff}></Header>
       <div>Croquis</div>
       <div>

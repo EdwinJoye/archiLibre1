@@ -3,8 +3,13 @@ export const home = [
     id: "home1",
     title: "Lublin",
     description: "no description",
-    mainUrl:
-      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678285604/archilibre1/Photos/Croquis/Lublin_lzh8nv.jpg",
+    mainUrl: [
+      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678796573/archilibre1/Photos/home/20221209_165116_iu7go4.jpg",
+      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678796571/archilibre1/Photos/home/20220823_104557_xdfbkk.jpg",
+      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678796566/archilibre1/Photos/home/20220823_104532_lknpgy.jpg",
+      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678796565/archilibre1/Photos/home/6_csvvqt.jpg",
+      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678796564/archilibre1/Photos/home/Extention_La_celle_st_cloud_vgne6q.jpg",
+    ],
     zooms: [
       //   "https://res.cloudinary.com/dm0sv9nfx/image/upload/v1651683912/mozartWorksTattooPictures/5-Colored%20Drawings/ColoredDrawingsSlides/ColoredDrawingsSlide1/1_coshuo.jpg",
     ],

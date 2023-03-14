@@ -1,12 +1,37 @@
-.headerDiv {
+.headerDivBlanc,
+.headerDivNoir {
   display: flex;
   justify-content: space-between;
-  padding: 40px;
+  align-items: center;
+  padding: 40px 0 40px 0;
 }
-.headerDiv:hover .transLetters {
+.headerDivBlanc:hover .transLetters,
+.headerDivNoir:hover .transLetters {
   cursor: pointer;
   opacity: 7;
   transition: 0.55s ease-in-out;
+}
+.headerDivBlanc img.headerSignatureBlanche,
+.headerDivNoir img.headerSignatureNoire {
+  display: block;
+}
+.headerDivNoir span {
+  transition: 0.55s ease-in-out;
+  color: black;
+}
+.headerSignatureBlanche,
+.headerSignatureNoire {
+  max-width: 200px;
+  display: none;
+}
+.header1Border1,
+.header1Border2,
+.header1Border3,
+.header1Border4,
+.header1Border5,
+.header1Border6 {
+  padding: 1rem;
+  border-bottom: 2px solid black;
 }
 .header1Border1 span,
 .header1Border2 span,
@@ -18,7 +43,33 @@
   font-size: 1.5rem;
 }
 .headerBox {
+  color: white;
   font-size: 1.5rem;
+  display: inline-block;
+  position: relative;
+  padding: 1rem;
+}
+.headerBox::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.45s ease-out;
+}
+.headerDivBlanc .headerBox::after {
+  background-color: white;
+}
+.headerDivNoir .headerBox::after {
+  background-color: black;
+}
+.headerBox:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 .headerBox:hover span {
   transition: 0.55s ease-in-out;

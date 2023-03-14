@@ -1,6 +1,6 @@
 .imgTexteIntérieur {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .imgTexteIntérieur img,
 .imgTexteIntérieur div {

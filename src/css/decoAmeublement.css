@@ -1,6 +1,6 @@
 .imgTexteDecoAmeublement {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .imgTexteDecoAmeublement img,
 .imgTexteDecoAmeublement div {

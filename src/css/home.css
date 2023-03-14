@@ -1,8 +1,8 @@
 .homeDiv1 {
   height: 100vh;
-  display: flex;
-  align-items: center;
-  background-image: url("https://res.cloudinary.com/dt7srgrd1/image/upload/v1678709503/archilibre1/Photos/homeArchi/abandoned-exhibition-centre-tbilisi_-_copie_maqava.jpg");
+  /* background-image: url("https://res.cloudinary.com/dt7srgrd1/image/upload/v1678709503/archilibre1/Photos/homeArchi/abandoned-exhibition-centre-tbilisi_-_copie_maqava.jpg"); */
+  /* background-image: url("https://res.cloudinary.com/dt7srgrd1/image/upload/v1678796564/archilibre1/Photos/home/Extention_La_celle_st_cloud_vgne6q.jpg"); */
+  background-image: url("https://res.cloudinary.com/dt7srgrd1/image/upload/v1678796571/archilibre1/Photos/home/20220823_104557_xdfbkk.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }

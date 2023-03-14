@@ -1,6 +1,6 @@
 .imgTexteAboutMe {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .imgTexteAboutMe img,
 .imgTexteAboutMe div {

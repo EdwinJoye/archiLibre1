@@ -4,7 +4,7 @@ import { decoAmeublement } from "../data/decoAmeublement";
 
 const DecoAmeublement = ({ onOff, setOnOff }) => {
   return (
-    <div>
+    <div className="container">
       <Header onOff={onOff} setOnOff={setOnOff}></Header>
       <div>
         {decoAmeublement.map((data, key) => {

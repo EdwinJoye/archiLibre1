@@ -4,7 +4,7 @@ import { interieur } from "../data/interieur";
 
 const Interieur = ({ onOff, setOnOff }) => {
   return (
-    <div>
+    <div className="container">
       <Header onOff={onOff} setOnOff={setOnOff}></Header>
       <div>
         {interieur.map((data, key) => {

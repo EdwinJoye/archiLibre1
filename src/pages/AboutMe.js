@@ -5,7 +5,7 @@ import { aboutMe } from "../data/aboutMe";
 const AboutMe = ({ onOff, setOnOff }) => {
   console.log(onOff);
   return (
-    <div>
+    <div className="container">
       <Header onOff={onOff} setOnOff={setOnOff}></Header>
       <div>About Me</div>
       <div>
