@@ -1,0 +1,8 @@
+.imgTexteIntérieur {
+  display: flex;
+  justify-content: space-around;
+}
+.imgTexteIntérieur img,
+.imgTexteIntérieur div {
+  max-width: 500px;
+}

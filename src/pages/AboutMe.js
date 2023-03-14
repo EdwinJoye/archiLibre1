@@ -13,8 +13,10 @@ const AboutMe = ({ onOff, setOnOff }) => {
           return (
             <div>
               <div>{data.title}</div>
-              <img src={data.mainUrl} alt="" />
-              <div>{data.texte}</div>
+              <div className="imgTexteAboutMe">
+                <img src={data.mainUrl} alt="" />
+                <div>{data.texte}</div>
+              </div>
             </div>
           );
         })}

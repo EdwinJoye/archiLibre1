@@ -1,0 +1,8 @@
+.imgTexteCroquis {
+  display: flex;
+  justify-content: space-around;
+}
+.imgTexteCroquis img,
+.imgTexteCroquis div {
+  max-width: 500px;
+}

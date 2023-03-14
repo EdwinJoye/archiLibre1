@@ -11,7 +11,7 @@ const Exterieur = ({ onOff, setOnOff }) => {
           return (
             <div key={key}>
               <div>{data.title}</div>
-              <div className="exteDiv2">
+              <div className="imgTexteExterieur">
                 <img src={data.mainUrl} alt="exterieur" />
                 <div>{data.texte}</div>
               </div>

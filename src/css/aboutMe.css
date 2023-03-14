@@ -1,0 +1,8 @@
+.imgTexteAboutMe {
+  display: flex;
+  justify-content: space-around;
+}
+.imgTexteAboutMe img,
+.imgTexteAboutMe div {
+  max-width: 500px;
+}

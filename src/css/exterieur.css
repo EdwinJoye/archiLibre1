@@ -1,3 +1,8 @@
-.exteDiv2 {
+.imgTexteExterieur {
   display: flex;
+  justify-content: space-around;
+}
+.imgTexteExterieur img,
+.imgTexteExterieur div {
+  max-width: 500px;
 }

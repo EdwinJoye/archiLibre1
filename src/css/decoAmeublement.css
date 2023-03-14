@@ -1,0 +1,8 @@
+.imgTexteDecoAmeublement {
+  display: flex;
+  justify-content: space-around;
+}
+.imgTexteDecoAmeublement img,
+.imgTexteDecoAmeublement div {
+  max-width: 500px;
+}

@@ -8,15 +8,6 @@
   opacity: 7;
   transition: 0.55s ease-in-out;
 }
-.header1Border1,
-.header1Border2,
-.header1Border3,
-.header1Border4,
-.header1Border5,
-.header1Border6 {
-  border: 2px black solid;
-  padding: 5px;
-}
 .header1Border1 span,
 .header1Border2 span,
 .header1Border3 span,
@@ -27,8 +18,6 @@
   font-size: 1.5rem;
 }
 .headerBox {
-  border: 2px white solid;
-  padding: 5px;
   font-size: 1.5rem;
 }
 .headerBox:hover span {

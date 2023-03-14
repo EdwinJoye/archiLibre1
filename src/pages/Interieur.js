@@ -11,8 +11,10 @@ const Interieur = ({ onOff, setOnOff }) => {
           return (
             <div key={key}>
               <div>{data.title}</div>
-              <img src={data.mainUrl} alt="interieur" />
-              <div>{data.texte}</div>
+              <div className="imgTexteIntérieur">
+                <img src={data.mainUrl} alt="" />
+                <div>{data.texte}</div>
+              </div>
             </div>
           );
         })}

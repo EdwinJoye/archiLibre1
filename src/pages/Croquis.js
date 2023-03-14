@@ -12,8 +12,10 @@ const Croquis = ({ onOff, setOnOff }) => {
           return (
             <div>
               <div>{data.title}</div>
-              <img src={data.mainUrl} alt="croquis" />
-              <div>{data.texte}</div>
+              <div className="imgTexteCroquis">
+                <img src={data.mainUrl} alt="croquis" />
+                <div>{data.texte}</div>
+              </div>
             </div>
           );
         })}

@@ -1,10 +1,10 @@
 export const interieur = [
   {
     id: "interieur1",
-    title: "Meuble Clique",
+    title: "Lublin",
     description: "no description",
     mainUrl:
-      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678285547/archilibre1/Photos/Inte%CC%81rieur/meuble_clique_hkyobz.jpg",
+      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678790701/archilibre1/Photos/Inte%CC%81rieurs/antony/FullSizeRender_35_juf4hf.jpg",
     zooms: [
       //   "https://res.cloudinary.com/dm0sv9nfx/image/upload/v1651683912/mozartWorksTattooPictures/5-Colored%20Drawings/ColoredDrawingsSlides/ColoredDrawingsSlide1/1_coshuo.jpg",
     ],
@@ -13,10 +13,10 @@ export const interieur = [
   },
   {
     id: "interieur2",
-    title: "CAS",
+    title: "Lublin",
     description: "no description",
     mainUrl:
-      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678285536/archilibre1/Photos/Inte%CC%81rieur/cas_sp5vwk.jpg",
+      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678790700/archilibre1/Photos/Inte%CC%81rieurs/antony/FullSizeRender_21_kcyz4x.jpg",
     zooms: [
       //   "https://res.cloudinary.com/dm0sv9nfx/image/upload/v1651683912/mozartWorksTattooPictures/5-Colored%20Drawings/ColoredDrawingsSlides/ColoredDrawingsSlide1/1_coshuo.jpg",
     ],
@@ -25,10 +25,10 @@ export const interieur = [
   },
   {
     id: "interieur3",
-    title: "Intérieur Ladj1",
+    title: "Lublin",
     description: "no description",
     mainUrl:
-      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678285531/archilibre1/Photos/Inte%CC%81rieur/int_Ladj_2_pscw1c.jpg",
+      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678790699/archilibre1/Photos/Inte%CC%81rieurs/antony/FullSizeRender_16_dq4pne.jpg",
     zooms: [
       //   "https://res.cloudinary.com/dm0sv9nfx/image/upload/v1651683912/mozartWorksTattooPictures/5-Colored%20Drawings/ColoredDrawingsSlides/ColoredDrawingsSlide1/1_coshuo.jpg",
     ],
@@ -37,10 +37,10 @@ export const interieur = [
   },
   {
     id: "interieur4",
-    title: "Intérieur Ladj2",
+    title: "Lublin",
     description: "no description",
     mainUrl:
-      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678285530/archilibre1/Photos/Inte%CC%81rieur/int_Ladj_juw0cn.jpg",
+      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678790698/archilibre1/Photos/Inte%CC%81rieurs/antony/FullSizeRender_15_ttuaad.jpg",
     zooms: [
       //   "https://res.cloudinary.com/dm0sv9nfx/image/upload/v1651683912/mozartWorksTattooPictures/5-Colored%20Drawings/ColoredDrawingsSlides/ColoredDrawingsSlide1/1_coshuo.jpg",
     ],
@@ -49,10 +49,10 @@ export const interieur = [
   },
   {
     id: "interieur5",
-    title: "Intérieur Mali 1",
+    title: "Lublin",
     description: "no description",
     mainUrl:
-      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678285526/archilibre1/Photos/Inte%CC%81rieur/int_Mali_nshxbl.jpg",
+      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678790698/archilibre1/Photos/Inte%CC%81rieurs/antony/FullSizeRender_20_xicodb.jpg",
     zooms: [
       //   "https://res.cloudinary.com/dm0sv9nfx/image/upload/v1651683912/mozartWorksTattooPictures/5-Colored%20Drawings/ColoredDrawingsSlides/ColoredDrawingsSlide1/1_coshuo.jpg",
     ],
@@ -61,10 +61,94 @@ export const interieur = [
   },
   {
     id: "interieur6",
-    title: "Intérieur Mali 2",
+    title: "Lublin",
     description: "no description",
     mainUrl:
-      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678285526/archilibre1/Photos/Inte%CC%81rieur/int_Mali_2_mijfdx.jpg",
+      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678790697/archilibre1/Photos/Inte%CC%81rieurs/antony/FullSizeRender_19_lgyqq7.jpg",
+    zooms: [
+      //   "https://res.cloudinary.com/dm0sv9nfx/image/upload/v1651683912/mozartWorksTattooPictures/5-Colored%20Drawings/ColoredDrawingsSlides/ColoredDrawingsSlide1/1_coshuo.jpg",
+    ],
+    texte:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.",
+  },
+  {
+    id: "interieur7",
+    title: "Lublin",
+    description: "no description",
+    mainUrl:
+      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678790697/archilibre1/Photos/Inte%CC%81rieurs/antony/FullSizeRender_14_nrm2cd.jpg",
+    zooms: [
+      //   "https://res.cloudinary.com/dm0sv9nfx/image/upload/v1651683912/mozartWorksTattooPictures/5-Colored%20Drawings/ColoredDrawingsSlides/ColoredDrawingsSlide1/1_coshuo.jpg",
+    ],
+    texte:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.",
+  },
+  {
+    id: "interieur8",
+    title: "Lublin",
+    description: "no description",
+    mainUrl:
+      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678790695/archilibre1/Photos/Inte%CC%81rieurs/antony/FullSizeRender_25_cbq5jd.jpg",
+    zooms: [
+      //   "https://res.cloudinary.com/dm0sv9nfx/image/upload/v1651683912/mozartWorksTattooPictures/5-Colored%20Drawings/ColoredDrawingsSlides/ColoredDrawingsSlide1/1_coshuo.jpg",
+    ],
+    texte:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.",
+  },
+  {
+    id: "interieur9",
+    title: "Lublin",
+    description: "no description",
+    mainUrl:
+      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678790694/archilibre1/Photos/Inte%CC%81rieurs/antony/FullSizeRender_18_yida4e.jpg",
+    zooms: [
+      //   "https://res.cloudinary.com/dm0sv9nfx/image/upload/v1651683912/mozartWorksTattooPictures/5-Colored%20Drawings/ColoredDrawingsSlides/ColoredDrawingsSlide1/1_coshuo.jpg",
+    ],
+    texte:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.",
+  },
+  {
+    id: "interieur10",
+    title: "Lublin",
+    description: "no description",
+    mainUrl:
+      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678790693/archilibre1/Photos/Inte%CC%81rieurs/antony/4_mljb1u.jpg",
+    zooms: [
+      //   "https://res.cloudinary.com/dm0sv9nfx/image/upload/v1651683912/mozartWorksTattooPictures/5-Colored%20Drawings/ColoredDrawingsSlides/ColoredDrawingsSlide1/1_coshuo.jpg",
+    ],
+    texte:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.",
+  },
+  {
+    id: "interieur11",
+    title: "Lublin",
+    description: "no description",
+    mainUrl:
+      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678790693/archilibre1/Photos/Inte%CC%81rieurs/antony/FullSizeRender_23_pl8kz8.jpg",
+    zooms: [
+      //   "https://res.cloudinary.com/dm0sv9nfx/image/upload/v1651683912/mozartWorksTattooPictures/5-Colored%20Drawings/ColoredDrawingsSlides/ColoredDrawingsSlide1/1_coshuo.jpg",
+    ],
+    texte:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.",
+  },
+  {
+    id: "interieur12",
+    title: "Lublin",
+    description: "no description",
+    mainUrl:
+      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678790692/archilibre1/Photos/Inte%CC%81rieurs/antony/FullSizeRender_37_fzvjlz.jpg",
+    zooms: [
+      //   "https://res.cloudinary.com/dm0sv9nfx/image/upload/v1651683912/mozartWorksTattooPictures/5-Colored%20Drawings/ColoredDrawingsSlides/ColoredDrawingsSlide1/1_coshuo.jpg",
+    ],
+    texte:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.",
+  },
+  {
+    id: "interieur13",
+    title: "Lublin",
+    description: "no description",
+    mainUrl:
+      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678790692/archilibre1/Photos/Inte%CC%81rieurs/antony/FullSizeRender_22_ksydyk.jpg",
     zooms: [
       //   "https://res.cloudinary.com/dm0sv9nfx/image/upload/v1651683912/mozartWorksTattooPictures/5-Colored%20Drawings/ColoredDrawingsSlides/ColoredDrawingsSlide1/1_coshuo.jpg",
     ],
