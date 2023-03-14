@@ -3,9 +3,12 @@ import "../css/header.css";
 
 const Header = ({ onOff, setOnOff }) => {
   return (
-    <div className="headerDiv">
+    <div className="headerDiv container">
       <Link to="/">
-        <div>Home</div>
+        <div className="headerBox">
+          <span>H</span>
+          <span className="transLetters">OME</span>
+        </div>
       </Link>
       <Link
         to="/aboutme"
@@ -13,7 +16,12 @@ const Header = ({ onOff, setOnOff }) => {
           setOnOff((onOff = 1));
         }}
       >
-        <div className={onOff === 1 ? "header1Border1" : ""}>About Me</div>
+        <div className={onOff === 1 ? "header1Border1" : "headerBox"}>
+          <span>A</span>
+          <span className="transLetters">BOUT </span>
+          <span>M</span>
+          <span className="transLetters">E</span>
+        </div>
       </Link>
       <Link
         to="/exterieur"
@@ -21,7 +29,10 @@ const Header = ({ onOff, setOnOff }) => {
           setOnOff((onOff = 2));
         }}
       >
-        <div className={onOff === 2 ? "header1Border2" : ""}>Extérieur</div>
+        <div className={onOff === 2 ? "header1Border2" : "headerBox"}>
+          <span>E</span>
+          <span className="transLetters">XTERIEUR</span>
+        </div>
       </Link>
       <Link
         to="/interieur"
@@ -29,7 +40,10 @@ const Header = ({ onOff, setOnOff }) => {
           setOnOff((onOff = 3));
         }}
       >
-        <div className={onOff === 3 ? "header1Border3" : ""}>Intérieur</div>
+        <div className={onOff === 3 ? "header1Border3" : "headerBox"}>
+          <span>I</span>
+          <span className="transLetters">NTERIEUR</span>
+        </div>
       </Link>
       <Link
         to="/croquis"
@@ -37,7 +51,10 @@ const Header = ({ onOff, setOnOff }) => {
           setOnOff((onOff = 4));
         }}
       >
-        <div className={onOff === 4 ? "header1Border4" : ""}>croquis</div>
+        <div className={onOff === 4 ? "header1Border4" : "headerBox"}>
+          <span>C</span>
+          <span className="transLetters">ROQUIS</span>
+        </div>
       </Link>
       <Link
         to="/decoameublement"
@@ -45,8 +62,12 @@ const Header = ({ onOff, setOnOff }) => {
           setOnOff((onOff = 5));
         }}
       >
-        <div className={onOff === 5 ? "header1Border5" : ""}>
-          Déco/ameublement
+        <div className={onOff === 5 ? "header1Border5" : "headerBox"}>
+          <span>D</span>
+          <span className="transLetters">ECO </span>
+          <span>& </span>
+          <span>A</span>
+          <span className="transLetters">MEUBLEMENT</span>
         </div>
       </Link>
       <Link
@@ -55,7 +76,10 @@ const Header = ({ onOff, setOnOff }) => {
           setOnOff((onOff = 6));
         }}
       >
-        <div className={onOff === 6 ? "header1Border6" : ""}>Plans</div>
+        <div className={onOff === 6 ? "header1Border6" : "headerBox"}>
+          <span>P</span>
+          <span className="transLetters">LANS</span>
+        </div>
       </Link>
     </div>
   );

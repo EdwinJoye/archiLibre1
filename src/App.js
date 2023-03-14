@@ -15,7 +15,10 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home></Home>}></Route>
+        <Route
+          path="/"
+          element={<Home onOff={onOff} setOnOff={setOnOff}></Home>}
+        ></Route>
         <Route
           path="/aboutme"
           element={<AboutMe onOff={onOff} setOnOff={setOnOff}></AboutMe>}

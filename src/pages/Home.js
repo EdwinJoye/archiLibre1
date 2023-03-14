@@ -1,10 +1,10 @@
 import MenuHome from "../components/MenuHome";
 import "../css/home.css";
 
-const Home = () => {
+const Home = ({ onOff, setOnOff }) => {
   return (
     <div className="homeDiv1">
-      <MenuHome></MenuHome>
+      <MenuHome onOff={onOff} setOnOff={setOnOff}></MenuHome>
     </div>
   );
 };

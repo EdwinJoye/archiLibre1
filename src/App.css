@@ -7,3 +7,12 @@ body {
   box-sizing: border-box;
   text-decoration: none;
 }
+.container {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+span {
+  color: black;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}

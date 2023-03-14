@@ -1,14 +1,40 @@
+.headerDiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+.headerDiv:hover .transLetters {
+  cursor: pointer;
+  opacity: 7;
+  transition: 0.55s ease-in-out;
+}
 .header1Border1,
 .header1Border2,
 .header1Border3,
 .header1Border4,
 .header1Border5,
 .header1Border6 {
-  border: solid 1px black;
+  border: 2px black solid;
+  padding: 5px;
 }
-
-.headerDiv {
-  display: flex;
-  justify-content: space-between;
-  padding: 40px;
+.header1Border1 span,
+.header1Border2 span,
+.header1Border3 span,
+.header1Border4 span,
+.header1Border5 span,
+.header1Border6 span {
+  opacity: 7;
+  font-size: 1.5rem;
+}
+.headerBox {
+  border: 2px white solid;
+  padding: 5px;
+  font-size: 1.5rem;
+}
+.headerBox:hover span {
+  transition: 0.55s ease-in-out;
+  color: orange;
+}
+.transLetters {
+  opacity: 0;
 }
