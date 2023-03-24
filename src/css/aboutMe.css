@@ -1,12 +1,15 @@
 .imgAboutMe {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   position: relative;
+  margin: 0 10px 20px;
+  overflow: hidden;
 }
-.imgAboutMe img,
-.imgAboutMe div {
+.imgAboutMe img {
   max-width: 500px;
+  background-color: yellow;
 }
-.test {
-  position: relative;
+.texte__aboutMe {
+  background-color: yellow;
 }

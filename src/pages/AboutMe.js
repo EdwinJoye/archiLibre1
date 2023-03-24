@@ -19,8 +19,8 @@ const AboutMe = ({ onOff, setOnOff }) => {
                   <div className="imageTitle">{data.title}</div>
                   <div className="descriptionImage">{data.description}</div>
                 </div>
-                <div>{data.texte}</div>
               </div>
+              <div className="texte__aboutMe">{data.texte}</div>
             </div>
           );
         })}

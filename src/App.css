@@ -28,12 +28,11 @@ span {
   background: rgba(0, 0, 0, 0.6);
   color: white;
   opacity: 0;
-  overflow: hidden;
+  transition: opacity 0.45s ease-in-out;
 }
 .imageOverlay:hover {
   cursor: pointer;
   opacity: 1;
-  transition: 0.45s ease-in-out;
 }
 .imageTitle {
   margin-bottom: 10px;
