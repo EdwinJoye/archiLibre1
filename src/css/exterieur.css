@@ -17,7 +17,6 @@
 .div-img-exterieur {
   display: flex;
   flex: 1;
-  background-color: pink;
   position: relative;
   overflow: hidden;
 }
