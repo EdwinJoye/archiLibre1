@@ -8,19 +8,43 @@ const Exterieur = ({ onOff, setOnOff }) => {
       <Header onOff={onOff} setOnOff={setOnOff}></Header>
       <div>
         {exterieur.map((data, key) => {
-          return (
-            <div key={key} className="exterieurTest">
-              <div>{data.title}</div>
-              <div className="imgExterieur">
-                <img src={data.mainUrl} alt="exterieur" />
-                <div className="imageOverlay">
-                  <div className="imageTitle">{data.title}</div>
-                  <div className="descriptionImage">{data.description}</div>
+          if (data.class === "exterieur1") {
+            return (
+              <div key={key}>
+                <div className="title-exterieur1">{data.title}</div>
+                <div className="img-texte-exterieur">
+                  <div className="div-img-exterieur">
+                    <img src={data.mainUrl} alt="exterieur" />
+                    <div className="imageOverlay">
+                      <div className="imageTitle">{data.title}</div>
+                      <div className="descriptionImage">{data.description}</div>
+                    </div>
+                  </div>
+                  <div className="texte-exterieur">
+                    <p>{data.texte}</p>
+                  </div>
                 </div>
-                <div>{data.texte}</div>
               </div>
-            </div>
-          );
+            );
+          } else {
+            return (
+              <div key={key}>
+                <div className="title-exterieur2">{data.title}</div>
+                <div className="img-texte-exterieur">
+                  <div className="texte-exterieur">
+                    <p>{data.texte}</p>
+                  </div>
+                  <div className="div-img-exterieur">
+                    <img src={data.mainUrl} alt="exterieur" />
+                    <div className="imageOverlay">
+                      <div className="imageTitle">{data.title}</div>
+                      <div className="descriptionImage">{data.description}</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            );
+          }
         })}
       </div>
     </div>

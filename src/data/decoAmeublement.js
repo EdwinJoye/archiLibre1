@@ -1,6 +1,7 @@
 export const decoAmeublement = [
   {
     id: "decoAmeublement1",
+    class: "decoAmeublement1",
     title: "Meuble Clique",
     description: "no description",
     mainUrl:
@@ -13,6 +14,7 @@ export const decoAmeublement = [
   },
   {
     id: "decoAmeublement2",
+    class: "decoAmeublement2",
     title: "CAS",
     description: "no description",
     mainUrl:
@@ -25,6 +27,7 @@ export const decoAmeublement = [
   },
   {
     id: "decoAmeublement3",
+    class: "decoAmeublement1",
     title: "Intérieur Ladj1",
     description: "no description",
     mainUrl:
@@ -37,6 +40,7 @@ export const decoAmeublement = [
   },
   {
     id: "decoAmeublement4",
+    class: "decoAmeublement2",
     title: "Intérieur Ladj2",
     description: "no description",
     mainUrl:
@@ -49,6 +53,7 @@ export const decoAmeublement = [
   },
   {
     id: "decoAmeublement5",
+    class: "decoAmeublement1",
     title: "Intérieur Mali 1",
     description: "no description",
     mainUrl:
@@ -61,6 +66,7 @@ export const decoAmeublement = [
   },
   {
     id: "decoAmeublement6",
+    class: "decoAmeublement2",
     title: "Intérieur Mali 2",
     description: "no description",
     mainUrl:

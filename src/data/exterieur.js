@@ -1,6 +1,7 @@
 export const exterieur = [
   {
     id: "exterieur1",
+    class: "exterieur1",
     title: "Extension Clamart",
     description: "no description",
     mainUrl:
@@ -13,6 +14,7 @@ export const exterieur = [
   },
   {
     id: "exterieur2",
+    class: "exterieur2",
     title: "Extension 2",
     description: "no description",
     mainUrl:
@@ -25,6 +27,7 @@ export const exterieur = [
   },
   {
     id: "exterieur3",
+    class: "exterieur1",
     title: "Extension de la Celle Saint-Cloud",
     description: "no description",
     mainUrl:
@@ -39,6 +42,7 @@ export const exterieur = [
   },
   {
     id: "exterieur4",
+    class: "exterieur2",
     title: "Extension 4",
     description: "no description",
     mainUrl:
@@ -53,6 +57,7 @@ export const exterieur = [
   },
   {
     id: "exterieur5",
+    class: "exterieur1",
     title: "Extension 5",
     description: "no description",
     mainUrl:

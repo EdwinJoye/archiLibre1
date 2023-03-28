@@ -1,9 +1,33 @@
-.imgCroquis {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
+.title-croquis1,
+.title-croquis2 {
+  margin: 10px 0 10px 0;
+  border: 1px solid black;
+  padding: 10px 0 10px 0;
 }
-.imgCroquis img,
-.imgCroquis div {
-  max-width: 500px;
+.title-croquis1 {
+  padding-left: 10px;
+}
+.title-croquis2 {
+  text-align: end;
+  padding-right: 10px;
+}
+.img-texte-croquis {
+  display: flex;
+}
+.div-img-croquis {
+  display: flex;
+  flex: 1;
+  background-color: pink;
+  position: relative;
+  overflow: hidden;
+}
+.div-img-croquis img {
+  width: 100%;
+}
+.texte-croquis {
+  flex: 1;
+  background-color: yellow;
+}
+.texte-croquis p {
+  padding: 20px;
 }

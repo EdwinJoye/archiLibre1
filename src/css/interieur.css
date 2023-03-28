@@ -1,10 +1,33 @@
-.imgIntérieur {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
+.title-interieur1,
+.title-interieur2 {
+  margin: 10px 0 10px 0;
+  border: 1px solid black;
+  padding: 10px 0 10px 0;
 }
-.imgIntérieur img,
-.imgIntérieur div {
-  max-width: 500px;
-  max-height: 500px;
+.title-interieur1 {
+  padding-left: 10px;
+}
+.title-interieur2 {
+  text-align: end;
+  padding-right: 10px;
+}
+.img-texte-interieur {
+  display: flex;
+}
+.div-img-interieur {
+  display: flex;
+  flex: 1;
+  background-color: pink;
+  position: relative;
+  overflow: hidden;
+}
+.div-img-interieur img {
+  width: 100%;
+}
+.texte-interieur {
+  flex: 1;
+  background-color: yellow;
+}
+.texte-interieur p {
+  padding: 20px;
 }

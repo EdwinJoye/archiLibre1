@@ -14,24 +14,22 @@
 .img-texte-aboutMe {
   display: flex;
 }
-.img-aboutMe {
+.div-img-aboutMe {
   display: flex;
   flex: 1;
   justify-content: center;
   align-items: center;
   position: relative;
-  overflow: hidden;
   background-color: pink;
 }
-.img-aboutMe img {
-  max-width: 1000px;
+.div-img-aboutMe img {
+  width: 100%;
 }
 .texte-aboutMe {
   flex: 1;
   object-fit: contain;
-
   background-color: yellow;
 }
-.texte {
+.texte-aboutMe p {
   padding: 20px;
 }

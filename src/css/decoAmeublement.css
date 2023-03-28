@@ -1,9 +1,33 @@
-.imgDecoAmeublement {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
+.title-decoAmeublement1,
+.title-decoAmeublement2 {
+  margin: 10px 0 10px 0;
+  border: 1px solid black;
+  padding: 10px 0 10px 0;
 }
-.imgDecoAmeublement img,
-.imgDecoAmeublement div {
-  max-width: 500px;
+.title-decoAmeublement1 {
+  padding-left: 10px;
+}
+.title-decoAmeublement2 {
+  text-align: end;
+  padding-right: 10px;
+}
+.img-texte-decoAmeublement {
+  display: flex;
+}
+.div-img-decoAmeublement {
+  display: flex;
+  flex: 1;
+  background-color: pink;
+  position: relative;
+  overflow: hidden;
+}
+.div-img-decoAmeublement img {
+  width: 100%;
+}
+.texte-decoAmeublement {
+  flex: 1;
+  background-color: yellow;
+}
+.texte-decoAmeublement p {
+  padding: 20px;
 }

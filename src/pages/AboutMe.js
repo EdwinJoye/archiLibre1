@@ -14,7 +14,7 @@ const AboutMe = ({ onOff, setOnOff }) => {
               <div key={key}>
                 <div className="title-aboutMe1">{data.title}</div>
                 <div className="img-texte-aboutMe">
-                  <div className="img-aboutMe img-border-1">
+                  <div className="div-img-aboutMe img-border-1">
                     <img src={data.mainUrl} alt="pic" />
                     <div className="imageOverlay">
                       <div className="imageTitle">{data.title}</div>
@@ -22,7 +22,7 @@ const AboutMe = ({ onOff, setOnOff }) => {
                     </div>
                   </div>
                   <div className="texte-aboutMe">
-                    <div className="texte">{data.texte}</div>
+                    <p>{data.texte}</p>
                   </div>
                 </div>
               </div>
@@ -33,9 +33,9 @@ const AboutMe = ({ onOff, setOnOff }) => {
                 <div className="title-aboutMe2">{data.title}</div>
                 <div className="img-texte-aboutMe">
                   <div className="texte-aboutMe">
-                    <div className="texte">{data.texte}</div>
+                    <p>{data.texte}</p>
                   </div>
-                  <div className="img-aboutMe img-border-2">
+                  <div className="div-img-aboutMe">
                     <img src={data.mainUrl} alt="pic" />
                     <div className="imageOverlay">
                       <div className="imageTitle">{data.title}</div>

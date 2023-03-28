@@ -1,6 +1,7 @@
 export const croquis = [
   {
     id: "croquis1",
+    class: "croquis1",
     title: "Lublin",
     description: "no description",
     mainUrl:
@@ -13,6 +14,7 @@ export const croquis = [
   },
   {
     id: "croquis2",
+    class: "croquis2",
     title: "Pyrithe",
     description: "no description",
     mainUrl:
@@ -25,6 +27,7 @@ export const croquis = [
   },
   {
     id: "croquis3",
+    class: "croquis1",
     title: "Croquis 1",
     description: "no description",
     mainUrl:
@@ -39,6 +42,7 @@ export const croquis = [
   },
   {
     id: "croquis4",
+    class: "croquis2",
     title: "Croquis 2",
     description: "no description",
     mainUrl:

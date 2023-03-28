@@ -1,9 +1,33 @@
-.imgExterieur {
-  display: flex;
-  position: relative;
-  justify-content: space-between;
+.title-exterieur1,
+.title-exterieur2 {
+  margin: 10px 0 10px 0;
+  border: 1px solid black;
+  padding: 10px 0 10px 0;
 }
-.imgExterieur img,
-.imgExterieur div {
-  max-width: 500px;
+.title-exterieur1 {
+  padding-left: 10px;
+}
+.title-exterieur2 {
+  text-align: end;
+  padding-right: 10px;
+}
+.img-texte-exterieur {
+  display: flex;
+}
+.div-img-exterieur {
+  display: flex;
+  flex: 1;
+  background-color: pink;
+  position: relative;
+  overflow: hidden;
+}
+.div-img-exterieur img {
+  width: 100%;
+}
+.texte-exterieur {
+  flex: 1;
+  background-color: yellow;
+}
+.texte-exterieur p {
+  padding: 20px;
 }

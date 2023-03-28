@@ -1,6 +1,7 @@
 export const interieur = [
   {
     id: "interieur1",
+    class: "interieur1",
     title: "Lublin",
     description: "no description",
     mainUrl:
@@ -13,6 +14,7 @@ export const interieur = [
   },
   {
     id: "interieur2",
+    class: "interieur2",
     title: "Lublin",
     description: "no description",
     mainUrl:
@@ -25,6 +27,7 @@ export const interieur = [
   },
   {
     id: "interieur3",
+    class: "interieur1",
     title: "Lublin",
     description: "no description",
     mainUrl:
@@ -37,6 +40,7 @@ export const interieur = [
   },
   {
     id: "interieur4",
+    class: "interieur2",
     title: "Lublin",
     description: "no description",
     mainUrl:
@@ -49,6 +53,7 @@ export const interieur = [
   },
   {
     id: "interieur5",
+    class: "interieur1",
     title: "Lublin",
     description: "no description",
     mainUrl:
@@ -61,6 +66,7 @@ export const interieur = [
   },
   {
     id: "interieur6",
+    class: "interieur2",
     title: "Lublin",
     description: "no description",
     mainUrl:
@@ -73,6 +79,7 @@ export const interieur = [
   },
   {
     id: "interieur7",
+    class: "interieur1",
     title: "Lublin",
     description: "no description",
     mainUrl:
@@ -85,6 +92,7 @@ export const interieur = [
   },
   {
     id: "interieur8",
+    class: "interieur2",
     title: "Lublin",
     description: "no description",
     mainUrl:
@@ -97,6 +105,7 @@ export const interieur = [
   },
   {
     id: "interieur9",
+    class: "interieur1",
     title: "Lublin",
     description: "no description",
     mainUrl:
@@ -109,6 +118,7 @@ export const interieur = [
   },
   {
     id: "interieur10",
+    class: "interieur2",
     title: "Lublin",
     description: "no description",
     mainUrl:
@@ -121,6 +131,7 @@ export const interieur = [
   },
   {
     id: "interieur11",
+    class: "interieur1",
     title: "Lublin",
     description: "no description",
     mainUrl:
@@ -133,6 +144,7 @@ export const interieur = [
   },
   {
     id: "interieur12",
+    class: "interieur2",
     title: "Lublin",
     description: "no description",
     mainUrl:
@@ -145,6 +157,7 @@ export const interieur = [
   },
   {
     id: "interieur13",
+    class: "interieur1",
     title: "Lublin",
     description: "no description",
     mainUrl:
