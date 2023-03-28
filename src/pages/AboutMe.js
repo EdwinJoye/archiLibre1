@@ -7,22 +7,45 @@ const AboutMe = ({ onOff, setOnOff }) => {
   return (
     <div className="container">
       <Header onOff={onOff} setOnOff={setOnOff}></Header>
-      <div>About Me</div>
       <div>
         {aboutMe.map((data, key) => {
-          return (
-            <div>
-              <div>{data.title}</div>
-              <div className="imgAboutMe">
-                <img src={data.mainUrl} alt="" />
-                <div className="imageOverlay">
-                  <div className="imageTitle">{data.title}</div>
-                  <div className="descriptionImage">{data.description}</div>
+          if (data.class === "aboutMe1") {
+            return (
+              <div key={key}>
+                <div className="title-aboutMe1">{data.title}</div>
+                <div className="img-texte-aboutMe">
+                  <div className="img-aboutMe img-border-1">
+                    <img src={data.mainUrl} alt="pic" />
+                    <div className="imageOverlay">
+                      <div className="imageTitle">{data.title}</div>
+                      <div className="descriptionImage">{data.description}</div>
+                    </div>
+                  </div>
+                  <div className="texte-aboutMe">
+                    <div className="texte">{data.texte}</div>
+                  </div>
                 </div>
               </div>
-              <div className="texte__aboutMe">{data.texte}</div>
-            </div>
-          );
+            );
+          } else {
+            return (
+              <div key={key}>
+                <div className="title-aboutMe2">{data.title}</div>
+                <div className="img-texte-aboutMe">
+                  <div className="texte-aboutMe">
+                    <div className="texte">{data.texte}</div>
+                  </div>
+                  <div className="img-aboutMe img-border-2">
+                    <img src={data.mainUrl} alt="pic" />
+                    <div className="imageOverlay">
+                      <div className="imageTitle">{data.title}</div>
+                      <div className="descriptionImage">{data.description}</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            );
+          }
         })}
       </div>
     </div>

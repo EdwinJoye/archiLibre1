@@ -1,15 +1,37 @@
-.imgAboutMe {
+.title-aboutMe1,
+.title-aboutMe2 {
+  margin: 10px 0 10px 0;
+  border: 1px solid black;
+  padding: 10px 0 10px 0;
+}
+.title-aboutMe1 {
+  padding-left: 10px;
+}
+.title-aboutMe2 {
+  text-align: end;
+  padding-right: 10px;
+}
+.img-texte-aboutMe {
   display: flex;
+}
+.img-aboutMe {
+  display: flex;
+  flex: 1;
   justify-content: center;
   align-items: center;
   position: relative;
-  margin: 0 10px 20px;
   overflow: hidden;
+  background-color: pink;
 }
-.imgAboutMe img {
-  max-width: 500px;
+.img-aboutMe img {
+  max-width: 1000px;
+}
+.texte-aboutMe {
+  flex: 1;
+  object-fit: contain;
+
   background-color: yellow;
 }
-.texte__aboutMe {
-  background-color: yellow;
+.texte {
+  padding: 20px;
 }
