@@ -10,7 +10,7 @@ const Interieur = ({ onOff, setOnOff }) => {
     <div className="relative">
       <div className="container">
         <Header onOff={onOff} setOnOff={setOnOff}></Header>
-        <div>
+        <div className="fadeIn">
           {interieur.map((data, key) => {
             if (data.class === "interieur1") {
               return <Category1 data={data} key={key}></Category1>;

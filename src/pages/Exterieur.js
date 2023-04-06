@@ -10,17 +10,31 @@ const Exterieur = ({ onOff, setOnOff }) => {
     <div className="relative">
       <div className="container">
         <Header onOff={onOff} setOnOff={setOnOff}></Header>
-        <div>
+        <div className="fadeIn">
           {exterieur.map((data, key) => {
             if (data.class === "exterieur1") {
-              return <Category1 data={data} key={key}></Category1>;
+              return (
+                <Category1
+                  key={key}
+                  data={data}
+                  onOff={onOff}
+                  setOnOff={setOnOff}
+                ></Category1>
+              );
             } else {
-              return <Category2 data={data} key={key}></Category2>;
+              return (
+                <Category2
+                  key={key}
+                  data={data}
+                  onOff={onOff}
+                  setOnOff={setOnOff}
+                ></Category2>
+              );
             }
           })}
         </div>
       </div>
-      <div className="footer">
+      <div className="footer fadeIn">
         <Footer></Footer>
       </div>
     </div>

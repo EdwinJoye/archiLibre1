@@ -10,7 +10,7 @@ const AboutMe = ({ onOff, setOnOff }) => {
     <div className="relative">
       <div className="container">
         <Header onOff={onOff} setOnOff={setOnOff}></Header>
-        <div>
+        <div className="fadeIn">
           {aboutMe.map((data, key) => {
             if (data.category === "aboutMe1") {
               return <Category1 data={data} key={key}></Category1>;
@@ -20,7 +20,7 @@ const AboutMe = ({ onOff, setOnOff }) => {
           })}
         </div>
       </div>
-      <div className="footer">
+      <div className="footer fadeIn">
         <Footer></Footer>
       </div>
     </div>
