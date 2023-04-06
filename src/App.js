@@ -8,6 +8,7 @@ import Interieur from "./pages/Interieur";
 import DecoAmeublement from "./pages/DecoAmeublement";
 import Plans from "./pages/Plans";
 import Croquis from "./pages/Croquis";
+import Contact from "../src/pages/Contact";
 
 function App() {
   const [onOff, setOnOff] = useState(0);
@@ -47,6 +48,10 @@ function App() {
         <Route
           path="/croquis"
           element={<Croquis onOff={onOff} setOnOff={setOnOff}></Croquis>}
+        ></Route>
+        <Route
+          path="/contact"
+          element={<Contact onOff={onOff} setOnOff={setOnOff}></Contact>}
         ></Route>
       </Routes>
     </Router>

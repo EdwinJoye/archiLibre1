@@ -1,28 +1,17 @@
 .homeDiv1 {
   height: 100vh;
-  /* background-image: url("https://res.cloudinary.com/dt7srgrd1/image/upload/v1678709503/archilibre1/Photos/homeArchi/abandoned-exhibition-centre-tbilisi_-_copie_maqava.jpg"); */
-  /* background-image: url("https://res.cloudinary.com/dt7srgrd1/image/upload/v1678796564/archilibre1/Photos/home/Extention_La_celle_st_cloud_vgne6q.jpg"); */
   background-image: url("https://res.cloudinary.com/dt7srgrd1/image/upload/v1678796571/archilibre1/Photos/home/20220823_104557_xdfbkk.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  animation: 2s ease fadeIn;
+  overflow: hidden;
+  position: relative;
 }
-.homeDiv2 {
-  height: 100%;
-  width: 100%;
-}
-.homeImg {
-  width: 100%;
-  height: 100%;
-}
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  10% {
-    opacity: 0%;
-  }
-  100% {
-    opacity: 1;
-  }
+.home___title {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 30px;
+  margin-right: 50px;
+  color: white;
+  font-size: 20px;
 }

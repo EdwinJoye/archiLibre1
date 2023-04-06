@@ -9,8 +9,9 @@ body {
   letter-spacing: 0.05em;
 }
 .container {
-  margin-left: 7%;
-  margin-right: 7%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-bottom: 200px;
 }
 span {
   /* color: white; */
@@ -36,4 +37,29 @@ span {
 }
 .imageTitle {
   margin-bottom: 10px;
+}
+.fadeIn {
+  animation: 2s ease fadeIn;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: pink;
+}
+.relative {
+  position: relative;
+  min-height: 100vh;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 1;
+  }
 }

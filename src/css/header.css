@@ -3,20 +3,27 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 0 40px 0;
+  padding: 30px 0 30px 0;
 }
 .headerDivBlanc:hover .transLetters,
 .headerDivNoir:hover .transLetters {
   cursor: pointer;
   opacity: 7;
-  transition: 0.55s ease-in-out;
+  transition: 0.7s ease-in;
+  /* transition: 0.8s ease-out; */
 }
 .headerDivBlanc img.headerSignatureBlanche,
 .headerDivNoir img.headerSignatureNoire {
   display: block;
 }
+.headerDivNoir span,
+.headerDivBlanc span {
+  transition: 0.8s ease-out;
+}
+.headerDivBlanc span {
+  color: white;
+}
 .headerDivNoir span {
-  transition: 0.55s ease-in-out;
   color: black;
 }
 .headerSignatureBlanche,
@@ -69,10 +76,6 @@
 .headerBox:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
-}
-.headerBox:hover span {
-  transition: 0.55s ease-in-out;
-  color: orange;
 }
 .transLetters {
   opacity: 0;

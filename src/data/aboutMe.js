@@ -2,7 +2,7 @@ export const aboutMe = [
   {
     id: "aboutMe1",
     title: "Architecte 1",
-    class: "aboutMe1",
+    category: "aboutMe1",
     description: "no description",
     mainUrl:
       "https://res.cloudinary.com/dt7srgrd1/image/upload/v1679493497/archilibre1/Photos/aboutMe/architecte-fiche-metier-letudiant-230113031841_epgfme.jpg",
@@ -14,7 +14,7 @@ export const aboutMe = [
   },
   {
     id: "aboutMe2",
-    class: "aboutMe2",
+    category: "aboutMe2",
     title: "Architecte 2",
     description: "no description",
     mainUrl:
@@ -27,7 +27,7 @@ export const aboutMe = [
   },
   {
     id: "aboutMe3",
-    class: "aboutMe1",
+    category: "aboutMe1",
     title: "Architecte 3",
     description: "no description",
     mainUrl:
@@ -40,7 +40,7 @@ export const aboutMe = [
   },
   {
     id: "aboutMe4",
-    class: "aboutMe2",
+    category: "aboutMe2",
     title: "Architecte 4",
     description: "no description",
     mainUrl:

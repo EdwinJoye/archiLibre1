@@ -26,19 +26,6 @@ const Header = ({ onOff, setOnOff }) => {
         />
       </Link>
       <Link
-        to="/aboutme"
-        onClick={() => {
-          setOnOff((onOff = 1));
-        }}
-      >
-        <div className={onOff === 1 ? "header1Border1" : "headerBox"}>
-          <span>A</span>
-          <span className="transLetters">BOUT </span>
-          <span>M</span>
-          <span className="transLetters">E</span>
-        </div>
-      </Link>
-      <Link
         to="/exterieur"
         onClick={() => {
           setOnOff((onOff = 2));
@@ -61,17 +48,6 @@ const Header = ({ onOff, setOnOff }) => {
         </div>
       </Link>
       <Link
-        to="/croquis"
-        onClick={() => {
-          setOnOff((onOff = 4));
-        }}
-      >
-        <div className={onOff === 4 ? "header1Border4" : "headerBox"}>
-          <span>C</span>
-          <span className="transLetters">ROQUIS</span>
-        </div>
-      </Link>
-      <Link
         to="/decoameublement"
         onClick={() => {
           setOnOff((onOff = 5));
@@ -86,14 +62,27 @@ const Header = ({ onOff, setOnOff }) => {
         </div>
       </Link>
       <Link
-        to="/plans"
+        to="/aboutme"
+        onClick={() => {
+          setOnOff((onOff = 1));
+        }}
+      >
+        <div className={onOff === 1 ? "header1Border1" : "headerBox"}>
+          <span>A</span>
+          <span className="transLetters">BOUT </span>
+          <span>M</span>
+          <span className="transLetters">E</span>
+        </div>
+      </Link>
+      <Link
+        to="/contact"
         onClick={() => {
           setOnOff((onOff = 6));
         }}
       >
         <div className={onOff === 6 ? "header1Border6" : "headerBox"}>
-          <span>P</span>
-          <span className="transLetters">LANS</span>
+          <span>C</span>
+          <span className="transLetters">ONTACT</span>
         </div>
       </Link>
     </div>

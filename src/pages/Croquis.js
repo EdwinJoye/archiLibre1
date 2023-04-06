@@ -1,52 +1,28 @@
 import Header from "../components/Header";
-import "../css/croquis.css";
+import Footer from "../components/Footer";
+import Category1 from "../components/Category1";
+import Category2 from "../components/Category2";
 import { croquis } from "../data/croquis";
+import "../css/croquis.css";
 
 const Croquis = ({ onOff, setOnOff }) => {
   return (
-    <div className="container">
-      <Header onOff={onOff} setOnOff={setOnOff}></Header>
-      <div>Croquis</div>
-      <div>
-        {croquis.map((data, key) => {
-          if (data.class === "croquis1") {
-            return (
-              <div key={key}>
-                <div className="title-croquis1">{data.title}</div>
-                <div className="img-texte-croquis">
-                  <div className="div-img-croquis">
-                    <img src={data.mainUrl} alt="croquis" />
-                    <div className="imageOverlay">
-                      <div className="imageTitle">{data.title}</div>
-                      <div className="descriptionImage">{data.description}</div>
-                    </div>
-                  </div>
-                  <div className="texte-croquis">
-                    <p>{data.texte}</p>
-                  </div>
-                </div>
-              </div>
-            );
-          } else {
-            return (
-              <div key={key}>
-                <div className="title-croquis1">{data.title}</div>
-                <div className="img-texte-croquis">
-                  <div className="texte-croquis">
-                    <p>{data.texte}</p>
-                  </div>
-                  <div className="div-img-croquis">
-                    <img src={data.mainUrl} alt="croquis" />
-                    <div className="imageOverlay">
-                      <div className="imageTitle">{data.title}</div>
-                      <div className="descriptionImage">{data.description}</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            );
-          }
-        })}
+    <div className="relative">
+      <div className="container">
+        <Header onOff={onOff} setOnOff={setOnOff}></Header>
+        <div>Croquis</div>
+        <div>
+          {croquis.map((data, key) => {
+            if (data.class === "croquis1") {
+              return <Category1 data={data} key={key}></Category1>;
+            } else {
+              return <Category2 data={data} key={key}></Category2>;
+            }
+          })}
+        </div>
+      </div>
+      <div className="footer">
+        <Footer></Footer>
       </div>
     </div>
   );
