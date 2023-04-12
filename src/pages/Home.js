@@ -1,13 +1,15 @@
-import Header from "../components/Header";
+import SwiperHome from "../components/SwiperHome";
+import { homePictures } from "../data/homePictures";
 import "../css/home.css";
 
 const Home = ({ onOff, setOnOff }) => {
   return (
-    <div className="homeDiv1 fadeIn">
-      <Header onOff={onOff} setOnOff={setOnOff}></Header>
-      <div className="home___title">
-        <span>Aman Othenin-Girard Architecte DPLG</span>
-      </div>
+    <div className="fadeIn">
+      <SwiperHome
+        onOff={onOff}
+        setOnOff={setOnOff}
+        homePictures={homePictures}
+      ></SwiperHome>
     </div>
   );
 };

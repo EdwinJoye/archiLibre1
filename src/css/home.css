@@ -1,17 +1,8 @@
-.homeDiv1 {
-  height: 100vh;
-  background-image: url("https://res.cloudinary.com/dt7srgrd1/image/upload/v1678796571/archilibre1/Photos/home/20220823_104557_xdfbkk.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  position: relative;
-}
-.home___title {
+.home__swiper {
   position: absolute;
-  bottom: 0;
-  right: 0;
-  padding: 30px;
-  margin-right: 50px;
-  color: white;
-  font-size: 20px;
+  z-index: 99;
+  top: 0rem;
+  bottom: 0rem;
+  left: 0rem;
+  right: 0rem;
 }

@@ -1,0 +1,29 @@
+.swiper {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+}
+.swiper__div {
+  height: 100%;
+  width: 100%;
+}
+.swiper__swiperSlide-img {
+  height: 100vh;
+  width: 100%;
+}
+.swiper__header {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  box-sizing: border-box;
+}
+.home__title {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 30px;
+  margin-right: 50px;
+  color: white;
+  font-size: 20px;
+  z-index: 1;
+}

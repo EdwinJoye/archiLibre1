@@ -3,6 +3,7 @@ export const interieur = [
     id: "interieur1",
     class: "interieur1",
     title: "Lublin",
+    link: "/projet",
     description: "no description",
     mainUrl:
       "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678790701/archilibre1/Photos/Inte%CC%81rieurs/antony/FullSizeRender_35_juf4hf.jpg",
@@ -29,6 +30,7 @@ export const interieur = [
     id: "interieur3",
     class: "interieur1",
     title: "Lublin",
+    link: "/projet",
     description: "no description",
     mainUrl:
       "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678790699/archilibre1/Photos/Inte%CC%81rieurs/antony/FullSizeRender_16_dq4pne.jpg",
@@ -42,6 +44,7 @@ export const interieur = [
     id: "interieur4",
     class: "interieur2",
     title: "Lublin",
+    link: "/projet",
     description: "no description",
     mainUrl:
       "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678790698/archilibre1/Photos/Inte%CC%81rieurs/antony/FullSizeRender_15_ttuaad.jpg",
@@ -55,6 +58,7 @@ export const interieur = [
     id: "interieur5",
     class: "interieur1",
     title: "Lublin",
+    link: "/projet",
     description: "no description",
     mainUrl:
       "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678790698/archilibre1/Photos/Inte%CC%81rieurs/antony/FullSizeRender_20_xicodb.jpg",
@@ -68,6 +72,7 @@ export const interieur = [
     id: "interieur6",
     class: "interieur2",
     title: "Lublin",
+    link: "/projet",
     description: "no description",
     mainUrl:
       "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678790697/archilibre1/Photos/Inte%CC%81rieurs/antony/FullSizeRender_19_lgyqq7.jpg",
@@ -81,6 +86,7 @@ export const interieur = [
     id: "interieur7",
     class: "interieur1",
     title: "Lublin",
+    link: "/projet",
     description: "no description",
     mainUrl:
       "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678790697/archilibre1/Photos/Inte%CC%81rieurs/antony/FullSizeRender_14_nrm2cd.jpg",
@@ -94,6 +100,7 @@ export const interieur = [
     id: "interieur8",
     class: "interieur2",
     title: "Lublin",
+    link: "/projet",
     description: "no description",
     mainUrl:
       "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678790695/archilibre1/Photos/Inte%CC%81rieurs/antony/FullSizeRender_25_cbq5jd.jpg",
@@ -107,6 +114,7 @@ export const interieur = [
     id: "interieur9",
     class: "interieur1",
     title: "Lublin",
+    link: "/projet",
     description: "no description",
     mainUrl:
       "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678790694/archilibre1/Photos/Inte%CC%81rieurs/antony/FullSizeRender_18_yida4e.jpg",
@@ -120,6 +128,7 @@ export const interieur = [
     id: "interieur10",
     class: "interieur2",
     title: "Lublin",
+    link: "/projet",
     description: "no description",
     mainUrl:
       "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678790693/archilibre1/Photos/Inte%CC%81rieurs/antony/4_mljb1u.jpg",
@@ -133,6 +142,7 @@ export const interieur = [
     id: "interieur11",
     class: "interieur1",
     title: "Lublin",
+    link: "/projet",
     description: "no description",
     mainUrl:
       "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678790693/archilibre1/Photos/Inte%CC%81rieurs/antony/FullSizeRender_23_pl8kz8.jpg",
@@ -146,6 +156,7 @@ export const interieur = [
     id: "interieur12",
     class: "interieur2",
     title: "Lublin",
+    link: "/projet",
     description: "no description",
     mainUrl:
       "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678790692/archilibre1/Photos/Inte%CC%81rieurs/antony/FullSizeRender_37_fzvjlz.jpg",
@@ -159,6 +170,7 @@ export const interieur = [
     id: "interieur13",
     class: "interieur1",
     title: "Lublin",
+    link: "/projet",
     description: "no description",
     mainUrl:
       "https://res.cloudinary.com/dt7srgrd1/image/upload/v1678790692/archilibre1/Photos/Inte%CC%81rieurs/antony/FullSizeRender_22_ksydyk.jpg",

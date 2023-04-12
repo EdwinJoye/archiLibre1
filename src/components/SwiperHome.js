@@ -1,14 +1,14 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper";
+import Header from "./Header";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import "../css/swiper.css";
+import "../css/swiperHome.css";
 
-const SwiperP = ({ zooms }) => {
-  console.log(zooms);
+const SwiperHome = ({ homePictures, onOff, setOnOff }) => {
   return (
-    <div>
+    <div className="swiper container">
       <Swiper
         autoplay={{
           delay: 10000,
@@ -19,18 +19,28 @@ const SwiperP = ({ zooms }) => {
         slidesPerView={1}
         navigation={true}
       >
-        {zooms.map((data, key) => {
+        {homePictures.map((data, key) => {
           return (
             <div key={key}>
               <SwiperSlide>
-                <img className="swiper__img" src={data} alt="" />
+                <img
+                  className="swiper__swiperSlide-img"
+                  src={data.mainUrl}
+                  alt=""
+                />
               </SwiperSlide>
             </div>
           );
         })}
       </Swiper>
+      <div className="swiper__header">
+        <Header onOff={onOff} setOnOff={setOnOff}></Header>
+      </div>
+      <div className="home__title">
+        <span>Aman Othenin-Girard Architecte DPLG</span>
+      </div>
     </div>
   );
 };
 
-export default SwiperP;
+export default SwiperHome;
