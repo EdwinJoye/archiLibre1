@@ -1,3 +1,6 @@
 .projetExterieur__img {
   max-width: 500px;
 }
+.projetExterieur__img-p {
+  display: flex;
+}

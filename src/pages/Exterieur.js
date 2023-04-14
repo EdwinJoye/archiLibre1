@@ -34,7 +34,7 @@ const Exterieur = ({ onOff, setOnOff }) => {
           })}
         </div>
       </div>
-      <div className="footer fadeIn">
+      <div className="footer">
         <Footer></Footer>
       </div>
     </div>

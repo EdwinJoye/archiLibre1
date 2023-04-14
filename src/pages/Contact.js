@@ -9,7 +9,7 @@ const Contact = ({ onOff, setOnOff }) => {
         <Header onOff={onOff} setOnOff={setOnOff}></Header>
         <div className="fadeIn">Contact Aman</div>
       </div>
-      <div className="footer fadeIn">
+      <div className="footer">
         <Footer></Footer>
       </div>
     </div>
