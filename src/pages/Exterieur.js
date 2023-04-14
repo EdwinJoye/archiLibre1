@@ -11,11 +11,11 @@ const Exterieur = ({ onOff, setOnOff }) => {
       <div className="container">
         <Header onOff={onOff} setOnOff={setOnOff}></Header>
         <div className="fadeIn">
-          {exterieur.map((data, key) => {
+          {exterieur.map((data) => {
             if (data.class === "exterieur1") {
               return (
                 <Category1
-                  key={key}
+                  key={data.id}
                   data={data}
                   onOff={onOff}
                   setOnOff={setOnOff}
@@ -24,7 +24,7 @@ const Exterieur = ({ onOff, setOnOff }) => {
             } else {
               return (
                 <Category2
-                  key={key}
+                  key={data.id}
                   data={data}
                   onOff={onOff}
                   setOnOff={setOnOff}

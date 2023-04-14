@@ -9,10 +9,11 @@ import DecoAmeublement from "./pages/DecoAmeublement";
 import Plans from "./pages/Plans";
 import Croquis from "./pages/Croquis";
 import Contact from "../src/pages/Contact";
-import Projet from "./pages/Projet";
+import ProjetExterieur from "./pages/ProjetExterieur";
+import ProjetInterieur from "./pages/ProjetInterieur";
 
 function App() {
-  const [onOff, setOnOff] = useState(0);
+  const [onOff, setOnOff] = useState(1);
 
   return (
     <Router>
@@ -55,8 +56,22 @@ function App() {
           element={<Contact onOff={onOff} setOnOff={setOnOff}></Contact>}
         ></Route>
         <Route
-          path="/projet"
-          element={<Projet onOff={onOff} setOnOff={setOnOff}></Projet>}
+          path="/projetExterieur"
+          element={
+            <ProjetExterieur
+              onOff={onOff}
+              setOnOff={setOnOff}
+            ></ProjetExterieur>
+          }
+        ></Route>
+        <Route
+          path="/projetInterieur"
+          element={
+            <ProjetInterieur
+              onOff={onOff}
+              setOnOff={setOnOff}
+            ></ProjetInterieur>
+          }
         ></Route>
       </Routes>
     </Router>

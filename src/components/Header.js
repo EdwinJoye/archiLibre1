@@ -5,11 +5,11 @@ import SignatureNoire from "../img/signatureNoire.png";
 
 const Header = ({ onOff, setOnOff }) => {
   return (
-    <div className={onOff === 0 ? "headerDivBlanc container" : "headerDivNoir"}>
+    <div className={onOff === 1 ? "headerDivBlanc container" : "headerDivNoir"}>
       <Link
         to="/"
         onClick={() => {
-          setOnOff((onOff = 0));
+          setOnOff((onOff = 1));
         }}
       >
         <img
@@ -50,10 +50,10 @@ const Header = ({ onOff, setOnOff }) => {
       <Link
         to="/decoameublement"
         onClick={() => {
-          setOnOff((onOff = 5));
+          setOnOff((onOff = 4));
         }}
       >
-        <div className={onOff === 5 ? "header1Border5" : "headerBox"}>
+        <div className={onOff === 4 ? "header1Border5" : "headerBox"}>
           <span>D</span>
           <span className="transLetters">ECO </span>
           <span>& </span>
@@ -64,10 +64,10 @@ const Header = ({ onOff, setOnOff }) => {
       <Link
         to="/aboutme"
         onClick={() => {
-          setOnOff((onOff = 1));
+          setOnOff((onOff = 5));
         }}
       >
-        <div className={onOff === 1 ? "header1Border1" : "headerBox"}>
+        <div className={onOff === 5 ? "header1Border1" : "headerBox"}>
           <span>A</span>
           <span className="transLetters">BOUT </span>
           <span>M</span>

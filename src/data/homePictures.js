@@ -21,7 +21,7 @@ export const homePictures = [
     title: "Ville-d'Avray",
     description: "no description",
     mainUrl:
-      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681318499/archilibre1/Photos/home/Home-4-VilleDAvray_urkwys.jpg",
+      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681389824/archilibre1/Photos/home/Home-4-VilleDAvray_gdsmac.jpg",
   },
   {
     title: "Iran 2",

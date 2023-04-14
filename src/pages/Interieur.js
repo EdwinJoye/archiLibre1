@@ -13,9 +13,23 @@ const Interieur = ({ onOff, setOnOff }) => {
         <div className="fadeIn">
           {interieur.map((data, key) => {
             if (data.class === "interieur1") {
-              return <Category1 data={data} key={key}></Category1>;
+              return (
+                <Category1
+                  key={data.id}
+                  data={data}
+                  onOff={onOff}
+                  setOnOff={setOnOff}
+                ></Category1>
+              );
             } else {
-              return <Category2 data={data} key={key}></Category2>;
+              return (
+                <Category2
+                  key={data.id}
+                  data={data}
+                  onOff={onOff}
+                  setOnOff={setOnOff}
+                ></Category2>
+              );
             }
           })}
         </div>

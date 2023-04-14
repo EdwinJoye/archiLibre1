@@ -1,5 +1,5 @@
-import "../css/categories.css";
 import { Link } from "react-router-dom";
+import "../css/categories.css";
 
 const Category1 = ({ data, onOff, setOnOff }) => {
   return (
@@ -17,11 +17,11 @@ const Category1 = ({ data, onOff, setOnOff }) => {
           <img src={data.mainUrl} alt="pic" />
           <div className="imageOverlay">
             <div className="imageTitle">{data.title}</div>
-            <div className="descriptionImage">{data.description}</div>
+            <div className="descriptionImage">{data.date}</div>
           </div>
         </Link>
         <div className="texte-category">
-          <p>{data.texte}</p>
+          <p>{data.descriptionUrl}</p>
         </div>
       </div>
     </div>

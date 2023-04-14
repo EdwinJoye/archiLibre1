@@ -2,7 +2,7 @@ export const exterieur = [
   {
     id: "exterieur1",
     class: "exterieur1",
-    link: "/projet",
+    link: "/projetExterieur",
     title: "Projet Clamart",
     date: "Février 2019",
     description:
@@ -10,7 +10,7 @@ export const exterieur = [
     texte:
       "Le point de vue architectural du projet est de reprendre la forme existante de la maison dans son prolongement mais en traitant cette nouvelle construction de façon radicalement différente dans sa matière afin de souligner clairement les époques et de les valoriser. L'extension entièrement en zinc patiné vient contraster avec l'existant en meulière.",
     mainUrl:
-      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681225285/archilibre1/Photos/Exterieur/Projet%20Anthony/1-MainUrl/Anthony-MainUrl-1_nwhel9.jpg",
+      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681302740/archilibre1/Photos/Exterieur/Projet%20Clamart/1-MainUrl/Clamart-MainUrl-1_h3lwli.jpg",
     diapos: [
       "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681225285/archilibre1/Photos/Exterieur/Projet%20Anthony/2-Diapos/Anthony-Facade-1_nb1ttb.jpg",
       "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681225286/archilibre1/Photos/Exterieur/Projet%20Anthony/2-Diapos/Anthony-Facade-2_q0df4z.jpg",
@@ -24,7 +24,7 @@ export const exterieur = [
   {
     id: "exterieur2",
     class: "exterieur2",
-    link: "/projet",
+    link: "/projetExterieur",
     title: "Projet Ville-d'Avray",
     date: "Juin 2023",
     description:
@@ -40,7 +40,7 @@ export const exterieur = [
   {
     id: "exterieur3",
     class: "exterieur1",
-    link: "/projet",
+    link: "/projetExterieur",
     title: "Projet Celle Saint-Cloud",
     date: "",
     description: "Extension",
@@ -55,7 +55,7 @@ export const exterieur = [
   {
     id: "exterieur4",
     class: "exterieur2",
-    link: "/projet",
+    link: "/projetExterieur",
     title: "Projet Iran",
     date: "",
     description: "Extension",
@@ -71,7 +71,7 @@ export const exterieur = [
   {
     id: "exterieur5",
     class: "exterieur1",
-    link: "/projet",
+    link: "/projetExterieur",
     title: "Projet Anthony",
     date: "",
     description: "Projet d'immeuble collectif",
@@ -88,7 +88,7 @@ export const exterieur = [
   {
     id: "exterieur6",
     class: "exterieur2",
-    link: "/projet",
+    link: "/projetExterieur",
     title: "Projet Sèvres",
     date: "",
     description:
@@ -98,7 +98,7 @@ export const exterieur = [
     texte:
       "Tout en préservant le jardin central, la surélévation juxtapose deux traitements différents pour chaque corps de bâti, l'un avec un bardage bois type clin et l'autre en maçonnerie enduite.",
     mainUrl:
-      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1680785756/archilibre1/Photos/Exterieur/Projet%20S%C3%A8vres/20230405_155841_o8gjto.jpg",
+      "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681302811/archilibre1/Photos/Exterieur/Projet%20S%C3%A8vres/2-Diapos/S%C3%A8vres-Facade-1_wvrvm0.jpg",
     diapos: [
       "https://res.cloudinary.com/dt7srgrd1/image/upload/v1680785777/archilibre1/Photos/Exterieur/Projet%20S%C3%A8vres/20230405_160011_inmxlt.jpg",
       "https://res.cloudinary.com/dt7srgrd1/image/upload/v1680785772/archilibre1/Photos/Exterieur/Projet%20S%C3%A8vres/20230405_155950_pgkfsq.jpg",

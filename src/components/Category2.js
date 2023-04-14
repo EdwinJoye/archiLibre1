@@ -7,7 +7,7 @@ const Category2 = ({ data, onOff, setOnOff }) => {
       <div className="title-category2">{data.title}</div>
       <div className="img-texte-category">
         <div className="texte-category">
-          <p>{data.texte}</p>
+          <p>{data.descriptionUrl}</p>
         </div>
         <Link
           to={data.link}
@@ -20,7 +20,7 @@ const Category2 = ({ data, onOff, setOnOff }) => {
           <img src={data.mainUrl} alt="pic" />
           <div className="imageOverlay">
             <div className="imageTitle">{data.title}</div>
-            <div className="descriptionImage">{data.description}</div>
+            <div className="descriptionImage">{data.date}</div>
           </div>
         </Link>
       </div>
