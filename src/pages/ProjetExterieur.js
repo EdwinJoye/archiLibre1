@@ -4,20 +4,32 @@ import "../css/projetExterieur.css";
 
 const ProjetExterieur = ({ onOff, setOnOff }) => {
   let location = useLocation();
-  const title = location.state.data.title;
-  const img = location.state.data.mainUrl;
-  const description = location.state.data.texte;
-  // const onOff = location.state.onOff;
-  // const setOnOff = location.state.onOff;
+  const data = location.state.data;
 
-  console.log(location.state.setOnOff);
   return (
     <div className="container">
+      {console.log(data.categories)}
       <Header onOff={onOff} setOnOff={setOnOff}></Header>
       <div>
-        <p>{title}</p>
-        <img className="projet__img" src={img} alt="" />
-        <p>{description}</p>
+        {data.categories.map((item, key) => {
+          return (
+            <div key={key}>
+              {item.pics.map((pics, key) => {
+                return (
+                  <div key={key}>
+                    <h1>{pics.title}</h1>
+                    <p>{pics.descriptionPic}</p>
+                    <img
+                      className="projetExterieur__img"
+                      src={pics.url}
+                      alt=""
+                    />
+                  </div>
+                );
+              })}
+            </div>
+          );
+        })}
       </div>
     </div>
   );

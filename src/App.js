@@ -5,9 +5,6 @@ import Home from "./pages/Home";
 import AboutMe from "./pages/AboutMe";
 import Exterieur from "./pages/Exterieur";
 import Interieur from "./pages/Interieur";
-import DecoAmeublement from "./pages/DecoAmeublement";
-import Plans from "./pages/Plans";
-import Croquis from "./pages/Croquis";
 import Contact from "../src/pages/Contact";
 import ProjetExterieur from "./pages/ProjetExterieur";
 import ProjetInterieur from "./pages/ProjetInterieur";
@@ -33,23 +30,6 @@ function App() {
         <Route
           path="/interieur"
           element={<Interieur onOff={onOff} setOnOff={setOnOff}></Interieur>}
-        ></Route>
-        <Route
-          path="/decoameublement"
-          element={
-            <DecoAmeublement
-              onOff={onOff}
-              setOnOff={setOnOff}
-            ></DecoAmeublement>
-          }
-        ></Route>
-        <Route
-          path="/plans"
-          element={<Plans onOff={onOff} setOnOff={setOnOff}></Plans>}
-        ></Route>
-        <Route
-          path="/croquis"
-          element={<Croquis onOff={onOff} setOnOff={setOnOff}></Croquis>}
         ></Route>
         <Route
           path="/contact"

@@ -31,9 +31,9 @@ const Header = ({ onOff, setOnOff }) => {
           setOnOff((onOff = 2));
         }}
       >
-        <div className={onOff === 2 ? "header1Border2" : "headerBox"}>
+        <div className={onOff === 2 ? "header1Border" : "headerBox"}>
           <span>E</span>
-          <span className="transLetters">XTERIEUR</span>
+          <span className="transLetters">XTERIEURS</span>
         </div>
       </Link>
       <Link
@@ -42,45 +42,30 @@ const Header = ({ onOff, setOnOff }) => {
           setOnOff((onOff = 3));
         }}
       >
-        <div className={onOff === 3 ? "header1Border3" : "headerBox"}>
+        <div className={onOff === 3 ? "header1Border" : "headerBox"}>
           <span>I</span>
-          <span className="transLetters">NTERIEUR</span>
-        </div>
-      </Link>
-      <Link
-        to="/decoameublement"
-        onClick={() => {
-          setOnOff((onOff = 4));
-        }}
-      >
-        <div className={onOff === 4 ? "header1Border5" : "headerBox"}>
-          <span>D</span>
-          <span className="transLetters">ECO </span>
-          <span>& </span>
-          <span>A</span>
-          <span className="transLetters">MEUBLEMENT</span>
+          <span className="transLetters">NTERIEURS</span>
         </div>
       </Link>
       <Link
         to="/aboutme"
         onClick={() => {
-          setOnOff((onOff = 5));
+          setOnOff((onOff = 4));
         }}
       >
-        <div className={onOff === 5 ? "header1Border1" : "headerBox"}>
-          <span>A</span>
-          <span className="transLetters">BOUT </span>
-          <span>M</span>
-          <span className="transLetters">E</span>
+        <div className={onOff === 4 ? "header1Border" : "headerBox"}>
+          <span>A </span>
+          <span>P</span>
+          <span className="transLetters">ROPOS</span>
         </div>
       </Link>
       <Link
         to="/contact"
         onClick={() => {
-          setOnOff((onOff = 6));
+          setOnOff((onOff = 5));
         }}
       >
-        <div className={onOff === 6 ? "header1Border6" : "headerBox"}>
+        <div className={onOff === 5 ? "header1Border" : "headerBox"}>
           <span>C</span>
           <span className="transLetters">ONTACT</span>
         </div>

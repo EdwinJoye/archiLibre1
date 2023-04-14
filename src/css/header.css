@@ -31,21 +31,11 @@
   max-width: 200px;
   display: none;
 }
-.header1Border1,
-.header1Border2,
-.header1Border3,
-.header1Border4,
-.header1Border5,
-.header1Border6 {
+.header1Border {
   padding: 1rem;
   border-bottom: 2px solid black;
 }
-.header1Border1 span,
-.header1Border2 span,
-.header1Border3 span,
-.header1Border4 span,
-.header1Border5 span,
-.header1Border6 span {
+.header1Border span {
   opacity: 7;
   font-size: 1.5rem;
 }

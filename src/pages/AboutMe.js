@@ -13,9 +13,23 @@ const AboutMe = ({ onOff, setOnOff }) => {
         <div className="fadeIn">
           {aboutMe.map((data, key) => {
             if (data.category === "aboutMe1") {
-              return <Category1 data={data} key={key}></Category1>;
+              return (
+                <Category1
+                  onOff={onOff}
+                  setOnOff={setOnOff}
+                  data={data}
+                  key={key}
+                ></Category1>
+              );
             } else {
-              return <Category2 data={data} key={key}></Category2>;
+              return (
+                <Category2
+                  onOff={onOff}
+                  setOnOff={setOnOff}
+                  data={data}
+                  key={key}
+                ></Category2>
+              );
             }
           })}
         </div>
