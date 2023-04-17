@@ -1,11 +1,38 @@
 import { Link } from "react-router-dom";
-import "../css/header.css";
 import SignatureBlanche from "../img/signatureBlanche.png";
-import SignatureNoire from "../img/signatureNoire.png";
+import "../css/header.css";
 
 const Header = ({ onOff, setOnOff }) => {
   return (
-    <div className={onOff === 1 ? "headerDivBlanc container" : "headerDivNoir"}>
+    <div className="header">
+      <div className="header__buttons-container-1">
+        <Link
+          to="/exterieur"
+          onClick={() => {
+            setOnOff((onOff = 2));
+          }}
+        >
+          <div className="headerBox">
+            <span>EXTERIEURS</span>
+            <div
+              className={onOff === 2 ? "headerUnderline" : "headerUnderline2"}
+            ></div>
+          </div>
+        </Link>
+        <Link
+          to="/interieur"
+          onClick={() => {
+            setOnOff((onOff = 3));
+          }}
+        >
+          <div className="headerBox">
+            <span>INTERIEURS</span>
+            <div
+              className={onOff === 3 ? "headerUnderline" : "headerUnderline2"}
+            ></div>
+          </div>
+        </Link>
+      </div>
       <Link
         to="/"
         onClick={() => {
@@ -13,63 +40,40 @@ const Header = ({ onOff, setOnOff }) => {
         }}
       >
         <img
+          className="header__signature"
           to="/"
-          className="headerSignatureBlanche"
           src={SignatureBlanche}
           alt="blanche"
         />
-        <img
-          to="/"
-          className="headerSignatureNoire"
-          src={SignatureNoire}
-          alt="noire"
-        />
       </Link>
-      <Link
-        to="/exterieur"
-        onClick={() => {
-          setOnOff((onOff = 2));
-        }}
-      >
-        <div className={onOff === 2 ? "header1Border" : "headerBox"}>
-          <span>E</span>
-          <span className="transLetters">XTERIEURS</span>
-        </div>
-      </Link>
-      <Link
-        to="/interieur"
-        onClick={() => {
-          setOnOff((onOff = 3));
-        }}
-      >
-        <div className={onOff === 3 ? "header1Border" : "headerBox"}>
-          <span>I</span>
-          <span className="transLetters">NTERIEURS</span>
-        </div>
-      </Link>
-      <Link
-        to="/aboutme"
-        onClick={() => {
-          setOnOff((onOff = 4));
-        }}
-      >
-        <div className={onOff === 4 ? "header1Border" : "headerBox"}>
-          <span>A </span>
-          <span>P</span>
-          <span className="transLetters">ROPOS</span>
-        </div>
-      </Link>
-      <Link
-        to="/contact"
-        onClick={() => {
-          setOnOff((onOff = 5));
-        }}
-      >
-        <div className={onOff === 5 ? "header1Border" : "headerBox"}>
-          <span>C</span>
-          <span className="transLetters">ONTACT</span>
-        </div>
-      </Link>
+      <div className="header__buttons-container-2">
+        <Link
+          to="/aboutme"
+          onClick={() => {
+            setOnOff((onOff = 4));
+          }}
+        >
+          <div className="headerBox">
+            <span>A PROPOS</span>
+            <div
+              className={onOff === 4 ? "headerUnderline" : "headerUnderline2"}
+            ></div>
+          </div>
+        </Link>
+        <Link
+          to="/contact"
+          onClick={() => {
+            setOnOff((onOff = 5));
+          }}
+        >
+          <div className="headerBox">
+            <span>CONTACT</span>
+            <div
+              className={onOff === 5 ? "headerUnderline" : "headerUnderline2"}
+            ></div>
+          </div>
+        </Link>
+      </div>
     </div>
   );
 };

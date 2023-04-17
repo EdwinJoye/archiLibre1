@@ -24,6 +24,7 @@
 .div-img-category img {
   width: 100%;
 }
+
 .texte-category {
   flex: 1;
   object-fit: contain;

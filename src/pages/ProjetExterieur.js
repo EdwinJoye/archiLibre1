@@ -10,9 +10,8 @@ const ProjetExterieur = ({ onOff, setOnOff, selectedId, setSelectedId }) => {
 
   return (
     <div>
+      <Header onOff={onOff} setOnOff={setOnOff}></Header>
       <div className="container">
-        {console.log(data.categories)}
-        <Header onOff={onOff} setOnOff={setOnOff}></Header>
         <div>
           {data.categories.map((item, key) => {
             return (
@@ -29,14 +28,17 @@ const ProjetExterieur = ({ onOff, setOnOff, selectedId, setSelectedId }) => {
                       ></OverlayImg>
                       <h1>{pics.title}</h1>
                       <div className="projetExterieur__img-p">
-                        <img
-                          onClick={() => {
-                            setSelectedId(pics.id);
-                          }}
-                          className="projetExterieur__img"
-                          src={pics.url}
-                          alt=""
-                        />
+                        <div className="projetExterieur__img-container">
+                          <img
+                            className="projetExterieur__img"
+                            onClick={() => {
+                              setSelectedId(pics.id);
+                            }}
+                            src={pics.url}
+                            alt="projetExterieur-img"
+                          />
+                        </div>
+
                         <p>{pics.descriptionPic}</p>
                       </div>
                     </div>
@@ -47,7 +49,7 @@ const ProjetExterieur = ({ onOff, setOnOff, selectedId, setSelectedId }) => {
           })}
         </div>
       </div>
-      <Footer></Footer>
+      <Footer onOff={onOff} setOnOff={setOnOff}></Footer>
     </div>
   );
 };

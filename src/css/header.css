@@ -1,68 +1,56 @@
-.headerDivBlanc,
-.headerDivNoir {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 0 30px 0;
+  padding: 5px 0 5px 0;
+  font-family: Montserrat-Medium;
+  background-color: #37463d;
 }
-.headerDivBlanc:hover .transLetters,
-.headerDivNoir:hover .transLetters {
+.header:hover {
   cursor: pointer;
   opacity: 7;
   transition: 0.7s ease-in;
   /* transition: 0.8s ease-out; */
 }
-.headerDivBlanc img.headerSignatureBlanche,
-.headerDivNoir img.headerSignatureNoire {
-  display: block;
-}
-.headerDivNoir span,
-.headerDivBlanc span {
+.header span {
   transition: 0.8s ease-out;
 }
-.headerDivBlanc span {
-  color: white;
+.header__signature {
+  max-width: 150px;
 }
-.headerDivNoir span {
-  color: black;
-}
-.headerSignatureBlanche,
-.headerSignatureNoire {
-  max-width: 200px;
-  display: none;
-}
-.header1Border {
-  padding: 1rem;
-  border-bottom: 2px solid black;
-}
-.header1Border span {
-  opacity: 7;
-  font-size: 1.5rem;
+.header__buttons-container-1,
+.header__buttons-container-2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 0 6% 0 6%;
 }
 .headerBox {
-  color: white;
-  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #8c9c7c;
+  font-size: 1.2rem;
   padding: 1rem;
-  display: inline-block;
-  position: relative;
+  border-bottom: 2px solid #37463d;
 }
-.headerBox::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  transform-origin: bottom right;
-  transition: transform 0.45s ease-out;
+.headerBox span {
+  margin-bottom: 10px;
 }
-.headerDivBlanc .headerBox::after {
-  border-bottom: 2px solid white;
+.headerUnderline {
+  width: 20%;
+  border-bottom: 2px solid #8c9c7c;
 }
-.headerDivNoir .headerBox::after {
-  border-bottom: 2px solid black;
+.headerUnderline2 {
+  width: 20%;
+  border-bottom: 2px solid #37463d;
 }
+.headerUnderline span {
+  color: #8c9c7c;
+  opacity: 7;
+  font-size: 1.2rem;
+}
+
 .headerBox:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;

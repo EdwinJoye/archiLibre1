@@ -8,8 +8,8 @@ import "../css/exterieur.css";
 const Exterieur = ({ onOff, setOnOff }) => {
   return (
     <div className="relative">
+      <Header onOff={onOff} setOnOff={setOnOff}></Header>
       <div className="container">
-        <Header onOff={onOff} setOnOff={setOnOff}></Header>
         <div className="fadeIn">
           {exterieur.map((data) => {
             if (data.class === "exterieur1") {
@@ -35,7 +35,7 @@ const Exterieur = ({ onOff, setOnOff }) => {
         </div>
       </div>
       <div className="footer">
-        <Footer></Footer>
+        <Footer onOff={onOff} setOnOff={setOnOff}></Footer>
       </div>
     </div>
   );

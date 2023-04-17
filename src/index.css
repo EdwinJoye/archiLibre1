@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+@font-face {
+  font-family: "Montserrat-SemiBold"; /*Can be any text*/
+  src: local("AirbnbCerealLight"),
+    url("../src/fonts/Montserrat-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserrat-Medium"; /*Can be any text*/
+  src: local("AirbnbCerealLight"),
+    url("../src/fonts/Montserrat-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserrat-Bold"; /*Can be any text*/
+  src: local("AirbnbCerealLight"),
+    url("../src/fonts/Montserrat-Bold.ttf") format("truetype");
+}

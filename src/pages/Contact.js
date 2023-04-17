@@ -5,12 +5,12 @@ import "../css/contact.css";
 const Contact = ({ onOff, setOnOff }) => {
   return (
     <div className="relative">
+      <Header onOff={onOff} setOnOff={setOnOff}></Header>
       <div className="container">
-        <Header onOff={onOff} setOnOff={setOnOff}></Header>
         <div className="fadeIn">Contact Aman</div>
       </div>
       <div className="footer">
-        <Footer></Footer>
+        <Footer onOff={onOff} setOnOff={setOnOff}></Footer>
       </div>
     </div>
   );

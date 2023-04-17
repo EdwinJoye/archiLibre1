@@ -19,7 +19,7 @@ const DecoAmeublement = ({ item, selectedId, setSelectedId }) => {
         }}
         className="decoAmeublement__img"
         src={item.url}
-        alt=""
+        alt="decoAmeublement-img"
       />
     </div>
   );

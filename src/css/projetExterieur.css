@@ -1,7 +1,15 @@
-.projetExterieur__img {
-  max-width: 500px;
-  cursor: pointer;
-}
 .projetExterieur__img-p {
   display: flex;
+}
+.projetExterieur__img-container {
+  max-width: 500px;
+  cursor: pointer;
+  overflow: hidden;
+}
+.projetExterieur__img {
+  transition: transform 1.5s;
+  width: 100%;
+}
+.projetExterieur__img:hover {
+  /* transform: scale(1.5); */
 }

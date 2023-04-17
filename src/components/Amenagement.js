@@ -1,10 +1,10 @@
 import OverlayImg from "./OverlayImg";
+
 import "../css/amenagement.css";
 
-const Amenagement = ({ item, selectedId, setSelectedId }) => {
+const Amenagement = ({ item, onOff, setOnOff, selectedId, setSelectedId }) => {
   return (
     <div>
-      {console.log(item)}
       {item.sousCategories.map((data) => {
         return (
           <div>

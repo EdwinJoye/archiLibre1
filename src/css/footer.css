@@ -1,5 +1,17 @@
 .footer__container {
   text-align: center;
-  padding: 30px;
-  background-color: pink;
+  padding: 10px;
+  background-color: #37463d;
+}
+.footer__signature {
+  width: 170px;
+}
+.footer__buttons-container {
+  display: flex;
+  justify-content: center;
+}
+.footer__button {
+  color: white;
+  font-family: Montserrat-SemiBold;
+  margin-right: 20px;
 }

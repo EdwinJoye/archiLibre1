@@ -8,8 +8,8 @@ import "../css/aboutMe.css";
 const AboutMe = ({ onOff, setOnOff }) => {
   return (
     <div className="relative">
+      <Header onOff={onOff} setOnOff={setOnOff}></Header>
       <div className="container">
-        <Header onOff={onOff} setOnOff={setOnOff}></Header>
         <div className="fadeIn">
           {aboutMe.map((data, key) => {
             if (data.category === "aboutMe1") {
@@ -35,7 +35,7 @@ const AboutMe = ({ onOff, setOnOff }) => {
         </div>
       </div>
       <div className="footer">
-        <Footer></Footer>
+        <Footer onOff={onOff} setOnOff={setOnOff}></Footer>
       </div>
     </div>
   );
