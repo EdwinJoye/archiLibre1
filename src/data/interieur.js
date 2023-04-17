@@ -16,30 +16,29 @@ export const interieur = [
           {
             id: "picture1",
             title: "Salons et chambres de la résidence Alphonsine",
-            descriptionPic: "NOTHING YET",
             pics: [
               {
                 id: "pics1-SEC",
-                title: "NOTHING YET",
-                description: "NOTHING YET",
+                title: "TITLE NOTHING YET",
+                description: "DESCRIPTION NOTHING YET",
                 url: "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681464937/archilibre1/Photos/Inte%CC%81rieurs/Ame%CC%81nagement/Projet%20Anthony/Salon/Salon-1_axq8qc.jpg",
               },
               {
                 id: "pics2-SEC",
-                title: "NOTHING YET",
-                description: "NOTHING YET",
+                title: "TITLE NOTHING YET",
+                description: "DESCRIPTION NOTHING YET",
                 url: "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681464937/archilibre1/Photos/Inte%CC%81rieurs/Ame%CC%81nagement/Projet%20Anthony/Salon/Salon-2_bdgpgs.jpg",
               },
               {
                 id: "pics3-SEC",
-                title: "NOTHING YET",
-                description: "NOTHING YET",
+                title: "TITLE NOTHING YET",
+                description: "DESCRIPTION NOTHING YET",
                 url: "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681464937/archilibre1/Photos/Inte%CC%81rieurs/Ame%CC%81nagement/Projet%20Anthony/Salon/Salon-3_pq8tm3.jpg",
               },
               {
                 id: "pics3-SEC",
-                title: "NOTHING YET",
-                description: "NOTHING YET",
+                title: "TITLE NOTHING YET",
+                description: "DESCRIPTION NOTHING YET",
                 url: "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681464938/archilibre1/Photos/Inte%CC%81rieurs/Ame%CC%81nagement/Projet%20Anthony/Salon/Salon-4_rjzvvu.jpg",
               },
             ],
@@ -47,24 +46,23 @@ export const interieur = [
           {
             id: "picture2",
             title: "Salles de bains de la résidence Alphonsine",
-            descriptionPic: "NOTHING YET",
             pics: [
               {
                 id: "pics1-SDB",
-                title: "NOTHING YET",
-                description: "NOTHING YET",
+                title: "TITLE NOTHING YET",
+                description: "DESCRIPTION NOTHING YET",
                 url: "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681480477/archilibre1/Photos/Inte%CC%81rieurs/Ame%CC%81nagement/Projet%20Anthony/SDB/SDB-1_jkzhhn.jpg",
               },
               {
                 id: "pics2-SDB",
-                title: "NOTHING YET",
-                description: "NOTHING YET",
+                title: "TITLE NOTHING YET",
+                description: "DESCRIPTION NOTHING YET",
                 url: "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681480477/archilibre1/Photos/Inte%CC%81rieurs/Ame%CC%81nagement/Projet%20Anthony/SDB/SDB-2_anxacl.jpg",
               },
               {
                 id: "pics3-SDB",
-                title: "NOTHING YET",
-                description: "NOTHING YET",
+                title: "TITLE NOTHING YET",
+                description: "DESCRIPTION NOTHING YET",
                 url: "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681480477/archilibre1/Photos/Inte%CC%81rieurs/Ame%CC%81nagement/Projet%20Anthony/SDB/SDB-3_snl7ce.jpg",
               },
             ],
@@ -72,18 +70,17 @@ export const interieur = [
           {
             id: "picture2",
             title: "Halls d'entrée de la résidence Alphonsine",
-            descriptionPic: "NOTHING YET",
             pics: [
               {
                 id: "pics1-H",
-                title: "NOTHING YET",
-                description: "NOTHING YET",
+                title: "TITLE NOTHING YET",
+                description: "DESCRIPTION NOTHING YET",
                 url: "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681464937/archilibre1/Photos/Inte%CC%81rieurs/Ame%CC%81nagement/Projet%20Anthony/EntreeImmeuble/Hall-1_zui5vb.jpg",
               },
               {
                 id: "pics2-H",
-                title: "NOTHING YET",
-                description: "NOTHING YET",
+                title: "TITLE NOTHING YET",
+                description: "DESCRIPTION NOTHING YET",
                 url: "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681464937/archilibre1/Photos/Inte%CC%81rieurs/Ame%CC%81nagement/Projet%20Anthony/EntreeImmeuble/Hall-2_jgb9wt.jpg",
               },
             ],

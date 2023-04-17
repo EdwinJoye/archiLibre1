@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 import Amenagement from "../components/Amenagement";
 import DecoAmeublement from "../components/DecoAmeublement";
 
-const ProjetInterieur = ({ onOff, setOnOff }) => {
+const ProjetInterieur = ({ onOff, setOnOff, selectedId, setSelectedId }) => {
   let location = useLocation();
   const category = location.state.data.category;
 
@@ -18,6 +18,8 @@ const ProjetInterieur = ({ onOff, setOnOff }) => {
                 onOff={onOff}
                 setOnOff={setOnOff}
                 item={item}
+                selectedId={selectedId}
+                setSelectedId={setSelectedId}
               ></Amenagement>
             </div>
           );
@@ -28,6 +30,8 @@ const ProjetInterieur = ({ onOff, setOnOff }) => {
                 onOff={onOff}
                 setOnOff={setOnOff}
                 item={item}
+                selectedId={selectedId}
+                setSelectedId={setSelectedId}
               ></DecoAmeublement>
             </div>
           );

@@ -10,6 +10,7 @@ import ProjetExterieur from "./pages/ProjetExterieur";
 import ProjetInterieur from "./pages/ProjetInterieur";
 
 function App() {
+  const [selectedId, setSelectedId] = useState(null);
   const [onOff, setOnOff] = useState(1);
 
   return (
@@ -41,6 +42,8 @@ function App() {
             <ProjetExterieur
               onOff={onOff}
               setOnOff={setOnOff}
+              selectedId={selectedId}
+              setSelectedId={setSelectedId}
             ></ProjetExterieur>
           }
         ></Route>
@@ -50,6 +53,8 @@ function App() {
             <ProjetInterieur
               onOff={onOff}
               setOnOff={setOnOff}
+              selectedId={selectedId}
+              setSelectedId={setSelectedId}
             ></ProjetInterieur>
           }
         ></Route>

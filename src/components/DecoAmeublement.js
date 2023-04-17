@@ -1,11 +1,26 @@
+import OverlayImg from "./OverlayImg";
 import "../css/decoAmeublement.css";
 
-const DecoAmeublement = ({ item }) => {
+const DecoAmeublement = ({ item, selectedId, setSelectedId }) => {
   return (
     <div>
+      <OverlayImg
+        url={item.url}
+        isSelected={item.id === selectedId}
+        onClick={() => {
+          setSelectedId(null);
+        }}
+      ></OverlayImg>
       <p>{item.title}</p>
       <p>{item.descriptionPic}</p>
-      <img className="decoAmeublement__img" src={item.url} alt="" />
+      <img
+        onClick={() => {
+          setSelectedId(item.id);
+        }}
+        className="decoAmeublement__img"
+        src={item.url}
+        alt=""
+      />
     </div>
   );
 };

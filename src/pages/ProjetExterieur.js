@@ -1,12 +1,10 @@
 import Header from "../components/Header";
 import { useLocation } from "react-router-dom";
 import Footer from "../components/Footer";
-import { useState } from "react";
 import OverlayImg from "../components/OverlayImg";
 import "../css/projetExterieur.css";
 
-const ProjetExterieur = ({ onOff, setOnOff }) => {
-  const [selectedId, setSelectedId] = useState(null);
+const ProjetExterieur = ({ onOff, setOnOff, selectedId, setSelectedId }) => {
   const location = useLocation();
   const data = location.state.data;
 
