@@ -36,7 +36,7 @@ export const interieur = [
                 url: "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681464937/archilibre1/Photos/Inte%CC%81rieurs/Ame%CC%81nagement/Projet%20Anthony/Salon/Salon-3_pq8tm3.jpg",
               },
               {
-                id: "pics3-SEC",
+                id: "pics4-SEC",
                 title: "TITLE NOTHING YET",
                 description: "DESCRIPTION NOTHING YET",
                 url: "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681464938/archilibre1/Photos/Inte%CC%81rieurs/Ame%CC%81nagement/Projet%20Anthony/Salon/Salon-4_rjzvvu.jpg",
