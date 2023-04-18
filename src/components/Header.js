@@ -7,6 +7,7 @@ const Header = ({ onOff, setOnOff }) => {
     <div className="header">
       <div className="header__buttons-container-1">
         <Link
+          className="header__box-link"
           to="/exterieur"
           onClick={() => {
             setOnOff((onOff = 2));
@@ -20,6 +21,7 @@ const Header = ({ onOff, setOnOff }) => {
           </div>
         </Link>
         <Link
+          className="header__box-link"
           to="/interieur"
           onClick={() => {
             setOnOff((onOff = 3));
@@ -48,6 +50,7 @@ const Header = ({ onOff, setOnOff }) => {
       </Link>
       <div className="header__buttons-container-2">
         <Link
+          className="header__box-link"
           to="/aboutme"
           onClick={() => {
             setOnOff((onOff = 4));
@@ -61,6 +64,7 @@ const Header = ({ onOff, setOnOff }) => {
           </div>
         </Link>
         <Link
+          className="header__box-link"
           to="/contact"
           onClick={() => {
             setOnOff((onOff = 5));

@@ -25,6 +25,10 @@
   justify-content: space-between;
   margin: 0 6% 0 6%;
 }
+.header__box-test {
+  width: 100%;
+  /* background-color: red; */
+}
 .headerBox {
   display: flex;
   flex-direction: column;
@@ -33,9 +37,14 @@
   font-size: 1.2rem;
   padding: 1rem;
   border-bottom: 2px solid #37463d;
+  width: 200px;
+}
+.header__box-link:hover .headerBox span {
+  letter-spacing: 5px;
 }
 .headerBox span {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  color: #9bb291;
 }
 .headerUnderline {
   width: 20%;
