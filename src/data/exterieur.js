@@ -3,12 +3,13 @@ export const exterieur = [
     id: "exterieur1",
     class: "exterieur1",
     link: "/projetExterieur",
+    number: "01.",
     title: "Projet Celle Saint-Cloud",
     date: "NO DATE",
     mainUrl:
       "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681486840/archilibre1/Photos/Exterieur/Photos-Page-Exte%CC%81rieur/MainUrl-1-CelleSaintCloud_rsuwzw.jpg",
     descriptionUrl:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.",
+      "Projet de surélévation et d’extension d’une maison individuelle en bardage bois Douglas et toiture en zinc patiné à la Celle Saint-Cloud. Inspiré par le style caractéristique des maisons des années 50, nous avons choisi d'utiliser du bardage en bois naturel pour créer une façade chaleureuse et accueillante. Le bois apporte une touche naturelle et authentique à l'ensemble, créant ainsi un contraste subtil avec les éléments existants de la maison. L'extension a été conçue avec soin pour offrir un espace de vie fonctionnel et lumineux. Un large baie vitrée donnant sur le jardin permet à la lumière naturelle de baigner les espace intérieurs, créant ainsi une connexion harmonieuse avec l'extérieur. Les espaces de vie ouverts offrent une fluidité et une convivialité, tout en respectant l'intimité nécessaire dans une maison familiale. L'utilisation du bardage bois dans l'extension a également permis de créer une transition douce entre l'ancien et le nouveau, ajoutant une dimension chaleureuse et naturelle à l'ensemble de la maison. La texture et la couleur du bois se marient parfaitement avec les éléments existants de la maison, créant un équilibre visuel cohérent. En plus de son aspect esthétique, le bardage bois utilisé dans cette extension est également respectueux de l'environnement. Le bois est un matériau renouvelable, durable et recyclable ce qui en fait un choix écologique pour la construction. De plus, il offre une excellente performance thermique, contribuant ainsi à l'efficacité énergétique de la maison.",
     texte:
       "L'aménagement du terrain sera légèrement modifié par l'extension, avec une emprise plus importante que l’actuelle. L'extension empiétera de quinze mètres carrés suplan-lémentaires sur la partie sud du terrain. Mise à part cet empiétement, le jardin restera inchangé avec la conservation des végétaux dont notamment le châtaignier et aussi tout l'espace vert de pleine terre permettant l'infiltration des eaux de pluies. L'extension d'une hauteur de 3.30m sur le jardin sera en bardage bois d'essence Douglas avec une toiture secondaire en zinc. La surélévation de toiture créera un brisis dans la pente actuelle et sera elle aussi en zinc pour des raisons techniques et esthétiques. Les toitures restantes seront en tuile grise pour maintenir une harmonie dans les tons. La volumétrie créée par la surélévation sera elle aussi bardée de bois d'essence. Douglas afin de marquer clairement l'évolution du bâti et de mettre en valeur les différentes périodes le constituant. La création d'une boite en bardage bois horizontale cherche aussi à enrichir le volume de la construction en cassant son aspect monolithique",
     categories: [
@@ -81,6 +82,8 @@ export const exterieur = [
     id: "exterieur2",
     class: "exterieur2",
     link: "/projetExterieur",
+    number: "02.",
+    css: "grey",
     title: "Projet Ville-d'Avray",
     date: "Juin 2023",
     mainUrl:
@@ -135,6 +138,7 @@ export const exterieur = [
     id: "exterieur3",
     class: "exterieur1",
     link: "/projetExterieur",
+    number: "03.",
     title: "Projet Iran",
     date: "NO DATE",
     mainUrl:
@@ -208,6 +212,8 @@ export const exterieur = [
     id: "exterieur4",
     class: "exterieur2",
     link: "/projetExterieur",
+    number: "04.",
+    css: "green",
     title: "La résidence Alphonsine",
     date: "NO DATE",
     mainUrl:
@@ -270,6 +276,7 @@ export const exterieur = [
     id: "exterieur5",
     class: "exterieur1",
     link: "/projetExterieur",
+    number: "05.",
     title: "Projet Clamart",
     date: "Février 2019",
     mainUrl:
@@ -337,6 +344,8 @@ export const exterieur = [
     id: "exterieur6",
     class: "exterieur2",
     link: "/projetExterieur",
+    number: "06.",
+    css: "grey",
     title: "Projet Sèvres",
     date: "NO DATE",
     mainUrl:

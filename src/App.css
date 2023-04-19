@@ -7,14 +7,27 @@ body {
   box-sizing: border-box;
   text-decoration: none;
   letter-spacing: 0.05em;
+  margin: 0;
+  padding: 0;
 }
 .container {
   margin-left: 5%;
   margin-right: 5%;
   padding-bottom: 200px;
 }
+h1 {
+  font-family: PlayfairDisplay-Bold;
+  color: white;
+  font-size: 100px;
+}
+h2 {
+  font-family: PlayfairDisplay-Black;
+  font-size: 55px;
+  color: #37463d;
+}
+p {
+}
 span {
-  /* color: white; */
   font-weight: bold;
   letter-spacing: 0.05em;
 }

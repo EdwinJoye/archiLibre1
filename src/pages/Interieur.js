@@ -9,6 +9,7 @@ const Interieur = ({ onOff, setOnOff }) => {
   return (
     <div className="relative">
       <Header onOff={onOff} setOnOff={setOnOff}></Header>
+      <h1>Intérieurs</h1>
       <div className="container">
         <div className="fadeIn">
           {interieur.map((data, key) => {

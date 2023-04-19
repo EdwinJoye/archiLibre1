@@ -17,6 +17,11 @@ code {
     url("../src/fonts/Montserrat-SemiBold.ttf") format("truetype");
 }
 @font-face {
+  font-family: "Montserrat-Regular"; /*Can be any text*/
+  src: local("AirbnbCerealLight"),
+    url("../src/fonts/montserrat-Regular.ttf") format("truetype");
+}
+@font-face {
   font-family: "Montserrat-Medium"; /*Can be any text*/
   src: local("AirbnbCerealLight"),
     url("../src/fonts/Montserrat-Medium.ttf") format("truetype");
@@ -25,4 +30,20 @@ code {
   font-family: "Montserrat-Bold"; /*Can be any text*/
   src: local("AirbnbCerealLight"),
     url("../src/fonts/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PlayfairDisplay-Black"; /*Can be any text*/
+  src: local("AirbnbCerealLight"),
+    url("../src/fonts/PlayfairDisplay-Black.otf") format("truetype");
+}
+@font-face {
+  font-family: "PlayfairDisplay-Regular"; /*Can be any text*/
+  src: local("AirbnbCerealLight"),
+    url("../src/fonts/PlayfairDisplay-Regular.otf") format("truetype");
+}
+@font-face {
+  font-family: "PlayfairDisplay-Bold"; /*Can be any text*/
+  src: local("AirbnbCerealLight"),
+    url("../src/fonts/PlayfairDisplay-Bold.otf") format("truetype");
 }

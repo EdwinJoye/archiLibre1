@@ -11,7 +11,7 @@ const ProjetExterieur = ({ onOff, setOnOff, selectedId, setSelectedId }) => {
   return (
     <div>
       <Header onOff={onOff} setOnOff={setOnOff}></Header>
-      <div className="container">
+      <div className="container fadeIn">
         <div>
           {data.categories.map((item, key) => {
             return (
@@ -38,7 +38,6 @@ const ProjetExterieur = ({ onOff, setOnOff, selectedId, setSelectedId }) => {
                             alt="projetExterieur-img"
                           />
                         </div>
-
                         <p>{pics.descriptionPic}</p>
                       </div>
                     </div>

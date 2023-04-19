@@ -8,6 +8,7 @@ import Interieur from "./pages/Interieur";
 import Contact from "../src/pages/Contact";
 import ProjetExterieur from "./pages/ProjetExterieur";
 import ProjetInterieur from "./pages/ProjetInterieur";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   const [selectedId, setSelectedId] = useState(null);
@@ -15,6 +16,7 @@ function App() {
 
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route
           path="/"

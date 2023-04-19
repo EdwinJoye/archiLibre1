@@ -1,11 +1,12 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper";
+import Header from "./Header";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "../css/swiperHome.css";
 
-const SwiperHome = ({ homePictures }) => {
+const SwiperHome = ({ homePictures, onOff, setOnOff }) => {
   return (
     <div className="swiper container">
       <Swiper
@@ -32,9 +33,9 @@ const SwiperHome = ({ homePictures }) => {
           );
         })}
       </Swiper>
-      {/* <div className="swiper__header">
+      <div className="swiper__header">
         <Header onOff={onOff} setOnOff={setOnOff}></Header>
-      </div> */}
+      </div>
       <div className="home__title">
         <span>Aman Othenin-Girard Architecte DPLG</span>
       </div>

@@ -10,15 +10,13 @@ const ProjetInterieur = ({ onOff, setOnOff, selectedId, setSelectedId }) => {
 
   return (
     <div>
-      <div className="container">
-        <Header onOff={onOff} setOnOff={setOnOff}></Header>
+      <Header onOff={onOff} setOnOff={setOnOff}></Header>
+      <div className="container fadeIn">
         {location.state.data.diapos.map((item, key) => {
           if (category === "Amenagement") {
             return (
               <div key={key}>
                 <Amenagement
-                  onOff={onOff}
-                  setOnOff={setOnOff}
                   item={item}
                   selectedId={selectedId}
                   setSelectedId={setSelectedId}
@@ -29,8 +27,6 @@ const ProjetInterieur = ({ onOff, setOnOff, selectedId, setSelectedId }) => {
             return (
               <div key={key}>
                 <DecoAmeublement
-                  onOff={onOff}
-                  setOnOff={setOnOff}
                   item={item}
                   selectedId={selectedId}
                   setSelectedId={setSelectedId}

@@ -2,7 +2,7 @@ import OverlayImg from "./OverlayImg";
 
 import "../css/amenagement.css";
 
-const Amenagement = ({ item, onOff, setOnOff, selectedId, setSelectedId }) => {
+const Amenagement = ({ item, selectedId, setSelectedId }) => {
   return (
     <div>
       {item.sousCategories.map((data) => {

@@ -4,12 +4,27 @@ import "../css/categories.css";
 const Category1 = ({ data, onOff, setOnOff }) => {
   return (
     <div>
-      <div className="title-category1">{data.title}</div>
-      <div className="img-texte-category">
+      <div className="catagories__number-title">
+        <p className="categories__number">{data.number}</p>
+        <h2 className="categories__title">{data.title}</h2>
+      </div>
+      <div className="categories__img-description">
+        <div className="categories__texte-1">
+          <p>{data.descriptionUrl}</p>
+          <Link
+            to={data.link}
+            state={{ data: data }}
+            onClick={() => {
+              setOnOff((onOff = 0));
+            }}
+          >
+            <span className="categories__texte-button">LIRE LA SUITE</span>
+          </Link>
+        </div>
         <Link
           to={data.link}
           state={{ data: data }}
-          className="div-img-category"
+          className="categories__img-container-1"
           onClick={() => {
             setOnOff((onOff = 0));
           }}
@@ -20,9 +35,6 @@ const Category1 = ({ data, onOff, setOnOff }) => {
             <div className="descriptionImage">{data.date}</div>
           </div>
         </Link>
-        <div className="texte-category">
-          <p>{data.descriptionUrl}</p>
-        </div>
       </div>
     </div>
   );

@@ -3,36 +3,44 @@ import Footer from "../components/Footer";
 import Category1 from "../components/Category1";
 import Category2 from "../components/Category2";
 import { exterieur } from "../data/exterieur";
+import ExterieurImg from "../img/exterieur.jpg";
 import "../css/exterieur.css";
 
 const Exterieur = ({ onOff, setOnOff }) => {
   return (
     <div className="relative">
-      <Header onOff={onOff} setOnOff={setOnOff}></Header>
-      <div className="container">
-        <div className="fadeIn">
-          {exterieur.map((data) => {
-            if (data.class === "exterieur1") {
-              return (
-                <Category1
-                  key={data.id}
-                  data={data}
-                  onOff={onOff}
-                  setOnOff={setOnOff}
-                ></Category1>
-              );
-            } else {
-              return (
-                <Category2
-                  key={data.id}
-                  data={data}
-                  onOff={onOff}
-                  setOnOff={setOnOff}
-                ></Category2>
-              );
-            }
-          })}
+      <div className="exterieur__header-img-title">
+        <Header onOff={onOff} setOnOff={setOnOff}></Header>
+        <div className="exterieur__img-title fadeIn">
+          <img className="exterieur__img-principal" src={ExterieurImg} alt="" />
+          <div className="exterieur__title-underline">
+            <h1>Extérieurs</h1>
+            <div className="exterieur__underline "></div>
+          </div>
         </div>
+      </div>
+      <div className="fadeIn">
+        {exterieur.map((data) => {
+          if (data.class === "exterieur1") {
+            return (
+              <Category1
+                key={data.id}
+                data={data}
+                onOff={onOff}
+                setOnOff={setOnOff}
+              ></Category1>
+            );
+          } else {
+            return (
+              <Category2
+                key={data.id}
+                data={data}
+                onOff={onOff}
+                setOnOff={setOnOff}
+              ></Category2>
+            );
+          }
+        })}
       </div>
       <div className="footer">
         <Footer onOff={onOff} setOnOff={setOnOff}></Footer>

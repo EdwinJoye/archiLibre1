@@ -1,0 +1,24 @@
+.exterieur__header-img-title {
+  max-height: 100vh;
+  overflow: hidden;
+  margin-bottom: 150px;
+}
+.exterieur__img-title {
+  position: relative;
+}
+.exterieur__title-underline {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translate(-50%, -50%);
+}
+.exterieur__underline {
+  width: 60%;
+  border-bottom: 3px solid white;
+}
+.exterieur__img-principal {
+  width: 100%;
+}

@@ -4,7 +4,7 @@ import "../css/header.css";
 
 const Header = ({ onOff, setOnOff }) => {
   return (
-    <div className="header">
+    <div className={onOff === 1 ? "header__transparent" : "header__green"}>
       <div className="header__buttons-container-1">
         <Link
           className="header__box-link"
@@ -14,9 +14,11 @@ const Header = ({ onOff, setOnOff }) => {
           }}
         >
           <div className="headerBox">
-            <span>EXTERIEURS</span>
+            <span>EXTÉRIEURS</span>
             <div
-              className={onOff === 2 ? "headerUnderline" : "headerUnderline2"}
+              className={
+                onOff === 2 ? "header__underline" : "header__underline-2"
+              }
             ></div>
           </div>
         </Link>
@@ -28,9 +30,11 @@ const Header = ({ onOff, setOnOff }) => {
           }}
         >
           <div className="headerBox">
-            <span>INTERIEURS</span>
+            <span>INTÉRIEURS</span>
             <div
-              className={onOff === 3 ? "headerUnderline" : "headerUnderline2"}
+              className={
+                onOff === 3 ? "header__underline" : "header__underline-2"
+              }
             ></div>
           </div>
         </Link>
@@ -59,7 +63,9 @@ const Header = ({ onOff, setOnOff }) => {
           <div className="headerBox">
             <span>A PROPOS</span>
             <div
-              className={onOff === 4 ? "headerUnderline" : "headerUnderline2"}
+              className={
+                onOff === 4 ? "header__underline" : "header__underline-2"
+              }
             ></div>
           </div>
         </Link>
@@ -73,7 +79,9 @@ const Header = ({ onOff, setOnOff }) => {
           <div className="headerBox">
             <span>CONTACT</span>
             <div
-              className={onOff === 5 ? "headerUnderline" : "headerUnderline2"}
+              className={
+                onOff === 5 ? "header__underline" : "header__underline-2"
+              }
             ></div>
           </div>
         </Link>
