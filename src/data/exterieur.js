@@ -4,7 +4,7 @@ export const exterieur = [
     class: "exterieur1",
     link: "/projetExterieur",
     number: "01.",
-    title: "Projet Celle Saint-Cloud",
+    title: "L’extension de la Celle Saint-Cloud",
     date: "NO DATE",
     mainUrl:
       "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681486840/archilibre1/Photos/Exterieur/Photos-Page-Exte%CC%81rieur/MainUrl-1-CelleSaintCloud_rsuwzw.jpg",
@@ -84,7 +84,7 @@ export const exterieur = [
     link: "/projetExterieur",
     number: "02.",
     css: "grey",
-    title: "Projet Ville-d'Avray",
+    title: "Le Clos de Ville-d’Avray",
     date: "Juin 2023",
     mainUrl:
       "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681486841/archilibre1/Photos/Exterieur/Photos-Page-Exte%CC%81rieur/MainUrl-2-VilleDAvray_pshc47.jpg",
@@ -139,7 +139,7 @@ export const exterieur = [
     class: "exterieur1",
     link: "/projetExterieur",
     number: "03.",
-    title: "Projet Iran",
+    title: "Projet d’Iran : maison sur cour",
     date: "NO DATE",
     mainUrl:
       "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681486841/archilibre1/Photos/Exterieur/Photos-Page-Exte%CC%81rieur/MainUrl-3-Iran-1_nn83i0.jpg",
@@ -214,7 +214,7 @@ export const exterieur = [
     link: "/projetExterieur",
     number: "04.",
     css: "green",
-    title: "La résidence Alphonsine",
+    title: "Résidence Alphonsine",
     date: "NO DATE",
     mainUrl:
       "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681486841/archilibre1/Photos/Exterieur/Photos-Page-Exte%CC%81rieur/MainUrl-4-Anthony_nmsgt9.jpg",
@@ -277,7 +277,7 @@ export const exterieur = [
     class: "exterieur1",
     link: "/projetExterieur",
     number: "05.",
-    title: "Projet Clamart",
+    title: "L’extension de Clamart",
     date: "Février 2019",
     mainUrl:
       "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681486840/archilibre1/Photos/Exterieur/Photos-Page-Exte%CC%81rieur/MainUrl-5-Clamart_mksmpc.jpg",
@@ -346,7 +346,8 @@ export const exterieur = [
     link: "/projetExterieur",
     number: "06.",
     css: "grey",
-    title: "Projet Sèvres",
+    position: "last",
+    title: "La maison des Bruyères",
     date: "NO DATE",
     mainUrl:
       "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681486840/archilibre1/Photos/Exterieur/Photos-Page-Exte%CC%81rieur/MainUrl-6-Se%CC%80vres_pgepb9.jpg",

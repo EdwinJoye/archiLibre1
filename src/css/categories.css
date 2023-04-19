@@ -1,35 +1,54 @@
-.catagories__bg-diago-grey {
+.categories__container {
+  margin-top: 200px;
+}
+.categories__container-last .catagories__background-grey {
+  padding-bottom: 200px;
+  background-color: #f2f3f3;
+}
+
+.catagories__bg-diago-grey,
+.catagories__bg-diago-green,
+.catagories__bg-empty {
   margin-top: 100px;
   background-size: cover;
   display: flex;
   justify-content: flex-end;
+  height: 220px;
+}
+.catagories__bg-empty {
+  justify-content: flex-start;
 }
 .catagories__bg-diago-grey {
-  height: 220px;
   background-image: url("../img/bg-diagonales-grey.svg");
+  background-size: cover;
 }
 .catagories__bg-diago-green {
-  height: 280px;
   background-image: url("../img/bg-diagonales-green.svg");
 }
+.catagories__number-title-1-2,
 .catagories__number-title-2-2 {
   position: relative;
   height: 1px;
-  min-width: 650px;
+  min-width: 750px;
 }
 .categories__number {
   width: 150px;
   height: 150px;
-  font-size: 80px;
   font-family: PlayfairDisplay-Regular;
   margin: 0;
   color: #d6e3cf;
+  padding: 10px;
   background-color: #8c9c7c;
 }
+.categories__number p {
+  font-size: 90px;
+  line-height: 0.5;
+}
+.catagories__bg-empty .categories__title,
 .catagories__number-title-2-2 .categories__title {
   position: absolute;
   left: 60px;
-  top: 80px;
+  top: 75px;
   margin-bottom: 20px;
   bottom: 0;
 }
@@ -39,9 +58,17 @@
   background-color: #f2f3f3;
 }
 .catagories__background-green,
+.categories__texte-1-green,
 .categories__texte-2-green,
 .categories__texte-button-green::before {
   background-color: #37463d;
+}
+.catagories__background-grey,
+.catagories__background-green {
+  padding-bottom: 100px;
+}
+.catagories__bg-diago-green h2.categories__title {
+  color: #f6edd9 !important;
 }
 .categories__img-description {
   position: relative;
@@ -51,6 +78,7 @@
 }
 .categories__texte-1,
 .categories__texte-2-grey,
+.categories__texte-1-green,
 .categories__texte-2-green {
   display: flex;
   flex-direction: column;
@@ -66,6 +94,7 @@
   right: 0;
 }
 .categories__texte-1 p,
+.categories__texte-1-green p,
 .categories__texte-2-green p,
 .categories__texte-2-grey p {
   max-height: 250px;
@@ -84,6 +113,7 @@
 .categories__texte-button-green {
   color: #37463d;
 }
+.categories__texte-1-green p,
 .categories__texte-2-green p,
 .categories__texte-button-grey {
   color: #d5e3cf;

@@ -3,7 +3,13 @@ import "../css/categories.css";
 
 const Category2 = ({ data, onOff, setOnOff }) => {
   return (
-    <div>
+    <div
+      className={
+        data.position === "last"
+          ? "categories__container-last"
+          : "categories__container"
+      }
+    >
       <div
         className={
           data.css === "grey"

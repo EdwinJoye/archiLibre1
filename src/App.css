@@ -13,16 +13,15 @@ body {
 .container {
   margin-left: 5%;
   margin-right: 5%;
-  padding-bottom: 200px;
 }
 h1 {
   font-family: PlayfairDisplay-Bold;
-  color: white;
+  color: #f6edd9;
   font-size: 100px;
 }
 h2 {
   font-family: PlayfairDisplay-Black;
-  font-size: 55px;
+  font-size: 50px;
   color: #37463d;
 }
 p {

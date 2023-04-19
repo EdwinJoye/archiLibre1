@@ -3,13 +3,17 @@ import "../css/categories.css";
 
 const Category1 = ({ data, onOff, setOnOff }) => {
   return (
-    <div>
-      <div className="catagories__number-title">
-        <p className="categories__number">{data.number}</p>
-        <h2 className="categories__title">{data.title}</h2>
+    <div className="categories__container">
+      <div className="catagories__bg-empty">
+        <div className="container catagories__number-title-1-2">
+          <div className="categories__number">
+            <p>{data.number}</p>
+          </div>
+          <h2 className="categories__title">{data.title}</h2>
+        </div>
       </div>
-      <div className="categories__img-description">
-        <div className="categories__texte-1">
+      <div className="container categories__img-description">
+        <div className="categories__texte-1-green">
           <p>{data.descriptionUrl}</p>
           <Link
             to={data.link}
@@ -18,7 +22,7 @@ const Category1 = ({ data, onOff, setOnOff }) => {
               setOnOff((onOff = 0));
             }}
           >
-            <span className="categories__texte-button">LIRE LA SUITE</span>
+            <span className="categories__texte-button-grey">LIRE LA SUITE</span>
           </Link>
         </div>
         <Link
