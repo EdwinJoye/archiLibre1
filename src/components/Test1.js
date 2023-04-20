@@ -2,8 +2,8 @@ import "../css/test.css";
 
 const Test1 = ({ data }) => {
   return (
-    <div>
-      <div className="category__container-1 container">
+    <div className="categories__container">
+      <div className="category__container container">
         <div className="categories__all-container-1">
           <div className="categories__number-container-category1">
             <p>{data.number}</p>
@@ -15,7 +15,13 @@ const Test1 = ({ data }) => {
       </div>
       <div className="category__container-2 container">
         <div className="categories__all-container-2">
-          <div className="categories__texte-button-container-category1">
+          <div
+            className={
+              data.picFormat === "horizontal-L"
+                ? "categories__texte-button-container-category1-M"
+                : "categories__texte-button-container-category1-L"
+            }
+          >
             <p className="categories__texte">{data.texte}</p>
             <span className="categories__button">LIRE LA SUITE</span>
           </div>
