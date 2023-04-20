@@ -61,7 +61,7 @@ const Header = ({ onOff, setOnOff }) => {
           }}
         >
           <div className="headerBox">
-            <span>A PROPOS</span>
+            <span>À PROPOS</span>
             <div
               className={
                 onOff === 4 ? "header__underline" : "header__underline-2"

@@ -33,7 +33,10 @@ const Category1 = ({ data, onOff, setOnOff }) => {
             setOnOff((onOff = 0));
           }}
         >
-          <img src={data.mainUrl} alt="pic" />
+          <div className="categories__img-mainUrl">
+            <img src={data.mainUrl} alt="pic" />
+            <div className="categories__background-C5"></div>
+          </div>
           <div className="imageOverlay">
             <div className="imageTitle">{data.title}</div>
             <div className="descriptionImage">{data.date}</div>

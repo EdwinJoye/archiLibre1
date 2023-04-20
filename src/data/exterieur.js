@@ -6,6 +6,7 @@ export const exterieur = [
     number: "01.",
     title: "L’extension de la Celle Saint-Cloud",
     date: "NO DATE",
+    picFormat: "horizontal-M",
     mainUrl:
       "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681486840/archilibre1/Photos/Exterieur/Photos-Page-Exte%CC%81rieur/MainUrl-1-CelleSaintCloud_rsuwzw.jpg",
     descriptionUrl:
@@ -84,6 +85,7 @@ export const exterieur = [
     link: "/projetExterieur",
     number: "02.",
     css: "grey",
+    picFormat: "horizontal-L",
     title: "Le Clos de Ville-d’Avray",
     date: "Juin 2023",
     mainUrl:
@@ -139,6 +141,7 @@ export const exterieur = [
     class: "exterieur1",
     link: "/projetExterieur",
     number: "03.",
+    picFormat: "horizontal-L",
     title: "Projet d’Iran : maison sur cour",
     date: "NO DATE",
     mainUrl:
@@ -214,6 +217,7 @@ export const exterieur = [
     link: "/projetExterieur",
     number: "04.",
     css: "green",
+    picFormat: "horizontal-L",
     title: "Résidence Alphonsine",
     date: "NO DATE",
     mainUrl:
@@ -277,6 +281,7 @@ export const exterieur = [
     class: "exterieur1",
     link: "/projetExterieur",
     number: "05.",
+    picFormat: "horizontal-M",
     title: "L’extension de Clamart",
     date: "Février 2019",
     mainUrl:
@@ -347,6 +352,7 @@ export const exterieur = [
     number: "06.",
     css: "grey",
     position: "last",
+    picFormat: "horizontal-M",
     title: "La maison des Bruyères",
     date: "NO DATE",
     mainUrl:

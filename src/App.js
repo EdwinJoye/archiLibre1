@@ -9,6 +9,7 @@ import Contact from "../src/pages/Contact";
 import ProjetExterieur from "./pages/ProjetExterieur";
 import ProjetInterieur from "./pages/ProjetInterieur";
 import ScrollToTop from "./components/ScrollToTop";
+import Test from "./pages/Test";
 
 function App() {
   const [selectedId, setSelectedId] = useState(null);
@@ -60,6 +61,7 @@ function App() {
             ></ProjetInterieur>
           }
         ></Route>
+        <Route path="/test" element={<Test></Test>}></Route>
       </Routes>
     </Router>
   );

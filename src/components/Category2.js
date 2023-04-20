@@ -13,11 +13,11 @@ const Category2 = ({ data, onOff, setOnOff }) => {
       <div
         className={
           data.css === "grey"
-            ? "catagories__bg-diago-grey"
-            : "catagories__bg-diago-green"
+            ? "categories__bg-diago-grey"
+            : "categories__bg-diago-green"
         }
       >
-        <div className="container catagories__number-title-2-2">
+        <div className="container categories__number-title-2-2">
           <div className="categories__number">
             <p>{data.number}</p>
           </div>
@@ -27,8 +27,8 @@ const Category2 = ({ data, onOff, setOnOff }) => {
       <div
         className={
           data.css === "grey"
-            ? "catagories__background-grey"
-            : "catagories__background-green"
+            ? "categories__background-grey"
+            : "categories__background-green"
         }
       >
         <div className="container categories__img-description">
@@ -66,7 +66,10 @@ const Category2 = ({ data, onOff, setOnOff }) => {
               setOnOff((onOff = 0));
             }}
           >
-            <img src={data.mainUrl} alt="pic" />
+            <div className="categories__img-mainUrl">
+              <img src={data.mainUrl} alt="pic" />
+              <div className="categories__background-C5"></div>
+            </div>
             <div className="imageOverlay">
               <div className="imageTitle">{data.title}</div>
               <div className="descriptionImage">{data.date}</div>

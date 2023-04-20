@@ -1,9 +1,9 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import Category1 from "../components/Category1";
-import Category2 from "../components/Category2";
 import { exterieur } from "../data/exterieur";
 import ExterieurImg from "../img/exterieur.jpg";
+import Test1 from "../components/Test1";
+import Test2 from "../components/Test2";
 import "../css/exterieur.css";
 
 const Exterieur = ({ onOff, setOnOff }) => {
@@ -23,21 +23,23 @@ const Exterieur = ({ onOff, setOnOff }) => {
         {exterieur.map((data) => {
           if (data.class === "exterieur1") {
             return (
-              <Category1
+              // <div>hello</div>
+              <Test1
                 key={data.id}
                 data={data}
                 onOff={onOff}
                 setOnOff={setOnOff}
-              ></Category1>
+              ></Test1>
             );
           } else {
             return (
-              <Category2
+              // <div>hello</div>
+              <Test2
                 key={data.id}
                 data={data}
                 onOff={onOff}
                 setOnOff={setOnOff}
-              ></Category2>
+              ></Test2>
             );
           }
         })}
