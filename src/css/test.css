@@ -1,9 +1,8 @@
 .categories__container {
   margin-top: 200px;
 }
-.categories__container-last .categories__background-grey {
+.categories__container-last {
   padding-bottom: 200px;
-  background-color: #f2f3f3;
 }
 .categories__bg-diago-grey {
   background-image: url("../img/bg-diagonales-grey.svg");
@@ -24,7 +23,7 @@
 .categories__background-grey,
 .categories__texte-2-grey,
 .categories__texte-button-grey::before {
-  background-color: #f2f3f3;
+  background-color: f2f3f3;
 }
 .categories__background-green,
 .categories__texte-1-green,
@@ -95,22 +94,26 @@
 .categories__texte-button-container-category2-L,
 .categories__texte-button-container-category1-M,
 .categories__texte-button-container-category2-M {
-  background-color: #37463d;
+  /* background-color: #37463d; */
   padding: 20px;
   top: 54px;
   z-index: 3;
+}
+.categories__texte-button-container-category1-L,
+.categories__texte-button-container-category1-M {
+  background-color: #37463d;
+}
+.categories__background-green p {
+  color: #37463d;
+}
+.categories__background-green {
+  color: #37463d;
 }
 .categories__texte-button-container-category2-L-clearGreen {
   background-color: #d6e3cf;
   padding: 20px;
   top: 54px;
   z-index: 3;
-}
-.darkGreen-BG {
-  background-color: #37463d;
-}
-.clearGreen-BG {
-  background-color: #d6e3cf;
 }
 .categories__texte-button-container-category1-L,
 .categories__texte-button-container-category2-L {
@@ -139,7 +142,11 @@
   cursor: pointer;
   /* background-color: red; */
 }
-.categories__button::before {
+.categories__background-green .categories__button {
+  color: #37463d;
+}
+.categories__button::before,
+.categories__background-green .categories__button::before {
   content: "";
   position: absolute;
   left: 0;
@@ -148,10 +155,16 @@
   height: 2px;
   transform: scaleX(0);
   transform-origin: left center;
-  background-color: #f2f3f3;
   transition: transform 0.3s ease-out;
 }
+.categories__button::before {
+  background-color: #f2f3f3;
+}
+.categories__background-green .categories__button::before {
+  background-color: #37463d;
+}
 .categories__button:hover::before,
+.categories__background-green .categories__button:hover::before,
 hover::before {
   transform: scaleX(1);
 }

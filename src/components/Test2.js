@@ -1,6 +1,15 @@
 import "../css/test.css";
-// import PhotoTest from "../img/test.jpg";
 const Test2 = ({ data }) => {
+  const myClassSize =
+    data.picFormat === "horizontal-L"
+      ? "categories__texte-button-container-category2-M"
+      : "categories__texte-button-container-category2-L";
+
+  let myClassColorBG =
+    data.css === "grey"
+      ? "categories__background-green"
+      : "categories__background-grey";
+
   return (
     <div
       className={
@@ -36,13 +45,7 @@ const Test2 = ({ data }) => {
       >
         <div className="category__container-2 container">
           <div className="categories__all-container-2">
-            <div
-              className={
-                data.picFormat === "horizontal-L"
-                  ? "categories__texte-button-container-category2-M"
-                  : "categories__texte-button-container-category2-L"
-              }
-            >
+            <div className={`${myClassSize} ${myClassColorBG}`}>
               <p className="categories__texte">{data.descriptionUrl}</p>
               <span className="categories__button">LIRE LA SUITE</span>
             </div>

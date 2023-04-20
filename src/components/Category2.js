@@ -12,7 +12,7 @@ const Category2 = ({ data, onOff, setOnOff }) => {
     >
       <div
         className={
-          data.css === "grey"
+          data.css === "green"
             ? "categories__bg-diago-grey"
             : "categories__bg-diago-green"
         }
