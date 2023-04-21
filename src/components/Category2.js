@@ -1,7 +1,16 @@
 import { Link } from "react-router-dom";
 import "../css/categories.css";
 
-const Category2 = ({ data, onOff, setOnOff }) => {
+const Test2 = ({ data, onOff, setOnOff }) => {
+  const myClassSize =
+    data.picFormat === "horizontal-L"
+      ? "categories__texte-button-container-category2-M"
+      : "categories__texte-button-container-category2-L";
+  let myClassColorTextBG =
+    data.cssAllBG === "grey"
+      ? "categories__text-background-green"
+      : "categories__text-background-grey";
+
   return (
     <div
       className={
@@ -12,34 +21,51 @@ const Category2 = ({ data, onOff, setOnOff }) => {
     >
       <div
         className={
-          data.css === "green"
+          data.cssAllBG === "grey"
             ? "categories__bg-diago-grey"
             : "categories__bg-diago-green"
         }
       >
-        <div className="container categories__number-title-2-2">
-          <div className="categories__number">
-            <p>{data.number}</p>
+        <div className="category__container">
+          <div className="categories__all-container-1 container">
+            <div className="categories__number-container-category2">
+              <p>{data.number}</p>
+            </div>
+            <div className="categories__title-container-category2">
+              <h2
+                className={
+                  data.cssAllBG === "darkGreen"
+                    ? "categories__title-beige"
+                    : "categories__title-green"
+                }
+              >
+                {data.title}
+              </h2>
+            </div>
           </div>
-          <h2 className="categories__title">{data.title}</h2>
         </div>
       </div>
       <div
         className={
-          data.css === "grey"
-            ? "categories__background-grey"
-            : "categories__background-green"
+          data.cssAllBG === "grey"
+            ? "categories__all-background-grey"
+            : "categories__all-background-green"
         }
       >
-        <div className="container categories__img-description">
-          <div
-            className={
-              data.css === "grey"
-                ? "categories__texte-2-green"
-                : "categories__texte-2-grey"
-            }
-          >
-            <p>{data.descriptionUrl}</p>
+        <div className="category__container-2 container">
+          <div className="categories__all-container-2">
+            <div className={`${myClassSize} ${myClassColorTextBG}`}>
+              <p className="categories__texte">{data.descriptionUrl}</p>
+              <Link
+                to={data.link}
+                state={{ data: data }}
+                onClick={() => {
+                  setOnOff((onOff = 0));
+                }}
+              >
+                <span className="categories__button">LIRE LA SUITE</span>
+              </Link>
+            </div>
             <Link
               to={data.link}
               state={{ data: data }}
@@ -47,38 +73,29 @@ const Category2 = ({ data, onOff, setOnOff }) => {
                 setOnOff((onOff = 0));
               }}
             >
-              <span
+              <div
                 className={
-                  data.css === "grey"
-                    ? "categories__texte-button-grey"
-                    : "categories__texte-button-green"
+                  data.picFormat === "horizontal-L"
+                    ? "categories__picture-overlay-background-container-category2-L"
+                    : "categories__picture-overlay-background-container-category2-M"
                 }
               >
-                LIRE LA SUITE
-              </span>
+                <img
+                  className="categories__picture"
+                  src={data.mainUrl}
+                  alt="mainUrlPic"
+                />
+                <div className="categories__overlay">
+                  <p>{data.title}</p>
+                  <p>{data.date}</p>
+                </div>
+                <div className="categories__background-category2"></div>
+              </div>
             </Link>
           </div>
-          <Link
-            to={data.link}
-            state={{ data: data }}
-            className="categories__img-container-2"
-            onClick={() => {
-              setOnOff((onOff = 0));
-            }}
-          >
-            <div className="categories__img-mainUrl">
-              <img src={data.mainUrl} alt="pic" />
-              <div className="categories__background-C5"></div>
-            </div>
-            <div className="imageOverlay">
-              <div className="imageTitle">{data.title}</div>
-              <div className="descriptionImage">{data.date}</div>
-            </div>
-          </Link>
         </div>
       </div>
     </div>
   );
 };
-
-export default Category2;
+export default Test2;

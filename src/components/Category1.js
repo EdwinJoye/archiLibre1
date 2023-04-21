@@ -1,20 +1,39 @@
 import { Link } from "react-router-dom";
 import "../css/categories.css";
 
-const Category1 = ({ data, onOff, setOnOff }) => {
+const Test1 = ({ data, onOff, setOnOff }) => {
   return (
     <div className="categories__container">
-      <div className="catagories__bg-empty">
-        <div className="container catagories__number-title-1-2">
-          <div className="categories__number">
+      <div className="category__container">
+        <div className="categories__all-container-1 container">
+          <div className="categories__number-container-category1">
             <p>{data.number}</p>
           </div>
-          <h2 className="categories__title">{data.title}</h2>
+          <div className="categories__title-container-category1">
+            <h2>{data.title}</h2>
+          </div>
         </div>
       </div>
-      <div className="container categories__img-description">
-        <div className="categories__texte-1-green">
-          <p>{data.descriptionUrl}</p>
+      <div className="category__container-2 container">
+        <div className="categories__all-container-2">
+          <div
+            className={
+              data.picFormat === "horizontal-L"
+                ? "categories__texte-button-container-category1-M"
+                : "categories__texte-button-container-category1-L"
+            }
+          >
+            <p className="categories__texte">{data.texte}</p>
+            <Link
+              to={data.link}
+              state={{ data: data }}
+              onClick={() => {
+                setOnOff((onOff = 0));
+              }}
+            >
+              <span className="categories__button">LIRE LA SUITE</span>
+            </Link>
+          </div>
           <Link
             to={data.link}
             state={{ data: data }}
@@ -22,28 +41,28 @@ const Category1 = ({ data, onOff, setOnOff }) => {
               setOnOff((onOff = 0));
             }}
           >
-            <span className="categories__texte-button-grey">LIRE LA SUITE</span>
+            <div
+              className={
+                data.picFormat === "horizontal-L"
+                  ? "categories__picture-overlay-background-container-category1-L"
+                  : "categories__picture-overlay-background-container-category1-M"
+              }
+            >
+              <img
+                className="categories__picture"
+                src={data.mainUrl}
+                alt="mainUrlPic"
+              />
+              <div className="categories__overlay">
+                <p>{data.title}</p>
+                <p>{data.date}</p>
+              </div>
+              <div className="categories__background-category1"></div>
+            </div>
           </Link>
         </div>
-        <Link
-          to={data.link}
-          state={{ data: data }}
-          className="categories__img-container-1"
-          onClick={() => {
-            setOnOff((onOff = 0));
-          }}
-        >
-          <div className="categories__img-mainUrl">
-            <img src={data.mainUrl} alt="pic" />
-            <div className="categories__background-C5"></div>
-          </div>
-          <div className="imageOverlay">
-            <div className="imageTitle">{data.title}</div>
-            <div className="descriptionImage">{data.date}</div>
-          </div>
-        </Link>
       </div>
     </div>
   );
 };
-export default Category1;
+export default Test1;
