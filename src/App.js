@@ -9,6 +9,7 @@ import Contact from "../src/pages/Contact";
 import ProjetExterieur from "./pages/ProjetExterieur";
 import ProjetInterieur from "./pages/ProjetInterieur";
 import ScrollToTop from "./components/ScrollToTop";
+import ProjetClamart from "./pages/ProjetClamart";
 import Test from "./pages/Test";
 
 function App() {
@@ -59,6 +60,17 @@ function App() {
               selectedId={selectedId}
               setSelectedId={setSelectedId}
             ></ProjetInterieur>
+          }
+        ></Route>
+        <Route
+          path="/projetclamart"
+          element={
+            <ProjetClamart
+              onOff={onOff}
+              setOnOff={setOnOff}
+              selectedId={selectedId}
+              setSelectedId={setSelectedId}
+            ></ProjetClamart>
           }
         ></Route>
         <Route path="/test" element={<Test></Test>}></Route>

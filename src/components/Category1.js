@@ -23,7 +23,7 @@ const Test1 = ({ data, onOff, setOnOff }) => {
                 : "categories__texte-button-container-category1-L"
             }
           >
-            <p className="categories__texte">{data.texte}</p>
+            <p className="categories__texte">{data.descriptionUrl}</p>
             <Link
               to={data.link}
               state={{ data: data }}

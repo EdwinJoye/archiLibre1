@@ -26,7 +26,7 @@ const ProjetExterieur = ({ onOff, setOnOff, selectedId, setSelectedId }) => {
                           setSelectedId(null);
                         }}
                       ></OverlayImg>
-                      <h1>{pics.title}</h1>
+                      <h2>{pics.title}</h2>
                       <div className="projetExterieur__img-p">
                         <div className="projetExterieur__img-container">
                           <img
