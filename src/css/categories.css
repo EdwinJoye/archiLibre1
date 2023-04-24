@@ -5,19 +5,20 @@
 .categories__container-last .categories__all-background-green {
   padding-bottom: 200px;
 }
-
+.category__container {
+  height: 300px;
+  width: 100%;
+  /* background-color: aqua; */
+}
 .categories__bg-diago-grey {
   background-image: url("../img/bg-diagonales-grey.svg");
   background-size: cover;
+  margin-top: 200px;
 }
 .categories__bg-diago-green {
   background-image: url("../img/bg-diagonales-green.svg");
   background-size: cover;
-}
-.category__container {
-  height: 200px;
-  width: 100%;
-  /* background-color: aqua; */
+  margin-top: 200px;
 }
 .categories__all-container-1,
 .categories__all-container-2 {
@@ -64,8 +65,8 @@
 }
 .categories__number-container-category1,
 .categories__number-container-category2 {
-  height: 150px;
-  width: 150px;
+  height: 170px;
+  width: 170px;
   display: flex;
   justify-content: center;
   background-color: #8c9c7c;
@@ -85,7 +86,7 @@
   /* background-color: pink; */
   z-index: 2;
   left: 50px;
-  top: 85px;
+  top: 100px;
   min-width: 500px;
 }
 .categories__title-container-category1 {
