@@ -1,9 +1,10 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import { exterieur } from "../data/exterieur";
+// import { exterieur } from "../data/exterieur";
 import ExterieurImg from "../img/exterieur.jpg";
 import Category1 from "../components/Category1";
 import Category2 from "../components/Category2";
+import exterieurData from "../data/exterieur.json";
 import "../css/exterieur.css";
 
 const Exterieur = ({ onOff, setOnOff }) => {
@@ -20,7 +21,7 @@ const Exterieur = ({ onOff, setOnOff }) => {
         </div>
       </div>
       <div className="fadeIn">
-        {exterieur.map((data) => {
+        {exterieurData.map((data) => {
           if (data.class === "exterieur1") {
             return (
               // <div>hello</div>

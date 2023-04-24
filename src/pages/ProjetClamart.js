@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import "../css/projetClamart.css";
 
-const ProjetClamart = ({ onOff, setOnOff, selectedId, setSelectedId }) => {
+const ProjetClamart = ({ onOff, setOnOff }) => {
   const location = useLocation();
   const data = location.state.data;
   console.log(data);
@@ -39,7 +39,7 @@ const ProjetClamart = ({ onOff, setOnOff, selectedId, setSelectedId }) => {
             />
             <div className="projetClamart__backgroundImgPrinciapl"></div>
             <div className="projetClamart__texte-container">
-              <p>{data.texte}</p>
+              <p>{data.descriptionUrl}</p>
             </div>
           </div>
         </div>
@@ -58,9 +58,7 @@ const ProjetClamart = ({ onOff, setOnOff, selectedId, setSelectedId }) => {
           <img src={data.categories[1].pics[0].url} alt="" />
         </div>
       </div>
-      <div className="footer">
-        <Footer></Footer>
-      </div>
+      <Footer onOff={onOff} setOnOff={setOnOff}></Footer>
     </div>
   );
 };

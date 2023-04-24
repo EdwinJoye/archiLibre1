@@ -153,7 +153,6 @@
   color: #d5e3cf;
   margin-top: 10px;
   cursor: pointer;
-  /* background-color: red; */
 }
 .categories__text-background-grey .categories__button {
   color: #37463d;
@@ -230,11 +229,11 @@ hover::before {
 }
 .categories__background-category1 {
   width: 100%;
-  top: 30px;
-  left: -30px;
+  top: 115px;
+  left: -35px;
 }
 .categories__background-category2 {
   width: 100%;
-  top: 30px;
-  right: -30px;
+  top: 115px;
+  right: -35px;
 }
