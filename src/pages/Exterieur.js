@@ -1,6 +1,5 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-// import { exterieur } from "../data/exterieur";
 import ExterieurImg from "../img/exterieur.jpg";
 import Category1 from "../components/Category1";
 import Category2 from "../components/Category2";

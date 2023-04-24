@@ -5,7 +5,31 @@ import "../css/footer.css";
 const Footer = ({ onOff, setOnOff }) => {
   return (
     <div className="footer__container fadeIn">
-      <div>
+      <div className="footer__buttons-container1">
+        <Link
+          className="footer__button"
+          to="/exterieur"
+          onClick={() => {
+            setOnOff((onOff = 2));
+          }}
+        >
+          <div>
+            <span>EXTÉRIEURS</span>
+          </div>
+        </Link>
+        <Link
+          className="footer__button"
+          to="/interieur"
+          onClick={() => {
+            setOnOff((onOff = 3));
+          }}
+        >
+          <div>
+            <span>INTÉRIEURS</span>
+          </div>
+        </Link>
+      </div>
+      <div className="footer__logo-container">
         <Link
           to="/"
           onClick={() => {
@@ -20,29 +44,7 @@ const Footer = ({ onOff, setOnOff }) => {
           />
         </Link>
       </div>
-      <div className="footer__buttons-container">
-        <Link
-          className="footer__button"
-          to="/exterieur"
-          onClick={() => {
-            setOnOff((onOff = 2));
-          }}
-        >
-          <div>
-            <span>EXTERIEURS</span>
-          </div>
-        </Link>
-        <Link
-          className="footer__button"
-          to="/interieur"
-          onClick={() => {
-            setOnOff((onOff = 3));
-          }}
-        >
-          <div>
-            <span>INTERIEURS</span>
-          </div>
-        </Link>
+      <div className="footer__buttons-container2">
         <Link
           className="footer__button"
           to="/aboutme"
@@ -51,8 +53,7 @@ const Footer = ({ onOff, setOnOff }) => {
           }}
         >
           <div>
-            <span>A </span>
-            <span>PROPOS</span>
+            <span>À PROPOS</span>
           </div>
         </Link>
         <Link

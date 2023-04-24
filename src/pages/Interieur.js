@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import Category1 from "../components/Category1";
 import Category2 from "../components/Category2";
 import InterieurImg from "../img/intérieur.jpg";
-import { interieur } from "../data/interieur";
+import interieurData from "../data/interieur.json";
 import "../css/interieur.css";
 
 const Interieur = ({ onOff, setOnOff }) => {
@@ -20,7 +20,7 @@ const Interieur = ({ onOff, setOnOff }) => {
         </div>
       </div>
       <div className="fadeIn">
-        {interieur.map((data) => {
+        {interieurData.map((data) => {
           if (data.class === "interieur1") {
             return (
               <Category1
