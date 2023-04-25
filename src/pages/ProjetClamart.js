@@ -1,13 +1,14 @@
 import { useLocation } from "react-router-dom";
 import Header from "../components/Header";
-import OverlayImg from "../components/OverlayImg";
+// import OverlayImg from "../components/OverlayImg";
 import Footer from "../components/Footer";
+import PictureProjet from "../components/PictureProjets";
 import "../css/projetClamart.css";
 
 const ProjetClamart = ({ onOff, setOnOff, selectedId, setSelectedId }) => {
   const location = useLocation();
   const data = location.state.data;
-  console.log(data);
+  console.log(data.categories[0].pics[1].class);
 
   return (
     <div>
@@ -49,122 +50,52 @@ const ProjetClamart = ({ onOff, setOnOff, selectedId, setSelectedId }) => {
         <div className="projetClamart__PartThree container">
           <div className="projetClamart__pics-container1">
             {/* ////// PREMIERE PHOTO ////// */}
-            <OverlayImg
+            <PictureProjet
+              selectedId={selectedId}
+              setSelectedId={setSelectedId}
               url={data.categories[0].pics[0].url}
-              isSelected={data.categories[0].pics[0].id === selectedId}
-              onClick={() => {
-                setSelectedId(null);
-              }}
-            ></OverlayImg>
-            <div className="projetClamart__pics-overlay-container1">
-              <div className="projetClamart__pic-container">
-                <img
-                  src={data.categories[0].pics[0].url}
-                  onClick={() => {
-                    setSelectedId(data.categories[0].pics[0].id);
-                  }}
-                  alt="img2"
-                />
-              </div>
-              <div className="projetClamart__overlay">
-                <div className="projetClamart__overlay-title-underline">
-                  <h5>{data.categories[0].pics[0].title}</h5>
-                  <div className="projetClamart__underline"></div>
-                </div>
-                <p>{data.categories[0].pics[0].descriptionPic}</p>
-              </div>
-            </div>
+              id={data.categories[0].pics[0].id}
+              title={data.categories[0].pics[0].title}
+              descriptionPic={data.categories[0].pics[0].descriptionPic}
+              className={data.categories[0].pics[0].class}
+            ></PictureProjet>
           </div>
           <div>
             {/* ////// DEUXIEME PHOTO ////// */}
-            <div>
-              <OverlayImg
-                url={data.categories[0].pics[1].url}
-                isSelected={data.categories[0].pics[1].id === selectedId}
-                onClick={() => {
-                  setSelectedId(null);
-                }}
-              ></OverlayImg>
-              <div className="projetClamart__pics-overlay-container2">
-                <div className="projetClamart__pic-container">
-                  <img
-                    src={data.categories[0].pics[1].url}
-                    onClick={() => {
-                      setSelectedId(data.categories[0].pics[1].id);
-                    }}
-                    alt="img2"
-                  />
-                </div>
-                <div className="projetClamart__overlay">
-                  <div className="projetClamart__overlay-title-underline">
-                    <h5>{data.categories[0].pics[1].title}</h5>
-                    <div className="projetClamart__underline"></div>
-                  </div>
-                  <p>{data.categories[0].pics[1].descriptionPic}</p>
-                </div>
-              </div>
-            </div>
+            <PictureProjet
+              selectedId={selectedId}
+              setSelectedId={setSelectedId}
+              url={data.categories[0].pics[1].url}
+              id={data.categories[0].pics[1].id}
+              title={data.categories[0].pics[1].title}
+              descriptionPic={data.categories[0].pics[1].descriptionPic}
+              className={data.categories[0].pics[1].class}
+            ></PictureProjet>
 
             {/* ////// TROISIEME PHOTO ////// */}
-            <div>
-              <OverlayImg
-                url={data.categories[0].pics[2].url}
-                isSelected={data.categories[0].pics[2].id === selectedId}
-                onClick={() => {
-                  setSelectedId(null);
-                }}
-              ></OverlayImg>
-              <div className="projetClamart__pics-overlay-container3">
-                <div className="projetClamart__pic-container">
-                  <img
-                    src={data.categories[0].pics[2].url}
-                    onClick={() => {
-                      setSelectedId(data.categories[0].pics[2].id);
-                    }}
-                    alt="img2"
-                  />
-                </div>
-                <div className="projetClamart__overlay">
-                  <div className="projetClamart__overlay-title-underline">
-                    <h5>{data.categories[0].pics[2].title}</h5>
-                    <div className="projetClamart__underline"></div>
-                  </div>
-                  <p>{data.categories[0].pics[2].descriptionPic}</p>
-                </div>
-              </div>
-            </div>
+            <PictureProjet
+              selectedId={selectedId}
+              setSelectedId={setSelectedId}
+              url={data.categories[0].pics[2].url}
+              id={data.categories[0].pics[2].id}
+              title={data.categories[0].pics[2].title}
+              descriptionPic={data.categories[0].pics[2].descriptionPic}
+              className={data.categories[0].pics[2].class}
+            ></PictureProjet>
           </div>
         </div>
         {/* PARTIE QUATRE */}
+
         <div className="projetClamart__PartFour-container container">
-          <div>
-            <OverlayImg
-              url={data.categories[1].pics[0].url}
-              isSelected={data.categories[1].pics[0].id === selectedId}
-              onClick={() => {
-                setSelectedId(null);
-              }}
-            ></OverlayImg>
-            <div className="projetClamart__pics-overlay-container3">
-              <div className="projetClamart__pic-container">
-                <img
-                  src={data.categories[1].pics[0].url}
-                  onClick={() => {
-                    setSelectedId(data.categories[1].pics[0].id);
-                  }}
-                  alt="img2"
-                />
-              </div>
-              <div className="projetClamart__overlay">
-                <div className="projetClamart__overlay-title-underline">
-                  <h5>{data.categories[1].pics[0].title}</h5>
-                  <div className="projetClamart__underline"></div>
-                </div>
-                <p>{data.categories[1].pics[0].descriptionPic}</p>
-              </div>
-            </div>
-          </div>
-          {/* <img src={data.categories[1].pics[0].url} alt="" /> */}
+          <PictureProjet
+            selectedId={selectedId}
+            setSelectedId={setSelectedId}
+            url={data.categories[1].pics[0].url}
+            id={data.categories[1].pics[0].id}
+            title={data.categories[1].pics[0].title}
+            descriptionPic={data.categories[1].pics[0].descriptionPic}
+            className={data.categories[1].pics[0].class}
+          ></PictureProjet>
         </div>
       </div>
       <Footer onOff={onOff} setOnOff={setOnOff}></Footer>

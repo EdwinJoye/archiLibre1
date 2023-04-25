@@ -87,7 +87,6 @@
 
 .projetClamart__PartThree {
   /* background-color: red; */
-  height: 1230px;
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
@@ -101,8 +100,7 @@
   /* background-color: greenyellow; */
 }
 .projetClamart__pics-overlay-container1,
-.projetClamart__pics-overlay-container2,
-.projetClamart__pics-overlay-container3 {
+.projetClamart__pics-overlay-container2 {
   overflow: hidden;
   position: relative;
   cursor: pointer;
@@ -111,22 +109,16 @@
   margin-bottom: 30px;
 }
 .projetClamart__pics-overlay-container1:hover .projetClamart__overlay,
-.projetClamart__pics-overlay-container2:hover .projetClamart__overlay,
-.projetClamart__pics-overlay-container3:hover .projetClamart__overlay {
+.projetClamart__pics-overlay-container2:hover .projetClamart__overlay {
   transform: translateY(0);
 }
-.projetClamart__pic-container {
-  overflow: hidden;
-}
 .projetClamart__pics-overlay-container1 img,
-.projetClamart__pics-overlay-container2 img,
-.projetClamart__pics-overlay-container3 img {
+.projetClamart__pics-overlay-container2 img {
   width: 100%;
   transition: transform 1s;
 }
 .projetClamart__pics-overlay-container1:hover img,
-.projetClamart__pics-overlay-container2:hover img,
-.projetClamart__pics-overlay-container3:hover img {
+.projetClamart__pics-overlay-container2:hover img {
   -ms-transform: scale(1.2);
   -webkit-transform: scale(1.2);
   transform: scale(1.2);

@@ -271,18 +271,21 @@
         "pics": [
           {
             "id": "facade-Clamart3",
+            "class": "none",
             "title": "VUE DE L'EXTENSION",
             "descriptionPic": "La puissance du zinc en toiture et en façade vient s’imposer entre les différentes typologies de bâtis",
             "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1682345072/archilibre1/Photos/Exterieur/5-Projet%20Clamart/1-Diapos/Clamart-Facade-3_ibzlgj.jpg"
           },
           {
             "id": "facade-Clamart1",
+            "class": "padding-bottom",
             "title": "FAÇADE SUR RUE",
             "descriptionPic": "La confrontation entre la meulière et le zinc amène à cette entité une nouvelle dimension",
             "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1682345072/archilibre1/Photos/Exterieur/5-Projet%20Clamart/1-Diapos/Clamart-Facade-1_qxt8ro.jpg"
           },
           {
             "id": "facade-Clamart2",
+            "class": "none",
             "title": "VUE LOINTAINER DE LA MAISON DE CLAMART",
             "descriptionPic": "Le projet s’insère dans la trame urbaine de façon hétéroclite afin de revigorer cet ensemble architectural",
             "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1682345072/archilibre1/Photos/Exterieur/5-Projet%20Clamart/1-Diapos/Clamart-Facade-2_j7j6yp.jpg"
