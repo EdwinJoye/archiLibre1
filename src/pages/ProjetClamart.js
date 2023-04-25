@@ -8,13 +8,11 @@ import "../css/projetClamart.css";
 const ProjetClamart = ({ onOff, setOnOff, selectedId, setSelectedId }) => {
   const location = useLocation();
   const data = location.state.data;
-  console.log(data.categories[0].pics[1].class);
 
   return (
     <div>
       <Header onOff={onOff} setOnOff={setOnOff}></Header>
       <div className="container">
-        {/* PARTIE UNE */}
         <div className="projetClamart__PartOne">
           <div className="projetClamart__title-date">
             <h2>{data.title}</h2>
@@ -31,7 +29,6 @@ const ProjetClamart = ({ onOff, setOnOff, selectedId, setSelectedId }) => {
             alt="croquis"
           />
         </div>
-        {/* PARTIE DEUX */}
         <div className="projetClamart__PartTwo">
           <div className="projetClamart__imgPrincipal-background-text-container">
             <img
@@ -46,10 +43,8 @@ const ProjetClamart = ({ onOff, setOnOff, selectedId, setSelectedId }) => {
             </div>
           </div>
         </div>
-        {/* PARTIE TROIS */}
         <div className="projetClamart__PartThree container">
           <div className="projetClamart__pics-container1">
-            {/* ////// PREMIERE PHOTO ////// */}
             <PictureProjet
               selectedId={selectedId}
               setSelectedId={setSelectedId}
@@ -61,7 +56,6 @@ const ProjetClamart = ({ onOff, setOnOff, selectedId, setSelectedId }) => {
             ></PictureProjet>
           </div>
           <div>
-            {/* ////// DEUXIEME PHOTO ////// */}
             <PictureProjet
               selectedId={selectedId}
               setSelectedId={setSelectedId}
@@ -84,8 +78,6 @@ const ProjetClamart = ({ onOff, setOnOff, selectedId, setSelectedId }) => {
             ></PictureProjet>
           </div>
         </div>
-        {/* PARTIE QUATRE */}
-
         <div className="projetClamart__PartFour-container container">
           <PictureProjet
             selectedId={selectedId}

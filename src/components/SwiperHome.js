@@ -19,17 +19,15 @@ const SwiperHome = ({ homePictures, onOff, setOnOff }) => {
         slidesPerView={1}
         navigation={true}
       >
-        {homePictures.map((data, key) => {
+        {homePictures.map((data) => {
           return (
-            <div key={key}>
-              <SwiperSlide>
-                <img
-                  className="swiper__swiperSlide-img"
-                  src={data.mainUrl}
-                  alt=""
-                />
-              </SwiperSlide>
-            </div>
+            <SwiperSlide key={data.id}>
+              <img
+                className="swiper__swiperSlide-img"
+                src={data.mainUrl}
+                alt="swipImg"
+              />
+            </SwiperSlide>
           );
         })}
       </Swiper>

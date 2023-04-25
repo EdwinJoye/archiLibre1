@@ -23,25 +23,21 @@ const Exterieur = ({ onOff, setOnOff }) => {
         {exterieurData.map((data) => {
           if (data.class === "exterieur1") {
             return (
-              <div key={data.id}>
-                <Category1
-                  key={data.id}
-                  data={data}
-                  onOff={onOff}
-                  setOnOff={setOnOff}
-                ></Category1>
-              </div>
+              <Category1
+                key={data.id}
+                data={data}
+                onOff={onOff}
+                setOnOff={setOnOff}
+              ></Category1>
             );
           } else {
             return (
-              <div key={data.id}>
-                <Category2
-                  key={data.id}
-                  data={data}
-                  onOff={onOff}
-                  setOnOff={setOnOff}
-                ></Category2>
-              </div>
+              <Category2
+                key={data.id}
+                data={data}
+                onOff={onOff}
+                setOnOff={setOnOff}
+              ></Category2>
             );
           }
         })}
