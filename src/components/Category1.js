@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "../css/categories.css";
 
-const Test1 = ({ data, onOff, setOnOff }) => {
+const Category1 = ({ data, onOff, setOnOff }) => {
   return (
     <div className="categories__container">
       <div className="category__container">
@@ -65,4 +65,4 @@ const Test1 = ({ data, onOff, setOnOff }) => {
     </div>
   );
 };
-export default Test1;
+export default Category1;

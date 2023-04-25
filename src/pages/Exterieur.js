@@ -33,7 +33,7 @@ const Exterieur = ({ onOff, setOnOff }) => {
           } else {
             return (
               <Category2
-                key={data.id}
+                key={data.mainUrl}
                 data={data}
                 onOff={onOff}
                 setOnOff={setOnOff}

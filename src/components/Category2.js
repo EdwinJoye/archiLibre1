@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "../css/categories.css";
 
-const Test2 = ({ data, onOff, setOnOff }) => {
+const Category2 = ({ data, onOff, setOnOff }) => {
   const myClassSize =
     data.picFormat === "horizontal-L"
       ? "categories__texte-button-container-category2-M"
@@ -98,4 +98,4 @@ const Test2 = ({ data, onOff, setOnOff }) => {
     </div>
   );
 };
-export default Test2;
+export default Category2;
