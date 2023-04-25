@@ -27,7 +27,7 @@ const Amenagement = ({ item, selectedId, setSelectedId }) => {
                       }}
                       className="amenagement__img"
                       src={pic.url}
-                      alt=""
+                      alt="amenagementImg"
                     />
                     <p>{pic.description}</p>
                   </div>

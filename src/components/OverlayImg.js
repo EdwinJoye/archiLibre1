@@ -7,7 +7,7 @@ const OverlayImg = ({ url, isSelected, onClick }) => {
       className={`invisible ${isSelected ? "visible" : ""}`}
     >
       <div className="overlayImg__box-img">
-        <img className="overlayImg__img" src={url} alt="" />
+        <img className="overlayImg__img" src={url} alt="overlayImg" />
       </div>
     </div>
   );

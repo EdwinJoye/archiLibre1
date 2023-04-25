@@ -2,7 +2,7 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Category1 from "../components/Category1";
 import Category2 from "../components/Category2";
-import InterieurImg from "../img/intérieur.jpg";
+import InterieurImg from "../img/interieur.jpg";
 import interieurData from "../data/interieur.json";
 import "../css/interieur.css";
 
@@ -12,7 +12,11 @@ const Interieur = ({ onOff, setOnOff }) => {
       <div className="exterieur__header-img-title">
         <Header onOff={onOff} setOnOff={setOnOff}></Header>
         <div className="exterieur__img-title fadeIn">
-          <img className="exterieur__img-principal" src={InterieurImg} alt="" />
+          <img
+            className="exterieur__img-principal"
+            src={InterieurImg}
+            alt="interieurImg"
+          />
           <div className="exterieur__title-underline">
             <h1>Intérieurs</h1>
             <div className="exterieur__underline "></div>

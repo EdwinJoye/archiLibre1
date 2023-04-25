@@ -12,7 +12,11 @@ const Exterieur = ({ onOff, setOnOff }) => {
       <div className="exterieur__header-img-title">
         <Header onOff={onOff} setOnOff={setOnOff}></Header>
         <div className="exterieur__img-title fadeIn">
-          <img className="exterieur__img-principal" src={ExterieurImg} alt="" />
+          <img
+            className="exterieur__img-principal"
+            src={ExterieurImg}
+            alt="exterieurImg"
+          />
           <div className="exterieur__title-underline">
             <h1>Extérieurs</h1>
             <div className="exterieur__underline "></div>
