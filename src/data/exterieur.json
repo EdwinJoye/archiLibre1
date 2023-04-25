@@ -262,7 +262,7 @@
     "title": "L’extension de Clamart",
     "date": "Février 2019",
     "mainUrl": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681486840/archilibre1/Photos/Exterieur/Photos-Page-Exte%CC%81rieur/MainUrl-5-Clamart_mksmpc.jpg",
-    "descriptionUrl": "Agrandissement d’une maison en meulières de Clamart avec une extension moderne en zinc. Sous le ciel de Clamart, une maison en meulières, Aux murs chargés d'histoire, aux charmes d'un autre hier. Mais voilà qu'un jour, surgit une extension, Moderne, audacieuse, en zinc à l'expression. Contraste saisissant, entre l'ancien et le neuf, Comme un dialogue entre deux mondes, aérien et nerveux. Le zinc, matériau singulier, aux reflets d'argent, Apporte à la maison un éclat contemporain, étonnant. Les formes géométriques s'entrelacent avec grâce, Créant un jeu de volumes, un dialogue qui s'entrelace. Les lignes épurées, les surfaces lisses et éclatantes, Captent le regard, envoûtant l'âme des passants. L'extension s'étend, avec élégance et audace, Offrant de nouveaux espaces, une nouvelle vie en surface. Les larges baies vitrées inondent l'intérieur de lumière, Invitant la nature, les jardins, à entrer dans cette atmosphère. Le mariage inattendu, entre l'ancien et le moderne, Évoque une harmonie surprenante, une fusion hors du commun. Les meulières chargées d'histoire, symboles du passé, Se mêlent à l'extension en zinc, avec une audace inégalée. Clamart voit ainsi naître, une maison hors du commun, Où l'art du passé se marie avec le contemporain. Une invitation à l'étonnement, à la découverte, Un tableau d'architecture, où l'histoire et la modernité se concertent.",
+    "descriptionUrl": "Agrandissement d’une maison en meulières de Clamart avec une extension moderne en zinc. Sous le ciel de Clamart, une maison en meulières, Aux murs chargés d'histoire, aux charmes d'un autre hier. \n\nMais voilà qu'un jour, surgit une extension, Moderne, audacieuse, en zinc à l'expression. Contraste saisissant, entre l'ancien et le neuf, Comme un dialogue entre deux mondes, aérien et nerveux. \n\nLe zinc, matériau singulier, aux reflets d'argent, Apporte à la maison un éclat contemporain, étonnant. Les formes géométriques s'entrelacent avec grâce, créant un jeu de volumes, un dialogue qui s'entrelace. \n\nLes lignes épurées, les surfaces lisses et éclatantes, Captent le regard, envoûtant l'âme des passants. L'extension s'étend, avec élégance et audace, Offrant de nouveaux espaces, une nouvelle vie en surface. Les larges baies vitrées inondent l'intérieur de lumière, invitant la nature, les jardins, à entrer dans cette atmosphère. \n\nLe mariage inattendu, entre l'ancien et le moderne, Évoque une harmonie surprenante, une fusion hors du commun. Les meulières chargées d'histoire, symboles du passé, se mêlent à l'extension en zinc, avec une audace inégalée. \n\nClamart voit ainsi naître, une maison hors du commun, où l'art du passé se marie avec le contemporain. Une invitation à l'étonnement, à la découverte, Un tableau d'architecture, où l'histoire et la modernité se concertent.",
     "prinPicture": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1682345202/archilibre1/Photos/Exterieur/5-Projet%20Clamart/1-Principal/Extension-Clamart_xrr6fu.jpg",
     "texte": "Projet de surélévation et d’extension d’une maison individuelle en bardage bois Douglas et toiture en zinc patiné à la Celle Saint-Cloud. Inspiré par le style caractéristique des maisons des années 50, nous avons choisi d'utiliser du bardage en bois naturel pour créer une façade chaleureuse et accueillante. Le bois apporte une touche naturelle et authentique à l'ensemble, créant ainsi un contraste subtil avec les éléments existants de la maison. L'extension a été conçue avec soin pour offrir un espace de vie fonctionnel et lumineux. Une large baie vitrée donnant sur le jardin permet à la lumière naturelle de baigner les espaces intérieurs, créant ainsi une connexion harmonieuse avec l'extérieur. Les espaces de vie ouverts offrent une fluidité et une convivialité, tout en respectant l'intimité nécessaire dans une maison familiale.L'utilisation du bardage bois dans l'extension a également permis de créer une transition douce entre l'ancien et le nouveau, ajoutant une dimension chaleureuse et naturelle à l'ensemble de la maison. La texture et la couleur du bois se marient parfaitement avec les éléments existants de la maison, créant un équilibre visuel cohérent.En plus de son aspect esthétique, le bardage bois utilisé dans cette extension est également respectueux de l'environnement. Le bois est un matériau renouvelable, durable et recyclable, ce qui en fait un choix écologique pour la construction. De plus, il offre une excellente performance thermique, contribuant ainsi à l'efficacité énergétique de la maison.",
     "categories": [
@@ -270,22 +270,22 @@
         "id": "facades",
         "pics": [
           {
+            "id": "facade-Clamart3",
+            "title": "VUE DE L'EXTENSION",
+            "descriptionPic": "La puissance du zinc en toiture et en façade vient s’imposer entre les différentes typologies de bâtis",
+            "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1682345072/archilibre1/Photos/Exterieur/5-Projet%20Clamart/1-Diapos/Clamart-Facade-3_ibzlgj.jpg"
+          },
+          {
             "id": "facade-Clamart1",
-            "title": "NO TITLE",
-            "descriptionPic": "NO DESCRIPTION",
+            "title": "FAÇADE SUR RUE",
+            "descriptionPic": "La confrontation entre la meulière et le zinc amène à cette entité une nouvelle dimension",
             "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1682345072/archilibre1/Photos/Exterieur/5-Projet%20Clamart/1-Diapos/Clamart-Facade-1_qxt8ro.jpg"
           },
           {
             "id": "facade-Clamart2",
-            "title": "NO TITLE",
-            "descriptionPic": "NO DESCRIPTION",
+            "title": "VUE LOINTAINER DE LA MAISON DE CLAMART",
+            "descriptionPic": "Le projet s’insère dans la trame urbaine de façon hétéroclite afin de revigorer cet ensemble architectural",
             "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1682345072/archilibre1/Photos/Exterieur/5-Projet%20Clamart/1-Diapos/Clamart-Facade-2_j7j6yp.jpg"
-          },
-          {
-            "id": "facade-Clamart3",
-            "title": "NO TITLE",
-            "descriptionPic": "NO DESCRIPTION",
-            "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1682345072/archilibre1/Photos/Exterieur/5-Projet%20Clamart/1-Diapos/Clamart-Facade-3_ibzlgj.jpg"
           }
         ]
       },

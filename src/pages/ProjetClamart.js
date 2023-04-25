@@ -1,9 +1,10 @@
 import { useLocation } from "react-router-dom";
 import Header from "../components/Header";
+// import OverlayImg from "../components/OverlayImg";
 import Footer from "../components/Footer";
 import "../css/projetClamart.css";
 
-const ProjetClamart = ({ onOff, setOnOff }) => {
+const ProjetClamart = ({ onOff, setOnOff, selectedId, setSelectedId }) => {
   const location = useLocation();
   const data = location.state.data;
   console.log(data);
@@ -39,18 +40,55 @@ const ProjetClamart = ({ onOff, setOnOff }) => {
             />
             <div className="projetClamart__backgroundImgPrinciapl"></div>
             <div className="projetClamart__texte-container">
+              <h4>{data.title}</h4>
               <p>{data.descriptionUrl}</p>
             </div>
           </div>
         </div>
         {/* PARTIE TROIS */}
         <div className="projetClamart__PartThree container">
-          <div className="projetClamart__pic-container1">
-            <img src={data.categories[0].pics[2].url} alt="" />
+          <div className="projetClamart__pics-container1">
+            {/* ////// PREMIERE PHOTO ////// */}
+            <div className="projetClamart__pics-overlay-container1">
+              <div className="projetClamart__pic-container">
+                <img src={data.categories[0].pics[0].url} alt="img2" />
+              </div>
+              <div className="projetClamart__overlay">
+                <div className="projetClamart__overlay-title-underline">
+                  <h5>{data.categories[0].pics[0].title}</h5>
+                  <div className="projetClamart__underline"></div>
+                </div>
+                <p>{data.categories[0].pics[0].descriptionPic}</p>
+              </div>
+            </div>
           </div>
-          <div className="projetClamart__pic-container2">
-            <img src={data.categories[0].pics[0].url} alt="" />
-            <img src={data.categories[0].pics[1].url} alt="" />
+          <div>
+            {/* ////// DEUXIEME PHOTO ////// */}
+            <div className="projetClamart__pics-overlay-container2">
+              <div className="projetClamart__pic-container">
+                <img src={data.categories[0].pics[1].url} alt="img2" />
+              </div>
+              <div className="projetClamart__overlay">
+                <div className="projetClamart__overlay-title-underline">
+                  <h5>{data.categories[0].pics[1].title}</h5>
+                  <div className="projetClamart__underline"></div>
+                </div>
+                <p>{data.categories[0].pics[1].descriptionPic}</p>
+              </div>
+            </div>
+            {/* ////// TROISIEME PHOTO ////// */}
+            <div className="projetClamart__pics-overlay-container3">
+              <div className="projetClamart__pic-container">
+                <img src={data.categories[0].pics[2].url} alt="img2" />
+              </div>
+              <div className="projetClamart__overlay">
+                <div className="projetClamart__overlay-title-underline">
+                  <h5>{data.categories[0].pics[2].title}</h5>
+                  <div className="projetClamart__underline"></div>
+                </div>
+                <p>{data.categories[0].pics[2].descriptionPic}</p>
+              </div>
+            </div>
           </div>
         </div>
         {/* PARTIE QUATRE */}
