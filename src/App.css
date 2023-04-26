@@ -38,13 +38,15 @@ h4 {
   color: #8c9c7c;
   border-bottom: 1px solid #8c9c7c;
   padding-bottom: 10px;
-  font-size: 20px;
+  font-size: 30px;
   margin-bottom: 15px;
 }
 h5 {
   color: #f6edd9;
   font-family: Montserrat-Regular;
   font-size: 25px;
+  text-align: center;
+  line-height: 25px;
 }
 p {
   white-space: pre-wrap;

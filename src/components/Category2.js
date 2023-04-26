@@ -80,13 +80,12 @@ const Category2 = ({ data, onOff, setOnOff }) => {
                     : "categories__picture-overlay-background-container-category2-M"
                 }
               >
-                <img
-                  className="categories__picture"
-                  src={data.mainUrl}
-                  alt="mainUrlPic"
-                />
+                <div className="categories__picture">
+                  <img src={data.mainUrl} alt="mainUrlPic" />
+                </div>
                 <div className="categories__overlay">
-                  <p>{data.title}</p>
+                  <h5>{data.title}</h5>
+                  <div className="categories__underline"></div>
                   <p>{data.date}</p>
                 </div>
                 <div className="categories__background-category2"></div>

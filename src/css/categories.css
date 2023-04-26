@@ -85,7 +85,6 @@
 .categories__title-container-category2 {
   /* background-color: pink; */
   z-index: 2;
-  left: 50px;
   top: 100px;
   min-width: 500px;
 }
@@ -110,7 +109,7 @@
 .categories__texte-button-container-category2-M {
   /* background-color: #37463d; */
   padding: 20px;
-  top: 54px;
+  top: 120px;
   z-index: 3;
 }
 .categories__texte-button-container-category1-L,
@@ -141,18 +140,21 @@
 .categories__texte-button-container-category2-M {
   right: 0;
 }
+.categories__texte-button-container-category1-M .categories__texte,
+.categories__texte-button-container-category2-M .categories__texte {
+  height: 300px;
+}
 .categories__texte {
   font-family: Montserrat-Regular;
-  margin-bottom: 3px;
+  margin-bottom: 10px;
   overflow: hidden;
-  height: 255px;
+  height: 267px;
   color: #d5e3cf;
 }
 .categories__button {
   position: relative;
   font-family: Montserrat-Medium;
   color: #d5e3cf;
-  margin-top: 10px;
   cursor: pointer;
 }
 .categories__text-background-grey .categories__button {
@@ -195,10 +197,34 @@ hover::before {
 .categories__picture-overlay-background-container-category2-M {
   width: 45%;
 }
+.categories__picture-overlay-background-container-category1-L:hover
+  .categories__overlay,
+.categories__picture-overlay-background-container-category2-L:hover
+  .categories__overlay,
+.categories__picture-overlay-background-container-category1-M:hover
+  .categories__overlay,
+.categories__picture-overlay-background-container-category2-M:hover
+  .categories__overlay {
+  opacity: 1;
+}
+.categories__picture-overlay-background-container-category1-L:hover img,
+.categories__picture-overlay-background-container-category2-L:hover img,
+.categories__picture-overlay-background-container-category1-M:hover img,
+.categories__picture-overlay-background-container-category2-M:hover img {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
 .categories__picture {
+  z-index: 2;
+  overflow: hidden;
+  width: 100%;
+}
+
+.categories__picture img {
+  transition: transform 1s;
   width: 100%;
   height: 500px;
-  z-index: 2;
 }
 .categories__overlay {
   width: 100%;
@@ -213,13 +239,19 @@ hover::before {
   flex-direction: column;
   opacity: 0;
 }
-
-.categories__overlay:hover,
-.categories__overlay:hover {
-  opacity: 1;
+.categories__overlay h5 {
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 15px;
 }
-.categories__overlay p,
+.categories__underline {
+  width: 10%;
+  height: 2px;
+  background-color: white;
+  margin-bottom: 15px;
+}
 .categories__overlay p {
+  text-transform: uppercase;
   color: white;
 }
 .categories__background-category1,

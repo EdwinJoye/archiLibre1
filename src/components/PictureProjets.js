@@ -1,5 +1,5 @@
-import "../css/projetClamart.css";
 import OverlayImg from "./OverlayImg";
+import "../css/pictureProjet.css";
 
 const PictureProjet = ({
   selectedId,
@@ -22,8 +22,8 @@ const PictureProjet = ({
       <div
         className={
           className === "padding-bottom"
-            ? "projetClamart__pics-overlay-container2"
-            : "projetClamart__pics-overlay-container1"
+            ? "pictureProjet__pics-overlay-container2"
+            : "pictureProjet__pics-overlay-container1"
         }
       >
         <img
@@ -33,13 +33,14 @@ const PictureProjet = ({
           }}
           alt="img2"
         />
-
-        <div className="projetClamart__overlay">
-          <div className="projetClamart__overlay-title-underline">
-            <h5>{title}</h5>
-            <div className="projetClamart__underline"></div>
+        <div className="pictureProjet__overlay">
+          <div className="pictureProjet__outline">
+            <div className="pictureProjet__overlay-title-underline">
+              <h5>{title}</h5>
+              <div className="pictureProjet__underline"></div>
+            </div>
+            <p>{descriptionPic}</p>
           </div>
-          <p>{descriptionPic}</p>
         </div>
       </div>
     </div>
