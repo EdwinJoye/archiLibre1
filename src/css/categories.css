@@ -258,15 +258,13 @@ hover::before {
 .categories__background-category2 {
   z-index: 1;
   background-color: #c5c5a9;
-  height: 420px;
+  height: 500px;
+  width: 100%;
+  top: 40px;
 }
 .categories__background-category1 {
-  width: 100%;
-  top: 115px;
   left: -35px;
 }
 .categories__background-category2 {
-  width: 100%;
-  top: 115px;
   right: -35px;
 }

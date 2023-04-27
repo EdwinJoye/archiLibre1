@@ -1,14 +1,21 @@
 import { useLocation } from "react-router-dom";
 import Header from "../components/Header";
-// import OverlayImg from "../components/OverlayImg";
 import Footer from "../components/Footer";
 import PictureProjet from "../components/PictureProjets";
 import "../css/projetClamart.css";
 
-const ProjetClamart = ({ onOff, setOnOff, selectedId, setSelectedId }) => {
+const ProjetClamart = ({
+  onOff,
+  setOnOff,
+  selectedId,
+  setSelectedId,
+  selectedPic,
+  setSelectedPic,
+}) => {
   const location = useLocation();
   const data = location.state.data;
 
+  console.log("DATA", data);
   return (
     <div>
       <Header onOff={onOff} setOnOff={setOnOff}></Header>
@@ -25,7 +32,7 @@ const ProjetClamart = ({ onOff, setOnOff, selectedId, setSelectedId }) => {
           <div className="projetClamart__titleBackground"></div>
           <img
             className="projetClamart__img-croquis"
-            src={data.categories[2].pics[0].url}
+            src={data.backgroundPicture[0].url}
             alt="croquis"
           />
         </div>
@@ -48,33 +55,45 @@ const ProjetClamart = ({ onOff, setOnOff, selectedId, setSelectedId }) => {
             <PictureProjet
               selectedId={selectedId}
               setSelectedId={setSelectedId}
-              url={data.categories[0].pics[0].url}
-              id={data.categories[0].pics[0].id}
-              title={data.categories[0].pics[0].title}
-              descriptionPic={data.categories[0].pics[0].descriptionPic}
-              className={data.categories[0].pics[0].class}
+              selectedPic={selectedPic}
+              setSelectedPic={setSelectedPic}
+              pics={data.pagePictures}
+              url={data.pagePictures[0].url}
+              id={data.pagePictures[0].id}
+              index={data.pagePictures[0].index}
+              title={data.pagePictures[0].title}
+              descriptionPic={data.pagePictures[0].descriptionPic}
+              className={data.pagePictures[0].class}
             ></PictureProjet>
           </div>
           <div>
             <PictureProjet
               selectedId={selectedId}
               setSelectedId={setSelectedId}
-              url={data.categories[0].pics[1].url}
-              id={data.categories[0].pics[1].id}
-              title={data.categories[0].pics[1].title}
-              descriptionPic={data.categories[0].pics[1].descriptionPic}
-              className={data.categories[0].pics[1].class}
+              selectedPic={selectedPic}
+              setSelectedPic={setSelectedPic}
+              pics={data.pagePictures}
+              url={data.pagePictures[1].url}
+              id={data.pagePictures[1].id}
+              index={data.pagePictures[1].index}
+              title={data.pagePictures[1].title}
+              descriptionPic={data.pagePictures[1].descriptionPic}
+              className={data.pagePictures[1].class}
             ></PictureProjet>
 
             {/* ////// TROISIEME PHOTO ////// */}
             <PictureProjet
               selectedId={selectedId}
               setSelectedId={setSelectedId}
-              url={data.categories[0].pics[2].url}
-              id={data.categories[0].pics[2].id}
-              title={data.categories[0].pics[2].title}
-              descriptionPic={data.categories[0].pics[2].descriptionPic}
-              className={data.categories[0].pics[2].class}
+              selectedPic={selectedPic}
+              setSelectedPic={setSelectedPic}
+              pics={data.pagePictures}
+              url={data.pagePictures[2].url}
+              id={data.pagePictures[2].id}
+              index={data.pagePictures[2].index}
+              title={data.pagePictures[2].title}
+              descriptionPic={data.pagePictures[2].descriptionPic}
+              className={data.pagePictures[2].class}
             ></PictureProjet>
           </div>
         </div>
@@ -82,11 +101,15 @@ const ProjetClamart = ({ onOff, setOnOff, selectedId, setSelectedId }) => {
           <PictureProjet
             selectedId={selectedId}
             setSelectedId={setSelectedId}
-            url={data.categories[1].pics[0].url}
-            id={data.categories[1].pics[0].id}
-            title={data.categories[1].pics[0].title}
-            descriptionPic={data.categories[1].pics[0].descriptionPic}
-            className={data.categories[1].pics[0].class}
+            selectedPic={selectedPic}
+            setSelectedPic={setSelectedPic}
+            pics={data.pagePictures}
+            url={data.pagePictures[3].url}
+            id={data.pagePictures[3].id}
+            index={data.pagePictures[3].index}
+            title={data.pagePictures[3].title}
+            descriptionPic={data.pagePictures[3].descriptionPic}
+            className={data.pagePictures[3].class}
           ></PictureProjet>
         </div>
       </div>

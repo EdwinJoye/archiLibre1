@@ -14,6 +14,7 @@ import Test from "./pages/Test";
 
 function App() {
   const [selectedId, setSelectedId] = useState(null);
+  const [selectedPic, setSelectedPic] = useState(0);
   const [onOff, setOnOff] = useState(1);
 
   return (
@@ -70,10 +71,24 @@ function App() {
               setOnOff={setOnOff}
               selectedId={selectedId}
               setSelectedId={setSelectedId}
+              selectedPic={selectedPic}
+              setSelectedPic={setSelectedPic}
             ></ProjetClamart>
           }
         ></Route>
-        <Route path="/test" element={<Test></Test>}></Route>
+        <Route
+          path="/test"
+          element={
+            <Test
+              onOff={onOff}
+              setOnOff={setOnOff}
+              selectedId={selectedId}
+              setSelectedId={setSelectedId}
+              selectedPic={selectedPic}
+              setSelectedPic={setSelectedPic}
+            ></Test>
+          }
+        ></Route>
       </Routes>
     </Router>
   );

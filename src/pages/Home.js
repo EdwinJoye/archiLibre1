@@ -1,15 +1,15 @@
-import SwiperHome from "../components/SwiperHome";
+import HomeCarousel from "../components/HomeCarousel";
 import { homePictures } from "../data/homePictures";
 import "../css/home.css";
 
 const Home = ({ onOff, setOnOff }) => {
   return (
     <div className="fadeIn">
-      <SwiperHome
-        homePictures={homePictures}
+      <HomeCarousel
+        pics={homePictures}
         onOff={onOff}
         setOnOff={setOnOff}
-      ></SwiperHome>
+      ></HomeCarousel>
     </div>
   );
 };

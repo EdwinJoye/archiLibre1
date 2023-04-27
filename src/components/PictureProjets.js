@@ -1,24 +1,32 @@
-import OverlayImg from "./OverlayImg";
+import OverlayCarousel from "../components/OverlayCarousel";
 import "../css/pictureProjet.css";
 
 const PictureProjet = ({
   selectedId,
   setSelectedId,
+  selectedPic,
+  setSelectedPic,
+  pics,
   url,
   id,
+  index,
   title,
   descriptionPic,
   className,
 }) => {
   return (
     <div>
-      <OverlayImg
-        url={url}
-        isSelected={id === selectedId}
-        onClick={() => {
-          setSelectedId(null);
-        }}
-      ></OverlayImg>
+      {selectedPic !== null && (
+        <OverlayCarousel
+          pics={pics}
+          isSelected={id === selectedId}
+          selectedPic={selectedPic}
+          onClick={() => {
+            setSelectedId(null);
+            setSelectedPic(null);
+          }}
+        ></OverlayCarousel>
+      )}
       <div
         className={
           className === "padding-bottom"
@@ -26,10 +34,12 @@ const PictureProjet = ({
             : "pictureProjet__pics-overlay-container1"
         }
       >
+        {/* {console.log("SELECTEDPIC", selectedPic)} */}
         <img
           src={url}
           onClick={() => {
             setSelectedId(id);
+            setSelectedPic(index);
           }}
           alt="img2"
         />

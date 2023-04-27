@@ -6,7 +6,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "../css/swiperHome.css";
 
-const SwiperHome = ({ homePictures, onOff, setOnOff }) => {
+const HomeCarousel = ({ pics, onOff, setOnOff }) => {
   return (
     <div className="swiper container">
       <Swiper
@@ -19,7 +19,7 @@ const SwiperHome = ({ homePictures, onOff, setOnOff }) => {
         slidesPerView={1}
         navigation={true}
       >
-        {homePictures.map((data) => {
+        {pics.map((data) => {
           return (
             <SwiperSlide key={data.id}>
               <img
@@ -41,4 +41,4 @@ const SwiperHome = ({ homePictures, onOff, setOnOff }) => {
   );
 };
 
-export default SwiperHome;
+export default HomeCarousel;
