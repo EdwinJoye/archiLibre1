@@ -1,6 +1,6 @@
 /* /////////////// PARTIE UNE /////////////// */
 
-.projetClamart__PartOne {
+.projets__PartOne {
   display: flex;
   align-items: center;
   height: 200px;
@@ -8,30 +8,30 @@
   position: relative;
   margin: 80px 0;
 }
-.projetClamart__title-date {
+.projets__title-date {
   position: absolute;
   z-index: 2;
   /* background-color: pink; */
   left: 15px;
 }
-.projetClamart__titleUnderline {
+.projets__titleUnderline {
   width: 60px;
   height: 3px;
   background-color: #37463d;
   margin-top: 10px;
 }
-.projetClamart__date-dateLine {
+.projets__date-dateLine {
   margin-top: 10px;
   display: flex;
   align-items: center;
 }
-.projetClamart__dateLine {
+.projets__dateLine {
   height: 3px;
   width: 15px;
   margin-right: 10px;
   background-color: #8c9c7c;
 }
-.projetClamart__titleBackground {
+.projets__titleBackground {
   position: absolute;
   z-index: 1;
   width: 100px;
@@ -51,22 +51,31 @@
   /* background-color: pink; */
   height: 800px;
 }
-.projetClamart__imgPrincipal-background-text-container {
+.projetCelle__PartTwo {
+  /* background-color: pink; */
+  height: 500px;
+  margin-bottom: 30px;
+}
+.projets__imgPrincipal-background-text-container {
   position: relative;
 }
-.projetClamart__imgPrincipal {
+.projets__imgPrincipal {
   position: absolute;
   z-index: 2;
   width: 35%;
+}
+.tall {
   height: 800px;
 }
-.projetClamart__backgroundImgPrinciapl {
+.small {
+  height: 450px;
+}
+.projets__backgroundImgPrincipal {
   position: absolute;
   z-index: 1;
   left: 50px;
   top: 50px;
   width: 35%;
-  height: 800px;
   background-color: #c5c5a9;
 }
 .projetClamart__texte-container {
@@ -78,19 +87,29 @@
   background-color: #37463d;
   padding: 30px 40px 40px 40px;
 }
-.projetClamart__texte-container p {
+.projetCelle__texte-container {
+  position: absolute;
+  z-index: 3;
+  right: 0;
+  top: -40px;
+  width: 69%;
+  background-color: #37463d;
+  padding: 30px 40px 40px 40px;
+}
+.projetClamart__texte-container p,
+.projetCelle__texte-container p {
   color: #f6edd9;
 }
 
 /* /////////////// PARTIE TROIS /////////////// */
 
-.projetClamart__PartThree {
+.projets__PartThree {
   /* background-color: red; */
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
 }
-.projetClamart__pics-container1 {
+.projets__pics-container1 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -101,8 +120,17 @@
 
 /* /////////////// PARTIE QUATRE /////////////// */
 
-.projetClamart__PartFour-container {
+.projets__PartFour-container {
   display: flex;
   justify-content: center;
   margin-bottom: 100px;
+}
+
+/* /////////////// PARTIE FOUR /////////////// */
+
+.projets__PartFour {
+  display: flex;
+  justify-content: center;
+  /* background-color: yellow; */
+  margin-bottom: 30px;
 }

@@ -10,6 +10,7 @@ import ProjetExterieur from "./pages/ProjetExterieur";
 import ProjetInterieur from "./pages/ProjetInterieur";
 import ScrollToTop from "./components/ScrollToTop";
 import ProjetClamart from "./pages/ProjetClamart";
+import ProjetCelle from "./pages/ProjetCelle";
 import Test from "./pages/Test";
 
 function App() {
@@ -74,6 +75,19 @@ function App() {
               selectedPic={selectedPic}
               setSelectedPic={setSelectedPic}
             ></ProjetClamart>
+          }
+        ></Route>
+        <Route
+          path="/projetcelle"
+          element={
+            <ProjetCelle
+              onOff={onOff}
+              setOnOff={setOnOff}
+              selectedId={selectedId}
+              setSelectedId={setSelectedId}
+              selectedPic={selectedPic}
+              setSelectedPic={setSelectedPic}
+            ></ProjetCelle>
           }
         ></Route>
         <Route

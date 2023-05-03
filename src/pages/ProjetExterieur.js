@@ -1,7 +1,6 @@
 import Header from "../components/Header";
 import { useLocation } from "react-router-dom";
 import Footer from "../components/Footer";
-// import OverlayCarousel from "../components/OverlayCarousel";
 import OverlayImg from "../components/OverlayImg";
 import "../css/projetExterieur.css";
 
@@ -27,15 +26,6 @@ const ProjetExterieur = ({ onOff, setOnOff, selectedId, setSelectedId }) => {
                           setSelectedId(null);
                         }}
                       ></OverlayImg>
-                      {console.log(pics.url)}
-                      {/* <OverlayCarousel
-                        onOff={onOff}
-                        setOnOff={setOnOff}
-                        pics={item.pics}
-                        onClick={() => {
-                          setSelectedId(null);
-                        }}
-                      ></OverlayCarousel> */}
                       <h2>{pics.title}</h2>
                       <div className="projetExterieur__img-p">
                         <div className="projetExterieur__img-container">

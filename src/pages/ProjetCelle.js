@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import PictureProjet from "../components/PictureProjets";
 import "../css/projetClamart.css";
 
-const ProjetClamart = ({
+const ProjetCelle = ({
   onOff,
   setOnOff,
   selectedId,
@@ -29,27 +29,23 @@ const ProjetClamart = ({
             </div>
           </div>
           <div className="projets__titleBackground"></div>
-          <img
-            className="projetClamart__img-croquis"
-            src={data.backgroundPicture[0].url}
-            alt="croquis"
-          />
         </div>
-        <div className="projetClamart__PartTwo">
+        <div className="projetCelle__PartTwo">
           <div className="projets__imgPrincipal-background-text-container">
             <img
-              className="projets__imgPrincipal tall"
+              className="projets__imgPrincipal"
               src={data.prinPicture}
               alt="imgPrincipal"
             />
-            <div className="projets__backgroundImgPrincipal tall"></div>
-            <div className="projetClamart__texte-container">
+            <div className="projets__backgroundImgPrincipal small"></div>
+            <div className="projetCelle__texte-container">
               <h4>{data.title}</h4>
               <p>{data.descriptionUrl}</p>
             </div>
           </div>
         </div>
-        <div className="projets__PartThree container">
+
+        <div className="projets__PartThree">
           <div className="projets__pics-container1">
             <PictureProjet
               selectedId={selectedId}
@@ -96,6 +92,40 @@ const ProjetClamart = ({
             ></PictureProjet>
           </div>
         </div>
+
+        <div className="projets__PartFour container">
+          <div className="projets__pics-container1">
+            <PictureProjet
+              selectedId={selectedId}
+              setSelectedId={setSelectedId}
+              selectedPic={selectedPic}
+              setSelectedPic={setSelectedPic}
+              pics={data.pagePictures}
+              url={data.pagePictures[3].url}
+              id={data.pagePictures[3].id}
+              index={data.pagePictures[3].index}
+              title={data.pagePictures[3].title}
+              descriptionPic={data.pagePictures[3].descriptionPic}
+              className={data.pagePictures[3].class}
+            ></PictureProjet>
+          </div>
+          <div>
+            <PictureProjet
+              selectedId={selectedId}
+              setSelectedId={setSelectedId}
+              selectedPic={selectedPic}
+              setSelectedPic={setSelectedPic}
+              pics={data.pagePictures}
+              url={data.pagePictures[4].url}
+              id={data.pagePictures[4].id}
+              index={data.pagePictures[4].index}
+              title={data.pagePictures[4].title}
+              descriptionPic={data.pagePictures[4].descriptionPic}
+              className={data.pagePictures[4].class}
+            ></PictureProjet>
+          </div>
+        </div>
+
         <div className="projets__PartFour-container container">
           <PictureProjet
             selectedId={selectedId}
@@ -103,12 +133,12 @@ const ProjetClamart = ({
             selectedPic={selectedPic}
             setSelectedPic={setSelectedPic}
             pics={data.pagePictures}
-            url={data.pagePictures[3].url}
-            id={data.pagePictures[3].id}
-            index={data.pagePictures[3].index}
-            title={data.pagePictures[3].title}
-            descriptionPic={data.pagePictures[3].descriptionPic}
-            className={data.pagePictures[3].class}
+            url={data.pagePictures[5].url}
+            id={data.pagePictures[5].id}
+            index={data.pagePictures[5].index}
+            title={data.pagePictures[5].title}
+            descriptionPic={data.pagePictures[5].descriptionPic}
+            className={data.pagePictures[5].class}
           ></PictureProjet>
         </div>
       </div>
@@ -117,4 +147,4 @@ const ProjetClamart = ({
   );
 };
 
-export default ProjetClamart;
+export default ProjetCelle;
