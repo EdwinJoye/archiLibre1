@@ -118,14 +118,6 @@
   /* background-color: greenyellow; */
 }
 
-/* /////////////// PARTIE QUATRE /////////////// */
-
-.projets__PartFour-container {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 100px;
-}
-
 /* /////////////// PARTIE FOUR /////////////// */
 
 .projets__PartFour {
@@ -133,4 +125,12 @@
   justify-content: center;
   /* background-color: yellow; */
   margin-bottom: 30px;
+}
+
+/* /////////////// PARTIE FIVE /////////////// */
+
+.projets__PartFive {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
 }

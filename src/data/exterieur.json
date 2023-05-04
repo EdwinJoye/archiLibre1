@@ -11,7 +11,6 @@
     "mainUrl": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681486840/archilibre1/Photos/Exterieur/Photos-Page-Exte%CC%81rieur/MainUrl-1-CelleSaintCloud_rsuwzw.jpg",
     "descriptionUrl": "Projet de surélévation et d’extension d’une maison individuelle en bardage bois Douglas et toiture en zinc patiné à la Celle Saint-Cloud. \n\nInspiré par le style caractéristique des maisons des années 50, nous avons choisi d'utiliser du bardage en bois naturel pour créer une façade chaleureuse et accueillante. Le bois apporte une touche naturelle et authentique à l'ensemble, créant ainsi un contraste subtil avec les éléments existants de la maison. \n\nL'extension a été conçue avec soin pour offrir un espace de vie fonctionnel et lumineux. Une large baie vitrée donnant sur le jardin permet à la lumière naturelle de baigner les espaces intérieurs, créant ainsi une connexion harmonieuse avec l'extérieur. Les espaces de vie ouverts offrent une fluidité et une convivialité, tout en respectant l'intimité nécessaire dans une maison familiale. \n\nL'utilisation du bardage bois dans l'extension a également permis de créer une transition douce entre l'ancien et le nouveau, ajoutant une dimension chaleureuse et naturelle à l'ensemble de la maison. La texture et la couleur du bois se marient parfaitement avec les éléments existants de la maison, créant un équilibre visuel cohérent. \n\nEn plus de son aspect esthétique, le bardage bois utilisé dans cette extension est également respectueux de l'environnement. Le bois est un matériau renouvelable, durable et recyclable, ce qui en fait un choix écologique pour la construction. De plus, il offre une excellente performance thermique, contribuant ainsi à l'efficacité énergétique de la maison.",
     "prinPicture": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1683118774/archilibre1/Photos/Exterieur/1-Projet%20Celle%20Saint-Cloud/1-Principal/description-CelleSaintCloud-Facade-1_qx1ai9.jpg",
-
     "pagePictures": [
       {
         "id": "facade-Celle1",
@@ -54,7 +53,7 @@
         "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1683118774/archilibre1/Photos/Exterieur/1-Projet%20Celle%20Saint-Cloud/2-Diapos/Celle-Facade-5_ftchv1.jpg"
       },
       {
-        "id": "plan-Clamart",
+        "id": "plan-Celle",
         "index": 5,
         "class": "none",
         "title": "PLAN DU RDC",
@@ -66,7 +65,7 @@
   {
     "id": "exterieur2",
     "class": "exterieur2",
-    "link": "/projetExterieur",
+    "link": "/projetclamart",
     "number": "02.",
     "cssAllBG": "grey",
     "picFormat": "horizontal-L",
@@ -74,41 +73,45 @@
     "date": "Juin 2023",
     "mainUrl": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681486841/archilibre1/Photos/Exterieur/Photos-Page-Exte%CC%81rieur/MainUrl-2-VilleDAvray_pshc47.jpg",
     "descriptionUrl": "Notre approche architecturale a été de préserver l'esthétique d'origine en réutilisant les matériaux emblématiques de la période, tels que la meulière, les rampes d'escalier en ferronnerie blanche et un escalier métallique en spirale. \n\nLa meulière, ce matériau de construction caractéristique des maisons de banlieue parisienne des années1880 à1920, a été soigneusement préservée et intégrée dans l'extension, créant ainsi une continuité visuelle avec l'existant. Les murs en meulière ont été restaurés avec soin pour révéler leur beauté naturelle et leur patine d'origine, ajoutant ainsi une dimension historique et authentique à l'ensemble du projet. \n\nLes rampes d'escalier en ferronnerie blanche, typiques de l'époque, ont également été réutilisées, apportant une touche de charme rétro à l'extension. Les détails délicats du fer forgé ajoutent une élégance intemporelle à l'escalier, tout en s'harmonisant parfaitement avec le style d'origine de la maison. \n\nL'ensemble de l'extension a été conçue dans le respect du style d'origine de la maison, en conservant les éléments architecturaux emblématiques. Le résultat est une extension qui rend hommage à l'histoire et à l'âme de la maison tout en répondant aux besoins et aux exigences de la vie moderne.",
-    "texte": "La maîtrise d'ouvrage souhaitant préserver l'aspect classique de la meulière, le parti pris du projet fut de maintenir un esprit 19eme dans l'ouvrage. L'escalier en ferronnerie blanche, la modénature de façade de l'extension, le parement de type meulière vont dans ce sens. Un important travail en paysagisme fut nécessaire pour épouser une pente en forte déclivité afin de créer un jardin en plusieurs terrasses.",
-    "categories": [
+    "prinPicture": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1683211534/archilibre1/Photos/Exterieur/2-Projet%20Ville-d%27Avray/1-Principal/vda_vue_du_bas_2_yotupb.jpg",
+    "backgroundPicture": [
       {
-        "id": "facades",
-        "pics": [
-          {
-            "id": "facade-VDA1",
-            "title": "Vue de la deuxième terrasse basse",
-            "descriptionPic": "A travers un mur de soutènement en meulières reconstituées, le projet permet la création de plusieurs niveaux de terrasses qui exploitent au mieux la forte déclivité du terrain. Le bâtiment ainsi reconstitué prend pleinement son assise sur sa parcelle",
-            "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681488186/archilibre1/Photos/Exterieur/2-Projet%20Ville-d%27Avray/1-Diapos/VilleDAvray-Facade-1_gjznav.jpg"
-          },
-          {
-            "id": "facade-VDA2",
-            "title": "Vue Est sur les deux escaliers",
-            "descriptionPic": "Le traitement classique d’un bâtiment en meulière passe par le choix d’éléments architecturaux faisant référence à une époque précise. L’emploi d’un escalier métallique en ferronnerie blanche raplan-elle le traitement du métal effectué durant le début de l’aire industrielle. Le réemploi d’éléments anciens de modénature pour la rambarde de la terrasse est aussi un clin d’œil à cette époque",
-            "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681488185/archilibre1/Photos/Exterieur/2-Projet%20Ville-d%27Avray/1-Diapos/VilleDAvray-Facade-2_ihlmzp.jpg"
-          }
-        ]
+        "id": "croquis-Clamart1",
+        "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1682345171/archilibre1/Photos/Exterieur/5-Projet%20Clamart/3-Croquis/Clamart-Croquis-2_yaogaj.png"
+      }
+    ],
+    "pagePictures": [
+      {
+        "id": "facade-VDA1",
+        "index": 0,
+        "class": "none",
+        "title": "VUE DE LA DEUXIÈME TERRASSE BASSE",
+        "descriptionPic": "À travers un mur de soutènement en meulières reconstituées, le projet permet la création de plusieurs niveaux de terrasses qui exploitent au mieux la forte déclivité du terrain",
+        "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1683200858/archilibre1/Photos/Exterieur/2-Projet%20Ville-d%27Avray/2-Diapos/VilleDAvray-Facade-1_qmlbs1.jpg"
       },
       {
-        "id": "plans",
-        "pics": [
-          {
-            "id": "plan-VDA1",
-            "title": "Vue perspective d’insertion 3D",
-            "descriptionPic": "Vue d’ensemble du projet permettant de voir l’ampleur de l’extension. Elle permet une assise plus étendue du bâtiment sur cette parcelle ce qui donne une jouissance des extérieurs plus évidente",
-            "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681487929/archilibre1/Photos/Exterieur/1-Projet%20Celle%20Saint-Cloud/2-Plans/CelleSaintCloud-Plan-1_o1atxp.jpg"
-          },
-          {
-            "id": "plan-VDA2",
-            "title": "Coupes et détails sur l’extension",
-            "descriptionPic": "Les éléments de la terrasse pour satisfaire l’étanchéité. Il a fallu créer une costière en périphérie de l’existant pour assurer le relever d’étanchéité. Le joint de dilatation entre l’existant et l’extension prévient de tout désordre relatif à l’encrage du nouveau bâti",
-            "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681487929/archilibre1/Photos/Exterieur/1-Projet%20Celle%20Saint-Cloud/2-Plans/CelleSaintCloud-Plan-1_o1atxp.jpg"
-          }
-        ]
+        "id": "facade-VDA2",
+        "index": 1,
+        "class": "padding-bottom",
+        "title": "VUE EST SUR LES DEUX ESCALIERS",
+        "descriptionPic": "L’emploi d’un escalier métallique en ferronnerie blanche rappelle le traitement du métal effectué durant le début de l’aire industrielle. Le réemploi d’éléments anciens de modénature pour la rambarde de la terrasse est aussi un clin d’œil à cette époque",
+        "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1683200857/archilibre1/Photos/Exterieur/2-Projet%20Ville-d%27Avray/2-Diapos/VilleDAvray-Facade-2_ymyn8v.jpg"
+      },
+      {
+        "id": "facade-VDA3",
+        "index": 2,
+        "class": "none",
+        "title": "VUE PERSPECTIVE D'INSERTION 3D",
+        "descriptionPic": "Vue d’ensemble du projet permettant de voir l’ampleur de l’extension. Elle permet une assise plus étendue du bâtiment sur cette parcelle ce qui donne une jouissance des extérieurs plus évidente",
+        "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1683202945/archilibre1/Photos/Exterieur/2-Projet%20Ville-d%27Avray/2-Diapos/VilleDAvray-Facade-3_cdysul.jpg"
+      },
+      {
+        "id": "plan-VDA",
+        "index": 3,
+        "class": "none",
+        "title": "COUPE ET DÉTAILS SUR L'EXTENSION",
+        "descriptionPic": "Les éléments de la terrasse pour satisfaire l’étanchéité. Il a fallu créer une costière en périphérie de l’existant pour assurer le relever d’étanchéité. Le joint de dilatation entre l’existant et l’extension prévient de tout désordre relatif à l’encrage du nouveau bâti",
+        "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1683200857/archilibre1/Photos/Exterieur/2-Projet%20Ville-d%27Avray/3-Plans/VilleDAvray-Plan-2_cc8kcm.jpg"
       }
     ]
   },
@@ -189,7 +192,7 @@
   {
     "id": "exterieur4",
     "class": "exterieur2",
-    "link": "/projetExterieur",
+    "link": "/projetclamart",
     "number": "04.",
     "cssAllBG": "darkGreen",
     "picFormat": "horizontal-L",
@@ -197,48 +200,46 @@
     "date": "Mai 2019",
     "mainUrl": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681486841/archilibre1/Photos/Exterieur/Photos-Page-Exte%CC%81rieur/MainUrl-4-Anthony_nmsgt9.jpg",
     "descriptionUrl": "Résidence de 9 logements allant du 2 pièces au 5 pièces proposée dans un style classique revisité. Dans la ville d'Antony, un projet émerge, Un logement collectif, à la beauté submergeante. \n\nHuit appartements unis dans un même élan évoquant le passé, avec un toit mansardé élégant. Le style classique y règne en maître absolu comme un hommage à l'art d'antan, précieux et absolu. La toiture mansardée en pente douce s'élève telle une couronne majestueuse qui enchante et élève la construction. \n\nLes fenêtres en arc, les lucarnes ciselées, rappellent les temps anciens  avec leur charme exquis. La pierre de taille, noble et raffinée, orne la façade, témoignant d'un art précis. À l'intérieur, le confort moderne se conjugue avec la grâce intemporelle du style classique. Les appartements spacieux, aux finitions élégantes, évoquent une époque révolue, d'une beauté fascinante. À Antony, cette résidence est un hymne à l'art où le style classique et la toiture mansardée s'épanouissent. Un écrin de beauté dans la modernité, Une ode à l'éternelle élégance, un hommage à l'immortalité",
-    "data": "Mai 2019",
     "texte": "Pour s'insérer dans un quartier pavillonnaire le choix de la sobriété architecturale a été retenu. Avec un traitement simple et classique, le bâtiment de deux étages se place élégamment dans son environnement",
-    "categories": [
+    "prinPicture": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1683214501/archilibre1/Photos/Exterieur/4-Projet%20Anthony/1-Principal/Anthony-Principal-1_spzix0.jpg",
+    "backgroundPicture": [
       {
-        "id": "facades",
-        "pics": [
-          {
-            "id": "facade-A1",
-            "title": "Vue Est ensoleillée",
-            "descriptionPic": "Ce petit immeuble de logement est situé dans un quartier pavillonnaire calme et a densité faible. Il aplan-orte une offre de mixité dans la typologie de l’habitat qui répond aux besoins de la ville",
-            "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681488613/archilibre1/Photos/Exterieur/4-Projet%20Anthony/1-Diapos/Anthony-Facade-1_kdusj5.jpg"
-          },
-          {
-            "id": "facade-A2",
-            "title": "Vue d’ensemble sur la résidence Alphonsine",
-            "descriptionPic": "L’insertion du logement collectif dans le tissu pavillonnaire passe l’emploi d’échelle approprié : une faible hauteur et des façades brisées ne dépassant pas les quinze mètres",
-            "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681488614/archilibre1/Photos/Exterieur/4-Projet%20Anthony/1-Diapos/Anthony-Facade-2_zj88xh.jpg"
-          },
-          {
-            "id": "facade-A3",
-            "title": "Vue sur le jardin japonais en cours d’aménagement",
-            "descriptionPic": "L’emploi de matériaux nobles comme la pierre de taille en soubassement donne de l’élégance à l’édifice. Le bonsaï préfigure le jardin japonais en devenir qui vient resonner avec la sobriété du bâtiment",
-            "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681488613/archilibre1/Photos/Exterieur/4-Projet%20Anthony/1-Diapos/Anthony-Facade-3_d2d2l6.jpg"
-          }
-        ]
+        "id": "croquis-Clamart1",
+        "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1682345171/archilibre1/Photos/Exterieur/5-Projet%20Clamart/3-Croquis/Clamart-Croquis-2_yaogaj.png"
+      }
+    ],
+    "pagePictures": [
+      {
+        "id": "facade-Antony1",
+        "index": 0,
+        "class": "none",
+        "title": "VUE SUR LE JARDIN JAPONAIS EN COURS D'AMÉNAGEMENT",
+        "descriptionPic": "L’emploi de matériaux nobles comme la pierre de taille en soubassement donne de l’élégance à l’édifice. Le bonsaï préfigure le jardin japonais en devenir qui vient resonner avec la sobriété du bâtiment",
+        "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1683214501/archilibre1/Photos/Exterieur/4-Projet%20Anthony/2-Diapos/Anthony-Facade-1_xu8bfr.jpg"
       },
       {
-        "id": "plans",
-        "pics": [
-          {
-            "id": "plan-A1",
-            "title": "Plan du premier étage",
-            "descriptionPic": "Trois appartements sont distribués avec deux 3 pièces et un 4 pièces. Les parties communes de distribution sont réduite au maximum afin d’offrir des espaces de vie confortable",
-            "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681488613/archilibre1/Photos/Exterieur/4-Projet%20Anthony/2-Plans/Anthony-Plan-1_hjdymy.jpg"
-          },
-          {
-            "id": "plan-A2",
-            "title": "Plan de vente d’un appartement de la résidence Alphonsine",
-            "descriptionPic": "Chaque logement comporte un espace extérieur avec un balcon. Un des avantages de ce programme est la création d’une buanderie pour tous les appartements",
-            "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681488613/archilibre1/Photos/Exterieur/4-Projet%20Anthony/2-Plans/Anthony-Plan-2_fgmgob.jpg"
-          }
-        ]
+        "id": "facade-Antony2",
+        "index": 1,
+        "class": "padding-bottom",
+        "title": "VUE EST ENSOLEILLÉE",
+        "descriptionPic": "Ce petit immeuble de logement est situé dans un quartier pavillonnaire calme et a densité faible. Il apporte une offre de mixité dans la typologie de l’habitat qui répond aux besoins de la ville",
+        "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1683214501/archilibre1/Photos/Exterieur/4-Projet%20Anthony/2-Diapos/Anthony-Facade-2_xc5yle.jpg"
+      },
+      {
+        "id": "facade-Antony3",
+        "index": 2,
+        "class": "none",
+        "title": "VUE D'ENSEMBLE SUR LA RÉSIDENCE ALPHONSINE",
+        "descriptionPic": "L’insertion du logement collectif dans le tissu pavillonnaire passe l’emploi d’échelle approprié : une faible hauteur et des façades brisées ne dépassant pas les quinze mètres   ",
+        "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1683214501/archilibre1/Photos/Exterieur/4-Projet%20Anthony/2-Diapos/Anthony-Facade-3_wgw1fh.jpg"
+      },
+      {
+        "id": "plan-Antony",
+        "index": 5,
+        "class": "none",
+        "title": "PLAN DE VENTE D'UN APPARTEMENT",
+        "descriptionPic": "Chaque logement comporte un espace extérieur avec un balcon. Un des avantages de ce programme est la création d’une buanderie pour tous les appartements",
+        "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1683214501/archilibre1/Photos/Exterieur/4-Projet%20Anthony/3-Plans/Anthony-Plan-2_kvgtgc.jpg"
       }
     ]
   },
@@ -246,7 +247,7 @@
   {
     "id": "exterieur5",
     "class": "exterieur1",
-    "link": "/projetClamart",
+    "link": "/projetclamart",
     "number": "05.",
     "cssAllBG": "white",
     "picFormat": "horizontal-M",
@@ -254,12 +255,10 @@
     "date": "Février 2019",
     "mainUrl": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681486840/archilibre1/Photos/Exterieur/Photos-Page-Exte%CC%81rieur/MainUrl-5-Clamart_mksmpc.jpg",
     "descriptionUrl": "Agrandissement d’une maison en meulières de Clamart avec une extension moderne en zinc. Sous le ciel de Clamart, une maison en meulières, Aux murs chargés d'histoire, aux charmes d'un autre hier. \n\nMais voilà qu'un jour, surgit une extension, Moderne, audacieuse, en zinc à l'expression. Contraste saisissant, entre l'ancien et le neuf, Comme un dialogue entre deux mondes, aérien et nerveux. Le zinc, matériau singulier, aux reflets d'argent, Apporte à la maison un éclat contemporain, étonnant. Les formes géométriques s'entrelacent avec grâce, créant un jeu de volumes, un dialogue qui s'entrelace. \n\nLes lignes épurées, les surfaces lisses et éclatantes, Captent le regard, envoûtant l'âme des passants. L'extension s'étend, avec élégance et audace, Offrant de nouveaux espaces, une nouvelle vie en surface. Les larges baies vitrées inondent l'intérieur de lumière, invitant la nature, les jardins, à entrer dans cette atmosphère. \n\nLe mariage inattendu, entre l'ancien et le moderne, Évoque une harmonie surprenante, une fusion hors du commun. Les meulières chargées d'histoire, symboles du passé, se mêlent à l'extension en zinc, avec une audace inégalée. Clamart voit ainsi naître, une maison hors du commun, où l'art du passé se marie avec le contemporain. Une invitation à l'étonnement, à la découverte, Un tableau d'architecture, où l'histoire et la modernité se concertent.",
-    "prinPicture": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1682345202/archilibre1/Photos/Exterieur/5-Projet%20Clamart/1-Principal/Extension-Clamart_xrr6fu.jpg",
+    "prinPicture": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1683215870/archilibre1/Photos/Exterieur/5-Projet%20Clamart/1-Principal/Extension-Clamart_muzyrl.jpg",
     "backgroundPicture": [
       {
         "id": "croquis-Clamart1",
-        "title": "NO TITLE",
-        "descriptionPic": "NO DESCRIPTION",
         "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1682345171/archilibre1/Photos/Exterieur/5-Projet%20Clamart/3-Croquis/Clamart-Croquis-2_yaogaj.png"
       }
     ],
@@ -270,7 +269,7 @@
         "class": "none",
         "title": "VUE DE L'EXTENSION",
         "descriptionPic": "La puissance du zinc en toiture et en façade vient s’imposer entre les différentes typologies de bâtis",
-        "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1682345072/archilibre1/Photos/Exterieur/5-Projet%20Clamart/1-Diapos/Clamart-Facade-3_ibzlgj.jpg"
+        "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1683215869/archilibre1/Photos/Exterieur/5-Projet%20Clamart/2-Diapos/Clamart-Facade-1_vpzmmo.jpg"
       },
       {
         "id": "facade-Clamart2",
@@ -278,7 +277,7 @@
         "class": "padding-bottom",
         "title": "FAÇADE SUR RUE",
         "descriptionPic": "La confrontation entre la meulière et le zinc amène à cette entité une nouvelle dimension",
-        "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1682345072/archilibre1/Photos/Exterieur/5-Projet%20Clamart/1-Diapos/Clamart-Facade-1_qxt8ro.jpg"
+        "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1683215870/archilibre1/Photos/Exterieur/5-Projet%20Clamart/2-Diapos/Clamart-Facade-2_irnnt2.jpg"
       },
       {
         "id": "facade-Clamart3",
@@ -286,7 +285,7 @@
         "class": "none",
         "title": "VUE LOINTAINE DE LA MAISON DE CLAMART",
         "descriptionPic": "Le projet s’insère dans la trame urbaine de façon hétéroclite afin de revigorer cet ensemble architectural",
-        "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1682345072/archilibre1/Photos/Exterieur/5-Projet%20Clamart/1-Diapos/Clamart-Facade-2_j7j6yp.jpg"
+        "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1683215870/archilibre1/Photos/Exterieur/5-Projet%20Clamart/2-Diapos/Clamart-Facade-3_l11zql.jpg"
       },
       {
         "id": "plan-Clamart",
@@ -302,7 +301,7 @@
   {
     "id": "exterieur6",
     "class": "exterieur2",
-    "link": "/projetExterieur",
+    "link": "/projetclamart",
     "number": "06.",
     "cssAllBG": "grey",
     "position": "last",
@@ -311,53 +310,45 @@
     "date": "Août 2015",
     "mainUrl": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681486840/archilibre1/Photos/Exterieur/Photos-Page-Exte%CC%81rieur/MainUrl-6-Se%CC%80vres_pgepb9.jpg",
     "descriptionUrl": "Petit projet de surélévation d'une maison ouvrière des années cinquante. \n\nTout en préservant le jardin central, la surélévation juxtapose deux traitements différents pour chaque corps de bâti, l'un avec un bardage bois type clin et l'autre en maçonnerie enduite dans les années cinquante, une maison ouvrière, modeste et simple, aux contours familiers. \n\nMais voilà qu'un projet surgit, surprenant, une surélévation, un souffle innovant. Le jardin central, cœur de verdure préservé, symbole de quiétude, d'un passé bien ancré. La surélévation, telle une symphonie d'architecture, Juxtapose deux traitements, pour créer un nouvel éclat, une nouvelle allure. \n\nD'un côté, un bardage bois, clin élégant, comme un écho à la nature, un hommage vibrant. Les lames de bois s'entrecroisent, avec une grâce rare, évoquant la chaleur du foyer, un charme à la fois rustique et clair. De l'autre côté, la maçonnerie enduite, d'une blancheur éclatante, symbole de modernité, d'une élégance épatante. \n\nLes lignes pures, les surfaces lisses et immaculées créent un contraste saisissant, une alliance audacieuse mais bien calculée. La surélévation s'élève tel un tableau abstrait. \n\nUne composition inédite, un hymne à l'art parfait. Les volumes s'entremêlent, les matériaux se répondent créant une nouvelle identité, une nouvelle onde. Cette maison ouvrière des années cinquante se métamorphose avec un charme singulier, épatant. \n\n Il s'agit d'une réinterprétation moderne, d'un regard tourné vers l'avenir tout en préservant l'essence du passé avec un goût à s'en éblouir. Baudelaire aurait pu contempler, avec émerveillement, Ce petit projet de surélévation, alliant tradition et renouvellement. Un hymne à l'art de l'architecture, à la créativité sans fin, Où passé, présent et futur se rejoignent, dans un ballet divin",
-    "data": "Avril 2015",
-    "texte": "A partir d’une petite maison ouvrière faite de nombreuse extension chaotique, le projet vient simplifier les volumes et donner une cohérence à l’ensemble. Tout en étant contraint de préserver la même emprise au sol le projet met en relation deux volumétries distinctes avec chacune leurs identités. Le bâti principal est en bardage bois pose clin avec une toiture plate et le bâti secondaire en enduit blanc et toiture a un pan. Ces deux éléments se juxtapose pour créer un petit jardin central intimiste",
-    "categories": [
+    "prinPicture": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1683215943/archilibre1/Photos/Exterieur/6-Projet%20Se%CC%80vres/1-Principal/Se%CC%80vres-Principal-1_o4gmh5.jpg",
+    "backgroundPicture": [
       {
-        "id": "facades",
-        "pics": [
-          {
-            "id": "facade-S1",
-            "title": "Vue de face depuis la rue",
-            "descriptionPic": "La centralité du bâti en bardage bois inséré entre le pignon en mitoyenneté et le bâti secondaire justifie l’emplois de ce matériau qui donne noblesse et chaleur à l’ensemble",
-            "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681489108/archilibre1/Photos/Exterieur/6-Projet%20Se%CC%80vres/1-Diapos/S%C3%A8vres-Facade-1_ymfid5.jpg"
-          },
-          {
-            "id": "facade-S2",
-            "title": "Vue Est depuis la rue",
-            "descriptionPic": "La mise en confrontation des deux matériaux apparait pleinement sur cette vue de l’angle du bâtiment. Chaque matière prend son sens et est relevé par l’autre",
-            "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681489108/archilibre1/Photos/Exterieur/6-Projet%20Se%CC%80vres/1-Diapos/S%C3%A8vres-Facade-2_wcrtvb.jpg"
-          },
-          {
-            "id": "facade-S3",
-            "title": "Vue Ouest depuis la rue",
-            "descriptionPic": "La clôture sur rue reprend la trame du bardage en bois avec une légère inclinaison laissant apparaitre une transparence tout en préservant l’intimité du jardin",
-            "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681489107/archilibre1/Photos/Exterieur/6-Projet%20Se%CC%80vres/1-Diapos/S%C3%A8vres-Facade-3_kldmb0.jpg"
-          }
-        ]
+        "id": "croquis-Clamart1",
+        "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1682345171/archilibre1/Photos/Exterieur/5-Projet%20Clamart/3-Croquis/Clamart-Croquis-2_yaogaj.png"
+      }
+    ],
+    "pagePictures": [
+      {
+        "id": "facade-Sèvres1",
+        "index": 0,
+        "class": "none",
+        "title": "VUE DE FACE DEPUIS LA RUE",
+        "descriptionPic": "La centralité du bâti en bardage bois inséré entre le pignon en mitoyenneté et le bâti secondaire justifie l’emplois de ce matériau qui donne noblesse et chaleur à l’ensemble",
+        "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1683215943/archilibre1/Photos/Exterieur/6-Projet%20Se%CC%80vres/2-Diapos/S%C3%A8vres-Facade-1_ii4ipw.jpg"
       },
       {
-        "id": "plans",
-        "pics": [
-          {
-            "id": "plan-S1",
-            "title": "Façade principale",
-            "descriptionPic": "On peut comprendre la continuité des deux types de toiture sur la vue de face",
-            "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681489107/archilibre1/Photos/Exterieur/6-Projet%20Se%CC%80vres/2-Plans/S%C3%A8vres-Plan-1_usfvcp.jpg"
-          }
-        ]
+        "id": "facade-Sèvres2",
+        "index": 1,
+        "class": "padding-bottom",
+        "title": "VUE EST DEPUIS LA RUE",
+        "descriptionPic": "La mise en confrontation des deux matériaux apparait pleinement sur cette vue de l’angle du bâtiment. Chaque matière prend son sens et est relevé par l’autre",
+        "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1683215942/archilibre1/Photos/Exterieur/6-Projet%20Se%CC%80vres/2-Diapos/Sans_titre_pomncs.jpg"
       },
       {
-        "id": "croquis",
-        "pics": [
-          {
-            "id": "croquis-S1",
-            "title": "Insertion paysagère",
-            "descriptionPic": "Cette insertion aquarellé est conforme à la réalisation et apporte un peu de poésie dans ce monde de violence visuelle",
-            "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681489107/archilibre1/Photos/Exterieur/6-Projet%20Se%CC%80vres/3-Croquis/S%C3%A8vres-Croquis-1_q72lk9.jpg"
-          }
-        ]
+        "id": "facade-Sèvres3",
+        "index": 2,
+        "class": "none",
+        "title": "INSERTION PAYSAGÈRE",
+        "descriptionPic": "Cette insertion aquarellé est conforme à la réalisation et apporte un peu de poésie dans ce monde de violence visuelle",
+        "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1683215942/archilibre1/Photos/Exterieur/6-Projet%20Se%CC%80vres/2-Diapos/S%C3%A8vres-Croquis-1_ujwcdf.jpg"
+      },
+      {
+        "id": "plan-Sèvres",
+        "index": 3,
+        "class": "none",
+        "title": "FAÇADE PRINCIPALE",
+        "descriptionPic": "Nous pouvons ici comprendre la continuité des deux types de toiture sur la vue de face",
+        "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1683215942/archilibre1/Photos/Exterieur/6-Projet%20Se%CC%80vres/3-Plans/S%C3%A8vres-Plan-1_lfcjyl.jpg"
       }
     ]
   }

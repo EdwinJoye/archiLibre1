@@ -14,7 +14,7 @@ const ProjetCelle = ({
 }) => {
   const location = useLocation();
   const data = location.state.data;
-
+  console.log("PROJET CELLE", data);
   return (
     <div>
       <Header onOff={onOff} setOnOff={setOnOff}></Header>
@@ -93,7 +93,7 @@ const ProjetCelle = ({
           </div>
         </div>
 
-        <div className="projets__PartFour container">
+        <div className="projets__PartFour">
           <div className="projets__pics-container1">
             <PictureProjet
               selectedId={selectedId}
@@ -126,7 +126,7 @@ const ProjetCelle = ({
           </div>
         </div>
 
-        <div className="projets__PartFour-container container">
+        <div className="projets__PartFive">
           <PictureProjet
             selectedId={selectedId}
             setSelectedId={setSelectedId}

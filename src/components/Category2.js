@@ -56,6 +56,7 @@ const Category2 = ({ data, onOff, setOnOff }) => {
           <div className="categories__all-container-2">
             <div className={`${myClassSize} ${myClassColorTextBG}`}>
               <p className="categories__texte">{data.descriptionUrl}</p>
+              {console.log("CATEGORY 2", data)}
               <Link
                 to={data.link}
                 state={{ data: data }}

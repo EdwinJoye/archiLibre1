@@ -8,7 +8,7 @@ import "../css/swiperHome.css";
 import "../css/overlayCarousel.css";
 
 const OverlayCarousel = ({ pics, onClick, isSelected, selectedPic }) => {
-  console.log("SELECTED PIC 2", selectedPic);
+  // console.log("SELECTED PIC 2", selectedPic);
 
   return (
     <div className={`testVisibleOuNon ${isSelected ? "visible" : ""}`}>

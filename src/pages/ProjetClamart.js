@@ -15,6 +15,7 @@ const ProjetClamart = ({
   const location = useLocation();
   const data = location.state.data;
 
+  console.log("PROJET CLAMART", data);
   return (
     <div>
       <Header onOff={onOff} setOnOff={setOnOff}></Header>
@@ -49,7 +50,7 @@ const ProjetClamart = ({
             </div>
           </div>
         </div>
-        <div className="projets__PartThree container">
+        <div className="projets__PartThree">
           <div className="projets__pics-container1">
             <PictureProjet
               selectedId={selectedId}
@@ -96,7 +97,7 @@ const ProjetClamart = ({
             ></PictureProjet>
           </div>
         </div>
-        <div className="projets__PartFour-container container">
+        <div className="projets__PartFive">
           <PictureProjet
             selectedId={selectedId}
             setSelectedId={setSelectedId}
