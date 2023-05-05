@@ -15,7 +15,7 @@ const ProjetClamart = ({
   const location = useLocation();
   const data = location.state.data;
 
-  console.log("PROJET CLAMART", data);
+  // console.log("PROJET CLAMART", data);
   return (
     <div>
       <Header onOff={onOff} setOnOff={setOnOff}></Header>

@@ -22,6 +22,7 @@ const Header = ({ onOff, setOnOff }) => {
             ></div>
           </div>
         </Link>
+
         <Link
           className="header__box-link"
           to="/interieur"

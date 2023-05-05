@@ -54,3 +54,26 @@
   width: 20%;
   border-bottom: 2px solid #37463d;
 }
+
+/* ////////////////////////////// TEST ////////////////////////////// */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-child {
+  display: none;
+  background-color: skyblue;
+  min-width: 200px;
+}
+.little__button {
+  color: blue;
+  padding: 20px;
+  text-decoration: none;
+  text-align: center;
+}
+.dropdown:hover .dropdown-child {
+  display: block;
+  position: absolute;
+  z-index: 4;
+}
