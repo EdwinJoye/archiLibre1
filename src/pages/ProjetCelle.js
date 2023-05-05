@@ -18,7 +18,7 @@ const ProjetCelle = ({
   return (
     <div>
       <Header onOff={onOff} setOnOff={setOnOff}></Header>
-      <div className="container">
+      <div className="container fadeIn">
         <div className="projets__PartOne">
           <div className="projets__title-date">
             <h2>{data.title}</h2>

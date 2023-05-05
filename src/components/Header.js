@@ -1,44 +1,74 @@
 import { Link } from "react-router-dom";
 import SignatureBlanche from "../img/signatureBlanche.png";
+import exterieurData from "../data/exterieur.json";
+import interieurData from "../data/interieur.json";
 import "../css/header.css";
 
 const Header = ({ onOff, setOnOff }) => {
   return (
     <div className={onOff === 1 ? "header__transparent" : "header__green"}>
       <div className="header__buttons-container-1">
-        <Link
-          className="header__box-link"
-          to="/exterieur"
-          onClick={() => {
-            setOnOff((onOff = 2));
-          }}
-        >
-          <div className="headerBox">
-            <span>EXTÉRIEURS</span>
-            <div
-              className={
-                onOff === 2 ? "header__underline" : "header__underline-2"
-              }
-            ></div>
+        {/* /////////////////////// EXTERIEURS /////////////////////// */}
+        <div className="header__dropdown">
+          <Link
+            className="header__box-link"
+            to="/exterieur"
+            onClick={() => {
+              setOnOff((onOff = 2));
+            }}
+          >
+            <div className="header__button">
+              <span>EXTÉRIEURS</span>
+              <div
+                className={
+                  onOff === 2 ? "header__underline" : "header__underline-2"
+                }
+              ></div>
+            </div>
+          </Link>
+          <div class="header__dropdown-content">
+            {exterieurData.map((data) => {
+              return (
+                <div>
+                  <Link to={data.link} state={{ data: data }}>
+                    <div className="little__button">{data.btnName}</div>
+                  </Link>
+                </div>
+              );
+            })}
           </div>
-        </Link>
+        </div>
 
-        <Link
-          className="header__box-link"
-          to="/interieur"
-          onClick={() => {
-            setOnOff((onOff = 3));
-          }}
-        >
-          <div className="headerBox">
-            <span>INTÉRIEURS</span>
-            <div
-              className={
-                onOff === 3 ? "header__underline" : "header__underline-2"
-              }
-            ></div>
+        {/* /////////////////////// INTERIEURS /////////////////////// */}
+        <div className="header__dropdown">
+          <Link
+            className="header__box-link"
+            to="/interieur"
+            onClick={() => {
+              setOnOff((onOff = 3));
+            }}
+          >
+            <div className="header__button">
+              <span>INTÉRIEURS</span>
+              <div
+                className={
+                  onOff === 3 ? "header__underline" : "header__underline-2"
+                }
+              ></div>
+            </div>
+          </Link>
+          <div class="header__dropdown-content">
+            {interieurData.map((data) => {
+              return (
+                <div>
+                  <Link to={data.link} state={{ data: data }}>
+                    <div className="little__button">{data.btnName}</div>
+                  </Link>
+                </div>
+              );
+            })}
           </div>
-        </Link>
+        </div>
       </div>
       <Link
         to="/"
@@ -54,6 +84,8 @@ const Header = ({ onOff, setOnOff }) => {
         />
       </Link>
       <div className="header__buttons-container-2">
+        {/* /////////////////////// A PROPOS /////////////////////// */}
+
         <Link
           className="header__box-link"
           to="/aboutme"
@@ -61,7 +93,7 @@ const Header = ({ onOff, setOnOff }) => {
             setOnOff((onOff = 4));
           }}
         >
-          <div className="headerBox">
+          <div className="header__button">
             <span>À PROPOS</span>
             <div
               className={
@@ -70,6 +102,7 @@ const Header = ({ onOff, setOnOff }) => {
             ></div>
           </div>
         </Link>
+        {/* /////////////////////// CONTACT /////////////////////// */}
         <Link
           className="header__box-link"
           to="/contact"
@@ -77,7 +110,7 @@ const Header = ({ onOff, setOnOff }) => {
             setOnOff((onOff = 5));
           }}
         >
-          <div className="headerBox">
+          <div className="header__button">
             <span>CONTACT</span>
             <div
               className={
