@@ -4,9 +4,9 @@ import exterieurData from "../data/exterieur.json";
 import interieurData from "../data/interieur.json";
 import "../css/header.css";
 
-const HeaderGreen = ({ onOff, setOnOff }) => {
+const HeaderTransparent = ({ onOff, setOnOff }) => {
   return (
-    <div className="header__green">
+    <div className="header__transparent">
       <div className="header__buttons-container-1">
         {/* /////////////////////// EXTERIEURS /////////////////////// */}
         <div className="header__dropdown">
@@ -124,4 +124,4 @@ const HeaderGreen = ({ onOff, setOnOff }) => {
   );
 };
 
-export default HeaderGreen;
+export default HeaderTransparent;

@@ -1,4 +1,4 @@
-import Header from "../components/Header";
+import HeaderGreen from "../components/HeaderGreen";
 import { useLocation } from "react-router-dom";
 import Footer from "../components/Footer";
 import OverlayImg from "../components/OverlayImg";
@@ -10,7 +10,7 @@ const ProjetExterieur = ({ onOff, setOnOff, selectedId, setSelectedId }) => {
 
   return (
     <div>
-      <Header onOff={onOff} setOnOff={setOnOff}></Header>
+      <HeaderGreen onOff={onOff} setOnOff={setOnOff}></HeaderGreen>
       <div className="container fadeIn">
         <div>
           {data.categories.map((item, key) => {

@@ -1,4 +1,4 @@
-import Header from "../components/Header";
+import HeaderGreen from "../components/HeaderGreen";
 import Footer from "../components/Footer";
 import { aboutMe } from "../data/aboutMe";
 import Category1 from "../components/Category1";
@@ -8,7 +8,7 @@ import "../css/aboutMe.css";
 const AboutMe = ({ onOff, setOnOff }) => {
   return (
     <div className="relative">
-      <Header onOff={onOff} setOnOff={setOnOff}></Header>
+      <HeaderGreen onOff={onOff} setOnOff={setOnOff}></HeaderGreen>
       <div className="container">
         <div className="fadeIn">
           {aboutMe.map((data, key) => {

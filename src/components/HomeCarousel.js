@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper";
-import Header from "./Header";
+import HeaderTransparent from "../components/HeaderTransparent";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
@@ -32,7 +32,10 @@ const HomeCarousel = ({ pics, onOff, setOnOff }) => {
         })}
       </Swiper>
       <div className="swiper__header">
-        <Header onOff={onOff} setOnOff={setOnOff}></Header>
+        <HeaderTransparent
+          onOff={onOff}
+          setOnOff={setOnOff}
+        ></HeaderTransparent>
       </div>
       <div className="home__title">
         <span>Aman Othenin-Girard Architecte DPLG</span>

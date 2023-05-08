@@ -1,4 +1,4 @@
-import Header from "../components/Header";
+import HeaderGreen from "../components/HeaderGreen";
 import Footer from "../components/Footer";
 import Map from "../components/Map";
 import "../css/contact.css";
@@ -6,7 +6,7 @@ import "../css/contact.css";
 const Contact = ({ onOff, setOnOff }) => {
   return (
     <div className="relative">
-      <Header onOff={onOff} setOnOff={setOnOff}></Header>
+      <HeaderGreen onOff={onOff} setOnOff={setOnOff}></HeaderGreen>
       <div className="container">
         <div className="fadeIn">Contact Aman</div>
       </div>
