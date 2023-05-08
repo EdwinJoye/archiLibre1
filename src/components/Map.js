@@ -1,22 +1,23 @@
 import React from "react";
 import GoogleMapReact from "google-map-react";
+import "../css/contact.css";
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
 export default function SimpleMap() {
   const defaultProps = {
     center: {
-      lat: 10.99835602,
-      lng: 77.01502627,
+      lat: 48.822430661529026,
+      lng: 2.208630993253485,
     },
     zoom: 11,
   };
 
   return (
     // Important! Always set the container height explicitly
-    <div style={{ height: "100vh", width: "100%" }}>
+    <div className="contact__map">
       <GoogleMapReact
-        bootstrapURLKeys={{ key: "" }}
+        bootstrapURLKeys={{ key: "AIzaSyDw8C1USZ9tllcVvnuQ70GWil8tp3XpETk" }}
         defaultCenter={defaultProps.center}
         defaultZoom={defaultProps.zoom}
       >

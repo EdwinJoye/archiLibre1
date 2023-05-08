@@ -7,9 +7,7 @@ const Contact = ({ onOff, setOnOff }) => {
   return (
     <div className="relative">
       <HeaderGreen onOff={onOff} setOnOff={setOnOff}></HeaderGreen>
-      <div className="container">
-        <div className="fadeIn">Contact Aman</div>
-      </div>
+      <div className="container"></div>
       <Map></Map>
       <div className="footer">
         <Footer onOff={onOff} setOnOff={setOnOff}></Footer>
