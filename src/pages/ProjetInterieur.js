@@ -1,4 +1,4 @@
-import Header from "../components/Header";
+import HeaderGreen from "../components/HeaderGreen2";
 import { useLocation } from "react-router-dom";
 import Amenagement from "../components/Amenagement";
 import DecoAmeublement from "../components/DecoAmeublement";
@@ -10,7 +10,7 @@ const ProjetInterieur = ({ onOff, setOnOff, selectedId, setSelectedId }) => {
 
   return (
     <div>
-      <Header onOff={onOff} setOnOff={setOnOff}></Header>
+      <HeaderGreen onOff={onOff} setOnOff={setOnOff}></HeaderGreen>
       <div className="container fadeIn">
         {location.state.data.diapos.map((item, key) => {
           if (category === "Amenagement") {

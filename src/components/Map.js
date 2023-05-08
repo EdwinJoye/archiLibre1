@@ -17,7 +17,7 @@ export default function SimpleMap() {
     // Important! Always set the container height explicitly
     <div className="contact__map">
       <GoogleMapReact
-        bootstrapURLKeys={{ key: process.env.API_KEY }}
+        bootstrapURLKeys={{ key: "AIzaSyDw8C1USZ9tllcVvnuQ70GWil8tp3XpETk" }}
         defaultCenter={defaultProps.center}
         defaultZoom={defaultProps.zoom}
       >

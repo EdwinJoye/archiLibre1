@@ -2,12 +2,11 @@ import { Link } from "react-router-dom";
 import SignatureBlanche from "../img/signatureBlanche.png";
 import "../css/header.css";
 
-const HeaderTransparent = ({ onOff, setOnOff }) => {
+const HeaderGreen1 = ({ onOff, setOnOff }) => {
   return (
-    <div className="header__transparent">
+    <div className="header__green">
       <div className="header__buttons-container-1">
         {/* /////////////////////// EXTERIEURS /////////////////////// */}
-
         <Link
           className="header__box-link"
           to="/exterieur"
@@ -24,8 +23,8 @@ const HeaderTransparent = ({ onOff, setOnOff }) => {
             ></div>
           </div>
         </Link>
-
         {/* /////////////////////// INTERIEURS /////////////////////// */}
+
         <Link
           className="header__box-link"
           to="/interieur"
@@ -97,4 +96,4 @@ const HeaderTransparent = ({ onOff, setOnOff }) => {
   );
 };
 
-export default HeaderTransparent;
+export default HeaderGreen1;

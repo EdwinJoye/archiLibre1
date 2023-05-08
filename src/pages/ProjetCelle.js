@@ -1,5 +1,5 @@
 import { useLocation } from "react-router-dom";
-import Header from "../components/Header";
+import HeaderGreen2 from "../components/HeaderGreen2";
 import Footer from "../components/Footer";
 import PictureProjet from "../components/PictureProjets";
 import "../css/projetClamart.css";
@@ -17,7 +17,7 @@ const ProjetCelle = ({
   console.log("PROJET CELLE", data);
   return (
     <div>
-      <Header onOff={onOff} setOnOff={setOnOff}></Header>
+      <HeaderGreen2 onOff={onOff} setOnOff={setOnOff}></HeaderGreen2>
       <div className="container fadeIn">
         <div className="projets__PartOne">
           <div className="projets__title-date">

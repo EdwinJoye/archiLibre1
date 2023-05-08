@@ -4,9 +4,9 @@ import exterieurData from "../data/exterieur.json";
 import interieurData from "../data/interieur.json";
 import "../css/header.css";
 
-const Header = ({ onOff, setOnOff }) => {
+const HeaderGreen2 = ({ onOff, setOnOff }) => {
   return (
-    <div className={onOff === 1 ? "header__transparent" : "header__green"}>
+    <div className="header__green">
       <div className="header__buttons-container-1">
         {/* /////////////////////// EXTERIEURS /////////////////////// */}
         <div className="header__dropdown">
@@ -29,7 +29,7 @@ const Header = ({ onOff, setOnOff }) => {
           <div class="header__dropdown-content">
             {exterieurData.map((data) => {
               return (
-                <div>
+                <div key={data.id}>
                   <Link to={data.link} state={{ data: data }}>
                     <div className="little__button">{data.btnName}</div>
                   </Link>
@@ -60,7 +60,7 @@ const Header = ({ onOff, setOnOff }) => {
           <div class="header__dropdown-content">
             {interieurData.map((data) => {
               return (
-                <div>
+                <div key={data.id}>
                   <Link to={data.link} state={{ data: data }}>
                     <div className="little__button">{data.btnName}</div>
                   </Link>
@@ -124,4 +124,4 @@ const Header = ({ onOff, setOnOff }) => {
   );
 };
 
-export default Header;
+export default HeaderGreen2;
