@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Map from "../components/Map";
 import "../css/contact.css";
 
 const Contact = ({ onOff, setOnOff }) => {
@@ -9,6 +10,7 @@ const Contact = ({ onOff, setOnOff }) => {
       <div className="container">
         <div className="fadeIn">Contact Aman</div>
       </div>
+      <Map></Map>
       <div className="footer">
         <Footer onOff={onOff} setOnOff={setOnOff}></Footer>
       </div>
