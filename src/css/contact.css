@@ -1,4 +1,40 @@
+.contact__all-test {
+  /* background-color: red; */
+}
+.contact__all-container {
+  display: flex;
+  margin-top: 3.2%;
+}
+.contact__container-1,
+.contact__container-2 {
+  flex: 1;
+}
+.contact__container-1 {
+  /* background-color: pink; */
+  display: flex;
+  align-items: center;
+}
+.contact__container-1 img {
+  width: 100%;
+}
+.contact__container-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  /* background-color: yellow; */
+}
+.contact__infos-container {
+  /* background-color: greenyellow; */
+  margin-bottom: 50px;
+  text-align: center;
+}
 .contact__map {
   height: 500px;
   width: 600px;
+}
+.pin-icon {
+  color: red;
+  width: 30px;
+  height: 30px;
 }
