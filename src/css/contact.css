@@ -45,14 +45,15 @@
   margin-bottom: 5px;
 }
 .contact__infos-container a {
-  border: 2px solid #37463d;
-  transition: ease-in-out 0.1s;
+  border: 2px solid #9bb291;
+  transition: ease-in-out 0.2s;
   border-radius: 40px;
   padding: 10px;
   margin-top: 30px;
-  color: black;
+  color: #9bb291;
+  font-weight: bold;
 }
 .contact__infos-container a:hover {
-  background-color: #37463d;
+  background-color: #9bb291;
   color: white;
 }

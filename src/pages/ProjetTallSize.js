@@ -2,9 +2,9 @@ import { useLocation } from "react-router-dom";
 import HeaderGreen2 from "../components/HeaderGreen2";
 import Footer from "../components/Footer";
 import PictureProjet from "../components/PictureProjets";
-import "../css/projetClamart.css";
+import "../css/projetsExterieurs.css";
 
-const ProjetClamart = ({
+const ProjetTallSize = ({
   onOff,
   setOnOff,
   selectedId,
@@ -15,7 +15,6 @@ const ProjetClamart = ({
   const location = useLocation();
   const data = location.state.data;
 
-  // console.log("PROJET CLAMART", data);
   return (
     <div>
       <HeaderGreen2 onOff={onOff} setOnOff={setOnOff}></HeaderGreen2>
@@ -118,4 +117,4 @@ const ProjetClamart = ({
   );
 };
 
-export default ProjetClamart;
+export default ProjetTallSize;

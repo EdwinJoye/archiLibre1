@@ -6,11 +6,11 @@ import AboutMe from "./pages/AboutMe";
 import Exterieur from "./pages/Exterieur";
 import Interieur from "./pages/Interieur";
 import Contact from "../src/pages/Contact";
-import ProjetExterieur from "./pages/ProjetExterieur";
 import ProjetInterieur from "./pages/ProjetInterieur";
 import ScrollToTop from "./components/ScrollToTop";
-import ProjetClamart from "./pages/ProjetClamart";
-import ProjetCelle from "./pages/ProjetCelle";
+import ProjetTallSize from "./pages/ProjetTallSize";
+import ProjetSmoleSize from "./pages/ProjetSmallSize";
+import ProjetExterieurMedium from "./pages/ProjetMediumSize";
 import Test from "./pages/Test";
 
 function App() {
@@ -43,17 +43,6 @@ function App() {
           element={<Contact onOff={onOff} setOnOff={setOnOff}></Contact>}
         ></Route>
         <Route
-          path="/projetExterieur"
-          element={
-            <ProjetExterieur
-              onOff={onOff}
-              setOnOff={setOnOff}
-              selectedId={selectedId}
-              setSelectedId={setSelectedId}
-            ></ProjetExterieur>
-          }
-        ></Route>
-        <Route
           path="/projetInterieur"
           element={
             <ProjetInterieur
@@ -65,29 +54,42 @@ function App() {
           }
         ></Route>
         <Route
-          path="/projetclamart"
+          path="/projettallsize"
           element={
-            <ProjetClamart
+            <ProjetTallSize
               onOff={onOff}
               setOnOff={setOnOff}
               selectedId={selectedId}
               setSelectedId={setSelectedId}
               selectedPic={selectedPic}
               setSelectedPic={setSelectedPic}
-            ></ProjetClamart>
+            ></ProjetTallSize>
           }
         ></Route>
         <Route
-          path="/projetcelle"
+          path="/projetsmolesize"
           element={
-            <ProjetCelle
+            <ProjetSmoleSize
               onOff={onOff}
               setOnOff={setOnOff}
               selectedId={selectedId}
               setSelectedId={setSelectedId}
               selectedPic={selectedPic}
               setSelectedPic={setSelectedPic}
-            ></ProjetCelle>
+            ></ProjetSmoleSize>
+          }
+        ></Route>
+        <Route
+          path="/projetexterieurmedium"
+          element={
+            <ProjetExterieurMedium
+              onOff={onOff}
+              setOnOff={setOnOff}
+              selectedId={selectedId}
+              setSelectedId={setSelectedId}
+              selectedPic={selectedPic}
+              setSelectedPic={setSelectedPic}
+            ></ProjetExterieurMedium>
           }
         ></Route>
         <Route

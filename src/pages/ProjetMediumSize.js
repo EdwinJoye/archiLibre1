@@ -2,9 +2,9 @@ import { useLocation } from "react-router-dom";
 import HeaderGreen2 from "../components/HeaderGreen2";
 import Footer from "../components/Footer";
 import PictureProjet from "../components/PictureProjets";
-import "../css/projetClamart.css";
+import "../css/projetsExterieurs.css";
 
-const ProjetCelle = ({
+const ProjetExterieurMedium = ({
   onOff,
   setOnOff,
   selectedId,
@@ -14,7 +14,7 @@ const ProjetCelle = ({
 }) => {
   const location = useLocation();
   const data = location.state.data;
-  console.log("PROJET CELLE", data);
+
   return (
     <div>
       <HeaderGreen2 onOff={onOff} setOnOff={setOnOff}></HeaderGreen2>
@@ -29,39 +29,44 @@ const ProjetCelle = ({
             </div>
           </div>
           <div className="projets__titleBackground"></div>
+          <img
+            className="projetClamart__img-croquis"
+            src={data.backgroundPicture[0].url}
+            alt="croquis"
+          />
         </div>
-        <div className="projetCelle__PartTwo">
+        <div className="projetMedium__PartTwo">
           <div className="projets__imgPrincipal-background-text-container">
             <img
-              className="projets__imgPrincipal"
+              className="projets__imgPrincipal large"
               src={data.prinPicture}
               alt="imgPrincipal"
             />
-            <div className="projets__backgroundImgPrincipal small"></div>
-            <div className="projetCelle__texte-container">
+            <div className="projets__backgroundImgPrincipal medium large"></div>
+            <div className="projetMedium__texte-container">
               <h4>{data.title}</h4>
               <p>{data.descriptionUrl}</p>
             </div>
           </div>
         </div>
-
         <div className="projets__PartThree">
           <div className="projets__pics-container1">
-            <PictureProjet
-              selectedId={selectedId}
-              setSelectedId={setSelectedId}
-              selectedPic={selectedPic}
-              setSelectedPic={setSelectedPic}
-              pics={data.pagePictures}
-              url={data.pagePictures[0].url}
-              id={data.pagePictures[0].id}
-              index={data.pagePictures[0].index}
-              title={data.pagePictures[0].title}
-              descriptionPic={data.pagePictures[0].descriptionPic}
-              className={data.pagePictures[0].class}
-            ></PictureProjet>
-          </div>
-          <div>
+            <div className="marginB">
+              <PictureProjet
+                selectedId={selectedId}
+                setSelectedId={setSelectedId}
+                selectedPic={selectedPic}
+                setSelectedPic={setSelectedPic}
+                pics={data.pagePictures}
+                url={data.pagePictures[0].url}
+                id={data.pagePictures[0].id}
+                index={data.pagePictures[0].index}
+                title={data.pagePictures[0].title}
+                descriptionPic={data.pagePictures[0].descriptionPic}
+                className={data.pagePictures[0].class}
+              ></PictureProjet>
+            </div>
+
             <PictureProjet
               selectedId={selectedId}
               setSelectedId={setSelectedId}
@@ -75,26 +80,24 @@ const ProjetCelle = ({
               descriptionPic={data.pagePictures[1].descriptionPic}
               className={data.pagePictures[1].class}
             ></PictureProjet>
-
-            {/* ////// TROISIEME PHOTO ////// */}
-            <PictureProjet
-              selectedId={selectedId}
-              setSelectedId={setSelectedId}
-              selectedPic={selectedPic}
-              setSelectedPic={setSelectedPic}
-              pics={data.pagePictures}
-              url={data.pagePictures[2].url}
-              id={data.pagePictures[2].id}
-              index={data.pagePictures[2].index}
-              title={data.pagePictures[2].title}
-              descriptionPic={data.pagePictures[2].descriptionPic}
-              className={data.pagePictures[2].class}
-            ></PictureProjet>
           </div>
-        </div>
+          <div className="projets__pics-container2">
+            <div className="marginB">
+              <PictureProjet
+                selectedId={selectedId}
+                setSelectedId={setSelectedId}
+                selectedPic={selectedPic}
+                setSelectedPic={setSelectedPic}
+                pics={data.pagePictures}
+                url={data.pagePictures[2].url}
+                id={data.pagePictures[2].id}
+                index={data.pagePictures[2].index}
+                title={data.pagePictures[2].title}
+                descriptionPic={data.pagePictures[2].descriptionPic}
+                className={data.pagePictures[2].class}
+              ></PictureProjet>
+            </div>
 
-        <div className="projets__PartFour">
-          <div className="projets__pics-container1">
             <PictureProjet
               selectedId={selectedId}
               setSelectedId={setSelectedId}
@@ -109,24 +112,21 @@ const ProjetCelle = ({
               className={data.pagePictures[3].class}
             ></PictureProjet>
           </div>
-          <div>
-            <PictureProjet
-              selectedId={selectedId}
-              setSelectedId={setSelectedId}
-              selectedPic={selectedPic}
-              setSelectedPic={setSelectedPic}
-              pics={data.pagePictures}
-              url={data.pagePictures[4].url}
-              id={data.pagePictures[4].id}
-              index={data.pagePictures[4].index}
-              title={data.pagePictures[4].title}
-              descriptionPic={data.pagePictures[4].descriptionPic}
-              className={data.pagePictures[4].class}
-            ></PictureProjet>
-          </div>
         </div>
-
-        <div className="projets__PartFive">
+        <div className="projets__PartFive column">
+          <PictureProjet
+            selectedId={selectedId}
+            setSelectedId={setSelectedId}
+            selectedPic={selectedPic}
+            setSelectedPic={setSelectedPic}
+            pics={data.pagePictures}
+            url={data.pagePictures[4].url}
+            id={data.pagePictures[4].id}
+            index={data.pagePictures[4].index}
+            title={data.pagePictures[4].title}
+            descriptionPic={data.pagePictures[4].descriptionPic}
+            className={data.pagePictures[4].class}
+          ></PictureProjet>
           <PictureProjet
             selectedId={selectedId}
             setSelectedId={setSelectedId}
@@ -147,4 +147,4 @@ const ProjetCelle = ({
   );
 };
 
-export default ProjetCelle;
+export default ProjetExterieurMedium;

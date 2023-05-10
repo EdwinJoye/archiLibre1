@@ -20,7 +20,7 @@ const Contact = ({ onOff, setOnOff }) => {
             <span>25 avenue de l’Europe</span>
             <span>AOtheninGirard@gmail.com</span>
             <span>06.50.02.85.06</span>
-            <a HREF="AOtheninGirard@gmail.com">Contactez moi</a>
+            <a HREF="mailto:AOtheninGirard@gmail.com">Contactez moi</a>
           </div>
         </div>
       </div>

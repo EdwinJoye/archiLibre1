@@ -2,7 +2,7 @@
   {
     "id": "exterieur1",
     "class": "exterieur1",
-    "link": "/projetcelle",
+    "link": "/projetsmolesize",
     "btnName": "CelleSaintCloud",
     "number": "01.",
     "cssAllBG": "white",
@@ -66,7 +66,7 @@
   {
     "id": "exterieur2",
     "class": "exterieur2",
-    "link": "/projetclamart",
+    "link": "/projettallsize",
     "btnName": "Ville d'Avray",
     "number": "02.",
     "cssAllBG": "grey",
@@ -121,7 +121,7 @@
   {
     "id": "exterieur3",
     "class": "exterieur1",
-    "link": "/projetExterieur",
+    "link": "/projetexterieurmedium",
     "btnName": "Iran",
     "number": "03.",
     "cssAllBG": "white",
@@ -130,64 +130,61 @@
     "date": "Mai 2015",
     "mainUrl": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681486841/archilibre1/Photos/Exterieur/Photos-Page-Exte%CC%81rieur/MainUrl-3-Iran-1_nn83i0.jpg",
     "descriptionUrl": "Création d’une maison sur cour dans l’oasis d’AmanAbad. Le concept architectural a été de créer une maison qui s'ouvre sur l'oasis environnante tout en préservant les éléments clés du plan classique des maisons sur cour en Iran. \n\nLa maison est conçue dans un style moderne, avec des lignes épurées, des matériaux contemporains et des espaces lumineux et ouverts. Cependant, elle puise son inspiration dans le plan traditionnel des maisons sur patio, plan qui depuis l’antiquité et même avant dirige l’architecture domestique de ces régions du monde. \n\nLa cour intérieure est au cœur de la conception, offrant un espace de vie extérieur privé où les résidents peuvent se détendre, se divertir et profiter de la vue sur l'oasis environnante. La cour est conçue comme une oasis privée, avec sa piscine centrale reprenant l’emplacement du bassin qui rafraichit et des espaces ombragés. \n\nCette dynamique entre l’eau, l’ombre et le soleil crée des mouvements d’air essentielle à la climatisation naturel de l’ensemble. La cour est accessible depuis les différentes pièces de la maison, créant ainsi une transition fluide entre l'intérieur et l'extérieur, et offrant une connexion directe avec la nature environnante.",
-    "texte": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.",
-    "categories": [
+    "prinPicture": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1683729763/archilibre1/Photos/Exterieur/3-Projet%20Iran/1-Principal/20220823_104532_yyumm6.jpg",
+    "backgroundPicture": [
       {
-        "id": "facades",
-        "pics": [
-          {
-            "id": "facade-Iran1",
-            "title": "NO TITLE",
-            "descriptionPic": "NO DESCRIPTION",
-            "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681489432/archilibre1/Photos/Exterieur/3-Projet%20Iran/1-Diapos/Iran-Facade-1_rknatj.jpg"
-          },
-          {
-            "id": "facade-Iran2",
-            "title": "NO TITLE",
-            "descriptionPic": "NO DESCRIPTION",
-            "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681489432/archilibre1/Photos/Exterieur/3-Projet%20Iran/1-Diapos/Iran-Facade-2_zqywff.jpg"
-          },
-          {
-            "id": "facade-Iran3",
-            "title": "NO TITLE",
-            "descriptionPic": "NO DESCRIPTION",
-            "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681489433/archilibre1/Photos/Exterieur/3-Projet%20Iran/1-Diapos/Iran-Facade-3_eolmgu.jpg"
-          }
-        ]
+        "id": "croquis-Iran1",
+        "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1683729762/archilibre1/Photos/Exterieur/3-Projet%20Iran/4-Croquis/Iran-Croquis-1_bylipo.png"
+      }
+    ],
+    "pagePictures": [
+      {
+        "id": "facade-Iran1",
+        "index": 0,
+        "class": "none",
+        "title": "VUE D'ENSEMBLE DE LA MAISON SUR COUR",
+        "descriptionPic": "La maison sur son piédestal permet la combinaison des espaces extérieurs",
+        "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1683729763/archilibre1/Photos/Exterieur/3-Projet%20Iran/2-Diapos/Clamart-Facade-3_ktbm8k.jpg"
       },
       {
-        " id": "plans",
-        "pics": [
-          {
-            " id": "plan-Iran1",
-            "title": "NO TITLE",
-            "descriptionPic": "NO DESCRIPTION",
-            "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681489431/archilibre1/Photos/Exterieur/3-Projet%20Iran/2-Plans/Iran-Plan-1_ojiqnc.jpg"
-          },
-          {
-            " id": "plan-Iran2",
-            "title": "NO TITLE",
-            "descriptionPic": "NO DESCRIPTION",
-            "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681489431/archilibre1/Photos/Exterieur/3-Projet%20Iran/2-Plans/Iran-Plan-2_fn08h3.jpg"
-          }
-        ]
+        "id": "diapo-Iran2",
+        "index": 1,
+        "class": "padding-bottom",
+        "title": "VUE DU JARDIN",
+        "descriptionPic": "L’éclatement du patio traditionnel iranien permet une ouverture de l’espace intime sur la végétation ",
+        "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1683729763/archilibre1/Photos/Exterieur/3-Projet%20Iran/2-Diapos/Iran-Facade-2_ia4c6d.jpg"
       },
       {
-        " id": "croquis",
-        "pics": [
-          {
-            " id": "croquis-Iran1",
-            "title": "NO TITLE",
-            "descriptionPic": "NO DESCRIPTION",
-            "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681489431/archilibre1/Photos/Exterieur/3-Projet%20Iran/3-Croquis/Iran-Croquis-1_jlwcko.jpg"
-          },
-          {
-            " id": "croquis-Iran2",
-            "title": "NO TITLE",
-            "descriptionPic": "NO DESCRIPTION",
-            "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681489431/archilibre1/Photos/Exterieur/3-Projet%20Iran/3-Croquis/Iran-Croquis-2_wwlza4.jpg"
-          }
-        ]
+        "id": "diapo-Iran3",
+        "index": 2,
+        "class": "none",
+        "title": "VUE SUR LE PATIO",
+        "descriptionPic": "Prolongement de la maison à travers sa piscine de pierres naturelles dans le jardin",
+        "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1683729762/archilibre1/Photos/Exterieur/3-Projet%20Iran/2-Diapos/Clamart-Facade-1_czffxh.jpg"
+      },
+      {
+        "id": "diapo-Iran4",
+        "index": 3,
+        "class": "none",
+        "title": "RÉALISATION 3D",
+        "descriptionPic": "Réalisation d’une vue 3 quarts montrant les espaces intérieurs et extérieurs",
+        "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1683729763/archilibre1/Photos/Exterieur/3-Projet%20Iran/2-Diapos/Iran-Croquis-2_1_g3xms9.jpg"
+      },
+      {
+        "id": "plan-Iran1",
+        "index": 4,
+        "class": "none",
+        "title": "VUE EN COUPE LONGITUDINALE",
+        "descriptionPic": "Ici la vue en coupe permet de voir la juxtaposition des différents niveaux de la maison sur cour ainsi que de sa piscine",
+        "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1683729762/archilibre1/Photos/Exterieur/3-Projet%20Iran/3-Plans/Iran-Plan-1_1_vrkkq4.jpg"
+      },
+      {
+        "id": "plan-Iran2",
+        "index": 5,
+        "class": "none",
+        "title": "PLAN DU REZ-DE-CHAUSSÉE",
+        "descriptionPic": "Ici le plan met clairement en avant le fait que la privatisation des espaces autour de la piscine permet une intimité propre à la culture iranienne",
+        "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1683729762/archilibre1/Photos/Exterieur/3-Projet%20Iran/3-Plans/Iran-Plan-2_rrbmum.jpg"
       }
     ]
   },
@@ -195,7 +192,7 @@
   {
     "id": "exterieur4",
     "class": "exterieur2",
-    "link": "/projetclamart",
+    "link": "/projettallsize",
     "btnName": "Antony",
     "number": "04.",
     "cssAllBG": "darkGreen",
@@ -204,7 +201,6 @@
     "date": "Mai 2019",
     "mainUrl": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681486841/archilibre1/Photos/Exterieur/Photos-Page-Exte%CC%81rieur/MainUrl-4-Anthony_nmsgt9.jpg",
     "descriptionUrl": "Résidence de 9 logements allant du 2 pièces au 5 pièces proposée dans un style classique revisité. Dans la ville d'Antony, un projet émerge, Un logement collectif, à la beauté submergeante. \n\nHuit appartements unis dans un même élan évoquant le passé, avec un toit mansardé élégant. Le style classique y règne en maître absolu comme un hommage à l'art d'antan, précieux et absolu. La toiture mansardée en pente douce s'élève telle une couronne majestueuse qui enchante et élève la construction. \n\nLes fenêtres en arc, les lucarnes ciselées, rappellent les temps anciens  avec leur charme exquis. La pierre de taille, noble et raffinée, orne la façade, témoignant d'un art précis. À l'intérieur, le confort moderne se conjugue avec la grâce intemporelle du style classique. Les appartements spacieux, aux finitions élégantes, évoquent une époque révolue, d'une beauté fascinante. À Antony, cette résidence est un hymne à l'art où le style classique et la toiture mansardée s'épanouissent. Un écrin de beauté dans la modernité, Une ode à l'éternelle élégance, un hommage à l'immortalité",
-    "texte": "Pour s'insérer dans un quartier pavillonnaire le choix de la sobriété architecturale a été retenu. Avec un traitement simple et classique, le bâtiment de deux étages se place élégamment dans son environnement",
     "prinPicture": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1683214501/archilibre1/Photos/Exterieur/4-Projet%20Anthony/1-Principal/Anthony-Principal-1_spzix0.jpg",
     "backgroundPicture": [
       {
@@ -251,7 +247,7 @@
   {
     "id": "exterieur5",
     "class": "exterieur1",
-    "link": "/projetclamart",
+    "link": "/projettallsize",
     "btnName": "Clamart",
     "number": "05.",
     "cssAllBG": "white",
@@ -306,7 +302,7 @@
   {
     "id": "exterieur6",
     "class": "exterieur2",
-    "link": "/projetclamart",
+    "link": "/projettallsize",
     "btnName": "Sèvres",
     "number": "06.",
     "cssAllBG": "grey",
