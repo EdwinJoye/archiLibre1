@@ -15,12 +15,13 @@ const Contact = ({ onOff, setOnOff }) => {
           />
         </div>
         <div className="contact__container-2">
-          <div className="contact__infos-container">
-            <p>25 avenue de l’Europe</p>
-            <p>AOtheninGirard@gmail.com</p>
-            <p>06.50.02.85.06</p>
-          </div>
           <Map></Map>
+          <div className="contact__infos-container">
+            <span>25 avenue de l’Europe</span>
+            <span>AOtheninGirard@gmail.com</span>
+            <span>06.50.02.85.06</span>
+            <a HREF="AOtheninGirard@gmail.com">Contactez moi</a>
+          </div>
         </div>
       </div>
       <div className="footer">
