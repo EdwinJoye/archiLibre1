@@ -18,7 +18,7 @@ const ProjetExterieurMedium = ({
   return (
     <div>
       <HeaderGreen2 onOff={onOff} setOnOff={setOnOff}></HeaderGreen2>
-      <div className="container fadeIn">
+      <div className="margin-bottom container fadeIn">
         <div className="projets__PartOne">
           <div className="projets__title-date">
             <h2>{data.title}</h2>
