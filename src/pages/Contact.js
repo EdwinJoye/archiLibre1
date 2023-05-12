@@ -24,9 +24,7 @@ const Contact = ({ onOff, setOnOff }) => {
           </div>
         </div>
       </div>
-      <div className="footer">
-        <Footer onOff={onOff} setOnOff={setOnOff}></Footer>
-      </div>
+      <Footer onOff={onOff} setOnOff={setOnOff}></Footer>
     </div>
   );
 };
