@@ -7,6 +7,7 @@ import Exterieur from "./pages/Exterieur";
 import Interieur from "./pages/Interieur";
 import Contact from "../src/pages/Contact";
 import ProjetInterieur from "./pages/ProjetInterieur";
+import ProjetInterieurAntony from "./pages/ProjetInterieurAntony";
 import ScrollToTop from "./components/ScrollToTop";
 import ProjetTallSize from "./pages/ProjetTallSize";
 import ProjetSmoleSize from "./pages/ProjetSmallSize";
@@ -51,6 +52,19 @@ function App() {
               selectedId={selectedId}
               setSelectedId={setSelectedId}
             ></ProjetInterieur>
+          }
+        ></Route>
+        <Route
+          path="/projetinterieurantony"
+          element={
+            <ProjetInterieurAntony
+              onOff={onOff}
+              setOnOff={setOnOff}
+              selectedId={selectedId}
+              setSelectedId={setSelectedId}
+              selectedPic={selectedPic}
+              setSelectedPic={setSelectedPic}
+            ></ProjetInterieurAntony>
           }
         ></Route>
         <Route

@@ -1,0 +1,113 @@
+.projetInterieur__container-1 {
+  margin-top: 50px;
+  text-align: center;
+}
+.projetInterieur__container-1 h2 {
+  margin-bottom: 30px;
+}
+.projetInterieur__backgroundImg {
+  height: 200px;
+  background-image: url("../img/bg-diagonales-green.svg");
+  background-size: cover;
+  margin-top: 100px;
+}
+.projetInterieur__2-img-container {
+  display: flex;
+  padding-left: 7%;
+  padding-right: 7%;
+  background-color: #37463d;
+  padding-bottom: 100px;
+}
+.projetInterieur__2-img-container h2 {
+  color: #f6edd9;
+}
+.projetIntAntony__img-container-1,
+.projetIntAntony__img-container-2 {
+  /* background-color: red; */
+  flex: 1;
+}
+.projetIntAntony__img-container-1 {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  /* background-color: yellow; */
+}
+.projetIntAntony__img-container-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.projetIntAntony__img-container-2 .projetIntAntony__title-container {
+  margin-bottom: 30px;
+}
+.projetIntAntony__img-container-2 h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.projetIntAntony__title-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 200px;
+  /* background-color: yellow; */
+  /* top: -100px; */
+}
+.projetIntAntony__title-date {
+  position: absolute;
+  z-index: 2;
+  /* background-color: pink; */
+  left: 15px;
+}
+.projetIntAntony__titleUnderline {
+  width: 60px;
+  height: 3px;
+  background-color: #37463d;
+  margin-top: 10px;
+}
+.projetIntAntony__titleBackground {
+  position: absolute;
+  z-index: 1;
+  width: 100px;
+  height: 200px;
+  background-color: #8c9c7c;
+}
+.projetInterieur__3-img-container .projetIntAntony__title-container {
+  /* background-color: pink; */
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+.projetIntAntony__img-container-3 {
+  /* display: flex; */
+  position: relative;
+  height: 900px;
+  /* background-color: yellowgreen; */
+}
+.container-3-img1 {
+  position: absolute;
+  left: 0;
+}
+.container-3-img2 {
+  position: absolute;
+  /* top: 50%; */
+  left: 50%;
+  transform: translate(-50%, -50px);
+}
+.container-3-img3 {
+  position: absolute;
+  right: 0;
+  top: -100px;
+}
+.projetIntAntony__img-container-4 {
+  display: flex;
+  /* background-color: red; */
+  align-items: flex-end;
+  margin-bottom: 100px;
+}
+.projetIntAntony__container4-right {
+  margin-left: 30px;
+}
+.projetIntAntony__container4-right .projetIntAntony__title-container {
+  top: -30px;
+}

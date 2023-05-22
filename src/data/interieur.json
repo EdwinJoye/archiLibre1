@@ -2,89 +2,93 @@
   {
     "id": "interieur1",
     "class": "interieur1",
-    "link": "/projetInterieur",
+    "link": "/projetinterieurantony",
     "btnName": "Antony",
     "number": "01.",
     "cssAllBG": "white",
     "category": "Amenagement",
-    "title": "Résidence Alphonsine",
+    "title": "La résidence Alphonsine",
     "date": "DATE NOTHING YET",
     "descriptionUrl": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat. Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor. Cras vestibulum bibendum augue. Praesent egestas leo in pede. Praesent blandit odio eu enim. Pellentesque sed dui ut augue blandit sodales. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Aliquam nibh. Mauris ac mauris sed pede pellentesque fermentum. Maecenas adipiscing ante non diam sodales hendrerit.",
-    "mainUrl": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681464937/archilibre1/Photos/Inte%CC%81rieurs/Ame%CC%81nagement/Projet%20Anthony/Salon/Salon-2_bdgpgs.jpg",
-    "diapos": [
+    "mainUrl": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1684770349/archilibre1/Photos/Inte%CC%81rieurs/MainUrl/MainUrl-Inte%CC%81rieur-1_ehdazk.jpg",
+    "sousCategories": [
       {
-        "sousCategories": [
+        "id": "picture1",
+        "title": "Salons et chambres",
+        "pics": [
           {
-            "id": "picture1",
-            "title": "Salons et chambres de la résidence Alphonsine",
-            "pics": [
-              {
-                "id": "pics1-SEC",
-                "title": "TITLE NOTHING YET",
-                "description": "DESCRIPTION NOTHING YET",
-                "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681464937/archilibre1/Photos/Inte%CC%81rieurs/Ame%CC%81nagement/Projet%20Anthony/Salon/Salon-1_axq8qc.jpg"
-              },
-              {
-                "id": "pics2-SEC",
-                "title": "TITLE NOTHING YET",
-                "description": "DESCRIPTION NOTHING YET",
-                "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681464937/archilibre1/Photos/Inte%CC%81rieurs/Ame%CC%81nagement/Projet%20Anthony/Salon/Salon-2_bdgpgs.jpg"
-              },
-              {
-                "id": "pics3-SEC",
-                "title": "TITLE NOTHING YET",
-                "description": "DESCRIPTION NOTHING YET",
-                "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681464937/archilibre1/Photos/Inte%CC%81rieurs/Ame%CC%81nagement/Projet%20Anthony/Salon/Salon-3_pq8tm3.jpg"
-              },
-              {
-                "id": "pics4-SEC",
-                "title": "TITLE NOTHING YET",
-                "description": "DESCRIPTION NOTHING YET",
-                "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681464938/archilibre1/Photos/Inte%CC%81rieurs/Ame%CC%81nagement/Projet%20Anthony/Salon/Salon-4_rjzvvu.jpg"
-              }
-            ]
+            "id": "pics1-SEC",
+            "index": 0,
+            "class": "none",
+            "title": "TITLE NOTHING YET",
+            "descriptionPic": "DESCRIPTION NOTHING YET",
+            "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1684773530/archilibre1/Photos/Inte%CC%81rieurs/antony/1-Salon/Salon-2_r6thos.jpg"
           },
           {
-            "id": "picture2",
-            "title": "Salles de bains de la résidence Alphonsine",
-            "pics": [
-              {
-                "id": "pics1-SDB",
-                "title": "TITLE NOTHING YET",
-                "description": "DESCRIPTION NOTHING YET",
-                "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681480477/archilibre1/Photos/Inte%CC%81rieurs/Ame%CC%81nagement/Projet%20Anthony/SDB/SDB-1_jkzhhn.jpg"
-              },
-              {
-                "id": "pics2-SDB",
-                "title": "TITLE NOTHING YET",
-                "description": "DESCRIPTION NOTHING YET",
-                "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681480477/archilibre1/Photos/Inte%CC%81rieurs/Ame%CC%81nagement/Projet%20Anthony/SDB/SDB-2_anxacl.jpg"
-              },
-              {
-                "id": "pics3-SDB",
-                "title": "TITLE NOTHING YET",
-                "description": "DESCRIPTION NOTHING YET",
-                "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681480477/archilibre1/Photos/Inte%CC%81rieurs/Ame%CC%81nagement/Projet%20Anthony/SDB/SDB-3_snl7ce.jpg"
-              }
-            ]
+            "id": "pics2-SEC",
+            "index": 1,
+            "class": "none",
+            "title": "TITLE NOTHING YET",
+            "descriptionPic": "DESCRIPTION NOTHING YET",
+            "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1684774183/archilibre1/Photos/Inte%CC%81rieurs/antony/1-Salon/Salon-4_zuqwxg.jpg"
           },
           {
-            "id": "picture2",
-            "title": "Halls d'entrée de la résidence Alphonsine",
-            "pics": [
-              {
-                "id": "pics1-H",
-                "title": "TITLE NOTHING YET",
-                "description": "DESCRIPTION NOTHING YET",
-                "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681464937/archilibre1/Photos/Inte%CC%81rieurs/Ame%CC%81nagement/Projet%20Anthony/EntreeImmeuble/Hall-1_zui5vb.jpg"
-              },
-              {
-                "id": "pics2-H",
-                "title": "TITLE NOTHING YET",
-                "description": "DESCRIPTION NOTHING YET",
-                "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1681464937/archilibre1/Photos/Inte%CC%81rieurs/Ame%CC%81nagement/Projet%20Anthony/EntreeImmeuble/Hall-2_jgb9wt.jpg"
-              }
-            ]
+            "id": "pics3-SEC",
+            "index": 2,
+            "class": "none",
+            "title": "TITLE NOTHING YET",
+            "descriptionPic": "DESCRIPTION NOTHING YET",
+            "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1684774449/archilibre1/Photos/Inte%CC%81rieurs/antony/1-Salon/Salon-1_oytcpt.jpg"
+          },
+          {
+            "id": "pics4-SEC",
+            "index": 3,
+            "class": "none",
+            "title": "TITLE NOTHING YET",
+            "descriptionPic": "DESCRIPTION NOTHING YET",
+            "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1684773530/archilibre1/Photos/Inte%CC%81rieurs/antony/1-Salon/Salon-3_bohsqy.jpg"
+          }
+        ]
+      },
+      {
+        "id": "picture2",
+        "title": "Salles de bains",
+        "pics": [
+          {
+            "id": "pics1-SDB",
+            "title": "TITLE NOTHING YET",
+            "description": "DESCRIPTION NOTHING YET",
+            "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1684763576/archilibre1/Photos/Inte%CC%81rieurs/antony/2-SDB/SDB-1_nxyd2a.jpg"
+          },
+          {
+            "id": "pics2-SDB",
+            "title": "TITLE NOTHING YET",
+            "description": "DESCRIPTION NOTHING YET",
+            "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1684763575/archilibre1/Photos/Inte%CC%81rieurs/antony/2-SDB/SDB-2_j1irvh.jpg"
+          },
+          {
+            "id": "pics3-SDB",
+            "title": "TITLE NOTHING YET",
+            "description": "DESCRIPTION NOTHING YET",
+            "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1684763575/archilibre1/Photos/Inte%CC%81rieurs/antony/2-SDB/SDB-3_lzk8ap.jpg"
+          }
+        ]
+      },
+      {
+        "id": "picture2",
+        "title": "Halls d'entrée de la résidence Alphonsine",
+        "pics": [
+          {
+            "id": "pics1-H",
+            "title": "TITLE NOTHING YET",
+            "description": "DESCRIPTION NOTHING YET",
+            "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1684763577/archilibre1/Photos/Inte%CC%81rieurs/antony/3-Hall/Hall-1_ydwwtb.jpg"
+          },
+          {
+            "id": "pics2-H",
+            "title": "TITLE NOTHING YET",
+            "description": "DESCRIPTION NOTHING YET",
+            "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1684763576/archilibre1/Photos/Inte%CC%81rieurs/antony/3-Hall/Hall-2_ciks3k.jpg"
           }
         ]
       }
