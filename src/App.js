@@ -6,7 +6,6 @@ import AboutMe from "./pages/AboutMe";
 import Exterieur from "./pages/Exterieur";
 import Interieur from "./pages/Interieur";
 import Contact from "../src/pages/Contact";
-import ProjetInterieur from "./pages/ProjetInterieur";
 import ProjetInterieurAntony from "./pages/ProjetInterieurAntony";
 import ScrollToTop from "./components/ScrollToTop";
 import ProjetTallSize from "./pages/ProjetTallSize";
@@ -42,17 +41,6 @@ function App() {
         <Route
           path="/contact"
           element={<Contact onOff={onOff} setOnOff={setOnOff}></Contact>}
-        ></Route>
-        <Route
-          path="/projetInterieur"
-          element={
-            <ProjetInterieur
-              onOff={onOff}
-              setOnOff={setOnOff}
-              selectedId={selectedId}
-              setSelectedId={setSelectedId}
-            ></ProjetInterieur>
-          }
         ></Route>
         <Route
           path="/projetinterieurantony"

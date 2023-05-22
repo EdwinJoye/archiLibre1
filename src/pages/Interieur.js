@@ -4,7 +4,6 @@ import Category1 from "../components/Category1";
 import Category2 from "../components/Category2";
 import InterieurImg from "../img/interieur.jpg";
 import interieurData from "../data/interieur.json";
-import "../css/interieur.css";
 
 const Interieur = ({ onOff, setOnOff }) => {
   return (
