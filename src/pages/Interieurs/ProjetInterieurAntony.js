@@ -1,8 +1,8 @@
-import HeaderGreen from "../../components/HeaderGreen2";
-import Footer from "../../components/Footer";
+import HeaderGreen2 from "../../components/HeaderGreen2";
 import { useLocation } from "react-router-dom";
 import PictureProjet from "../../components/PictureProjets";
 import Title from "../../components/Title";
+import Footer from "../../components/Footer";
 import "../../css/projetsInterieurs.css";
 
 const ProjetInterieurAntony = ({
@@ -18,13 +18,13 @@ const ProjetInterieurAntony = ({
 
   return (
     <div>
-      <HeaderGreen onOff={onOff} setOnOff={setOnOff}></HeaderGreen>
+      <HeaderGreen2 onOff={onOff} setOnOff={setOnOff}></HeaderGreen2>
       <div className="projetInterieur__container-1 container">
         <h2>{data.title}</h2>
         <span>{data.descriptionUrl}</span>
       </div>
       <div className="projetInterieur__container-2">
-        <div className="projetInterieur__backgroundImg"></div>
+        <div className="bg-diago-green projetInt-bg"></div>
         <div className="projetInterieur__2-img-container">
           <div className="projetIntAntony__img-container-1">
             <div className="marginB">
@@ -149,7 +149,7 @@ const ProjetInterieurAntony = ({
           </div>
         </div>
         <div className="projetIntAntony__img-container-4">
-          <div className="projetIntAntony__img-container-4-part1"></div>
+          <div className="bg-diago-grey"></div>
           <div className="projetIntAntony__img-container-4-part2">
             <PictureProjet
               selectedId={selectedId}
@@ -188,7 +188,7 @@ const ProjetInterieurAntony = ({
           </div>
         </div>
       </div>
-      <Footer></Footer>
+      <Footer onOff={onOff} setOnOff={setOnOff}></Footer>
     </div>
   );
 };

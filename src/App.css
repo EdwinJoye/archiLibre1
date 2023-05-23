@@ -87,7 +87,18 @@ span {
   position: relative;
   min-height: 100vh;
 }
-
+.bg-diago-grey {
+  background-image: url("./img/bg-diagonales-grey.svg");
+  background-size: cover;
+  margin-top: 200px;
+  height: 200px;
+}
+.bg-diago-green {
+  background-image: url("./img/bg-diagonales-green.svg");
+  background-size: cover;
+  margin-top: 200px;
+  height: 200px;
+}
 @keyframes fadeIn {
   0% {
     opacity: 0;

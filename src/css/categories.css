@@ -10,16 +10,6 @@
   width: 100%;
   /* background-color: aqua; */
 }
-.categories__bg-diago-grey {
-  background-image: url("../img/bg-diagonales-grey.svg");
-  background-size: cover;
-  margin-top: 200px;
-}
-.categories__bg-diago-green {
-  background-image: url("../img/bg-diagonales-green.svg");
-  background-size: cover;
-  margin-top: 200px;
-}
 .categories__all-container-1,
 .categories__all-container-2 {
   position: relative;

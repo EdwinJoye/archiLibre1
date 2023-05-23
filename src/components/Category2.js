@@ -21,9 +21,7 @@ const Category2 = ({ data, onOff, setOnOff }) => {
     >
       <div
         className={
-          data.cssAllBG === "grey"
-            ? "categories__bg-diago-grey"
-            : "categories__bg-diago-green"
+          data.cssAllBG === "grey" ? "bg-diago-grey" : "bg-diago-green"
         }
       >
         <div className="category__container">
