@@ -3,14 +3,17 @@ import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import AboutMe from "./pages/AboutMe";
-import Exterieur from "./pages/Exterieur";
-import Interieur from "./pages/Interieur";
+import Exterieur from "./pages/Exterieurs/Exterieur";
+import Interieur from "./pages/Interieurs/Interieur";
 import Contact from "../src/pages/Contact";
-import ProjetInterieurAntony from "./pages/ProjetInterieurAntony";
 import ScrollToTop from "./components/ScrollToTop";
-import ProjetTallSize from "./pages/ProjetTallSize";
-import ProjetSmoleSize from "./pages/ProjetSmallSize";
-import ProjetExterieurMedium from "./pages/ProjetMediumSize";
+import ProjetExterieurTall from "./pages/Exterieurs/ProjetExterieurTall";
+import ProjetExterieurSmall from "./pages/Exterieurs/ProjetExterieurSmall";
+import ProjetExterieurMedium from "./pages/Exterieurs/ProjetExterieurMedium";
+import ProjetInterieurAntony from "./pages/Interieurs/ProjetInterieurAntony";
+import ProjetInterieurMontfermeil from "./pages/Interieurs/ProjetInterieurMontfermeil";
+import ProjetInterieurCliqueTV from "./pages/Interieurs/ProjetInterieurCliqueTV";
+import ProjetInterieurMali from "./pages/Interieurs/ProjetInterieurMali";
 import Test from "./pages/Test";
 
 function App() {
@@ -43,42 +46,16 @@ function App() {
           element={<Contact onOff={onOff} setOnOff={setOnOff}></Contact>}
         ></Route>
         <Route
-          path="/projetinterieurantony"
+          path="/projetexterieursmall"
           element={
-            <ProjetInterieurAntony
+            <ProjetExterieurSmall
               onOff={onOff}
               setOnOff={setOnOff}
               selectedId={selectedId}
               setSelectedId={setSelectedId}
               selectedPic={selectedPic}
               setSelectedPic={setSelectedPic}
-            ></ProjetInterieurAntony>
-          }
-        ></Route>
-        <Route
-          path="/projettallsize"
-          element={
-            <ProjetTallSize
-              onOff={onOff}
-              setOnOff={setOnOff}
-              selectedId={selectedId}
-              setSelectedId={setSelectedId}
-              selectedPic={selectedPic}
-              setSelectedPic={setSelectedPic}
-            ></ProjetTallSize>
-          }
-        ></Route>
-        <Route
-          path="/projetsmolesize"
-          element={
-            <ProjetSmoleSize
-              onOff={onOff}
-              setOnOff={setOnOff}
-              selectedId={selectedId}
-              setSelectedId={setSelectedId}
-              selectedPic={selectedPic}
-              setSelectedPic={setSelectedPic}
-            ></ProjetSmoleSize>
+            ></ProjetExterieurSmall>
           }
         ></Route>
         <Route
@@ -92,6 +69,71 @@ function App() {
               selectedPic={selectedPic}
               setSelectedPic={setSelectedPic}
             ></ProjetExterieurMedium>
+          }
+        ></Route>
+        <Route
+          path="/projetexterieurtall"
+          element={
+            <ProjetExterieurTall
+              onOff={onOff}
+              setOnOff={setOnOff}
+              selectedId={selectedId}
+              setSelectedId={setSelectedId}
+              selectedPic={selectedPic}
+              setSelectedPic={setSelectedPic}
+            ></ProjetExterieurTall>
+          }
+        ></Route>
+        <Route
+          path="/projetinterieurantony"
+          element={
+            <ProjetInterieurAntony
+              onOff={onOff}
+              setOnOff={setOnOff}
+              selectedId={selectedId}
+              setSelectedId={setSelectedId}
+              selectedPic={selectedPic}
+              setSelectedPic={setSelectedPic}
+            ></ProjetInterieurAntony>
+          }
+        ></Route>
+        <Route
+          path="/projetinterieurmontfermeil"
+          element={
+            <ProjetInterieurMontfermeil
+              onOff={onOff}
+              setOnOff={setOnOff}
+              selectedId={selectedId}
+              setSelectedId={setSelectedId}
+              selectedPic={selectedPic}
+              setSelectedPic={setSelectedPic}
+            ></ProjetInterieurMontfermeil>
+          }
+        ></Route>
+        <Route
+          path="/projetinterieurcliquetv"
+          element={
+            <ProjetInterieurCliqueTV
+              onOff={onOff}
+              setOnOff={setOnOff}
+              selectedId={selectedId}
+              setSelectedId={setSelectedId}
+              selectedPic={selectedPic}
+              setSelectedPic={setSelectedPic}
+            ></ProjetInterieurCliqueTV>
+          }
+        ></Route>
+        <Route
+          path="/projetinterieurmali"
+          element={
+            <ProjetInterieurMali
+              onOff={onOff}
+              setOnOff={setOnOff}
+              selectedId={selectedId}
+              setSelectedId={setSelectedId}
+              selectedPic={selectedPic}
+              setSelectedPic={setSelectedPic}
+            ></ProjetInterieurMali>
           }
         ></Route>
         <Route

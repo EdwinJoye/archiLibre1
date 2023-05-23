@@ -1,9 +1,9 @@
-import HeaderGreen from "../components/HeaderGreen2";
-import Footer from "../components/Footer";
+import HeaderGreen from "../../components/HeaderGreen2";
+import Footer from "../../components/Footer";
 import { useLocation } from "react-router-dom";
-import PictureProjet from "../components/PictureProjets";
-import Title from "../components/Title";
-import "../css/projetsInterieurs.css";
+import PictureProjet from "../../components/PictureProjets";
+import Title from "../../components/Title";
+import "../../css/projetsInterieurs.css";
 
 const ProjetInterieurAntony = ({
   onOff,
@@ -57,7 +57,12 @@ const ProjetInterieurAntony = ({
             ></PictureProjet>
           </div>
           <div className="projetIntAntony__img-container-2">
-            <Title title={data.pagePictures[0].title}></Title>
+            <Title
+              title={data.pagePictures[0].title}
+              cssTexte={data.pagePictures[0].cssTexte}
+              cssUnderline={data.pagePictures[0].cssUnderline}
+              cssBackground={data.pagePictures[0].cssBackground}
+            ></Title>
             <div className="marginB">
               <PictureProjet
                 selectedId={selectedId}
@@ -89,7 +94,12 @@ const ProjetInterieurAntony = ({
           </div>
         </div>
         <div className="projetInterieur__3-img-container container">
-          <Title title={data.pagePictures[1].title}></Title>
+          <Title
+            title={data.pagePictures[1].title}
+            cssTexte={data.pagePictures[1].cssTexte}
+            cssUnderline={data.pagePictures[1].cssUnderline}
+            cssBackground={data.pagePictures[1].cssBackground}
+          ></Title>
           <div className="projetIntAntony__img-container-3">
             <div className="container-3-img1">
               <PictureProjet
@@ -155,7 +165,12 @@ const ProjetInterieurAntony = ({
               className={data.pagePictures[2].pics[0].class}
             ></PictureProjet>
             <div className="projetIntAntony__container4-right">
-              <Title title={data.pagePictures[2].title}></Title>
+              <Title
+                title={data.pagePictures[2].title}
+                cssTexte={data.pagePictures[2].cssTexte}
+                cssUnderline={data.pagePictures[2].cssUnderline}
+                cssBackground={data.pagePictures[2].cssBackground}
+              ></Title>
               <PictureProjet
                 selectedId={selectedId}
                 setSelectedId={setSelectedId}

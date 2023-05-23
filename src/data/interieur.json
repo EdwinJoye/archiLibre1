@@ -15,6 +15,9 @@
       {
         "id": "picture1",
         "title": "Salons et chambres",
+        "cssBackground": "bg-vert-c",
+        "cssTexte": "txt-beige",
+        "cssUnderline": "und-beige",
         "pics": [
           {
             "id": "pics1-SEC",
@@ -53,41 +56,47 @@
       {
         "id": "picture2",
         "title": "Salles de bains",
+        "cssBackground": "bg-vert-tc",
+        "cssTexte": "txt-vert-c",
+        "cssUnderline": "und-vert-c",
         "pics": [
           {
             "id": "pics1-SDB",
             "title": "TITLE NOTHING YET",
-            "description": "DESCRIPTION NOTHING YET",
+            "descriptionPic": "DESCRIPTION NOTHING YET",
             "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1684763576/archilibre1/Photos/Inte%CC%81rieurs/antony/2-SDB/SDB-1_nxyd2a.jpg"
           },
           {
             "id": "pics2-SDB",
             "title": "TITLE NOTHING YET",
-            "description": "DESCRIPTION NOTHING YET",
+            "descriptionPic": "DESCRIPTION NOTHING YET",
             "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1684763575/archilibre1/Photos/Inte%CC%81rieurs/antony/2-SDB/SDB-2_j1irvh.jpg"
           },
           {
             "id": "pics3-SDB",
             "title": "TITLE NOTHING YET",
-            "description": "DESCRIPTION NOTHING YET",
+            "descriptionPic": "DESCRIPTION NOTHING YET",
             "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1684763575/archilibre1/Photos/Inte%CC%81rieurs/antony/2-SDB/SDB-3_lzk8ap.jpg"
           }
         ]
       },
       {
         "id": "picture2",
-        "title": "Halls d'entrée",
+        "title": "Halls d'entrées",
+        "cssBackground": "bg-vert-c",
+        "cssTexte": "txt-vert-f",
+        "cssUnderline": "und-vert-f",
         "pics": [
           {
             "id": "pics1-H",
             "title": "TITLE NOTHING YET",
-            "description": "DESCRIPTION NOTHING YET",
+            "descriptionPic": "DESCRIPTION NOTHING YET",
             "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1684763577/archilibre1/Photos/Inte%CC%81rieurs/antony/3-Hall/Hall-1_ydwwtb.jpg"
           },
           {
             "id": "pics2-H",
             "title": "TITLE NOTHING YET",
-            "description": "DESCRIPTION NOTHING YET",
+            "descriptionPic": "DESCRIPTION NOTHING YET",
             "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1684763576/archilibre1/Photos/Inte%CC%81rieurs/antony/3-Hall/Hall-2_ciks3k.jpg"
           }
         ]
@@ -97,7 +106,7 @@
   {
     "id": "interieur2",
     "class": "interieur2",
-    "link": "/projetInterieur",
+    "link": "/projetinterieurmontfermeil",
     "btnName": "Montfermeil",
     "number": "02.",
     "cssAllBG": "grey",
@@ -122,7 +131,7 @@
   {
     "id": "interieur3",
     "class": "interieur1",
-    "link": "/projetInterieur",
+    "link": "/projetinterieurcliquetv",
     "btnName": "Clique TV",
     "number": "03.",
     "category": "Déco/Ameublement",
@@ -161,7 +170,7 @@
   {
     "id": "interieur4",
     "class": "interieur2",
-    "link": "/projetInterieur",
+    "link": "/projetinterieurmali",
     "btnName": "Mali",
     "number": "04.",
     "cssAllBG": "darkGreen",

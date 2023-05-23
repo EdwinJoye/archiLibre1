@@ -12,7 +12,6 @@
 .title__underline {
   width: 60px;
   height: 3px;
-  background-color: #f6edd9;
   margin-top: 10px;
 }
 .title__background {
@@ -20,5 +19,32 @@
   z-index: 1;
   width: 100px;
   height: 200px;
+}
+.bg-beige,
+.und-beige {
+  background-color: #f6edd9;
+}
+.bg-vert-tc,
+.und-vert-tc {
+  background-color: #d6e3cf;
+}
+.bg-vert-c,
+.und-vert-c {
   background-color: #8c9c7c;
+}
+.bg-vert-f,
+.und-vert-f {
+  background-color: #37463d;
+}
+.txt-beige {
+  color: #f6edd9;
+}
+.txt-vert-tc {
+  color: #d6e3cf;
+}
+.txt-vert-c {
+  color: #8c9c7c;
+}
+.txt-vert-f {
+  color: #37463d;
 }

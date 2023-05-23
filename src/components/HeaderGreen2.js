@@ -26,7 +26,7 @@ const HeaderGreen2 = ({ onOff, setOnOff }) => {
               ></div>
             </div>
           </Link>
-          <div class="header__dropdown-content">
+          <div className="header__dropdown-content">
             {exterieurData.map((data) => {
               return (
                 <div key={data.id}>
@@ -57,7 +57,7 @@ const HeaderGreen2 = ({ onOff, setOnOff }) => {
               ></div>
             </div>
           </Link>
-          <div class="header__dropdown-content">
+          <div className="header__dropdown-content">
             {interieurData.map((data) => {
               return (
                 <div key={data.id}>

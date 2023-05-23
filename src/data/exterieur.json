@@ -2,7 +2,7 @@
   {
     "id": "exterieur1",
     "class": "exterieur1",
-    "link": "/projetsmolesize",
+    "link": "/projetexterieursmall",
     "btnName": "CelleSaintCloud",
     "number": "01.",
     "cssAllBG": "white",
@@ -66,7 +66,7 @@
   {
     "id": "exterieur2",
     "class": "exterieur2",
-    "link": "/projettallsize",
+    "link": "/projetexterieurtall",
     "btnName": "Ville d'Avray",
     "number": "02.",
     "cssAllBG": "grey",
@@ -192,7 +192,7 @@
   {
     "id": "exterieur4",
     "class": "exterieur2",
-    "link": "/projettallsize",
+    "link": "/projetexterieurtall",
     "btnName": "Antony",
     "number": "04.",
     "cssAllBG": "darkGreen",
@@ -246,7 +246,7 @@
   {
     "id": "exterieur5",
     "class": "exterieur1",
-    "link": "/projettallsize",
+    "link": "/projetexterieurtall",
     "btnName": "Clamart",
     "number": "05.",
     "cssAllBG": "white",
@@ -301,7 +301,7 @@
   {
     "id": "exterieur6",
     "class": "exterieur2",
-    "link": "/projettallsize",
+    "link": "/projetexterieurtall",
     "btnName": "Sèvres",
     "number": "06.",
     "cssAllBG": "grey",

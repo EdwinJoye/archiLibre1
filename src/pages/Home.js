@@ -1,5 +1,5 @@
 import HomeCarousel from "../components/HomeCarousel";
-import { homePictures } from "../data/homePictures";
+import homePictures from "../data/homePictures.json";
 import "../css/home.css";
 
 const Home = ({ onOff, setOnOff }) => {

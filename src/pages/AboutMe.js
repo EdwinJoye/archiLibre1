@@ -1,4 +1,4 @@
-import { aboutMe } from "../data/aboutMe";
+import aboutMeData from "../data/aboutMe.json";
 import HeaderGreen1 from "../components/HeaderGreen1";
 import Category1 from "../components/Category1";
 import Category2 from "../components/Category2";
@@ -11,7 +11,7 @@ const AboutMe = ({ onOff, setOnOff }) => {
       <HeaderGreen1 onOff={onOff} setOnOff={setOnOff}></HeaderGreen1>
       <div className="container">
         <div className="fadeIn">
-          {aboutMe.map((data, key) => {
+          {aboutMeData.map((data, key) => {
             if (data.category === "aboutMe1") {
               return (
                 <Category1

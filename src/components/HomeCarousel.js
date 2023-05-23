@@ -4,7 +4,7 @@ import HeaderTransparent from "../components/HeaderTransparent";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import "../css/swiperHome.css";
+import "../css/homeCarousel.css";
 
 const HomeCarousel = ({ pics, onOff, setOnOff }) => {
   return (
