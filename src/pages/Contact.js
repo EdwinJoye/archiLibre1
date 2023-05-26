@@ -1,5 +1,4 @@
 import HeaderGreen1 from "../components/HeaderGreen1";
-import Footer from "../components/Footer";
 import Email from "../img/mail.svg";
 import Position from "../img/position.svg";
 import Telephone from "../img/tel.svg";
@@ -64,7 +63,6 @@ const Contact = ({ onOff, setOnOff }) => {
 
       <div className="footer">
         <Map></Map>
-        <Footer onOff={onOff} setOnOff={setOnOff}></Footer>
       </div>
     </div>
   );
