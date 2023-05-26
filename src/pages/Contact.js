@@ -8,7 +8,7 @@ import "../css/contact.css";
 
 const Contact = ({ onOff, setOnOff }) => {
   return (
-    <div className="contact__all-test relative">
+    <div className="relative fadeIn">
       <HeaderGreen1 onOff={onOff} setOnOff={setOnOff}></HeaderGreen1>
       <div className="contact__all-container container">
         <div className="contact__container-1">
@@ -61,8 +61,11 @@ const Contact = ({ onOff, setOnOff }) => {
           </div>
         </div>
       </div>
-      <Map></Map>
-      <Footer onOff={onOff} setOnOff={setOnOff}></Footer>
+
+      <div className="footer">
+        <Map></Map>
+        <Footer onOff={onOff} setOnOff={setOnOff}></Footer>
+      </div>
     </div>
   );
 };
