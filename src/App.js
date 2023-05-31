@@ -18,7 +18,7 @@ import Test from "./pages/Test";
 
 function App() {
   const [selectedId, setSelectedId] = useState(null);
-  const [selectedPic, setSelectedPic] = useState(0);
+  const [selectedPic, setSelectedPic] = useState(null);
   const [onOff, setOnOff] = useState(1);
 
   return (
