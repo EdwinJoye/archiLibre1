@@ -21,7 +21,7 @@ export default function SimpleMap() {
 
   return (
     // Important! Always set the container height explicitly
-    <div className="contact__map">
+    <div className="map__container">
       <GoogleMapReact
         bootstrapURLKeys={{ key: "AIzaSyDw8C1USZ9tllcVvnuQ70GWil8tp3XpETk" }}
         defaultCenter={location}

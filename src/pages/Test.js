@@ -1,6 +1,7 @@
 import "../css/test.css";
 import HeaderGreen2 from "../components/HeaderGreen2";
 import { useState } from "react";
+import Footer from "../components/Footer";
 
 // console.log("TEST", exterieur[4].zooms);
 
@@ -40,6 +41,9 @@ const Test = ({ selectedId, setSelectedId }) => {
             {message.content}
           </div>
         ))}
+      </div>
+      <div className="footer">
+        <Footer></Footer>
       </div>
     </div>
   );

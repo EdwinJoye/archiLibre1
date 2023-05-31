@@ -3,6 +3,7 @@ import Email from "../img/mail.svg";
 import Position from "../img/position.svg";
 import Telephone from "../img/tel.svg";
 import Map from "../components/Map";
+import Footer from "../components/Footer";
 import "../css/contact.css";
 
 const Contact = ({ onOff, setOnOff }) => {
@@ -60,9 +61,11 @@ const Contact = ({ onOff, setOnOff }) => {
           </div>
         </div>
       </div>
-
-      <div className="footer">
+      <div className="contact__map">
         <Map></Map>
+      </div>
+      <div className="contact__footer">
+        <Footer></Footer>
       </div>
     </div>
   );
