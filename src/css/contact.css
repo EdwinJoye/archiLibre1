@@ -23,9 +23,19 @@
   z-index: 2;
   height: 100%;
 }
-.contact__container-2 .title__container-all {
+.title__container-all {
   height: auto;
   /* background-color: pink; */
+}
+.title__date-container span {
+  /* background-color: red; */
+  color: #37463d;
+  margin-left: 10px;
+  font-size: 25px;
+  font-family: Montserrat-Regular;
+}
+.title__underline {
+  margin-bottom: 10px;
 }
 .contact__title-background {
   height: 140px;
@@ -46,6 +56,11 @@
   flex-direction: column;
   padding: 20px;
   /* background-color: yellow; */
+}
+.contact__title__container-all {
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 .contact__infos-container {
   display: flex;

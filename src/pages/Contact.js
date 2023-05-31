@@ -18,7 +18,7 @@ const Contact = ({ onOff, setOnOff }) => {
           <div className="contact__img-background"></div>
         </div>
         <div className="contact__container-2">
-          <div className="title__container-all">
+          <div className="contact__title__container-all">
             <div className="title__date-container">
               <h2 className="txt-vert-c">Contact</h2>
               <div className="title__underline und-vert-c"></div>

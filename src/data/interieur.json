@@ -9,7 +9,7 @@
     "category": "Amenagement",
     "title": "La résidence Alphonsine",
     "date": "DATE NOTHING YET",
-    "descriptionUrl": "La décoration intérieur et l’aménagement de cette résidence sont dans l même esprit que la sobriété extérieure. Un style classique et raffiné alliant des matériaux nobles tel que le marbre et des menuiseries en aluminium noir. Les espaces sont pensées en fonction de la luminosité et des vues extérieurs, aux espaces éclairés répondent des sols carreler plutôt sombre en imitation marbre, les salles d’eau plus sombres ont des revêtements clairs. Des rangements sont intégrés aux chambres pour un confort et une exploitation maximum des volumes",
+    "descriptionUrl": "La décoration intérieur et l’aménagement de cette résidence sont dans l même esprit que la sobriété extérieure. \n\nUn style classique et raffiné alliant des matériaux nobles tel que le marbre et des menuiseries en aluminium noir. \n\nLes espaces sont pensées en fonction de la luminosité et des vues extérieurs, aux espaces éclairés répondent des sols carreler plutôt sombre en imitation marbre, les salles d’eau plus sombres ont des revêtements clairs. \n\nDes rangements sont intégrés aux chambres pour un confort et une exploitation maximum des volumes",
     "mainUrl": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1684770349/archilibre1/Photos/Inte%CC%81rieurs/MainUrl/MainUrl-Inte%CC%81rieur-1_ehdazk.jpg",
     "pagePictures": [
       {
@@ -118,12 +118,13 @@
     "class": "interieur2",
     "link": "/projetinterieurmontfermeil",
     "btnName": "Montfermeil",
+    "picFormat": "horizontal-L",
     "number": "02.",
     "cssAllBG": "grey",
     "category": "Déco/Ameublement",
     "title": "Projet Montfermeil",
     "date": "DATE NOTHING YET",
-    "descriptionUrl": "La réhabilitation totale d’une maison de trois cents mètres carrés avait pour objectif d’ouvrir les espaces qui à l’origine étaient pensée de façon exiguë. Il a donc fallu casser tous les cloisonnements et une partie des éléments porteur qui ont été remplacé par deux piliers centraux. L’esprit globale du projet vise une réinterprétation du style industriel. Les poutres métalliques sont apparentes et peinte en noir, les poteaux sont en béton brut et le bois est de teinte sombre. Une bibliothèque sur mesure vient déstructurer les longueurs importantes des murs avec des jeux de formes et de lignes rectilignes.",
+    "descriptionUrl": "La réhabilitation totale d’une maison de trois cents mètres carrés avait pour objectif d’ouvrir les espaces qui à l’origine étaient pensés de façon exiguë. \n\nIl a donc fallu casser tous les cloisonnements et une partie des éléments porteur qui ont été remplacé par deux piliers centraux. L’esprit globale du projet vise une réinterprétation du style industriel. \n\nLes poutres métalliques sont apparentes et peinte en noir, les poteaux sont en béton brut et le bois est de teinte sombre. \n\nUne bibliothèque sur mesure vient déstructurer les longueurs importantes des murs avec des jeux de formes et de lignes rectilignes.",
     "mainUrl": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1684770349/archilibre1/Photos/Inte%CC%81rieurs/MainUrl/MainUrl-Inte%CC%81rieur-2_azu7uk.jpg",
     "pagePictures": [
       {
@@ -158,11 +159,12 @@
     "class": "interieur1",
     "link": "/projetinterieurcliquetv",
     "btnName": "Clique TV",
+    "picFormat": "horizontal-L",
     "number": "03.",
     "category": "Déco/Ameublement",
     "title": "Projet Clique-Tv",
     "date": "DATE NOTHING YET",
-    "descriptionUrl": "La décoration de ce plateau TV pour sa première saison voulait un esprit bureau cosy et espace de travail. La direction artistique visait une touche moderne et dynamique. La réunion des idées a donné lieu a ce projet aux formes courbes et engagées. Le bois clair et le blanc brillant apporte une clarté d’esprit. Tout le mobilier dont le plateau du présentateur ont été dessiné et conçu. Les bibliothèques avaient pour vocation d’accueillir les nombreux gadgets pop culture et japonisant des protagonistes ce qui aurait mis en valeur ces éléments et le décor mais cela n’a pas été retenu.",
+    "descriptionUrl": "La décoration de ce plateau TV pour sa première saison voulait un esprit bureau cosy et espace de travail. \n\nLa direction artistique visait une touche moderne et dynamique. La réunion des idées a donné lieu a ce projet aux formes courbes et engagées. \n\nLe bois clair et le blanc brillant apporte une clarté d’esprit. Tout le mobilier dont le plateau du présentateur ont été dessiné et conçu. \n\nLes bibliothèques avaient pour vocation d’accueillir les nombreux gadgets pop culture et japonisant des protagonistes ce qui aurait mis en valeur ces éléments et le décor mais cela n’a pas été retenu.",
     "mainUrl": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1684770349/archilibre1/Photos/Inte%CC%81rieurs/MainUrl/MainUrl-Inte%CC%81rieur-3_zlvakz.jpg",
     "pagePictures": [
       {
@@ -213,13 +215,14 @@
     "class": "interieur2",
     "link": "/projetinterieurmali",
     "btnName": "Mali",
+    "picFormat": "horizontal-L",
     "number": "04.",
     "cssAllBG": "darkGreen",
     "category": "Déco/Ameublement",
     "position": "last",
     "title": "Projet de Mali",
     "date": "DATE NOTHING YET",
-    "descriptionUrl": "Ce projet de maison pour un réalisateur célèbre d’origine Malienne a été pensé de la première pierre au dernier aménagement allant jusqu’à dessiner les vasques des pièces d’eaux qui ont été conçu sur place. Le projet entouré d’un écrin de verdure vient se protéger du soleil en concentrant les espaces sur eux même. Le métal et le bois se marie afin d’intimiser les espaces par des couleurs sombres, seuls les murs clairs permettent de répandre une lumière diffuse.",
+    "descriptionUrl": "Ce projet de maison pour un réalisateur célèbre d’origine Malienne a été pensé de la première pierre au dernier aménagement allant jusqu’à dessiner les vasques des pièces d’eaux qui ont été conçu sur place. \n\nLe projet entouré d’un écrin de verdure vient se protéger du soleil en concentrant les espaces sur eux même. \n\nLe métal et le bois se marie afin d’intimiser les espaces par des couleurs sombres, seuls les murs clairs permettent de répandre une lumière diffuse.",
     "mainUrl": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1684770348/archilibre1/Photos/Inte%CC%81rieurs/MainUrl/MainUrl-Inte%CC%81rieur-4_mxvxku.jpg",
     "pagePictures": [
       {

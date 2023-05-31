@@ -33,7 +33,7 @@ const ProjetExterieurSmall = ({
         <div className="projetCelle__PartTwo">
           <div className="projets__imgPrincipal-background-text-container">
             <img
-              className="projets__imgPrincipal"
+              className="projets__imgPrincipal small"
               src={data.prinPicture}
               alt="imgPrincipal"
             />

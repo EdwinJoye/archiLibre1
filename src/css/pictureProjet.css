@@ -19,9 +19,9 @@
 }
 .pictureProjet__pics-overlay-container1:hover img,
 .pictureProjet__pics-overlay-container2:hover img {
-  -ms-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 .pictureProjet__overlay {
   position: absolute;

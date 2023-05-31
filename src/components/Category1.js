@@ -31,7 +31,7 @@ const Category1 = ({ data, onOff, setOnOff }) => {
                 setOnOff((onOff = 0));
               }}
             >
-              <span className="categories__button">LIRE LA SUITE</span>
+              <span className="categories__button">VOIR LA SUITE</span>
             </Link>
           </div>
           <Link
@@ -52,7 +52,7 @@ const Category1 = ({ data, onOff, setOnOff }) => {
                 <img src={data.mainUrl} alt="mainUrlPic" />
               </div>
               <div className="categories__overlay">
-                <h5>{data.title}</h5>
+                <p className="categories__overlay-title">{data.title}</p>
                 <div className="categories__underline"></div>
                 <p>{data.date}</p>
               </div>

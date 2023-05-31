@@ -123,6 +123,9 @@ img {
   h2 {
     font-size: 45px;
   }
+  p {
+    /* font-size: 0.9rem; */
+  }
 }
 @media screen and (max-width: 1350px) {
 }
