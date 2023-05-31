@@ -117,6 +117,7 @@ const ProjetInterieurAntony = ({
                   className={data.pagePictures[1].pics[0].class}
                 ></PictureProjet>
               </div>
+
               <div className="container-3-img2">
                 <PictureProjet
                   selectedId={selectedId}
@@ -132,6 +133,7 @@ const ProjetInterieurAntony = ({
                   className={data.pagePictures[1].pics[1].class}
                 ></PictureProjet>
               </div>
+
               <div className="container-3-img3">
                 <PictureProjet
                   selectedId={selectedId}

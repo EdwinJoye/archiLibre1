@@ -62,18 +62,24 @@
         "pics": [
           {
             "id": "pics1-SDB",
+            "index": 0,
+            "class": "none",
             "title": "TITLE NOTHING YET",
             "descriptionPic": "DESCRIPTION NOTHING YET",
             "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1684763576/archilibre1/Photos/Inte%CC%81rieurs/antony/2-SDB/SDB-1_nxyd2a.jpg"
           },
           {
             "id": "pics2-SDB",
+            "index": 1,
+            "class": "none",
             "title": "TITLE NOTHING YET",
             "descriptionPic": "DESCRIPTION NOTHING YET",
             "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1684763575/archilibre1/Photos/Inte%CC%81rieurs/antony/2-SDB/SDB-2_j1irvh.jpg"
           },
           {
             "id": "pics3-SDB",
+            "index": 2,
+            "class": "none",
             "title": "TITLE NOTHING YET",
             "descriptionPic": "DESCRIPTION NOTHING YET",
             "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1684763575/archilibre1/Photos/Inte%CC%81rieurs/antony/2-SDB/SDB-3_lzk8ap.jpg"
@@ -89,12 +95,16 @@
         "pics": [
           {
             "id": "pics1-H",
+            "index": 0,
+            "class": "none",
             "title": "TITLE NOTHING YET",
             "descriptionPic": "DESCRIPTION NOTHING YET",
             "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1684763577/archilibre1/Photos/Inte%CC%81rieurs/antony/3-Hall/Hall-1_ydwwtb.jpg"
           },
           {
             "id": "pics2-H",
+            "index": 1,
+            "class": "none",
             "title": "TITLE NOTHING YET",
             "descriptionPic": "DESCRIPTION NOTHING YET",
             "url": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1684763576/archilibre1/Photos/Inte%CC%81rieurs/antony/3-Hall/Hall-2_ciks3k.jpg"

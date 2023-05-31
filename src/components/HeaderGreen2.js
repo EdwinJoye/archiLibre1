@@ -28,6 +28,7 @@ const HeaderGreen2 = ({ onOff, setOnOff }) => {
           </Link>
           <div className="header__dropdown-content">
             {exterieurData.map((data) => {
+              console.log("HEADER DATA", data[0]);
               return (
                 <div key={data.id}>
                   <Link to={data.link} state={{ data: data }}>
