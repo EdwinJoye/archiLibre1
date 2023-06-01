@@ -4,6 +4,40 @@
   height: 100vh;
   display: none;
 }
+.headerResp__first-menu {
+  display: flex;
+  padding: 10px 20px;
+  background-color: #37463d;
+}
+.headerResp__sousMenu {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 10%;
+  /* background-color: black; */
+}
+.headerResp__lines {
+  height: 2.5px;
+  width: 30px;
+  border-radius: 40px;
+  margin: 3px 0;
+  background-color: white;
+}
+.headerResp__signature-container {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  /* background-color: red; */
+}
+.headerResp__signature-container img {
+  width: 140px;
+}
+.headerResp__second-menu-block {
+  display: block;
+}
+.headerResp__second-menu-none {
+  display: none;
+}
 .headerResp__overlay-container {
   position: absolute;
   top: 0;

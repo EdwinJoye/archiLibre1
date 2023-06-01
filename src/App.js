@@ -45,7 +45,16 @@ function App() {
         ></Route>
         <Route
           path="/contact"
-          element={<Contact onOff={onOff} setOnOff={setOnOff}></Contact>}
+          element={
+            <Contact
+              onOff={onOff}
+              setOnOff={setOnOff}
+              isOpenExt={isOpenExt}
+              setIsOpenExt={setIsOpenExt}
+              isOpenInt={isOpenInt}
+              setIsOpenInt={setIsOpenInt}
+            ></Contact>
+          }
         ></Route>
         <Route
           path="/projetexterieursmall"

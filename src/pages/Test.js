@@ -1,6 +1,7 @@
 import "../css/test.css";
 // import HeaderGreen2 from "../components/HeaderGreen2";
 // import Footer from "../components/Footer";
+import { useState } from "react";
 import HeaderGreenResp from "../components/HeaderGreenResp";
 
 const Test = ({
@@ -11,6 +12,8 @@ const Test = ({
   isOpenInt,
   setIsOpenInt,
 }) => {
+  const [isSelectedTest, setIsSelectedTest] = useState(null);
+
   return (
     <div className="test__container">
       {/* <HeaderGreen2></HeaderGreen2> */}
@@ -21,6 +24,8 @@ const Test = ({
         setIsOpenExt={setIsOpenExt}
         isOpenInt={isOpenInt}
         setIsOpenInt={setIsOpenInt}
+        isSelectedTest={isSelectedTest}
+        setIsSelectedTest={setIsSelectedTest}
       ></HeaderGreenResp>
     </div>
   );

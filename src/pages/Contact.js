@@ -7,11 +7,25 @@ import Map from "../components/Map";
 import Footer from "../components/Footer";
 import "../css/contact.css";
 
-const Contact = ({ onOff, setOnOff }) => {
+const Contact = ({
+  onOff,
+  setOnOff,
+  isOpenExt,
+  setIsOpenExt,
+  isOpenInt,
+  setIsOpenInt,
+}) => {
   return (
     <div className="contact__container relative">
       <HeaderGreen1 onOff={onOff} setOnOff={setOnOff}></HeaderGreen1>
-      <HeaderGreenResp onOff={onOff} setOnOff={setOnOff}></HeaderGreenResp>
+      <HeaderGreenResp
+        onOff={onOff}
+        setOnOff={setOnOff}
+        isOpenExt={isOpenExt}
+        setIsOpenExt={setIsOpenExt}
+        isOpenInt={isOpenInt}
+        setIsOpenInt={setIsOpenInt}
+      ></HeaderGreenResp>
       <div className="contact__img-infos-map-container fadeIn">
         <div className="contact__img-infos-container container">
           <div className="contact__container-1">
