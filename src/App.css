@@ -1,3 +1,6 @@
+html {
+  height: -webkit-fill-available;
+}
 body {
   --def: #090e0c;
   --inv: #fff;
