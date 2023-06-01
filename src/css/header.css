@@ -104,10 +104,10 @@
   .header__button {
     width: 157px;
     font-size: 1rem;
-    /* background-color: pink; */
+    background-color: pink;
   }
   .header__signature {
-    max-width: 130px;
+    width: 130px;
   }
 }
 @media screen and (max-width: 1160px) {
@@ -120,7 +120,7 @@
     padding: 0 3% 0 3%;
   }
   .header__signature {
-    max-width: 125px;
+    width: 125px;
   }
 }
 @media screen and (max-width: 860px) {
@@ -128,22 +128,23 @@
     letter-spacing: 0px;
   }
   .header__signature {
-    max-width: 120px;
-  }
-  .header__button {
-    width: 140px;
-    font-size: 0.8rem;
-  }
-}
-@media screen and (max-width: 820px) {
-}
-@media screen and (max-width: 780px) {
-  .header__button {
     width: 120px;
   }
+  .header__button {
+    font-size: 0.8rem;
+    width: 110px;
+  }
+}
+@media screen and (max-width: 780px) {
 }
 @media screen and (max-width: 730px) {
   .header__signature {
-    max-width: 100px;
+    width: 100px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .header__button {
+    font-size: 0.6rem;
+    width: 90px;
   }
 }

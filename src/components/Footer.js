@@ -29,21 +29,19 @@ const Footer = ({ onOff, setOnOff }) => {
           </div>
         </Link>
       </div>
-      <div className="footer__logo-container">
-        <Link
+      <Link
+        to="/"
+        onClick={() => {
+          setOnOff((onOff = 1));
+        }}
+      >
+        <img
           to="/"
-          onClick={() => {
-            setOnOff((onOff = 1));
-          }}
-        >
-          <img
-            to="/"
-            className="footer__signature"
-            src={SignatureBlanche}
-            alt="sBlanche"
-          />
-        </Link>
-      </div>
+          className="footer__signature"
+          src={SignatureBlanche}
+          alt="sBlanche"
+        />
+      </Link>
       <div className="footer__buttons-container2">
         <Link
           className="footer__button"
