@@ -1,3 +1,6 @@
+.contact__container {
+  max-height: 100vh;
+}
 .contact__all-container {
   display: flex;
   justify-content: center;
