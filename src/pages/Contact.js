@@ -63,9 +63,9 @@ const Contact = ({ onOff, setOnOff }) => {
       </div>
       <div className="contact__map">
         <Map></Map>
-      </div>
-      <div className="contact__footer">
-        <Footer></Footer>
+        <div className="contact__footer">
+          <Footer></Footer>
+        </div>
       </div>
     </div>
   );
