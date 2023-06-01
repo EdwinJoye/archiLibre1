@@ -10,8 +10,8 @@ const Contact = ({ onOff, setOnOff }) => {
   return (
     <div className="contact__container relative">
       <HeaderGreen1 onOff={onOff} setOnOff={setOnOff}></HeaderGreen1>
-      <div className="fadeIn">
-        <div className="contact__all-container container">
+      <div className="contact__img-infos-map-container fadeIn">
+        <div className="contact__img-infos-container container">
           <div className="contact__container-1">
             <img
               src="https://res.cloudinary.com/dt7srgrd1/image/upload/v1683567160/archilibre1/Photos/Aman/my_spa_oim_pensif_gqpaxk.jpg"
@@ -26,9 +26,8 @@ const Contact = ({ onOff, setOnOff }) => {
                 <div className="title__underline und-vert-c"></div>
                 <span>A.Othenin Girard</span>
               </div>
-              <div className={`contact__title-background bg-vert-tc`}></div>
+              <div className="contact__title-background bg-vert-tc"></div>
             </div>
-
             <div className="contact__infos-container">
               <div className="contact__logo-info">
                 <div className="contact__logo-container">
@@ -62,7 +61,7 @@ const Contact = ({ onOff, setOnOff }) => {
             </div>
           </div>
         </div>
-        <div className="contact__map">
+        <div>
           <Map></Map>
           <div className="contact__footer">
             <Footer></Footer>
