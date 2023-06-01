@@ -148,3 +148,8 @@
     width: 90px;
   }
 }
+@media screen and (max-width: 420px) {
+  .header__green {
+    display: none;
+  }
+}

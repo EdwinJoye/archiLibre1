@@ -94,6 +94,12 @@ img {
   position: relative;
   min-height: 100vh;
 }
+.block {
+  display: block;
+}
+.none {
+  display: none;
+}
 .bg-diago-grey {
   background-image: url("./img/bg-diagonales-grey.svg");
   background-size: cover;

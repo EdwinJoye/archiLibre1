@@ -20,6 +20,8 @@ function App() {
   const [selectedId, setSelectedId] = useState(null);
   const [selectedPic, setSelectedPic] = useState(null);
   const [onOff, setOnOff] = useState(1);
+  const [isOpenExt, setIsOpenExt] = useState(false);
+  const [isOpenInt, setIsOpenInt] = useState(false);
 
   return (
     <Router>
@@ -142,6 +144,10 @@ function App() {
             <Test
               onOff={onOff}
               setOnOff={setOnOff}
+              isOpenExt={isOpenExt}
+              setIsOpenExt={setIsOpenExt}
+              isOpenInt={isOpenInt}
+              setIsOpenInt={setIsOpenInt}
               selectedId={selectedId}
               setSelectedId={setSelectedId}
               selectedPic={selectedPic}

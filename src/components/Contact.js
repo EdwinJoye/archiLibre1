@@ -37,7 +37,7 @@ const Contact = ({ onOff, setOnOff }) => {
                 </div>
                 <a
                   className="contact__mail"
-                  href="mailto:AOtheninGirard@gmail.com"
+                  bottom="mailto:AOtheninGirard@gmail.com"
                 >
                   AOtheninGirard@gmail.com
                 </a>
@@ -56,7 +56,7 @@ const Contact = ({ onOff, setOnOff }) => {
               </div>
               <a
                 className="contact__button"
-                href="mailto:AOtheninGirard@gmail.com"
+                bottom="mailto:AOtheninGirard@gmail.com"
               >
                 Contactez moi
               </a>
