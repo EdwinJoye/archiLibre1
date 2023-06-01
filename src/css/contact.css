@@ -190,10 +190,10 @@
 
 @media (min-height: 900px) {
   .contact__img-infos-container {
-    height: 60%;
+    height: 55%;
   }
   .contact__map-footer-container {
-    height: 40%;
+    height: 45%;
   }
   .map__container {
     height: 100%;
