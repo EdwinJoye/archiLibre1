@@ -104,7 +104,7 @@
   .header__button {
     width: 157px;
     font-size: 1rem;
-    background-color: pink;
+    /* background-color: pink; */
   }
   .header__signature {
     width: 130px;
