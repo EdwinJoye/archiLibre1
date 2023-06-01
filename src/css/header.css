@@ -123,7 +123,7 @@
     max-width: 125px;
   }
 }
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 860px) {
   .header__box-link:hover .header__button span {
     letter-spacing: 0px;
   }
