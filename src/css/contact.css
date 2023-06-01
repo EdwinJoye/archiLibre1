@@ -198,4 +198,7 @@
   .map__container {
     height: 500px;
   }
+  .contact__footer {
+    display: block;
+  }
 }
