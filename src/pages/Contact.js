@@ -53,12 +53,12 @@ const Contact = ({ onOff, setOnOff }) => {
                 </div>
                 <span>25 avenue de l’Europe</span>
               </div>
-              <a
+              <button
                 className="contact__button"
                 HREF="mailto:AOtheninGirard@gmail.com"
               >
                 Contactez moi
-              </a>
+              </button>
             </div>
           </div>
         </div>

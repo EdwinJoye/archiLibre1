@@ -45,6 +45,7 @@
 }
 .contact__container-2 {
   display: flex;
+  height: 350px;
   flex-direction: column;
   padding: 20px;
   padding-top: 0;
@@ -80,7 +81,7 @@
 .contact__infos-container span {
   margin-bottom: 5px;
 }
-.contact__infos-container a:hover {
+.contact__infos-container button:hover {
   background-color: #9bb291;
   color: white;
 }
@@ -110,6 +111,7 @@
   color: #9bb291;
 }
 .contact__button {
+  cursor: pointer;
   border: 2px solid #9bb291;
   transition: ease-in-out 0.2s;
   border-radius: 40px;
@@ -117,7 +119,7 @@
   width: 200px;
   color: #9bb291;
   font-weight: bold;
-  /* background-color: red; */
+  background-color: white;
 }
 .map__container {
   height: 230px;
