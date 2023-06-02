@@ -31,7 +31,7 @@ const HeaderResp = () => {
           <div className="headerResp__lines"></div>
           <div className="headerResp__lines"></div>
         </div>
-        {console.log("MENURESP", isSelectedMenu)}
+        {/* {console.log("MENURESP", isSelectedMenu)} */}
         <div className="headerResp__signature-container">
           <img src={Signature} alt="sign" />
         </div>
