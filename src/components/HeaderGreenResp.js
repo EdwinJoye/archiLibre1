@@ -33,7 +33,6 @@ const HeaderResp = ({
           <div className="headerResp__lines"></div>
           <div className="headerResp__lines"></div>
           <div className="headerResp__lines"></div>
-          {/* {console.log("selectedTest", isSelectedTest)} */}
         </div>
         <div className="headerResp__signature-container">
           <img src={Signature} alt="sign" />
@@ -47,19 +46,40 @@ const HeaderResp = ({
             : "headerResp__second-menu-none"
         }
       >
-        <div className="headerResp__overlay-container"></div>
-        <div className="headerResp__menu-container">
+        <div
+          onClick={() => {
+            setIsSelectedTest(null);
+            setIsOpenInt(false);
+            setIsOpenExt(false);
+          }}
+          className="headerResp__overlay-container fadeIn"
+        ></div>
+        <div
+          className={
+            isSelectedTest === "principal-menu"
+              ? "headerResp__menu-container-in"
+              : "headerResp__menu-container-out"
+          }
+        >
           <div className="headerResp__croix-txt-container">
             <div className="headerResp__croix-container">
               <img
-                onClick={() => setIsSelectedTest(null)}
+                onClick={() => {
+                  setIsSelectedTest(null);
+                  setIsOpenInt(false);
+                  setIsOpenExt(false);
+                }}
                 className="headerResp__croix"
                 src={Croix}
                 alt="crx"
               />
             </div>
             <div
-              onClick={() => setIsSelectedTest(null)}
+              onClick={() => {
+                setIsSelectedTest(null);
+                setIsOpenInt(false);
+                setIsOpenExt(false);
+              }}
               className="headerResp__txt"
             >
               MENU
@@ -88,7 +108,6 @@ const HeaderResp = ({
                 src={ArrowDown}
                 alt="arrowDown"
               />
-              {console.log("ARROW EXT", isOpenExt)}
               <img
                 c
                 className={
@@ -136,7 +155,6 @@ const HeaderResp = ({
                   src={ArrowDown}
                   alt="arrowDown"
                 />
-                {console.log("ARROW Int", isOpenInt)}
                 <img
                   className={
                     isOpenInt === true
