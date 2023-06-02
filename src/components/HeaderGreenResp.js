@@ -4,6 +4,7 @@ import interieurData from "../data/interieur.json";
 import Signature from "../img/signatureBlanche.png";
 import Croix from "../img/croixBlanche.svg";
 import ArrowDown from "../img/arrow-down.png";
+import ArrowUp from "../img/arrow-up.png";
 import "../css/headerResp.css";
 
 const HeaderResp = ({
@@ -32,7 +33,7 @@ const HeaderResp = ({
           <div className="headerResp__lines"></div>
           <div className="headerResp__lines"></div>
           <div className="headerResp__lines"></div>
-          {console.log("selectedTest", isSelectedTest)}
+          {/* {console.log("selectedTest", isSelectedTest)} */}
         </div>
         <div className="headerResp__signature-container">
           <img src={Signature} alt="sign" />
@@ -57,7 +58,12 @@ const HeaderResp = ({
                 alt="crx"
               />
             </div>
-            <div className="headerResp__txt">MENU</div>
+            <div
+              onClick={() => setIsSelectedTest(null)}
+              className="headerResp__txt"
+            >
+              MENU
+            </div>
           </div>
           <div className="headerResp__btns-container">
             <Link to="/">
@@ -65,8 +71,6 @@ const HeaderResp = ({
                 <span className="headerResp__btn">HOME</span>
               </div>
             </Link>
-
-            {/* <Link to="/exterieur"> */}
             <div
               className="headerResp__btn-arw-container"
               onClick={handleClickExt}
@@ -76,8 +80,23 @@ const HeaderResp = ({
                 <div></div>
               </div>
               <img
-                className="headerResp__arrow"
+                className={
+                  isOpenExt === false
+                    ? "headerResp__arrow-block"
+                    : "headerResp__arrow-none"
+                }
                 src={ArrowDown}
+                alt="arrowDown"
+              />
+              {console.log("ARROW EXT", isOpenExt)}
+              <img
+                c
+                className={
+                  isOpenExt === true
+                    ? "headerResp__arrow-block"
+                    : "headerResp__arrow-none"
+                }
+                src={ArrowUp}
                 alt="arrowDown"
               />
             </div>
@@ -109,8 +128,22 @@ const HeaderResp = ({
                   <div></div>
                 </div>
                 <img
-                  className="headerResp__arrow"
+                  className={
+                    isOpenInt === false
+                      ? "headerResp__arrow-block"
+                      : "headerResp__arrow-none"
+                  }
                   src={ArrowDown}
+                  alt="arrowDown"
+                />
+                {console.log("ARROW Int", isOpenInt)}
+                <img
+                  className={
+                    isOpenInt === true
+                      ? "headerResp__arrow-block"
+                      : "headerResp__arrow-none"
+                  }
+                  src={ArrowUp}
                   alt="arrowDown"
                 />
               </div>
