@@ -10,7 +10,6 @@ import "../css/contact.css";
 const Contact = ({ onOff, setOnOff, isSelectedMenu }) => {
   return (
     <div className="contact__container relative">
-      {/* {console.log("CONTACT", isSelectedMenu)} */}
       <HeaderGreen1 onOff={onOff} setOnOff={setOnOff}></HeaderGreen1>
       <HeaderGreenResp onOff={onOff} setOnOff={setOnOff}></HeaderGreenResp>
       <div className="contact__img-infos-map-container fadeIn">

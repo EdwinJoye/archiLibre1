@@ -1,4 +1,5 @@
 import HeaderGreen2 from "../../components/HeaderGreen2";
+import HeaderGreenResp from "../../components/HeaderGreenResp";
 import { useLocation } from "react-router-dom";
 import PictureProjet from "../../components/PictureProjets";
 import Title from "../../components/Title";
@@ -19,6 +20,7 @@ const ProjetInterieurMali = ({
   return (
     <div>
       <HeaderGreen2 onOff={onOff} setOnOff={setOnOff}></HeaderGreen2>
+      <HeaderGreenResp onOff={onOff} setOnOff={setOnOff}></HeaderGreenResp>
       <div className="fadeIn">
         <div className="projetInterieur__container-1 container">
           <h2>{data.title}</h2>

@@ -1,5 +1,6 @@
 import { useLocation } from "react-router-dom";
 import HeaderGreen2 from "../../components/HeaderGreen2";
+import HeaderGreenResp from "../../components/HeaderGreenResp";
 import Footer from "../../components/Footer";
 import PictureProjet from "../../components/PictureProjets";
 import "../../css/projetsExterieurs.css";
@@ -18,6 +19,7 @@ const ProjetExterieurMedium = ({
   return (
     <div>
       <HeaderGreen2 onOff={onOff} setOnOff={setOnOff}></HeaderGreen2>
+      <HeaderGreenResp onOff={onOff} setOnOff={setOnOff}></HeaderGreenResp>
       <div className="margin-bottom container fadeIn">
         <div className="projets__PartOne">
           <div className="projets__title-date">

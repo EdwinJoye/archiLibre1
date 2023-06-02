@@ -1,5 +1,5 @@
 import HeaderGreen1 from "../../components/HeaderGreen1";
-import HeaderResp from "../../components/HeaderGreenResp";
+import HeaderGreenResp from "../../components/HeaderGreenResp";
 import Footer from "../../components/Footer";
 import ExterieurImg from "../../img/exterieur.jpg";
 import Category1 from "../../components/Category1";
@@ -12,6 +12,7 @@ const Exterieur = ({ onOff, setOnOff }) => {
     <div className="relative">
       <div className="exterieur__header-img-title">
         <HeaderGreen1 onOff={onOff} setOnOff={setOnOff}></HeaderGreen1>
+        <HeaderGreenResp onOff={onOff} setOnOff={setOnOff}></HeaderGreenResp>
         <div className="exterieur__img-title fadeIn">
           <img
             className="exterieur__img-principal"
