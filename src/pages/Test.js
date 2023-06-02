@@ -1,32 +1,20 @@
 import "../css/test.css";
-// import HeaderGreen2 from "../components/HeaderGreen2";
-// import Footer from "../components/Footer";
-import { useState } from "react";
 import HeaderGreenResp from "../components/HeaderGreenResp";
 
-const Test = ({
-  onOff,
-  setOnOff,
-  isOpenExt,
-  setIsOpenExt,
-  isOpenInt,
-  setIsOpenInt,
-}) => {
-  const [isSelectedTest, setIsSelectedTest] = useState(null);
-
+const Test = ({ onOff, setOnOff }) => {
   return (
     <div className="test__container">
-      {/* <HeaderGreen2></HeaderGreen2> */}
-      <HeaderGreenResp
-        onOff={onOff}
-        setOnOff={setOnOff}
-        isOpenExt={isOpenExt}
-        setIsOpenExt={setIsOpenExt}
-        isOpenInt={isOpenInt}
-        setIsOpenInt={setIsOpenInt}
-        isSelectedTest={isSelectedTest}
-        setIsSelectedTest={setIsSelectedTest}
-      ></HeaderGreenResp>
+      <HeaderGreenResp onOff={onOff} setOnOff={setOnOff}></HeaderGreenResp>
+      <div className="testOui">HELLOO</div>
+      <div className="testNon">HELLOO</div>
+      <div className="testOui">HELLOO</div>
+      <div className="testNon">HELLOO</div>
+      <div className="testOui">HELLOO</div>
+      <div className="testNon">HELLOO</div>
+      <div className="testOui">HELLOO</div>
+      <div className="testNon">HELLOO</div>
+      <div className="testOui">HELLOO</div>
+      <div className="testNon">HELLOO</div>
     </div>
   );
 };

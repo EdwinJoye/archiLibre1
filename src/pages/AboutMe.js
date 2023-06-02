@@ -1,5 +1,6 @@
 import aboutMeData from "../data/aboutMe.json";
 import HeaderGreen1 from "../components/HeaderGreen1";
+import HeaderGreenResp from "../components/HeaderGreenResp";
 import Category1 from "../components/Category1";
 import Category2 from "../components/Category2";
 import Footer from "../components/Footer";
@@ -9,6 +10,7 @@ const AboutMe = ({ onOff, setOnOff }) => {
   return (
     <div className="relative">
       <HeaderGreen1 onOff={onOff} setOnOff={setOnOff}></HeaderGreen1>
+      <HeaderGreenResp onOff={onOff} setOnOff={setOnOff}></HeaderGreenResp>
       <div className="container">
         <div className="fadeIn">
           {aboutMeData.map((data, key) => {
@@ -34,9 +36,7 @@ const AboutMe = ({ onOff, setOnOff }) => {
           })}
         </div>
       </div>
-      <div className="footer">
-        <Footer onOff={onOff} setOnOff={setOnOff}></Footer>
-      </div>
+      <Footer onOff={onOff} setOnOff={setOnOff}></Footer>
     </div>
   );
 };

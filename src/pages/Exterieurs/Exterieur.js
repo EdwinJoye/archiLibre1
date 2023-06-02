@@ -1,4 +1,5 @@
 import HeaderGreen1 from "../../components/HeaderGreen1";
+import HeaderResp from "../../components/HeaderGreenResp";
 import Footer from "../../components/Footer";
 import ExterieurImg from "../../img/exterieur.jpg";
 import Category1 from "../../components/Category1";

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { useState } from "react";
 import exterieurData from "../data/exterieur.json";
 import interieurData from "../data/interieur.json";
 import Signature from "../img/signatureBlanche.png";
@@ -7,14 +8,10 @@ import ArrowDown from "../img/arrow-down.png";
 import ArrowUp from "../img/arrow-up.png";
 import "../css/headerResp.css";
 
-const HeaderResp = ({
-  isOpenExt,
-  setIsOpenExt,
-  isOpenInt,
-  setIsOpenInt,
-  isSelectedTest,
-  setIsSelectedTest,
-}) => {
+const HeaderResp = () => {
+  const [isSelectedMenu, setSelectedMenu] = useState(null);
+  const [isOpenExt, setIsOpenExt] = useState(false);
+  const [isOpenInt, setIsOpenInt] = useState(false);
   const handleClickExt = () => {
     setIsOpenExt(!isOpenExt);
   };
@@ -23,17 +20,18 @@ const HeaderResp = ({
   };
 
   return (
-    <div className="headerResp__container">
+    <div>
       <div className="headerResp__first-menu">
         <div
           className="headerResp__sousMenu"
-          onClick={() => setIsSelectedTest("principal-menu")}
+          onClick={() => setSelectedMenu("principal-menu")}
         >
           <div className="headerResp__lines"></div>
           <div className="headerResp__lines"></div>
           <div className="headerResp__lines"></div>
           <div className="headerResp__lines"></div>
         </div>
+        {console.log("MENURESP", isSelectedMenu)}
         <div className="headerResp__signature-container">
           <img src={Signature} alt="sign" />
         </div>
@@ -41,14 +39,14 @@ const HeaderResp = ({
       </div>
       <div
         className={
-          isSelectedTest === "principal-menu"
-            ? "headerResp__second-menu block"
+          isSelectedMenu === "principal-menu"
+            ? "headerResp__second-menu-block"
             : "headerResp__second-menu-none"
         }
       >
         <div
           onClick={() => {
-            setIsSelectedTest(null);
+            setSelectedMenu(null);
             setIsOpenInt(false);
             setIsOpenExt(false);
           }}
@@ -56,7 +54,7 @@ const HeaderResp = ({
         ></div>
         <div
           className={
-            isSelectedTest === "principal-menu"
+            isSelectedMenu === "principal-menu"
               ? "headerResp__menu-container-in"
               : "headerResp__menu-container-out"
           }
@@ -65,7 +63,7 @@ const HeaderResp = ({
             <div className="headerResp__croix-container">
               <img
                 onClick={() => {
-                  setIsSelectedTest(null);
+                  setSelectedMenu(null);
                   setIsOpenInt(false);
                   setIsOpenExt(false);
                 }}
@@ -76,7 +74,7 @@ const HeaderResp = ({
             </div>
             <div
               onClick={() => {
-                setIsSelectedTest(null);
+                setSelectedMenu(null);
                 setIsOpenInt(false);
                 setIsOpenExt(false);
               }}
@@ -87,7 +85,7 @@ const HeaderResp = ({
           </div>
           <div className="headerResp__btns-container">
             <Link to="/">
-              <div className="headerResp__btn-container">
+              <div className="headerResp__btn-container-first">
                 <span className="headerResp__btn">HOME</span>
               </div>
             </Link>
@@ -121,6 +119,11 @@ const HeaderResp = ({
             </div>
             {isOpenExt && (
               <div>
+                <div className="headerResp__under-btns-container">
+                  <Link to="/exterieur">
+                    <div className="headerResp__under-btn">MENU PRINCIPAL</div>
+                  </Link>
+                </div>
                 <div className="headerResp__under-btns-container">
                   {exterieurData.map((data) => {
                     return (
@@ -167,18 +170,27 @@ const HeaderResp = ({
               </div>
               {/* </Link> */}
               {isOpenInt && (
-                <div className="headerResp__under-btns-container">
-                  {interieurData.map((data) => {
-                    return (
-                      <div key={data.id}>
-                        <Link to={data.link} state={{ data: data }}>
-                          <div className="headerResp__under-btn">
-                            {data.btnName}
-                          </div>
-                        </Link>
+                <div>
+                  <div className="headerResp__under-btns-container">
+                    <Link to="/interieur">
+                      <div className="headerResp__under-btn">
+                        MENU PRINCIPAL
                       </div>
-                    );
-                  })}
+                    </Link>
+                  </div>
+                  <div className="headerResp__under-btns-container">
+                    {interieurData.map((data) => {
+                      return (
+                        <div key={data.id}>
+                          <Link to={data.link} state={{ data: data }}>
+                            <div className="headerResp__under-btn">
+                              {data.btnName}
+                            </div>
+                          </Link>
+                        </div>
+                      );
+                    })}
+                  </div>
                 </div>
               )}
             </div>

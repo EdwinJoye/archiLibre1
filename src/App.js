@@ -19,9 +19,8 @@ import Test from "./pages/Test";
 function App() {
   const [selectedId, setSelectedId] = useState(null);
   const [selectedPic, setSelectedPic] = useState(null);
+  const [isSelectedMenu, setSelectedMenu] = useState(null);
   const [onOff, setOnOff] = useState(1);
-  const [isOpenExt, setIsOpenExt] = useState(false);
-  const [isOpenInt, setIsOpenInt] = useState(false);
 
   return (
     <Router>
@@ -49,10 +48,8 @@ function App() {
             <Contact
               onOff={onOff}
               setOnOff={setOnOff}
-              isOpenExt={isOpenExt}
-              setIsOpenExt={setIsOpenExt}
-              isOpenInt={isOpenInt}
-              setIsOpenInt={setIsOpenInt}
+              isSelectedMenu={isSelectedMenu}
+              setSelectedMenu={setSelectedMenu}
             ></Contact>
           }
         ></Route>
@@ -149,20 +146,7 @@ function App() {
         ></Route>
         <Route
           path="/test"
-          element={
-            <Test
-              onOff={onOff}
-              setOnOff={setOnOff}
-              isOpenExt={isOpenExt}
-              setIsOpenExt={setIsOpenExt}
-              isOpenInt={isOpenInt}
-              setIsOpenInt={setIsOpenInt}
-              selectedId={selectedId}
-              setSelectedId={setSelectedId}
-              selectedPic={selectedPic}
-              setSelectedPic={setSelectedPic}
-            ></Test>
-          }
+          element={<Test onOff={onOff} setOnOff={setOnOff}></Test>}
         ></Route>
       </Routes>
     </Router>
