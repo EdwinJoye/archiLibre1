@@ -9,11 +9,7 @@ import interieurData from "../../data/interieur.json";
 const Interieur = ({ onOff, setOnOff, isSelectedMenu, setIsSelectedMenu }) => {
   return (
     <div
-      className={
-        isSelectedMenu === "principal-menu"
-          ? "relative limitedHeight"
-          : "relative"
-      }
+      className={isSelectedMenu === "principal-menu" ? " limitedHeight" : ""}
     >
       <div className="exterieur__header-img-title">
         <HeaderGreen1 onOff={onOff} setOnOff={setOnOff}></HeaderGreen1>
@@ -58,10 +54,7 @@ const Interieur = ({ onOff, setOnOff, isSelectedMenu, setIsSelectedMenu }) => {
           }
         })}
       </div>
-
-      <div className="footer">
-        <Footer onOff={onOff} setOnOff={setOnOff}></Footer>
-      </div>
+      <Footer onOff={onOff} setOnOff={setOnOff}></Footer>
     </div>
   );
 };

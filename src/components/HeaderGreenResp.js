@@ -4,8 +4,10 @@ import exterieurData from "../data/exterieur.json";
 import interieurData from "../data/interieur.json";
 import Signature from "../img/signatureBlanche.png";
 import Croix from "../img/croixBlanche.svg";
-import ArrowDown from "../img/arrow-down.png";
-import ArrowUp from "../img/arrow-up.png";
+import ArrowDownGreen from "../img/arrow-down-green.svg";
+import ArrowUpGreen from "../img/arrow-up-green.svg";
+import ArrowDownWhite from "../img/arrow-down-white.svg";
+import ArrowUpWhite from "../img/arrow-up-white.svg";
 import "../css/headerResp.css";
 
 const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
@@ -117,26 +119,50 @@ const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
                   EXTÉRIEURS
                 </span>
               </div>
-              <img
-                className={
-                  isOpenExt === false
-                    ? "headerResp__arrow-block"
-                    : "headerResp__arrow-none"
-                }
-                src={ArrowDown}
-                alt="arrowDown"
-              />
-              <img
-                c
-                className={
-                  isOpenExt === true
-                    ? "headerResp__arrow-block"
-                    : "headerResp__arrow-none"
-                }
-                src={ArrowUp}
-                alt="arrowDown"
-              />
+              <div className={onOff === 2 ? "none" : "block"}>
+                <img
+                  className={
+                    isOpenExt === false
+                      ? "headerResp__arrow-block"
+                      : "headerResp__arrow-none"
+                  }
+                  src={ArrowDownGreen}
+                  alt="arrowDown"
+                />
+                <img
+                  c
+                  className={
+                    isOpenExt === true
+                      ? "headerResp__arrow-block"
+                      : "headerResp__arrow-none"
+                  }
+                  src={ArrowUpGreen}
+                  alt="arrowDown"
+                />
+              </div>
+              <div className={onOff === 2 ? "block" : "none"}>
+                <img
+                  className={
+                    isOpenExt === false
+                      ? "headerResp__arrow-block"
+                      : "headerResp__arrow-none"
+                  }
+                  src={ArrowDownWhite}
+                  alt="arrowDown"
+                />
+                <img
+                  c
+                  className={
+                    isOpenExt === true
+                      ? "headerResp__arrow-block"
+                      : "headerResp__arrow-none"
+                  }
+                  src={ArrowUpWhite}
+                  alt="arrowDown"
+                />
+              </div>
             </div>
+
             {isOpenExt && (
               <div>
                 <div className="headerResp__under-btns-container">
@@ -204,24 +230,48 @@ const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
                     INTÉRIEURS
                   </span>
                 </div>
-                <img
-                  className={
-                    isOpenInt === false
-                      ? "headerResp__arrow-block"
-                      : "headerResp__arrow-none"
-                  }
-                  src={ArrowDown}
-                  alt="arrowDown"
-                />
-                <img
-                  className={
-                    isOpenInt === true
-                      ? "headerResp__arrow-block"
-                      : "headerResp__arrow-none"
-                  }
-                  src={ArrowUp}
-                  alt="arrowDown"
-                />
+                <div className={onOff === 3 ? "none" : "block"}>
+                  <img
+                    className={
+                      isOpenInt === false
+                        ? "headerResp__arrow-block"
+                        : "headerResp__arrow-none"
+                    }
+                    src={ArrowDownGreen}
+                    alt="arrowDown"
+                  />
+                  <img
+                    c
+                    className={
+                      isOpenInt === true
+                        ? "headerResp__arrow-block"
+                        : "headerResp__arrow-none"
+                    }
+                    src={ArrowUpGreen}
+                    alt="arrowDown"
+                  />
+                </div>
+                <div className={onOff === 3 ? "block" : "none"}>
+                  <img
+                    className={
+                      isOpenInt === false
+                        ? "headerResp__arrow-block"
+                        : "headerResp__arrow-none"
+                    }
+                    src={ArrowDownWhite}
+                    alt="arrowDown"
+                  />
+                  <img
+                    c
+                    className={
+                      isOpenInt === true
+                        ? "headerResp__arrow-block"
+                        : "headerResp__arrow-none"
+                    }
+                    src={ArrowUpWhite}
+                    alt="arrowDown"
+                  />
+                </div>
               </div>
               {isOpenInt && (
                 <div>
