@@ -13,14 +13,23 @@ const ProjetInterieurCliqueTV = ({
   setSelectedId,
   selectedPic,
   setSelectedPic,
+  isSelectedMenu,
+  setIsSelectedMenu,
 }) => {
   const location = useLocation();
   const data = location.state.data;
 
   return (
-    <div>
+    <div
+      className={isSelectedMenu === "principal-menu" ? " limitedHeight" : ""}
+    >
       <HeaderGreen2 onOff={onOff} setOnOff={setOnOff}></HeaderGreen2>
-      <HeaderGreenResp onOff={onOff} setOnOff={setOnOff}></HeaderGreenResp>
+      <HeaderGreenResp
+        onOff={onOff}
+        setOnOff={setOnOff}
+        isSelectedMenu={isSelectedMenu}
+        setIsSelectedMenu={setIsSelectedMenu}
+      ></HeaderGreenResp>
       <div className="fadeIn">
         <div className="projetInterieur__container-1 container">
           <h2>{data.title}</h2>

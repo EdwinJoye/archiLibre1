@@ -6,12 +6,23 @@ import Category2 from "../../components/Category2";
 import InterieurImg from "../../img/interieur.jpg";
 import interieurData from "../../data/interieur.json";
 
-const Interieur = ({ onOff, setOnOff }) => {
+const Interieur = ({ onOff, setOnOff, isSelectedMenu, setIsSelectedMenu }) => {
   return (
-    <div className="relative">
+    <div
+      className={
+        isSelectedMenu === "principal-menu"
+          ? "relative limitedHeight"
+          : "relative"
+      }
+    >
       <div className="exterieur__header-img-title">
         <HeaderGreen1 onOff={onOff} setOnOff={setOnOff}></HeaderGreen1>
-        <HeaderGreenResp onOff={onOff} setOnOff={setOnOff}></HeaderGreenResp>
+        <HeaderGreenResp
+          onOff={onOff}
+          setOnOff={setOnOff}
+          isSelectedMenu={isSelectedMenu}
+          setIsSelectedMenu={setIsSelectedMenu}
+        ></HeaderGreenResp>
         <div className="exterieur__img-title fadeIn">
           <img
             className="exterieur__img-principal"

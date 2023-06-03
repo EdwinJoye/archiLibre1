@@ -7,12 +7,12 @@ import Map from "../components/Map";
 import Footer from "../components/Footer";
 import "../css/contact.css";
 
-const Contact = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
+const Contact = ({ onOff, setOnOff, isSelectedMenu, setIsSelectedMenu }) => {
   return (
     <div
       className={
         isSelectedMenu === "principal-menu"
-          ? "contact__container backgroundRed"
+          ? "contact__container limitedHeight"
           : "contact__container"
       }
     >

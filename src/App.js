@@ -29,19 +29,47 @@ function App() {
       <Routes>
         <Route
           path="/"
-          element={<Home onOff={onOff} setOnOff={setOnOff}></Home>}
+          element={
+            <Home
+              onOff={onOff}
+              setOnOff={setOnOff}
+              isSelectedMenu={isSelectedMenu}
+              setIsSelectedMenu={setIsSelectedMenu}
+            ></Home>
+          }
         ></Route>
         <Route
           path="/aboutme"
-          element={<AboutMe onOff={onOff} setOnOff={setOnOff}></AboutMe>}
+          element={
+            <AboutMe
+              onOff={onOff}
+              setOnOff={setOnOff}
+              isSelectedMenu={isSelectedMenu}
+              setIsSelectedMenu={setIsSelectedMenu}
+            ></AboutMe>
+          }
         ></Route>
         <Route
           path="/exterieur"
-          element={<Exterieur onOff={onOff} setOnOff={setOnOff}></Exterieur>}
+          element={
+            <Exterieur
+              onOff={onOff}
+              setOnOff={setOnOff}
+              isSelectedMenu={isSelectedMenu}
+              setIsSelectedMenu={setIsSelectedMenu}
+            ></Exterieur>
+          }
         ></Route>
         <Route
           path="/interieur"
-          element={<Interieur onOff={onOff} setOnOff={setOnOff}></Interieur>}
+          element={
+            <Interieur
+              onOff={onOff}
+              setOnOff={setOnOff}
+              isSelectedMenu={isSelectedMenu}
+              setIsSelectedMenu={setIsSelectedMenu}
+            ></Interieur>
+          }
         ></Route>
         <Route
           path="/contact"
@@ -64,6 +92,8 @@ function App() {
               setSelectedId={setSelectedId}
               selectedPic={selectedPic}
               setSelectedPic={setSelectedPic}
+              isSelectedMenu={isSelectedMenu}
+              setIsSelectedMenu={setIsSelectedMenu}
             ></ProjetExterieurSmall>
           }
         ></Route>
@@ -77,6 +107,8 @@ function App() {
               setSelectedId={setSelectedId}
               selectedPic={selectedPic}
               setSelectedPic={setSelectedPic}
+              isSelectedMenu={isSelectedMenu}
+              setIsSelectedMenu={setIsSelectedMenu}
             ></ProjetExterieurMedium>
           }
         ></Route>
@@ -90,6 +122,8 @@ function App() {
               setSelectedId={setSelectedId}
               selectedPic={selectedPic}
               setSelectedPic={setSelectedPic}
+              isSelectedMenu={isSelectedMenu}
+              setIsSelectedMenu={setIsSelectedMenu}
             ></ProjetExterieurTall>
           }
         ></Route>
@@ -103,6 +137,8 @@ function App() {
               setSelectedId={setSelectedId}
               selectedPic={selectedPic}
               setSelectedPic={setSelectedPic}
+              isSelectedMenu={isSelectedMenu}
+              setIsSelectedMenu={setIsSelectedMenu}
             ></ProjetInterieurAntony>
           }
         ></Route>
@@ -116,6 +152,8 @@ function App() {
               setSelectedId={setSelectedId}
               selectedPic={selectedPic}
               setSelectedPic={setSelectedPic}
+              isSelectedMenu={isSelectedMenu}
+              setIsSelectedMenu={setIsSelectedMenu}
             ></ProjetInterieurMontfermeil>
           }
         ></Route>
@@ -129,6 +167,8 @@ function App() {
               setSelectedId={setSelectedId}
               selectedPic={selectedPic}
               setSelectedPic={setSelectedPic}
+              isSelectedMenu={isSelectedMenu}
+              setIsSelectedMenu={setIsSelectedMenu}
             ></ProjetInterieurCliqueTV>
           }
         ></Route>
@@ -142,6 +182,8 @@ function App() {
               setSelectedId={setSelectedId}
               selectedPic={selectedPic}
               setSelectedPic={setSelectedPic}
+              isSelectedMenu={isSelectedMenu}
+              setIsSelectedMenu={setIsSelectedMenu}
             ></ProjetInterieurMali>
           }
         ></Route>

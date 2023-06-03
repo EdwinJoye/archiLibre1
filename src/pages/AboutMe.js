@@ -6,11 +6,22 @@ import Category2 from "../components/Category2";
 import Footer from "../components/Footer";
 import "../css/aboutMe.css";
 
-const AboutMe = ({ onOff, setOnOff }) => {
+const AboutMe = ({ onOff, setOnOff, isSelectedMenu, setIsSelectedMenu }) => {
   return (
-    <div className="relative">
+    <div
+      className={
+        isSelectedMenu === "principal-menu"
+          ? "relative limitedHeight"
+          : "relative"
+      }
+    >
       <HeaderGreen1 onOff={onOff} setOnOff={setOnOff}></HeaderGreen1>
-      <HeaderGreenResp onOff={onOff} setOnOff={setOnOff}></HeaderGreenResp>
+      <HeaderGreenResp
+        onOff={onOff}
+        setOnOff={setOnOff}
+        isSelectedMenu={isSelectedMenu}
+        setIsSelectedMenu={setIsSelectedMenu}
+      ></HeaderGreenResp>
       <div className="container">
         <div className="fadeIn">
           {aboutMeData.map((data, key) => {

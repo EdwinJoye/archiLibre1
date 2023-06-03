@@ -82,6 +82,10 @@ img {
 .imageTitle {
   margin-bottom: 10px;
 }
+.limitedHeight {
+  overflow: hidden;
+  height: 100vh;
+}
 .fadeIn {
   animation: 2s ease fadeIn;
 }

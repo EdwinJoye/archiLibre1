@@ -87,6 +87,7 @@ const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
             <Link
               to="/"
               onClick={() => {
+                setIsSelectedMenu(null);
                 setOnOff((onOff = 1));
               }}
             >
@@ -143,6 +144,7 @@ const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
                   <Link
                     to="/exterieur"
                     onClick={() => {
+                      setIsSelectedMenu(null);
                       setOnOff((onOff = 2));
                     }}
                   >
@@ -165,7 +167,7 @@ const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
                           to={data.link}
                           state={{ data: data }}
                           onClick={() => {
-                            // setSelectedPage(1);
+                            setIsSelectedMenu(null);
                             setOnOff(0);
                           }}
                         >
@@ -228,6 +230,7 @@ const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
                     <Link
                       to="/interieur"
                       onClick={() => {
+                        setIsSelectedMenu(null);
                         setOnOff((onOff = 3));
                       }}
                     >
@@ -251,6 +254,7 @@ const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
                             state={{ data: data }}
                             onClick={() => {
                               // setSelectedPage((selectedPage = 1));
+                              setIsSelectedMenu(null);
                               setOnOff(0);
                             }}
                           >
@@ -264,7 +268,6 @@ const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
                             >
                               {data.btnName}
                             </div>
-                            {/* {console.log("SELECTEDPAGE", selectedPage)} */}
                           </Link>
                         </div>
                       );
@@ -276,6 +279,7 @@ const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
             <Link
               to="/aboutme"
               onClick={() => {
+                setIsSelectedMenu(null);
                 setOnOff((onOff = 4));
               }}
             >
@@ -294,6 +298,7 @@ const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
             <Link
               to="/contact"
               onClick={() => {
+                setIsSelectedMenu(null);
                 setOnOff((onOff = 5));
               }}
             >
