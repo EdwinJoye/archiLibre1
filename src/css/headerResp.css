@@ -1,9 +1,5 @@
 .headerResp__container {
   display: none;
-  /* height: 100vh;
-  width: 100%;
-  overflow: hidden;
-  background-color: red; */
 }
 .headerResp__first-menu {
   display: flex;
@@ -93,16 +89,19 @@
   text-align: left;
   /* background-color: red; */
 }
-.headerResp__btn-container {
-  padding: 20px 10px;
-}
 .headerResp__btn-container-first {
   padding: 0px 10px 20px 10px;
+  width: 25%;
 }
 .headerResp__btn-arw-container {
   display: flex;
   align-items: center;
   padding: 20px 10px;
+  width: 50%;
+}
+.headerResp__btn-container {
+  padding: 20px 10px;
+  width: 40%;
 }
 .headerResp__btn-green {
   color: #9bb291;

@@ -85,23 +85,22 @@ const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
           </div>
           <div className="headerResp__btns-container">
             <Link
+              className="headerResp__btn-container-first"
               to="/"
               onClick={() => {
                 setIsSelectedMenu(null);
                 setOnOff((onOff = 1));
               }}
             >
-              <div className="headerResp__btn-container-first">
-                <span
-                  className={
-                    onOff === 1
-                      ? "headerResp__btn-white"
-                      : "headerResp__btn-green"
-                  }
-                >
-                  HOME
-                </span>
-              </div>
+              <span
+                className={
+                  onOff === 1
+                    ? "headerResp__btn-white"
+                    : "headerResp__btn-green"
+                }
+              >
+                HOME
+              </span>
             </Link>
             <div
               className="headerResp__btn-arw-container"
@@ -278,41 +277,39 @@ const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
             </div>
             <Link
               to="/aboutme"
+              className="headerResp__btn-container"
               onClick={() => {
                 setIsSelectedMenu(null);
                 setOnOff((onOff = 4));
               }}
             >
-              <div className="headerResp__btn-container">
-                <span
-                  className={
-                    onOff === 4
-                      ? "headerResp__btn-white"
-                      : "headerResp__btn-green"
-                  }
-                >
-                  À PROPOS
-                </span>
-              </div>
+              <span
+                className={
+                  onOff === 4
+                    ? "headerResp__btn-white"
+                    : "headerResp__btn-green"
+                }
+              >
+                À PROPOS
+              </span>
             </Link>
             <Link
               to="/contact"
+              className="headerResp__btn-container"
               onClick={() => {
                 setIsSelectedMenu(null);
                 setOnOff((onOff = 5));
               }}
             >
-              <div className="headerResp__btn-container">
-                <span
-                  className={
-                    onOff === 5
-                      ? "headerResp__btn-white"
-                      : "headerResp__btn-green"
-                  }
-                >
-                  CONTACT
-                </span>
-              </div>
+              <span
+                className={
+                  onOff === 5
+                    ? "headerResp__btn-white"
+                    : "headerResp__btn-green"
+                }
+              >
+                CONTACT
+              </span>
             </Link>
           </div>
           <div className="headerResp__btn-contact-container">

@@ -184,3 +184,15 @@ img {
 }
 @media screen and (max-width: 730px) {
 }
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .bg-diago-grey {
+    margin-top: 50px;
+  }
+}
