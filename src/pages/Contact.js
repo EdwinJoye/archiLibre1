@@ -7,11 +7,23 @@ import Map from "../components/Map";
 import Footer from "../components/Footer";
 import "../css/contact.css";
 
-const Contact = ({ onOff, setOnOff, isSelectedMenu }) => {
+const Contact = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
   return (
-    <div className="contact__container relative">
+    <div
+      className={
+        isSelectedMenu === "principal-menu"
+          ? "contact__container backgroundRed"
+          : "contact__container"
+      }
+    >
+      {console.log("CONTACT SELECTED MENU", isSelectedMenu)}
       <HeaderGreen1 onOff={onOff} setOnOff={setOnOff}></HeaderGreen1>
-      <HeaderGreenResp onOff={onOff} setOnOff={setOnOff}></HeaderGreenResp>
+      <HeaderGreenResp
+        onOff={onOff}
+        setOnOff={setOnOff}
+        isSelectedMenu={isSelectedMenu}
+        setIsSelectedMenu={setIsSelectedMenu}
+      ></HeaderGreenResp>
       <div className="contact__img-infos-map-container fadeIn">
         <div className="contact__img-infos-container container">
           <div className="contact__container-1">

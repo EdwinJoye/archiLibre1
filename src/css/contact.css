@@ -233,3 +233,8 @@
 }
 @media (min-height: 1080px) {
 }
+.backgroundRed {
+  /* background: red; */
+  overflow: hidden;
+  height: 100vh;
+}

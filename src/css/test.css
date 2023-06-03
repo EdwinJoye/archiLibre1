@@ -1,29 +1,15 @@
-.test__container {
-  /* background-color: yellow; */
-}
-
-.test__pic-container {
-  display: flex;
-  margin: 100px;
-  justify-content: space-between;
-  background-color: pink;
-  align-items: flex-end;
-  /* position: relative; */
-}
-
-.test__pic-2 {
-  margin-bottom: 100px;
-}
-.test__pic-3 {
-  margin-bottom: 200px;
-}
 .testOui {
   height: 20px;
   background-color: yellow;
-  width: 100%;
+  width: 80px;
 }
 .testNon {
   height: 20px;
   background-color: pink;
-  width: 100%;
+  width: 80px;
+}
+.backgroundRed {
+  /* background: red; */
+  overflow: hidden;
+  height: 100vh;
 }

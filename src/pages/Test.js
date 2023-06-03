@@ -1,10 +1,82 @@
 import "../css/test.css";
 import HeaderGreenResp from "../components/HeaderGreenResp";
+import HeaderGreen2 from "../components/HeaderGreen2";
 
-const Test = ({ onOff, setOnOff }) => {
+const Test = ({
+  onOff,
+  setOnOff,
+  selectedPage,
+  setSelectedPage,
+  setIsSelectedMenu,
+  isSelectedMenu,
+}) => {
   return (
-    <div className="test__container">
-      <HeaderGreenResp onOff={onOff} setOnOff={setOnOff}></HeaderGreenResp>
+    <div className={isSelectedMenu === "principal-menu" ? "backgroundRed" : ""}>
+      {/* {console.log("TEST SELECTED MENU", isSelectedMenu)} */}
+      <HeaderGreen2
+        onOff={onOff}
+        setOnOff={setOnOff}
+        selectedPage={selectedPage}
+        setSelectedPage={setSelectedPage}
+      ></HeaderGreen2>
+      <HeaderGreenResp
+        onOff={onOff}
+        setOnOff={setOnOff}
+        selectedPage={selectedPage}
+        setSelectedPage={setSelectedPage}
+        isSelectedMenu={isSelectedMenu}
+        setIsSelectedMenu={setIsSelectedMenu}
+      ></HeaderGreenResp>
+      <div className="testOui">HELLOO</div>
+      <div className="testNon">HELLOO</div>
+      <div className="testOui">HELLOO</div>
+      <div className="testNon">HELLOO</div>
+      <div className="testOui">HELLOO</div>
+      <div className="testNon">HELLOO</div>
+      <div className="testOui">HELLOO</div>
+      <div className="testNon">HELLOO</div>
+      <div className="testOui">HELLOO</div>
+      <div className="testNon">HELLOO</div>
+      <div className="testOui">HELLOO</div>
+      <div className="testNon">HELLOO</div>
+      <div className="testOui">HELLOO</div>
+      <div className="testNon">HELLOO</div>
+      <div className="testOui">HELLOO</div>
+      <div className="testNon">HELLOO</div>
+      <div className="testOui">HELLOO</div>
+      <div className="testNon">HELLOO</div>
+      <div className="testOui">HELLOO</div>
+      <div className="testNon">HELLOO</div>
+      <div className="testOui">HELLOO</div>
+      <div className="testNon">HELLOO</div>
+      <div className="testOui">HELLOO</div>
+      <div className="testNon">HELLOO</div>
+      <div className="testOui">HELLOO</div>
+      <div className="testNon">HELLOO</div>
+      <div className="testOui">HELLOO</div>
+      <div className="testNon">HELLOO</div>
+      <div className="testOui">HELLOO</div>
+      <div className="testNon">HELLOO</div>
+      <div className="testOui">HELLOO</div>
+      <div className="testNon">HELLOO</div>
+      <div className="testOui">HELLOO</div>
+      <div className="testNon">HELLOO</div>
+      <div className="testOui">HELLOO</div>
+      <div className="testNon">HELLOO</div>
+      <div className="testOui">HELLOO</div>
+      <div className="testNon">HELLOO</div>
+      <div className="testOui">HELLOO</div>
+      <div className="testNon">HELLOO</div>
+      <div className="testOui">HELLOO</div>
+      <div className="testNon">HELLOO</div>
+      <div className="testOui">HELLOO</div>
+      <div className="testNon">HELLOO</div>
+      <div className="testOui">HELLOO</div>
+      <div className="testNon">HELLOO</div>
+      <div className="testOui">HELLOO</div>
+      <div className="testNon">HELLOO</div>
+      <div className="testOui">HELLOO</div>
+      <div className="testNon">HELLOO</div>
       <div className="testOui">HELLOO</div>
       <div className="testNon">HELLOO</div>
       <div className="testOui">HELLOO</div>
