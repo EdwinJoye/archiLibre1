@@ -4,7 +4,7 @@ import Croix from "../img/croixBlanche.svg";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import "../css/homeCarousel.css";
+import "../css/home.css";
 import "../css/overlayCarousel.css";
 
 const OverlayCarousel = ({ pics, onClick, isSelected, selectedPic }) => {

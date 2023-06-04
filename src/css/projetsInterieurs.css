@@ -134,7 +134,8 @@
   .projetIntMontfermeil__container-1,
   .projetIntCliqueTv__container-1,
   .projetIntMali__container-1,
-  .projetInterieur__2-img-container {
+  .projetInterieur__2-img-container,
+  .projetIntAntony__img-container-4-part2 {
     flex-direction: column-reverse;
   }
   .marginT {
@@ -142,7 +143,11 @@
   }
   .marginR,
   .marginB,
-  .projetIntAntony__img-container-1 {
+  .projetIntAntony__img-container-1,
+  .projetIntAntony__container4-right {
     margin: 0;
+  }
+  .projetIntAntony__img-container-4-part2 {
+    padding: 0 4% 20px 4%;
   }
 }

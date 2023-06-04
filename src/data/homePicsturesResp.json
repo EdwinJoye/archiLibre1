@@ -1,0 +1,27 @@
+[
+  {
+    "id": "homePic1",
+    "title": "Ville d'Avray",
+    "mainUrl": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1685902387/archilibre1/Photos/home/PhotoResp/VilleDAvray-Facade-1_krimaf.jpg"
+  },
+  {
+    "id": "homePic2",
+    "title": "Antony",
+    "mainUrl": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1685902458/archilibre1/Photos/home/PhotoResp/Antony_ufrp6q.jpg"
+  },
+  {
+    "id": "homePic3",
+    "title": "Iran",
+    "mainUrl": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1685892576/archilibre1/Photos/home/PhotoResp/Sans_titre_pim8vc.jpg"
+  },
+  {
+    "id": "homePic4",
+    "title": "Clamart",
+    "mainUrl": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1685892576/archilibre1/Photos/home/PhotoResp/Extension-Clamart_egboxp.jpg"
+  },
+  {
+    "id": "homePic5",
+    "title": "Sèvres",
+    "mainUrl": "https://res.cloudinary.com/dt7srgrd1/image/upload/v1685892576/archilibre1/Photos/home/PhotoResp/Se%CC%80vres-Principal-1_ahhgth.jpg"
+  }
+]
