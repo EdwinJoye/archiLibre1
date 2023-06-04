@@ -31,7 +31,6 @@ const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
           <div className="headerResp__lines"></div>
           <div className="headerResp__lines"></div>
           <div className="headerResp__lines"></div>
-          <div className="headerResp__lines"></div>
         </div>
         {console.log("HEADER SELECTED MENU", isSelectedMenu)}
         <div className="headerResp__signature-container">
