@@ -42,7 +42,7 @@ const ProjetExterieurSmall = ({
           </div>
           <div className="projets__titleBackground"></div>
         </div>
-        <div className="projetCelle__PartTwo">
+        <div className="projets__PartTwo">
           <div className="projets__imgPrincipal-background-text-container">
             <img
               className="projets__imgPrincipal small"
@@ -50,7 +50,7 @@ const ProjetExterieurSmall = ({
               alt="imgPrincipal"
             />
             <div className="projets__backgroundImgPrincipal small"></div>
-            <div className="projetCelle__texte-container">
+            <div className="projets__texte-container">
               <h4>{data.title}</h4>
               <p>{data.descriptionUrl}</p>
             </div>

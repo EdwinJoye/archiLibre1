@@ -42,12 +42,12 @@ const ProjetExterieurTall = ({
           </div>
           <div className="projets__titleBackground"></div>
           <img
-            className="projetClamart__img-croquis"
+            className="projets__img-croquis"
             src={data.backgroundPicture[0].url}
             alt="croquis"
           />
         </div>
-        <div className="projetClamart__PartTwo">
+        <div className="projetTall__PartTwo">
           <div className="projets__imgPrincipal-background-text-container">
             <img
               className="projets__imgPrincipal tall"
@@ -55,7 +55,7 @@ const ProjetExterieurTall = ({
               alt="imgPrincipal"
             />
             <div className="projets__backgroundImgPrincipal tall"></div>
-            <div className="projetClamart__texte-container">
+            <div className="projetTall__texte-container">
               <h4>{data.title}</h4>
               <p>{data.descriptionUrl}</p>
             </div>

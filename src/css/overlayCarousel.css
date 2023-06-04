@@ -50,3 +50,8 @@ img.imgCroix {
 }
 @media screen and (max-width: 730px) {
 }
+@media screen and (max-width: 420px) {
+  .overlayCarousel__img {
+    width: 90%;
+  }
+}

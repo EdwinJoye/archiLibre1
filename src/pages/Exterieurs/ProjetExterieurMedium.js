@@ -42,7 +42,7 @@ const ProjetExterieurMedium = ({
           </div>
           <div className="projets__titleBackground"></div>
           <img
-            className="projetClamart__img-croquis"
+            className="projets__img-croquis"
             src={data.backgroundPicture[0].url}
             alt="croquis"
           />

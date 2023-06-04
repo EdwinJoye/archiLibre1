@@ -15,7 +15,7 @@ const PictureProjet = ({
   className,
 }) => {
   return (
-    <div>
+    <div className="pictureProjet">
       {selectedPic !== null && (
         <OverlayCarousel
           pics={pics}

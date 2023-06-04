@@ -8,6 +8,7 @@
   position: relative;
   margin: 80px 0;
 }
+
 .projets__title-date {
   position: absolute;
   z-index: 2;
@@ -38,7 +39,7 @@
   height: 200px;
   background-color: #d6e3cf;
 }
-.projetClamart__img-croquis {
+.projets__img-croquis {
   position: absolute;
   z-index: 40;
   right: -30px;
@@ -47,7 +48,7 @@
 
 /* /////////////// PARTIE DEUX /////////////// */
 
-.projetClamart__PartTwo {
+.projetTall__PartTwo {
   /* background-color: pink; */
   height: 800px;
 }
@@ -55,7 +56,7 @@
   /* background-color: pink; */
   height: 660px;
 }
-.projetCelle__PartTwo {
+.projets__PartTwo {
   /* background-color: pink; */
   height: 500px;
   margin-bottom: 30px;
@@ -89,7 +90,7 @@
   width: 55%;
   height: 550px;
 }
-.projetClamart__texte-container {
+.projetTall__texte-container {
   position: absolute;
   z-index: 3;
   right: 0;
@@ -98,7 +99,7 @@
   background-color: #37463d;
   padding: 30px 40px 40px 40px;
 }
-.projetCelle__texte-container {
+.projets__texte-container {
   position: absolute;
   z-index: 3;
   right: 0;
@@ -117,8 +118,8 @@
   padding: 30px 40px 40px 40px;
 }
 
-.projetClamart__texte-container p,
-.projetCelle__texte-container p,
+.projetTall__texte-container p,
+.projets__texte-container p,
 .projetMedium__texte-container p {
   color: #f6edd9;
 }
@@ -188,7 +189,7 @@
   .projetMedium__PartTwo {
     height: 675px;
   }
-  .projetCelle__texte-container {
+  .projets__texte-container {
     top: -60px;
   }
 }
@@ -209,4 +210,57 @@
 @media screen and (max-width: 780px) {
 }
 @media screen and (max-width: 730px) {
+}
+@media screen and (max-width: 420px) {
+  .projets__PartOne {
+    margin: 50px 0 30px 0;
+    /* background-color: yellow; */
+  }
+  .projets__title-date h2 {
+    font-size: 22px;
+  }
+  .projets__title-date h3 {
+    font-size: 15px;
+  }
+  .projets__titleBackground {
+    width: 90px;
+    height: 170px;
+  }
+  .projets__PartTwo,
+  .projetMedium__PartTwo,
+  .projetTall__PartTwo {
+    /* background-color: pink; */
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .projets__imgPrincipal {
+    width: 100%;
+    margin: auto auto;
+    position: static;
+    margin-bottom: 20px;
+  }
+  .small,
+  .large,
+  .tall {
+    height: auto;
+  }
+  .projets__texte-container,
+  .projetMedium__texte-container,
+  .projetTall__texte-container {
+    position: static;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 50px;
+  }
+  .projets__img-croquis {
+    display: none;
+  }
+  .projets__PartThree,
+  .projets__PartFour {
+    flex-direction: column;
+  }
+  .projets__pics-container1 {
+    margin: 0;
+  }
 }

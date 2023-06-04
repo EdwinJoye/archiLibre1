@@ -120,4 +120,29 @@
   .projetInterieur__container-1 h2 {
     font-size: 25px;
   }
+  .projetIntAntony__img-container-3 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+  .container-3-img1,
+  .container-3-img2,
+  .container-3-img3 {
+    margin-bottom: 20px;
+  }
+  .projetIntMontfermeil__container-1,
+  .projetIntCliqueTv__container-1,
+  .projetIntMali__container-1,
+  .projetInterieur__2-img-container {
+    flex-direction: column-reverse;
+  }
+  .marginT {
+    margin-bottom: 20px;
+  }
+  .marginR,
+  .marginB,
+  .projetIntAntony__img-container-1 {
+    margin: 0;
+  }
 }

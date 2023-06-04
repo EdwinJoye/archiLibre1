@@ -195,6 +195,17 @@ img {
     font-size: 17px;
     line-height: 30px;
   }
+  h4 {
+    font-size: 20px;
+    text-align: center;
+  }
+  h5 {
+    font-size: 15px;
+    text-align: center;
+  }
+  p {
+    font-size: 12px;
+  }
   .bg-diago-grey {
     margin-top: 50px;
   }
