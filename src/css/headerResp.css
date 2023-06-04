@@ -97,11 +97,14 @@
 .headerResp__btn-arw-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  /* background-color: burlywood; */
   padding: 20px 10px;
-  width: 50%;
+  width: 55%;
 }
-.fleches {
-  background-color: red;
+.headerResp__int-ext-buttons {
+  /* margin-right: 15px; */
+  background-color: yellow;
 }
 .headerResp__btn-container {
   padding: 20px 10px;
@@ -115,16 +118,16 @@
   color: white;
   font-family: Montserrat-Medium;
 }
-.headerResp__arrow-block {
-  width: 15px;
-  height: 10px;
-  margin-left: 10px;
-  display: block;
-}
+.headerResp__arrow-block,
 .headerResp__arrow-none {
   width: 15px;
   height: 10px;
-  margin-left: 10px;
+  /* background-color: red; */
+}
+.headerResp__arrow-block {
+  display: block;
+}
+.headerResp__arrow-none {
   display: none;
 }
 .headerResp__under-btns-container {

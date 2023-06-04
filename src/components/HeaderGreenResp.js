@@ -107,7 +107,13 @@ const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
               className="headerResp__btn-arw-container"
               onClick={handleClickExt}
             >
-              <div>
+              <Link
+                to="/exterieur"
+                onClick={() => {
+                  setIsSelectedMenu(null);
+                  setOnOff((onOff = 2));
+                }}
+              >
                 <span
                   className={
                     onOff === 2
@@ -117,7 +123,7 @@ const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
                 >
                   EXTÉRIEURS
                 </span>
-              </div>
+              </Link>
               <div className={onOff === 2 ? "none" : "block"}>
                 <img
                   className={
@@ -165,25 +171,6 @@ const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
             {isOpenExt && (
               <div>
                 <div className="headerResp__under-btns-container">
-                  <Link
-                    to="/exterieur"
-                    onClick={() => {
-                      setIsSelectedMenu(null);
-                      setOnOff((onOff = 2));
-                    }}
-                  >
-                    <div
-                      className={
-                        onOff === 2
-                          ? "headerResp__under-btn-white"
-                          : "headerResp__under-btn-green"
-                      }
-                    >
-                      MENU PRINCIPAL
-                    </div>
-                  </Link>
-                </div>
-                <div className="headerResp__under-btns-container">
                   {exterieurData.map((data) => {
                     return (
                       <div key={data.id}>
@@ -218,7 +205,13 @@ const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
                 className="headerResp__btn-arw-container"
                 onClick={handleClickInt}
               >
-                <div>
+                <Link
+                  to="/interieur"
+                  onClick={() => {
+                    setIsSelectedMenu(null);
+                    setOnOff((onOff = 3));
+                  }}
+                >
                   <span
                     className={
                       onOff === 3
@@ -228,7 +221,7 @@ const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
                   >
                     INTÉRIEURS
                   </span>
-                </div>
+                </Link>
                 <div className={onOff === 3 ? "none" : "block"}>
                   <img
                     className={
@@ -274,25 +267,6 @@ const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
               </div>
               {isOpenInt && (
                 <div>
-                  <div className="headerResp__under-btns-container">
-                    <Link
-                      to="/interieur"
-                      onClick={() => {
-                        setIsSelectedMenu(null);
-                        setOnOff((onOff = 3));
-                      }}
-                    >
-                      <div
-                        className={
-                          onOff === 3
-                            ? "headerResp__under-btn-white"
-                            : "headerResp__under-btn-green"
-                        }
-                      >
-                        MENU PRINCIPAL
-                      </div>
-                    </Link>
-                  </div>
                   <div className="headerResp__under-btns-container">
                     {interieurData.map((data) => {
                       return (
