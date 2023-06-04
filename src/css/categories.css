@@ -98,7 +98,8 @@
 .categories__title-beige {
   color: #f6edd9;
 }
-.category__container-2 {
+.category__container-2-L,
+.category__container-2-M {
   height: 450px;
   margin-bottom: 100px;
   /* background-color: blue; */
@@ -220,7 +221,6 @@ hover::before {
   overflow: hidden;
   width: 100%;
 }
-
 .categories__picture img {
   transition: transform 1s;
   width: 100%;
@@ -331,6 +331,7 @@ hover::before {
   .categories__background-category2,
   .categories__overlay {
     height: 350px;
+    /* height: auto; */
   }
   .categories__texte {
     height: 200px;
@@ -367,11 +368,14 @@ hover::before {
 }
 @media screen and (max-width: 420px) {
   .categories__container {
-    margin-top: 50px;
+    margin-top: 100px;
   }
-  .category__container-2 {
-    height: 760px;
-    /* background-color: blue; */
+  .category__container-2-L {
+    height: 640px;
+  }
+
+  .category__container-2-M {
+    height: 670px;
   }
   .categories__all-container-2 {
     height: 100%;
@@ -420,15 +424,13 @@ hover::before {
     top: auto;
     width: 100%;
   }
-  .categories__texte,
-  .categories__texte-button-container-category1-M .categories__texte,
-  .categories__texte-button-container-category2-M .categories__texte {
+  .categories__texte {
     height: 300px;
     /* display: none; */
   }
   .categories__all-background-grey,
   .categories__all-background-green {
-    padding-bottom: 40px;
+    padding-bottom: 20px;
   }
   .categories__container-last .categories__all-background-grey,
   .categories__container-last .categories__all-background-green {
@@ -437,5 +439,29 @@ hover::before {
   .categories__number-container-category1 p,
   .categories__number-container-category2 p {
     font-size: 40px;
+  }
+  .categories__picture-overlay-background-container-category2-M img,
+  .categories__picture-overlay-background-container-category2-M
+    .categories__background-category2,
+  .categories__picture-overlay-background-container-category2-M
+    .categories__overlay,
+  .categories__picture-overlay-background-container-category1-M img,
+  .categories__picture-overlay-background-container-category1-M
+    .categories__background-category1,
+  .categories__picture-overlay-background-container-category1-M
+    .categories__overlay {
+    height: 250px;
+  }
+  .categories__picture-overlay-background-container-category2-L img,
+  .categories__picture-overlay-background-container-category2-L
+    .categories__background-category2,
+  .categories__picture-overlay-background-container-category2-L
+    .categories__overlay,
+  .categories__picture-overlay-background-container-category1-L img,
+  .categories__picture-overlay-background-container-category1-L
+    .categories__background-category1,
+  .categories__picture-overlay-background-container-category1-L
+    .categories__overlay {
+    height: 210px;
   }
 }

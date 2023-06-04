@@ -16,7 +16,13 @@ const Category1 = ({ data, onOff, setOnOff }) => {
           </div>
         </div>
       </div>
-      <div className="category__container-2 container">
+      <div
+        className={
+          data.picFormat === "horizontal-L"
+            ? "category__container-2-L container"
+            : "category__container-2-M container"
+        }
+      >
         <div className="categories__all-container-2">
           <div
             className={

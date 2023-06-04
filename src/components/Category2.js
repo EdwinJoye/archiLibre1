@@ -52,7 +52,13 @@ const Category2 = ({ data, onOff, setOnOff }) => {
             : "categories__all-background-green"
         }
       >
-        <div className="category__container-2 container">
+        <div
+          className={
+            data.picFormat === "horizontal-L"
+              ? "category__container-2-L container"
+              : "category__container-2-M container"
+          }
+        >
           <div className="categories__all-container-2">
             <div className={`${myClassSize} ${myClassColorTextBG}`}>
               <p className="categories__texte">{data.descriptionUrl}</p>
