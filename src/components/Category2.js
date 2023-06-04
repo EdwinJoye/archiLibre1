@@ -27,18 +27,20 @@ const Category2 = ({ data, onOff, setOnOff }) => {
         <div className="category__container">
           <div className="categories__all-container-1 container">
             <div className="categories__number-container-category2">
-              <p>{data.number}</p>
-            </div>
-            <div className="categories__title-container-category2">
-              <h2
-                className={
-                  data.cssAllBG === "darkGreen"
-                    ? "categories__title-beige"
-                    : "categories__title-green"
-                }
-              >
-                {data.title}
-              </h2>
+              <div className="categories__number-container">
+                <p>{data.number}</p>
+              </div>
+              <div className="categories__title-container-category2">
+                <h2
+                  className={
+                    data.cssAllBG === "darkGreen"
+                      ? "categories__title-beige"
+                      : "categories__title-green"
+                  }
+                >
+                  {data.title}
+                </h2>
+              </div>
             </div>
           </div>
         </div>

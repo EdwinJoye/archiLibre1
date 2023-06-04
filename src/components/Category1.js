@@ -7,10 +7,12 @@ const Category1 = ({ data, onOff, setOnOff }) => {
       <div className="category__container">
         <div className="categories__all-container-1 container">
           <div className="categories__number-container-category1">
-            <p>{data.number}</p>
-          </div>
-          <div className="categories__title-container-category1">
-            <h2>{data.title}</h2>
+            <div className="categories__number-container">
+              <p>{data.number}</p>
+            </div>
+            <div className="categories__title-container-category1">
+              <h2>{data.title}</h2>
+            </div>
           </div>
         </div>
       </div>
