@@ -1,6 +1,7 @@
 import HeaderGreen1 from "../../components/HeaderGreen1";
 import HeaderGreenResp from "../../components/HeaderGreenResp";
 import Footer from "../../components/Footer";
+import FooterResp from "../../components/FooterResp";
 import Category1 from "../../components/Category1";
 import Category2 from "../../components/Category2";
 import InterieurImg from "../../img/interieur.jpg";
@@ -55,6 +56,7 @@ const Interieur = ({ onOff, setOnOff, isSelectedMenu, setIsSelectedMenu }) => {
         })}
       </div>
       <Footer onOff={onOff} setOnOff={setOnOff}></Footer>
+      <FooterResp onOff={onOff} setOnOff={setOnOff}></FooterResp>
     </div>
   );
 };

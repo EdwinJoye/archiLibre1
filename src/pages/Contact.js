@@ -5,6 +5,7 @@ import Position from "../img/position.svg";
 import Telephone from "../img/tel.svg";
 import Map from "../components/Map";
 import Footer from "../components/Footer";
+import FooterResp from "../components/FooterResp";
 import "../css/contact.css";
 
 const Contact = ({ onOff, setOnOff, isSelectedMenu, setIsSelectedMenu }) => {
@@ -78,7 +79,8 @@ const Contact = ({ onOff, setOnOff, isSelectedMenu, setIsSelectedMenu }) => {
         <div className="contact__map-footer-container">
           <Map></Map>
           <div className="contact__footer">
-            <Footer></Footer>
+            <Footer onOff={onOff} setOnOff={setOnOff}></Footer>
+            <FooterResp onOff={onOff} setOnOff={setOnOff}></FooterResp>
           </div>
         </div>
       </div>

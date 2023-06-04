@@ -4,6 +4,7 @@ import HeaderGreenResp from "../components/HeaderGreenResp";
 import Category1 from "../components/Category1";
 import Category2 from "../components/Category2";
 import Footer from "../components/Footer";
+import FooterResp from "../components/FooterResp";
 import "../css/aboutMe.css";
 
 const AboutMe = ({ onOff, setOnOff, isSelectedMenu, setIsSelectedMenu }) => {
@@ -48,6 +49,7 @@ const AboutMe = ({ onOff, setOnOff, isSelectedMenu, setIsSelectedMenu }) => {
         </div>
       </div>
       <Footer onOff={onOff} setOnOff={setOnOff}></Footer>
+      <FooterResp onOff={onOff} setOnOff={setOnOff}></FooterResp>
     </div>
   );
 };

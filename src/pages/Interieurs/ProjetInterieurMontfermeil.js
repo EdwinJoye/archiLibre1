@@ -4,6 +4,7 @@ import { useLocation } from "react-router-dom";
 import PictureProjet from "../../components/PictureProjets";
 import Title from "../../components/Title";
 import Footer from "../../components/Footer";
+import FooterResp from "../../components/FooterResp";
 import "../../css/projetsInterieurs.css";
 
 const ProjetInterieurMontfermeil = ({
@@ -82,6 +83,7 @@ const ProjetInterieurMontfermeil = ({
       </div>
 
       <Footer onOff={onOff} setOnOff={setOnOff}></Footer>
+      <FooterResp onOff={onOff} setOnOff={setOnOff}></FooterResp>
     </div>
   );
 };

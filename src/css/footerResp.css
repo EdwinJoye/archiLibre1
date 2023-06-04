@@ -1,0 +1,15 @@
+.footerResp__container {
+  justify-content: center;
+  background-color: #37463d;
+  border-top: 1px solid white;
+  padding: 5px;
+  display: none;
+}
+.footerResp__container img {
+  height: 40px;
+}
+@media screen and (max-width: 420px) {
+  .footerResp__container {
+    display: flex;
+  }
+}

@@ -2,6 +2,7 @@ import { useLocation } from "react-router-dom";
 import HeaderGreen2 from "../../components/HeaderGreen2";
 import HeaderGreenResp from "../../components/HeaderGreenResp";
 import Footer from "../../components/Footer";
+import FooterResp from "../../components/FooterResp";
 import PictureProjet from "../../components/PictureProjets";
 import "../../css/projetsExterieurs.css";
 
@@ -154,6 +155,7 @@ const ProjetExterieurMedium = ({
         </div>
       </div>
       <Footer onOff={onOff} setOnOff={setOnOff}></Footer>
+      <FooterResp onOff={onOff} setOnOff={setOnOff}></FooterResp>
     </div>
   );
 };

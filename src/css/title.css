@@ -48,3 +48,10 @@
 .txt-vert-f {
   color: #37463d;
 }
+
+@media screen and (max-width: 420px) {
+  .title__background {
+    width: 50px;
+    height: 100px;
+  }
+}
