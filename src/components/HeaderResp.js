@@ -23,7 +23,14 @@ const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
 
   return (
     <div className="headerResp__container">
-      <div className="headerResp__first-menu">
+      <div
+        className={
+          onOff === 1
+            ? "headerResp__first-menu-transparent"
+            : "headerResp__first-menu-green"
+        }
+      >
+        {console.log("HEADER", onOff)}
         <div
           className="headerResp__sousMenu"
           onClick={() => setIsSelectedMenu("principal-menu")}
@@ -32,9 +39,17 @@ const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
           <div className="headerResp__lines"></div>
           <div className="headerResp__lines"></div>
         </div>
-        {console.log("HEADER SELECTED MENU", isSelectedMenu)}
+        {/* {console.log("HEADER SELECTED MENU", isSelectedMenu)} */}
+
         <div className="headerResp__signature-container">
-          <img src={Signature} alt="sign" />
+          <Link
+            to="/"
+            onClick={() => {
+              setOnOff((onOff = 1));
+            }}
+          >
+            <img src={Signature} alt="sign" />
+          </Link>
         </div>
         <div className="headerResp__sousMenu"></div>
       </div>

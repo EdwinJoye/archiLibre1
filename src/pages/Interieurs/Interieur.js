@@ -1,5 +1,5 @@
-import HeaderGreen1 from "../../components/HeaderGreen1";
-import HeaderGreenResp from "../../components/HeaderGreenResp";
+import Header from "../../components/Header";
+import HeaderResp from "../../components/HeaderResp";
 import Footer from "../../components/Footer";
 import FooterResp from "../../components/FooterResp";
 import Category1 from "../../components/Category1";
@@ -13,13 +13,13 @@ const Interieur = ({ onOff, setOnOff, isSelectedMenu, setIsSelectedMenu }) => {
       className={isSelectedMenu === "principal-menu" ? " limitedHeight" : ""}
     >
       <div className="exterieur__header-img-title">
-        <HeaderGreen1 onOff={onOff} setOnOff={setOnOff}></HeaderGreen1>
-        <HeaderGreenResp
+        <Header onOff={onOff} setOnOff={setOnOff}></Header>
+        <HeaderResp
           onOff={onOff}
           setOnOff={setOnOff}
           isSelectedMenu={isSelectedMenu}
           setIsSelectedMenu={setIsSelectedMenu}
-        ></HeaderGreenResp>
+        ></HeaderResp>
         <div className="exterieur__img-title fadeIn">
           <img
             className="exterieur__img-principal"

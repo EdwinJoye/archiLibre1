@@ -1,12 +1,19 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper";
-import HeaderTransparent from "../components/HeaderTransparent";
+import Header from "./Header";
+import HeaderResp from "../components/HeaderResp";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "../css/homeCarousel.css";
 
-const HomeCarousel = ({ pics, onOff, setOnOff }) => {
+const HomeCarousel = ({
+  pics,
+  onOff,
+  setOnOff,
+  isSelectedMenu,
+  setIsSelectedMenu,
+}) => {
   return (
     <div className="swiper container">
       <Swiper
@@ -32,10 +39,13 @@ const HomeCarousel = ({ pics, onOff, setOnOff }) => {
         })}
       </Swiper>
       <div className="swiper__header">
-        <HeaderTransparent
+        <Header onOff={onOff} setOnOff={setOnOff}></Header>
+        <HeaderResp
           onOff={onOff}
           setOnOff={setOnOff}
-        ></HeaderTransparent>
+          isSelectedMenu={isSelectedMenu}
+          setIsSelectedMenu={setIsSelectedMenu}
+        ></HeaderResp>
       </div>
       <div className="home__title">
         <span>Aman Othenin-Girard Architecte DPLG</span>

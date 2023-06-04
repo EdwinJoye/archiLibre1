@@ -1,6 +1,6 @@
 import "../css/test.css";
-import HeaderGreenResp from "../components/HeaderGreenResp";
-import HeaderGreen2 from "../components/HeaderGreen2";
+import HeaderResp from "../components/HeaderResp";
+import Header from "../components/Header";
 
 const Test = ({
   onOff,
@@ -13,20 +13,20 @@ const Test = ({
   return (
     <div className={isSelectedMenu === "principal-menu" ? "backgroundRed" : ""}>
       {/* {console.log("TEST SELECTED MENU", isSelectedMenu)} */}
-      <HeaderGreen2
+      <Header
         onOff={onOff}
         setOnOff={setOnOff}
         selectedPage={selectedPage}
         setSelectedPage={setSelectedPage}
-      ></HeaderGreen2>
-      <HeaderGreenResp
+      ></Header>
+      <HeaderResp
         onOff={onOff}
         setOnOff={setOnOff}
         selectedPage={selectedPage}
         setSelectedPage={setSelectedPage}
         isSelectedMenu={isSelectedMenu}
         setIsSelectedMenu={setIsSelectedMenu}
-      ></HeaderGreenResp>
+      ></HeaderResp>
       <div className="testOui">HELLOO</div>
       <div className="testNon">HELLOO</div>
       <div className="testOui">HELLOO</div>

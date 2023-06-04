@@ -225,7 +225,7 @@
 }
 @media (min-height: 1080px) {
 }
-@media (min-height: 420px) {
+@media (max-width: 420px) {
   .contact__img-infos-container {
     margin: 50px 0;
   }

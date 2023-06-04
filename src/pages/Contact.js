@@ -1,5 +1,5 @@
-import HeaderGreen1 from "../components/HeaderGreen1";
-import HeaderGreenResp from "../components/HeaderGreenResp";
+import Header from "../components/Header";
+import HeaderResp from "../components/HeaderResp";
 import Email from "../img/mail.svg";
 import Position from "../img/position.svg";
 import Telephone from "../img/tel.svg";
@@ -17,14 +17,14 @@ const Contact = ({ onOff, setOnOff, isSelectedMenu, setIsSelectedMenu }) => {
           : "contact__container"
       }
     >
-      {console.log("CONTACT SELECTED MENU", isSelectedMenu)}
-      <HeaderGreen1 onOff={onOff} setOnOff={setOnOff}></HeaderGreen1>
-      <HeaderGreenResp
+      {/* {console.log("CONTACT SELECTED MENU", isSelectedMenu)} */}
+      <Header onOff={onOff} setOnOff={setOnOff}></Header>
+      <HeaderResp
         onOff={onOff}
         setOnOff={setOnOff}
         isSelectedMenu={isSelectedMenu}
         setIsSelectedMenu={setIsSelectedMenu}
-      ></HeaderGreenResp>
+      ></HeaderResp>
       <div className="contact__img-infos-map-container fadeIn">
         <div className="contact__img-infos-container container">
           <div className="contact__container-1">

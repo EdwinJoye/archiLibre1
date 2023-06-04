@@ -1,6 +1,6 @@
 import { useLocation } from "react-router-dom";
-import HeaderGreen2 from "../../components/HeaderGreen2";
-import HeaderGreenResp from "../../components/HeaderGreenResp";
+import Header from "../../components/Header";
+import HeaderResp from "../../components/HeaderResp";
 import Footer from "../../components/Footer";
 import FooterResp from "../../components/FooterResp";
 import PictureProjet from "../../components/PictureProjets";
@@ -23,13 +23,13 @@ const ProjetExterieurTall = ({
     <div
       className={isSelectedMenu === "principal-menu" ? " limitedHeight" : ""}
     >
-      <HeaderGreen2 onOff={onOff} setOnOff={setOnOff}></HeaderGreen2>
-      <HeaderGreenResp
+      <Header onOff={onOff} setOnOff={setOnOff}></Header>
+      <HeaderResp
         onOff={onOff}
         setOnOff={setOnOff}
         isSelectedMenu={isSelectedMenu}
         setIsSelectedMenu={setIsSelectedMenu}
-      ></HeaderGreenResp>
+      ></HeaderResp>
       <div className="container fadeIn">
         <div className="projets__PartOne">
           <div className="projets__title-date">

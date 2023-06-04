@@ -1,9 +1,13 @@
 .headerResp__container {
   display: none;
 }
-.headerResp__first-menu {
+.headerResp__first-menu-transparent,
+.headerResp__first-menu-green {
   display: flex;
   padding: 10px 20px;
+}
+
+.headerResp__first-menu-green {
   background-color: #37463d;
 }
 .headerResp__sousMenu {

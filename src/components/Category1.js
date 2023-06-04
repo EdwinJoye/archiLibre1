@@ -36,7 +36,7 @@ const Category1 = ({ data, onOff, setOnOff }) => {
               to={data.link}
               state={{ data: data }}
               onClick={() => {
-                setOnOff((onOff = 0));
+                setOnOff((onOff = 99));
               }}
             >
               <span className="categories__button">VOIR LA SUITE</span>
@@ -46,7 +46,7 @@ const Category1 = ({ data, onOff, setOnOff }) => {
             to={data.link}
             state={{ data: data }}
             onClick={() => {
-              setOnOff((onOff = 0));
+              setOnOff((onOff = 99));
             }}
           >
             <div

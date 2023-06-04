@@ -1,5 +1,5 @@
-import HeaderGreen2 from "../../components/HeaderGreen2";
-import HeaderGreenResp from "../../components/HeaderGreenResp";
+import Header from "../../components/Header";
+import HeaderResp from "../../components/HeaderResp";
 import { useLocation } from "react-router-dom";
 import PictureProjet from "../../components/PictureProjets";
 import Title from "../../components/Title";
@@ -24,13 +24,13 @@ const ProjetInterieurAntony = ({
     <div
       className={isSelectedMenu === "principal-menu" ? " limitedHeight" : ""}
     >
-      <HeaderGreen2 onOff={onOff} setOnOff={setOnOff}></HeaderGreen2>
-      <HeaderGreenResp
+      <Header onOff={onOff} setOnOff={setOnOff}></Header>
+      <HeaderResp
         onOff={onOff}
         setOnOff={setOnOff}
         isSelectedMenu={isSelectedMenu}
         setIsSelectedMenu={setIsSelectedMenu}
-      ></HeaderGreenResp>
+      ></HeaderResp>
       <div className="fadeIn">
         <div className="projetInterieur__container-1 container">
           <h2>{data.title}</h2>

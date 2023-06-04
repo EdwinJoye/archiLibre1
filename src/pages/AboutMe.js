@@ -1,6 +1,6 @@
 import aboutMeData from "../data/aboutMe.json";
-import HeaderGreen1 from "../components/HeaderGreen1";
-import HeaderGreenResp from "../components/HeaderGreenResp";
+import Header from "../components/Header";
+import HeaderResp from "../components/HeaderResp";
 import Category1 from "../components/Category1";
 import Category2 from "../components/Category2";
 import Footer from "../components/Footer";
@@ -16,13 +16,14 @@ const AboutMe = ({ onOff, setOnOff, isSelectedMenu, setIsSelectedMenu }) => {
           : "relative"
       }
     >
-      <HeaderGreen1 onOff={onOff} setOnOff={setOnOff}></HeaderGreen1>
-      <HeaderGreenResp
+      {/* <HeaderGreen1 onOff={onOff} setOnOff={setOnOff}></HeaderGreen1> */}
+      <Header onOff={onOff} setOnOff={setOnOff}></Header>
+      <HeaderResp
         onOff={onOff}
         setOnOff={setOnOff}
         isSelectedMenu={isSelectedMenu}
         setIsSelectedMenu={setIsSelectedMenu}
-      ></HeaderGreenResp>
+      ></HeaderResp>
       <div className="container">
         <div className="fadeIn">
           {aboutMeData.map((data, key) => {

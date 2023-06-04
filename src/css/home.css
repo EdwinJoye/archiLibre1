@@ -6,6 +6,8 @@
   left: 0rem;
   right: 0rem;
 }
+.home__title {
+}
 
 /* //////////////////////////////////////// RESPONSIVE //////////////////////////////////////// */
 
@@ -28,4 +30,17 @@
 @media screen and (max-width: 780px) {
 }
 @media screen and (max-width: 730px) {
+}
+@media screen and (max-width: 420px) {
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    font-size: 30px;
+  }
+  .home__title {
+    font-size: 12px;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
 }

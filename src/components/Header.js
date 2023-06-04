@@ -6,7 +6,7 @@ import "../css/header.css";
 
 const HeaderGreen2 = ({ onOff, setOnOff }) => {
   return (
-    <div className="header__green">
+    <div className={onOff === 1 ? "header__transparent" : "header__green"}>
       <div className="header__buttons-container-1">
         {/* /////////////////////// EXTERIEURS /////////////////////// */}
         <div className="header__dropdown">
@@ -26,16 +26,24 @@ const HeaderGreen2 = ({ onOff, setOnOff }) => {
               ></div>
             </div>
           </Link>
-          <div className="header__dropdown-content">
-            {exterieurData.map((data) => {
-              return (
-                <div key={data.id}>
-                  <Link to={data.link} state={{ data: data }}>
-                    <div className="little__button">{data.btnName}</div>
-                  </Link>
-                </div>
-              );
-            })}
+          <div className={onOff === 99 ? "block" : "none"}>
+            <div className="header__dropdown-content">
+              {exterieurData.map((data) => {
+                return (
+                  <div key={data.id}>
+                    <Link
+                      to={data.link}
+                      state={{ data: data }}
+                      onClick={() => {
+                        setOnOff((onOff = 99));
+                      }}
+                    >
+                      <div className="little__button">{data.btnName}</div>
+                    </Link>
+                  </div>
+                );
+              })}
+            </div>
           </div>
         </div>
 
@@ -57,16 +65,25 @@ const HeaderGreen2 = ({ onOff, setOnOff }) => {
               ></div>
             </div>
           </Link>
-          <div className="header__dropdown-content">
-            {interieurData.map((data) => {
-              return (
-                <div key={data.id}>
-                  <Link to={data.link} state={{ data: data }}>
-                    <div className="little__button">{data.btnName}</div>
-                  </Link>
-                </div>
-              );
-            })}
+          {console.log("HEADER", onOff)}
+          <div className={onOff === 99 ? "block" : "none"}>
+            <div className="header__dropdown-content">
+              {interieurData.map((data) => {
+                return (
+                  <div key={data.id}>
+                    <Link
+                      to={data.link}
+                      state={{ data: data }}
+                      onClick={() => {
+                        setOnOff((onOff = 99));
+                      }}
+                    >
+                      <div className="little__button">{data.btnName}</div>
+                    </Link>
+                  </div>
+                );
+              })}
+            </div>
           </div>
         </div>
       </div>
