@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 import exterieurData from "../data/exterieur.json";
 import interieurData from "../data/interieur.json";
@@ -10,9 +10,11 @@ import ArrowDownWhite from "../img/arrow-down-white.svg";
 import ArrowUpWhite from "../img/arrow-up-white.svg";
 import "../css/headerResp.css";
 
-const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
+const HeaderResp = ({ setIsSelectedMenu, isSelectedMenu, isActive }) => {
   const [isOpenExt, setIsOpenExt] = useState(false);
   const [isOpenInt, setIsOpenInt] = useState(false);
+  const location = useLocation();
+  const isTransparent = location.pathname === "/";
 
   const handleClickExt = () => {
     setIsOpenExt(!isOpenExt);
@@ -25,12 +27,11 @@ const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
     <div className="headerResp__container">
       <div
         className={
-          onOff === 1
+          isTransparent
             ? "headerResp__first-menu-transparent"
             : "headerResp__first-menu-green"
         }
       >
-        {console.log("HEADER", onOff)}
         <div
           className="headerResp__sousMenu"
           onClick={() => setIsSelectedMenu("principal-menu")}
@@ -42,12 +43,7 @@ const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
         {/* {console.log("HEADER SELECTED MENU", isSelectedMenu)} */}
 
         <div className="headerResp__signature-container">
-          <Link
-            to="/"
-            onClick={() => {
-              setOnOff((onOff = 1));
-            }}
-          >
+          <Link to="/">
             <img src={Signature} alt="sign" />
           </Link>
         </div>
@@ -105,12 +101,11 @@ const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
               to="/"
               onClick={() => {
                 setIsSelectedMenu(null);
-                setOnOff((onOff = 1));
               }}
             >
               <span
                 className={
-                  onOff === 1
+                  isActive === 1
                     ? "headerResp__btn-white"
                     : "headerResp__btn-green"
                 }
@@ -126,12 +121,11 @@ const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
                 to="/exterieur"
                 onClick={() => {
                   setIsSelectedMenu(null);
-                  setOnOff((onOff = 2));
                 }}
               >
                 <span
                   className={
-                    onOff === 2
+                    isActive === 2
                       ? "headerResp__btn-white"
                       : "headerResp__btn-green"
                   }
@@ -139,7 +133,7 @@ const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
                   EXTÉRIEURS
                 </span>
               </Link>
-              <div className={onOff === 2 ? "none" : "block"}>
+              <div className={isActive === 2 ? "none" : "block"}>
                 <img
                   className={
                     isOpenExt === false
@@ -160,7 +154,7 @@ const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
                   alt="arrowDown"
                 />
               </div>
-              <div className={onOff === 2 ? "block" : "none"}>
+              <div className={isActive === 2 ? "block" : "none"}>
                 <img
                   className={
                     isOpenExt === false
@@ -194,7 +188,6 @@ const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
                           state={{ data: data }}
                           onClick={() => {
                             setIsSelectedMenu(null);
-                            setOnOff(0);
                           }}
                         >
                           {/* {console.log("SELECTED PAGE EXTERIEUR", selectedPage)} */}
@@ -224,12 +217,11 @@ const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
                   to="/interieur"
                   onClick={() => {
                     setIsSelectedMenu(null);
-                    setOnOff((onOff = 3));
                   }}
                 >
                   <span
                     className={
-                      onOff === 3
+                      isActive === 3
                         ? "headerResp__btn-white"
                         : "headerResp__btn-green"
                     }
@@ -237,7 +229,7 @@ const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
                     INTÉRIEURS
                   </span>
                 </Link>
-                <div className={onOff === 3 ? "none" : "block"}>
+                <div className={isActive === 3 ? "none" : "block"}>
                   <img
                     className={
                       isOpenInt === false
@@ -258,7 +250,7 @@ const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
                     alt="arrowDown"
                   />
                 </div>
-                <div className={onOff === 3 ? "block" : "none"}>
+                <div className={isActive === 3 ? "block" : "none"}>
                   <img
                     className={
                       isOpenInt === false
@@ -290,9 +282,8 @@ const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
                             to={data.link}
                             state={{ data: data }}
                             onClick={() => {
-                              // setSelectedPage((selectedPage = 1));
+                              // setSelectedPage(data.id);
                               setIsSelectedMenu(null);
-                              setOnOff(0);
                             }}
                           >
                             <div
@@ -318,12 +309,11 @@ const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
               className="headerResp__btn-container"
               onClick={() => {
                 setIsSelectedMenu(null);
-                setOnOff((onOff = 4));
               }}
             >
               <span
                 className={
-                  onOff === 4
+                  isActive === 4
                     ? "headerResp__btn-white"
                     : "headerResp__btn-green"
                 }
@@ -336,12 +326,11 @@ const HeaderResp = ({ onOff, setOnOff, setIsSelectedMenu, isSelectedMenu }) => {
               className="headerResp__btn-container"
               onClick={() => {
                 setIsSelectedMenu(null);
-                setOnOff((onOff = 5));
               }}
             >
               <span
                 className={
-                  onOff === 5
+                  isActive === 5
                     ? "headerResp__btn-white"
                     : "headerResp__btn-green"
                 }

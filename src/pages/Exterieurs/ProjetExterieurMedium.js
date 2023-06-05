@@ -7,8 +7,7 @@ import PictureProjet from "../../components/PictureProjets";
 import "../../css/projetsExterieurs.css";
 
 const ProjetExterieurMedium = ({
-  onOff,
-  setOnOff,
+  isActive,
   selectedId,
   setSelectedId,
   selectedPic,
@@ -23,10 +22,9 @@ const ProjetExterieurMedium = ({
     <div
       className={isSelectedMenu === "principal-menu" ? " limitedHeight" : ""}
     >
-      <Header onOff={onOff} setOnOff={setOnOff}></Header>
+      <Header isActive={isActive}></Header>
       <HeaderResp
-        onOff={onOff}
-        setOnOff={setOnOff}
+        isActive={isActive}
         isSelectedMenu={isSelectedMenu}
         setIsSelectedMenu={setIsSelectedMenu}
       ></HeaderResp>
@@ -154,8 +152,8 @@ const ProjetExterieurMedium = ({
           ></PictureProjet>
         </div>
       </div>
-      <Footer onOff={onOff} setOnOff={setOnOff}></Footer>
-      <FooterResp onOff={onOff} setOnOff={setOnOff}></FooterResp>
+      <Footer></Footer>
+      <FooterResp></FooterResp>
     </div>
   );
 };

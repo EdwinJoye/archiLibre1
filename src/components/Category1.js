@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "../css/categories.css";
 
-const Category1 = ({ data, onOff, setOnOff }) => {
+const Category1 = ({ data }) => {
   return (
     <div className="categories__container">
       <div className="category__container">
@@ -32,23 +32,11 @@ const Category1 = ({ data, onOff, setOnOff }) => {
             }
           >
             <p className="categories__texte">{data.descriptionUrl}</p>
-            <Link
-              to={data.link}
-              state={{ data: data }}
-              onClick={() => {
-                setOnOff((onOff = 99));
-              }}
-            >
+            <Link to={data.link} state={{ data: data }}>
               <span className="categories__button">VOIR LA SUITE</span>
             </Link>
           </div>
-          <Link
-            to={data.link}
-            state={{ data: data }}
-            onClick={() => {
-              setOnOff((onOff = 99));
-            }}
-          >
+          <Link to={data.link} state={{ data: data }}>
             <div
               className={
                 data.picFormat === "horizontal-L"

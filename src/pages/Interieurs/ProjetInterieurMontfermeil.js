@@ -8,14 +8,13 @@ import FooterResp from "../../components/FooterResp";
 import "../../css/projetsInterieurs.css";
 
 const ProjetInterieurMontfermeil = ({
-  onOff,
-  setOnOff,
   selectedId,
   setSelectedId,
   selectedPic,
   setSelectedPic,
   isSelectedMenu,
   setIsSelectedMenu,
+  isActive,
 }) => {
   const location = useLocation();
   const data = location.state.data;
@@ -24,10 +23,9 @@ const ProjetInterieurMontfermeil = ({
     <div
       className={isSelectedMenu === "principal-menu" ? " limitedHeight" : ""}
     >
-      <Header onOff={onOff} setOnOff={setOnOff}></Header>
+      <Header isActive={isActive}></Header>
       <HeaderResp
-        onOff={onOff}
-        setOnOff={setOnOff}
+        isActive={isActive}
         isSelectedMenu={isSelectedMenu}
         setIsSelectedMenu={setIsSelectedMenu}
       ></HeaderResp>
@@ -82,8 +80,8 @@ const ProjetInterieurMontfermeil = ({
         </div>
       </div>
 
-      <Footer onOff={onOff} setOnOff={setOnOff}></Footer>
-      <FooterResp onOff={onOff} setOnOff={setOnOff}></FooterResp>
+      <Footer></Footer>
+      <FooterResp></FooterResp>
     </div>
   );
 };

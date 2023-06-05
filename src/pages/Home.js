@@ -3,14 +3,13 @@ import homePictures from "../data/homePictures.json";
 import homePicturesResp from "../data/homePicsturesResp.json";
 import "../css/home.css";
 
-const Home = ({ onOff, setOnOff, isSelectedMenu, setIsSelectedMenu }) => {
+const Home = ({ isSelectedMenu, setIsSelectedMenu, isActive }) => {
   return (
     <div className="fadeIn">
       <HomeCarousel
         pics={homePictures}
         picsResp={homePicturesResp}
-        onOff={onOff}
-        setOnOff={setOnOff}
+        isActive={isActive}
         isSelectedMenu={isSelectedMenu}
         setIsSelectedMenu={setIsSelectedMenu}
       ></HomeCarousel>

@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 import FooterResp from "../components/FooterResp";
 import "../css/contact.css";
 
-const Contact = ({ onOff, setOnOff, isSelectedMenu, setIsSelectedMenu }) => {
+const Contact = ({ isSelectedMenu, setIsSelectedMenu, isActive }) => {
   return (
     <div
       className={
@@ -18,10 +18,9 @@ const Contact = ({ onOff, setOnOff, isSelectedMenu, setIsSelectedMenu }) => {
       }
     >
       {/* {console.log("CONTACT SELECTED MENU", isSelectedMenu)} */}
-      <Header onOff={onOff} setOnOff={setOnOff}></Header>
+      <Header isActive={isActive}></Header>
       <HeaderResp
-        onOff={onOff}
-        setOnOff={setOnOff}
+        isActive={isActive}
         isSelectedMenu={isSelectedMenu}
         setIsSelectedMenu={setIsSelectedMenu}
       ></HeaderResp>
@@ -79,8 +78,8 @@ const Contact = ({ onOff, setOnOff, isSelectedMenu, setIsSelectedMenu }) => {
         <div className="contact__map-footer-container">
           <Map></Map>
           <div className="contact__footer">
-            <Footer onOff={onOff} setOnOff={setOnOff}></Footer>
-            <FooterResp onOff={onOff} setOnOff={setOnOff}></FooterResp>
+            <Footer></Footer>
+            <FooterResp></FooterResp>
           </div>
         </div>
       </div>

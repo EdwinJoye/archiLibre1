@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 import FooterResp from "../components/FooterResp";
 import "../css/aboutMe.css";
 
-const AboutMe = ({ onOff, setOnOff, isSelectedMenu, setIsSelectedMenu }) => {
+const AboutMe = ({ isSelectedMenu, setIsSelectedMenu, isActive }) => {
   return (
     <div
       className={
@@ -16,11 +16,9 @@ const AboutMe = ({ onOff, setOnOff, isSelectedMenu, setIsSelectedMenu }) => {
           : "relative"
       }
     >
-      {/* <HeaderGreen1 onOff={onOff} setOnOff={setOnOff}></HeaderGreen1> */}
-      <Header onOff={onOff} setOnOff={setOnOff}></Header>
+      <Header isActive={isActive}></Header>
       <HeaderResp
-        onOff={onOff}
-        setOnOff={setOnOff}
+        isActive={isActive}
         isSelectedMenu={isSelectedMenu}
         setIsSelectedMenu={setIsSelectedMenu}
       ></HeaderResp>
@@ -28,29 +26,15 @@ const AboutMe = ({ onOff, setOnOff, isSelectedMenu, setIsSelectedMenu }) => {
         <div className="fadeIn">
           {aboutMeData.map((data, key) => {
             if (data.category === "aboutMe1") {
-              return (
-                <Category1
-                  onOff={onOff}
-                  setOnOff={setOnOff}
-                  data={data}
-                  key={key}
-                ></Category1>
-              );
+              return <Category1 data={data} key={key}></Category1>;
             } else {
-              return (
-                <Category2
-                  onOff={onOff}
-                  setOnOff={setOnOff}
-                  data={data}
-                  key={key}
-                ></Category2>
-              );
+              return <Category2 data={data} key={key}></Category2>;
             }
           })}
         </div>
       </div>
-      <Footer onOff={onOff} setOnOff={setOnOff}></Footer>
-      <FooterResp onOff={onOff} setOnOff={setOnOff}></FooterResp>
+      <Footer></Footer>
+      <FooterResp></FooterResp>
     </div>
   );
 };

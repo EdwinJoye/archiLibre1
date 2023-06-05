@@ -10,10 +10,9 @@ import "../css/home.css";
 const HomeCarousel = ({
   pics,
   picsResp,
-  onOff,
-  setOnOff,
   isSelectedMenu,
   setIsSelectedMenu,
+  isActive,
 }) => {
   return (
     <div className="swiper container">
@@ -70,10 +69,9 @@ const HomeCarousel = ({
         </Swiper>
       </div>
       <div className="swiper__header">
-        <Header onOff={onOff} setOnOff={setOnOff}></Header>
+        <Header isActive={isActive}></Header>
         <HeaderResp
-          onOff={onOff}
-          setOnOff={setOnOff}
+          isActive={isActive}
           isSelectedMenu={isSelectedMenu}
           setIsSelectedMenu={setIsSelectedMenu}
         ></HeaderResp>

@@ -8,16 +8,15 @@ import Category2 from "../../components/Category2";
 import exterieurData from "../../data/exterieur.json";
 import "../../css/exterieur.css";
 
-const Exterieur = ({ onOff, setOnOff, isSelectedMenu, setIsSelectedMenu }) => {
+const Exterieur = ({ isSelectedMenu, setIsSelectedMenu, isActive }) => {
   return (
     <div
       className={isSelectedMenu === "principal-menu" ? " limitedHeight" : ""}
     >
       <div className="exterieur__header-img-title">
-        <Header onOff={onOff} setOnOff={setOnOff}></Header>
+        <Header isActive={isActive}></Header>
         <HeaderResp
-          onOff={onOff}
-          setOnOff={setOnOff}
+          isActive={isActive}
           isSelectedMenu={isSelectedMenu}
           setIsSelectedMenu={setIsSelectedMenu}
         ></HeaderResp>
@@ -36,28 +35,14 @@ const Exterieur = ({ onOff, setOnOff, isSelectedMenu, setIsSelectedMenu }) => {
       <div className="fadeIn">
         {exterieurData.map((data) => {
           if (data.class === "exterieur1") {
-            return (
-              <Category1
-                key={data.id}
-                data={data}
-                onOff={onOff}
-                setOnOff={setOnOff}
-              ></Category1>
-            );
+            return <Category1 key={data.id} data={data}></Category1>;
           } else {
-            return (
-              <Category2
-                key={data.mainUrl}
-                data={data}
-                onOff={onOff}
-                setOnOff={setOnOff}
-              ></Category2>
-            );
+            return <Category2 key={data.mainUrl} data={data}></Category2>;
           }
         })}
       </div>
-      <Footer onOff={onOff} setOnOff={setOnOff}></Footer>
-      <FooterResp onOff={onOff} setOnOff={setOnOff}></FooterResp>
+      <Footer></Footer>
+      <FooterResp></FooterResp>
     </div>
   );
 };

@@ -1,43 +1,37 @@
 import { Link } from "react-router-dom";
 import SignatureBlanche from "../img/signatureBlanche.png";
+import { useLocation } from "react-router-dom";
 import exterieurData from "../data/exterieur.json";
 import interieurData from "../data/interieur.json";
 import "../css/header.css";
 
-const HeaderGreen2 = ({ onOff, setOnOff }) => {
+const Header = ({ isActive }) => {
+  // const [isSelectedMenu, setIsSelectedMenu] = useState(null);
+  const location = useLocation();
+  const isTransparent = location.pathname === "/";
+
   return (
-    <div className={onOff === 1 ? "header__transparent" : "header__green"}>
+    <div className={isTransparent ? "header__transparent" : "header__green"}>
       <div className="header__buttons-container-1">
         {/* /////////////////////// EXTERIEURS /////////////////////// */}
         <div className="header__dropdown">
-          <Link
-            className="header__box-link"
-            to="/exterieur"
-            onClick={() => {
-              setOnOff((onOff = 2));
-            }}
-          >
+          <Link className="header__box-link" to="/exterieur">
+            {console.log("HEADER isActive", isActive)}
             <div className="header__button">
               <span>EXTÉRIEURS</span>
               <div
                 className={
-                  onOff === 2 ? "header__underline" : "header__underline-2"
+                  isActive === 2 ? "header__underline" : "header__underline-2"
                 }
               ></div>
             </div>
           </Link>
-          <div className={onOff === 99 ? "block" : "none"}>
+          <div className={isActive === 6 ? "block" : "none"}>
             <div className="header__dropdown-content">
               {exterieurData.map((data) => {
                 return (
                   <div key={data.id}>
-                    <Link
-                      to={data.link}
-                      state={{ data: data }}
-                      onClick={() => {
-                        setOnOff((onOff = 99));
-                      }}
-                    >
+                    <Link to={data.link} state={{ data: data }}>
                       <div className="little__button">{data.btnName}</div>
                     </Link>
                   </div>
@@ -49,35 +43,23 @@ const HeaderGreen2 = ({ onOff, setOnOff }) => {
 
         {/* /////////////////////// INTERIEURS /////////////////////// */}
         <div className="header__dropdown">
-          <Link
-            className="header__box-link"
-            to="/interieur"
-            onClick={() => {
-              setOnOff((onOff = 3));
-            }}
-          >
+          <Link className="header__box-link" to="/interieur">
             <div className="header__button">
               <span>INTÉRIEURS</span>
               <div
                 className={
-                  onOff === 3 ? "header__underline" : "header__underline-2"
+                  isActive === 3 ? "header__underline" : "header__underline-2"
                 }
               ></div>
             </div>
           </Link>
-          {console.log("HEADER", onOff)}
-          <div className={onOff === 99 ? "block" : "none"}>
+          {/* {console.log("HEADER ONOFF", onOff)} */}
+          <div className={isActive === 6 ? "block" : "none"}>
             <div className="header__dropdown-content">
               {interieurData.map((data) => {
                 return (
                   <div key={data.id}>
-                    <Link
-                      to={data.link}
-                      state={{ data: data }}
-                      onClick={() => {
-                        setOnOff((onOff = 99));
-                      }}
-                    >
+                    <Link to={data.link} state={{ data: data }}>
                       <div className="little__button">{data.btnName}</div>
                     </Link>
                   </div>
@@ -87,12 +69,7 @@ const HeaderGreen2 = ({ onOff, setOnOff }) => {
           </div>
         </div>
       </div>
-      <Link
-        to="/"
-        onClick={() => {
-          setOnOff((onOff = 1));
-        }}
-      >
+      <Link to="/">
         <img
           className="header__signature"
           to="/"
@@ -103,35 +80,23 @@ const HeaderGreen2 = ({ onOff, setOnOff }) => {
       <div className="header__buttons-container-2">
         {/* /////////////////////// A PROPOS /////////////////////// */}
 
-        <Link
-          className="header__box-link"
-          to="/aboutme"
-          onClick={() => {
-            setOnOff((onOff = 4));
-          }}
-        >
+        <Link className="header__box-link" to="/aboutme">
           <div className="header__button">
             <span>À PROPOS</span>
             <div
               className={
-                onOff === 4 ? "header__underline" : "header__underline-2"
+                isActive === 4 ? "header__underline" : "header__underline-2"
               }
             ></div>
           </div>
         </Link>
         {/* /////////////////////// CONTACT /////////////////////// */}
-        <Link
-          className="header__box-link"
-          to="/contact"
-          onClick={() => {
-            setOnOff((onOff = 5));
-          }}
-        >
+        <Link className="header__box-link" to="/contact">
           <div className="header__button">
             <span>CONTACT</span>
             <div
               className={
-                onOff === 5 ? "header__underline" : "header__underline-2"
+                isActive === 5 ? "header__underline" : "header__underline-2"
               }
             ></div>
           </div>
@@ -141,4 +106,4 @@ const HeaderGreen2 = ({ onOff, setOnOff }) => {
   );
 };
 
-export default HeaderGreen2;
+export default Header;

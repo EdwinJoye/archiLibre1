@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "../css/categories.css";
 
-const Category2 = ({ data, onOff, setOnOff }) => {
+const Category2 = ({ data }) => {
   const myClassSize =
     data.picFormat === "horizontal-L"
       ? "categories__texte-button-container-category2-M"
@@ -62,23 +62,11 @@ const Category2 = ({ data, onOff, setOnOff }) => {
           <div className="categories__all-container-2">
             <div className={`${myClassSize} ${myClassColorTextBG}`}>
               <p className="categories__texte">{data.descriptionUrl}</p>
-              <Link
-                to={data.link}
-                state={{ data: data }}
-                onClick={() => {
-                  setOnOff((onOff = 0));
-                }}
-              >
+              <Link to={data.link} state={{ data: data }}>
                 <span className="categories__button">VOIR LA SUITE</span>
               </Link>
             </div>
-            <Link
-              to={data.link}
-              state={{ data: data }}
-              onClick={() => {
-                setOnOff((onOff = 0));
-              }}
-            >
+            <Link to={data.link} state={{ data: data }}>
               <div
                 className={
                   data.picFormat === "horizontal-L"

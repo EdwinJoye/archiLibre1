@@ -2,39 +2,22 @@ import { Link } from "react-router-dom";
 import SignatureBlanche from "../img/signatureBlanche.png";
 import "../css/footer.css";
 
-const Footer = ({ onOff, setOnOff }) => {
+const Footer = () => {
   return (
     <div className="footer__container fadeIn">
       <div className="footer__buttons-container1">
-        <Link
-          className="footer__button"
-          to="/exterieur"
-          onClick={() => {
-            setOnOff((onOff = 2));
-          }}
-        >
+        <Link className="footer__button" to="/exterieur">
           <div>
             <span>EXTÉRIEURS</span>
           </div>
         </Link>
-        <Link
-          className="footer__button"
-          to="/interieur"
-          onClick={() => {
-            setOnOff((onOff = 3));
-          }}
-        >
+        <Link className="footer__button" to="/interieur">
           <div>
             <span>INTÉRIEURS</span>
           </div>
         </Link>
       </div>
-      <Link
-        to="/"
-        onClick={() => {
-          setOnOff((onOff = 1));
-        }}
-      >
+      <Link to="/">
         <img
           to="/"
           className="footer__signature"
@@ -43,24 +26,12 @@ const Footer = ({ onOff, setOnOff }) => {
         />
       </Link>
       <div className="footer__buttons-container2">
-        <Link
-          className="footer__button"
-          to="/aboutme"
-          onClick={() => {
-            setOnOff((onOff = 4));
-          }}
-        >
+        <Link className="footer__button" to="/aboutme">
           <div>
             <span>À PROPOS</span>
           </div>
         </Link>
-        <Link
-          className="footer__button"
-          to="/contact"
-          onClick={() => {
-            setOnOff((onOff = 5));
-          }}
-        >
+        <Link className="footer__button" to="/contact">
           <div>
             <span>CONTACT</span>
           </div>
