@@ -19,9 +19,7 @@ const ProjetInterieurMontfermeil = ({
   const data = location.state.data;
 
   return (
-    <div
-      className={isSelectedMenu === "principal-menu" ? " limitedHeight" : ""}
-    >
+    <div className={isSelectedMenu === true ? " limitedHeight" : ""}>
       <Header isActive={isActive}></Header>
       <HeaderResp isActive={isActive}></HeaderResp>
       <div className="fadeIn">
@@ -31,7 +29,7 @@ const ProjetInterieurMontfermeil = ({
         </div>
         <div className="projetInterieur__container-2">
           <div className="bg-diago-grey projetInt-bg"></div>
-          {console.log("DATA MONT", data)}
+          {/* {console.log("DATA MONT", data)} */}
           <div className="projetIntMontfermeil__container-1">
             <div className="marginR">
               <PictureProjet

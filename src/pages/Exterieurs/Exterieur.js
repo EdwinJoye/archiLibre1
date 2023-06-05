@@ -10,9 +10,7 @@ import "../../css/exterieur.css";
 
 const Exterieur = ({ isSelectedMenu, isActive }) => {
   return (
-    <div
-      className={isSelectedMenu === "principal-menu" ? " limitedHeight" : ""}
-    >
+    <div className={isSelectedMenu === true ? " limitedHeight" : ""}>
       <div className="exterieur__header-img-title">
         <Header isActive={isActive}></Header>
         <HeaderResp isActive={isActive}></HeaderResp>

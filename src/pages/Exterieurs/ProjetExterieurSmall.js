@@ -18,9 +18,7 @@ const ProjetExterieurSmall = ({
   const data = location.state.data;
 
   return (
-    <div
-      className={isSelectedMenu === "principal-menu" ? " limitedHeight" : ""}
-    >
+    <div className={isSelectedMenu === true ? " limitedHeight" : ""}>
       <Header isActive={isActive}></Header>
       <HeaderResp isActive={isActive}></HeaderResp>
       <div className="container fadeIn">

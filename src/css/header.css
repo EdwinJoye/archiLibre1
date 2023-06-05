@@ -72,6 +72,8 @@
   min-width: 200px;
   position: absolute;
   z-index: 1000;
+  animation: 1s ease-out rotateX2;
+  transform-origin: top center;
 }
 .little__button,
 .little__button-2 {
@@ -86,6 +88,18 @@
 }
 .little__button-2 {
   color: white;
+}
+
+@keyframes rotateX2 {
+  0% {
+    transform: rotateX(-90deg);
+  }
+  50% {
+    transform: rotateX(-20deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
 }
 
 /* //////////////////////////////////////// RESPONSIVE //////////////////////////////////////// */

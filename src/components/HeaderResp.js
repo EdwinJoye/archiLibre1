@@ -11,7 +11,8 @@ import ArrowUpWhite from "../img/arrow-up-white.svg";
 import "../css/headerResp.css";
 
 const HeaderResp = ({ isActive }) => {
-  const [isSelectedMenu, setIsSelectedMenu] = useState(null);
+  const [isSelectedMenu, setIsSelectedMenu] = useState(false);
+  const [isSelectedPage, setIsSelectedPage] = useState(1);
   const [isOpenExt, setIsOpenExt] = useState(false);
   const [isOpenInt, setIsOpenInt] = useState(false);
   const location = useLocation();
@@ -35,13 +36,12 @@ const HeaderResp = ({ isActive }) => {
       >
         <div
           className="headerResp__sousMenu"
-          onClick={() => setIsSelectedMenu("principal-menu")}
+          onClick={() => setIsSelectedMenu(true)}
         >
           <div className="headerResp__lines"></div>
           <div className="headerResp__lines"></div>
           <div className="headerResp__lines"></div>
         </div>
-        {/* {console.log("HEADER SELECTED MENU", isSelectedMenu)} */}
 
         <div className="headerResp__signature-container">
           <Link to="/">
@@ -52,14 +52,14 @@ const HeaderResp = ({ isActive }) => {
       </div>
       <div
         className={
-          isSelectedMenu === "principal-menu"
+          isSelectedMenu === true
             ? "headerResp__second-menu-block"
             : "headerResp__second-menu-none"
         }
       >
         <div
           onClick={() => {
-            setIsSelectedMenu(null);
+            setIsSelectedMenu(false);
             setIsOpenInt(false);
             setIsOpenExt(false);
           }}
@@ -67,7 +67,7 @@ const HeaderResp = ({ isActive }) => {
         ></div>
         <div
           className={
-            isSelectedMenu === "principal-menu"
+            isSelectedMenu === true
               ? "headerResp__menu-container-in"
               : "headerResp__menu-container-out"
           }
@@ -76,7 +76,7 @@ const HeaderResp = ({ isActive }) => {
             <div className="headerResp__croix-container">
               <img
                 onClick={() => {
-                  setIsSelectedMenu(null);
+                  setIsSelectedMenu(false);
                   setIsOpenInt(false);
                   setIsOpenExt(false);
                 }}
@@ -87,7 +87,7 @@ const HeaderResp = ({ isActive }) => {
             </div>
             <div
               onClick={() => {
-                setIsSelectedMenu(null);
+                setIsSelectedMenu(false);
                 setIsOpenInt(false);
                 setIsOpenExt(false);
               }}
@@ -101,7 +101,7 @@ const HeaderResp = ({ isActive }) => {
               className="headerResp__btn-container-first"
               to="/"
               onClick={() => {
-                setIsSelectedMenu(null);
+                setIsSelectedMenu(false);
               }}
             >
               <span
@@ -121,7 +121,7 @@ const HeaderResp = ({ isActive }) => {
               <Link
                 to="/exterieur"
                 onClick={() => {
-                  setIsSelectedMenu(null);
+                  setIsSelectedMenu(false);
                 }}
               >
                 <span
@@ -177,7 +177,6 @@ const HeaderResp = ({ isActive }) => {
                 />
               </div>
             </div>
-
             {isOpenExt && (
               <div>
                 <div className="headerResp__under-btns-container">
@@ -188,18 +187,15 @@ const HeaderResp = ({ isActive }) => {
                           to={data.link}
                           state={{ data: data }}
                           onClick={() => {
-                            setIsSelectedMenu(null);
+                            setIsSelectedMenu(false);
+                            setIsSelectedPage(isSelectedPage === 40);
                           }}
                         >
-                          {/* {console.log("SELECTED PAGE EXTERIEUR", selectedPage)} */}
-                          <div
-                            className="headerResp__under-btn-green"
-                            // className={
-                            //   selectedPage === data.id
-                            //     ? "headerResp__under-btn-white"
-                            //     : "headerResp__under-btn-green"
-                            // }
-                          >
+                          {console.log(
+                            "SELECTED PAGE HEADER RESP",
+                            isSelectedPage
+                          )}
+                          <div className="headerResp__under-btn-green">
                             {data.btnName}
                           </div>
                         </Link>
@@ -217,7 +213,7 @@ const HeaderResp = ({ isActive }) => {
                 <Link
                   to="/interieur"
                   onClick={() => {
-                    setIsSelectedMenu(null);
+                    setIsSelectedMenu(false);
                   }}
                 >
                   <span
@@ -283,18 +279,19 @@ const HeaderResp = ({ isActive }) => {
                             to={data.link}
                             state={{ data: data }}
                             onClick={() => {
-                              // setSelectedPage(data.id);
-                              setIsSelectedMenu(null);
+                              setIsSelectedMenu(false);
+                              setIsSelectedPage(isSelectedPage === 39);
                             }}
                           >
-                            <div
-                              className="headerResp__under-btn-green"
-                              // className={
-                              //   selectedPage === data.id
-                              //     ? "headerResp__under-btn-white"
-                              //     : "headerResp__under-btn-green"
-                              // }
-                            >
+                            {console.log(
+                              "SELECTED PAGE HEADER RESP",
+                              isSelectedPage
+                            )}
+                            {console.log(
+                              "SELECTED PAGE HEADER RESP",
+                              isSelectedMenu
+                            )}
+                            <div className="headerResp__under-btn-green">
                               {data.btnName}
                             </div>
                           </Link>
@@ -309,7 +306,7 @@ const HeaderResp = ({ isActive }) => {
               to="/aboutme"
               className="headerResp__btn-container"
               onClick={() => {
-                setIsSelectedMenu(null);
+                setIsSelectedMenu(false);
               }}
             >
               <span
@@ -322,11 +319,13 @@ const HeaderResp = ({ isActive }) => {
                 À PROPOS
               </span>
             </Link>
+            {console.log("SELECTED PAGE HEADER RESP", isSelectedMenu)}{" "}
+            {console.log("SELECTED PAGE HEADER RESP", isSelectedPage)}
             <Link
               to="/contact"
               className="headerResp__btn-container"
               onClick={() => {
-                setIsSelectedMenu(null);
+                setIsSelectedMenu(false);
               }}
             >
               <span

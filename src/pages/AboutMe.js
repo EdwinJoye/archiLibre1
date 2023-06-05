@@ -11,9 +11,7 @@ const AboutMe = ({ isSelectedMenu, isActive }) => {
   return (
     <div
       className={
-        isSelectedMenu === "principal-menu"
-          ? "relative limitedHeight"
-          : "relative"
+        isSelectedMenu === true ? "relative limitedHeight" : "relative"
       }
     >
       <Header isActive={isActive}></Header>

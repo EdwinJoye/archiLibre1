@@ -12,7 +12,7 @@ const Contact = ({ isSelectedMenu, isActive }) => {
   return (
     <div
       className={
-        isSelectedMenu === "principal-menu"
+        isSelectedMenu === true
           ? "contact__container limitedHeight"
           : "contact__container"
       }
