@@ -10,7 +10,8 @@ import ArrowDownWhite from "../img/arrow-down-white.svg";
 import ArrowUpWhite from "../img/arrow-up-white.svg";
 import "../css/headerResp.css";
 
-const HeaderResp = ({ setIsSelectedMenu, isSelectedMenu, isActive }) => {
+const HeaderResp = ({ isActive }) => {
+  const [isSelectedMenu, setIsSelectedMenu] = useState(null);
   const [isOpenExt, setIsOpenExt] = useState(false);
   const [isOpenInt, setIsOpenInt] = useState(false);
   const location = useLocation();

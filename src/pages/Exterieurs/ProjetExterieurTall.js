@@ -12,7 +12,6 @@ const ProjetExterieurTall = ({
   selectedPic,
   setSelectedPic,
   isSelectedMenu,
-  setIsSelectedMenu,
   isActive,
 }) => {
   const location = useLocation();
@@ -23,11 +22,7 @@ const ProjetExterieurTall = ({
       className={isSelectedMenu === "principal-menu" ? " limitedHeight" : ""}
     >
       <Header isActive={isActive}></Header>
-      <HeaderResp
-        isActive={isActive}
-        isSelectedMenu={isSelectedMenu}
-        setIsSelectedMenu={setIsSelectedMenu}
-      ></HeaderResp>
+      <HeaderResp isActive={isActive}></HeaderResp>
       <div className="container fadeIn">
         <div className="projets__PartOne">
           <div className="projets__title-date">

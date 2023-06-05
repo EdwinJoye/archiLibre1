@@ -18,8 +18,8 @@ import Test from "./pages/Test";
 function LocationWrapper() {
   const [selectedId, setSelectedId] = useState(null);
   const [selectedPic, setSelectedPic] = useState(null);
-  const [isSelectedMenu, setIsSelectedMenu] = useState(null);
   const [selectedPage, setSelectedPage] = useState("");
+  const [isSelectedMenu, setIsSelectedMenu] = useState(null);
   const location = useLocation();
 
   let isActive = 0;
@@ -40,23 +40,13 @@ function LocationWrapper() {
 
   return (
     <Routes>
-      <Route
-        path="/"
-        element={
-          <Home
-            isActive={isActive}
-            isSelectedMenu={isSelectedMenu}
-            setIsSelectedMenu={setIsSelectedMenu}
-          ></Home>
-        }
-      ></Route>
+      <Route path="/" element={<Home isActive={isActive}></Home>}></Route>
       <Route
         path="/aboutme"
         element={
           <AboutMe
             isActive={isActive}
             isSelectedMenu={isSelectedMenu}
-            setIsSelectedMenu={setIsSelectedMenu}
           ></AboutMe>
         }
       ></Route>
@@ -66,7 +56,6 @@ function LocationWrapper() {
           <Exterieur
             isActive={isActive}
             isSelectedMenu={isSelectedMenu}
-            setIsSelectedMenu={setIsSelectedMenu}
           ></Exterieur>
         }
       ></Route>
@@ -76,7 +65,6 @@ function LocationWrapper() {
           <Interieur
             isActive={isActive}
             isSelectedMenu={isSelectedMenu}
-            setIsSelectedMenu={setIsSelectedMenu}
           ></Interieur>
         }
       ></Route>
@@ -86,7 +74,6 @@ function LocationWrapper() {
           <Contact
             isActive={isActive}
             isSelectedMenu={isSelectedMenu}
-            setIsSelectedMenu={setIsSelectedMenu}
           ></Contact>
         }
       ></Route>
@@ -100,7 +87,6 @@ function LocationWrapper() {
             selectedPic={selectedPic}
             setSelectedPic={setSelectedPic}
             isSelectedMenu={isSelectedMenu}
-            setIsSelectedMenu={setIsSelectedMenu}
           ></ProjetExterieurSmall>
         }
       ></Route>
@@ -114,7 +100,6 @@ function LocationWrapper() {
             selectedPic={selectedPic}
             setSelectedPic={setSelectedPic}
             isSelectedMenu={isSelectedMenu}
-            setIsSelectedMenu={setIsSelectedMenu}
           ></ProjetExterieurMedium>
         }
       ></Route>
@@ -128,7 +113,6 @@ function LocationWrapper() {
             selectedPic={selectedPic}
             setSelectedPic={setSelectedPic}
             isSelectedMenu={isSelectedMenu}
-            setIsSelectedMenu={setIsSelectedMenu}
           ></ProjetExterieurTall>
         }
       ></Route>
@@ -142,7 +126,6 @@ function LocationWrapper() {
             selectedPic={selectedPic}
             setSelectedPic={setSelectedPic}
             isSelectedMenu={isSelectedMenu}
-            setIsSelectedMenu={setIsSelectedMenu}
           ></ProjetInterieurAntony>
         }
       ></Route>
@@ -156,7 +139,6 @@ function LocationWrapper() {
             selectedPic={selectedPic}
             setSelectedPic={setSelectedPic}
             isSelectedMenu={isSelectedMenu}
-            setIsSelectedMenu={setIsSelectedMenu}
           ></ProjetInterieurMontfermeil>
         }
       ></Route>
@@ -170,7 +152,6 @@ function LocationWrapper() {
             selectedPic={selectedPic}
             setSelectedPic={setSelectedPic}
             isSelectedMenu={isSelectedMenu}
-            setIsSelectedMenu={setIsSelectedMenu}
           ></ProjetInterieurCliqueTV>
         }
       ></Route>
@@ -184,7 +165,6 @@ function LocationWrapper() {
             selectedPic={selectedPic}
             setSelectedPic={setSelectedPic}
             isSelectedMenu={isSelectedMenu}
-            setIsSelectedMenu={setIsSelectedMenu}
           ></ProjetInterieurMali>
         }
       ></Route>

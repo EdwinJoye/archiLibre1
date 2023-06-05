@@ -6,7 +6,6 @@ import interieurData from "../data/interieur.json";
 import "../css/header.css";
 
 const Header = ({ isActive }) => {
-  // const [isSelectedMenu, setIsSelectedMenu] = useState(null);
   const location = useLocation();
   const isTransparent = location.pathname === "/";
 
@@ -16,7 +15,6 @@ const Header = ({ isActive }) => {
         {/* /////////////////////// EXTERIEURS /////////////////////// */}
         <div className="header__dropdown">
           <Link className="header__box-link" to="/exterieur">
-            {console.log("HEADER isActive", isActive)}
             <div className="header__button">
               <span>EXTÉRIEURS</span>
               <div

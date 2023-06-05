@@ -8,18 +8,14 @@ import Category2 from "../../components/Category2";
 import exterieurData from "../../data/exterieur.json";
 import "../../css/exterieur.css";
 
-const Exterieur = ({ isSelectedMenu, setIsSelectedMenu, isActive }) => {
+const Exterieur = ({ isSelectedMenu, isActive }) => {
   return (
     <div
       className={isSelectedMenu === "principal-menu" ? " limitedHeight" : ""}
     >
       <div className="exterieur__header-img-title">
         <Header isActive={isActive}></Header>
-        <HeaderResp
-          isActive={isActive}
-          isSelectedMenu={isSelectedMenu}
-          setIsSelectedMenu={setIsSelectedMenu}
-        ></HeaderResp>
+        <HeaderResp isActive={isActive}></HeaderResp>
         <div className="exterieur__img-title fadeIn">
           <img
             className="exterieur__img-principal"

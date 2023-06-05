@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 import FooterResp from "../components/FooterResp";
 import "../css/aboutMe.css";
 
-const AboutMe = ({ isSelectedMenu, setIsSelectedMenu, isActive }) => {
+const AboutMe = ({ isSelectedMenu, isActive }) => {
   return (
     <div
       className={
@@ -17,11 +17,7 @@ const AboutMe = ({ isSelectedMenu, setIsSelectedMenu, isActive }) => {
       }
     >
       <Header isActive={isActive}></Header>
-      <HeaderResp
-        isActive={isActive}
-        isSelectedMenu={isSelectedMenu}
-        setIsSelectedMenu={setIsSelectedMenu}
-      ></HeaderResp>
+      <HeaderResp isActive={isActive}></HeaderResp>
       <div className="container">
         <div className="fadeIn">
           {aboutMeData.map((data, key) => {

@@ -13,7 +13,6 @@ const ProjetInterieurMontfermeil = ({
   selectedPic,
   setSelectedPic,
   isSelectedMenu,
-  setIsSelectedMenu,
   isActive,
 }) => {
   const location = useLocation();
@@ -24,11 +23,7 @@ const ProjetInterieurMontfermeil = ({
       className={isSelectedMenu === "principal-menu" ? " limitedHeight" : ""}
     >
       <Header isActive={isActive}></Header>
-      <HeaderResp
-        isActive={isActive}
-        isSelectedMenu={isSelectedMenu}
-        setIsSelectedMenu={setIsSelectedMenu}
-      ></HeaderResp>
+      <HeaderResp isActive={isActive}></HeaderResp>
       <div className="fadeIn">
         <div className="projetInterieur__container-1 container">
           <h2>{data.title}</h2>

@@ -13,7 +13,6 @@ const ProjetExterieurMedium = ({
   selectedPic,
   setSelectedPic,
   isSelectedMenu,
-  setIsSelectedMenu,
 }) => {
   const location = useLocation();
   const data = location.state.data;
@@ -23,11 +22,7 @@ const ProjetExterieurMedium = ({
       className={isSelectedMenu === "principal-menu" ? " limitedHeight" : ""}
     >
       <Header isActive={isActive}></Header>
-      <HeaderResp
-        isActive={isActive}
-        isSelectedMenu={isSelectedMenu}
-        setIsSelectedMenu={setIsSelectedMenu}
-      ></HeaderResp>
+      <HeaderResp isActive={isActive}></HeaderResp>
       <div className="margin-bottom container fadeIn">
         <div className="projets__PartOne">
           <div className="projets__title-date">

@@ -7,13 +7,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "../css/home.css";
 
-const HomeCarousel = ({
-  pics,
-  picsResp,
-  isSelectedMenu,
-  setIsSelectedMenu,
-  isActive,
-}) => {
+const HomeCarousel = ({ pics, picsResp, isActive }) => {
   return (
     <div className="swiper container">
       <div className="pics">
@@ -70,11 +64,7 @@ const HomeCarousel = ({
       </div>
       <div className="swiper__header">
         <Header isActive={isActive}></Header>
-        <HeaderResp
-          isActive={isActive}
-          isSelectedMenu={isSelectedMenu}
-          setIsSelectedMenu={setIsSelectedMenu}
-        ></HeaderResp>
+        <HeaderResp isActive={isActive}></HeaderResp>
       </div>
       <div className="home__title">
         <span>Aman Othenin-Girard Architecte DPLG</span>
