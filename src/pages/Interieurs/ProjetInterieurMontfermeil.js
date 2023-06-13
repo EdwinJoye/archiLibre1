@@ -31,7 +31,7 @@ const ProjetInterieurMontfermeil = ({
           <div className="bg-diago-grey projetInt-bg"></div>
           {/* {console.log("DATA MONT", data)} */}
           <div className="projetIntMontfermeil__container-1">
-            <div className="marginR">
+            <div className="container-2-img1 marginR">
               <PictureProjet
                 selectedId={selectedId}
                 setSelectedId={setSelectedId}
@@ -46,7 +46,7 @@ const ProjetInterieurMontfermeil = ({
                 className={data.pagePictures[0].pics[0].class}
               ></PictureProjet>
             </div>
-            <div>
+            <div className="projetMontfermeil__img-container-2-part2">
               <Title
                 title={data.pagePictures[0].title}
                 cssTexte={data.pagePictures[0].cssTexte}

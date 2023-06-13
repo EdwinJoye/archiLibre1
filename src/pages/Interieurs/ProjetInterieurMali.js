@@ -31,7 +31,7 @@ const ProjetInterieurMali = ({
         <div className="projetInterieur__container-2">
           <div className="bg-diago-grey projetInt-bg"></div>
           <div className="projetIntMali__container-1">
-            <div className="marginR">
+            <div className="projetIntCliqueTv__img-container-2-part1 marginR">
               <div className="marginB">
                 <PictureProjet
                   selectedId={selectedId}
@@ -61,7 +61,7 @@ const ProjetInterieurMali = ({
                 className={data.pagePictures[0].pics[1].class}
               ></PictureProjet>
             </div>
-            <div>
+            <div className="projetIntCliqueTv__img-container-2-part2">
               <div className="marginB">
                 <Title
                   title={data.pagePictures[0].title}

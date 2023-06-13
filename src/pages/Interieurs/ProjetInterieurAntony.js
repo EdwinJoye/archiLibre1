@@ -136,7 +136,6 @@ const ProjetInterieurAntony = ({
                   className={data.pagePictures[1].pics[1].class}
                 ></PictureProjet>
               </div>
-
               <div className="container-3-img3">
                 <PictureProjet
                   selectedId={selectedId}
@@ -157,19 +156,21 @@ const ProjetInterieurAntony = ({
           <div className="projetIntAntony__img-container-4">
             <div className="bg-diago-grey"></div>
             <div className="projetIntAntony__img-container-4-part2">
-              <PictureProjet
-                selectedId={selectedId}
-                setSelectedId={setSelectedId}
-                selectedPic={selectedPic}
-                setSelectedPic={setSelectedPic}
-                pics={data.pagePictures[2].pics}
-                url={data.pagePictures[2].pics[0].url}
-                id={data.pagePictures[2].pics[0].id}
-                index={data.pagePictures[2].pics[0].index}
-                title={data.pagePictures[2].pics[0].title}
-                descriptionPic={data.pagePictures[2].pics[0].descriptionPic}
-                className={data.pagePictures[2].pics[0].class}
-              ></PictureProjet>
+              <div className="container-4-img1">
+                <PictureProjet
+                  selectedId={selectedId}
+                  setSelectedId={setSelectedId}
+                  selectedPic={selectedPic}
+                  setSelectedPic={setSelectedPic}
+                  pics={data.pagePictures[2].pics}
+                  url={data.pagePictures[2].pics[0].url}
+                  id={data.pagePictures[2].pics[0].id}
+                  index={data.pagePictures[2].pics[0].index}
+                  title={data.pagePictures[2].pics[0].title}
+                  descriptionPic={data.pagePictures[2].pics[0].descriptionPic}
+                  className={data.pagePictures[2].pics[0].class}
+                ></PictureProjet>
+              </div>
               <div className="projetIntAntony__container4-right">
                 <Title
                   title={data.pagePictures[2].title}
@@ -177,19 +178,21 @@ const ProjetInterieurAntony = ({
                   cssUnderline={data.pagePictures[2].cssUnderline}
                   cssBackground={data.pagePictures[2].cssBackground}
                 ></Title>
-                <PictureProjet
-                  selectedId={selectedId}
-                  setSelectedId={setSelectedId}
-                  selectedPic={selectedPic}
-                  setSelectedPic={setSelectedPic}
-                  pics={data.pagePictures[2].pics}
-                  url={data.pagePictures[2].pics[1].url}
-                  id={data.pagePictures[2].pics[1].id}
-                  index={data.pagePictures[2].pics[1].index}
-                  title={data.pagePictures[2].pics[1].title}
-                  descriptionPic={data.pagePictures[2].pics[1].descriptionPic}
-                  className={data.pagePictures[2].pics[1].class}
-                ></PictureProjet>
+                <div className="container-4-img2">
+                  <PictureProjet
+                    selectedId={selectedId}
+                    setSelectedId={setSelectedId}
+                    selectedPic={selectedPic}
+                    setSelectedPic={setSelectedPic}
+                    pics={data.pagePictures[2].pics}
+                    url={data.pagePictures[2].pics[1].url}
+                    id={data.pagePictures[2].pics[1].id}
+                    index={data.pagePictures[2].pics[1].index}
+                    title={data.pagePictures[2].pics[1].title}
+                    descriptionPic={data.pagePictures[2].pics[1].descriptionPic}
+                    className={data.pagePictures[2].pics[1].class}
+                  ></PictureProjet>
+                </div>
               </div>
             </div>
           </div>

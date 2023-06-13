@@ -18,8 +18,8 @@ body {
   padding: 0;
 }
 .container {
-  margin-left: 7%;
-  margin-right: 7%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 h1 {
   font-family: PlayfairDisplay-Bold;
@@ -61,6 +61,7 @@ p {
 span {
   font-weight: bold;
   letter-spacing: 0.05em;
+  font-size: 17px;
 }
 img {
   vertical-align: bottom;
@@ -118,7 +119,7 @@ img {
 .bg-diago-grey {
   background-size: cover;
   margin-top: 200px;
-  height: 200px;
+  height: 250px;
 }
 .bg-diago-grey {
   background-image: url("./img/bg-diagonales-grey.svg");
@@ -149,6 +150,17 @@ img {
   }
   p {
     /* font-size: 0.9rem; */
+  }
+  span {
+    font-size: 14px;
+  }
+  .bg-diago-green,
+  .bg-diago-grey {
+    height: 200px;
+  }
+  .container {
+    margin-left: 7%;
+    margin-right: 7%;
   }
 }
 @media screen and (max-width: 1350px) {

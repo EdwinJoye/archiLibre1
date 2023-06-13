@@ -3,19 +3,22 @@
 .projetInterieur__container-1 {
   margin-top: 50px;
   text-align: center;
+  margin: 100px auto 0px auto;
+  width: 60%;
 }
 .projetInterieur__container-1 h2 {
-  margin-bottom: 30px;
+  margin-bottom: 70px;
 }
 .projetIntAntony__img-container-2 .title__container-all {
   margin-bottom: 30px;
 }
 .projetInterieur__2-img-container {
   display: flex;
-  padding-left: 7%;
-  padding-right: 7%;
+  padding-left: 10%;
+  padding-right: 10%;
   background-color: #37463d;
   padding-bottom: 100px;
+  padding-top: 100px;
 }
 .projetInterieur__2-img-container h2 {
   color: #f6edd9;
@@ -23,7 +26,7 @@
 .projetInterieur__3-img-container .title__container-all {
   /* background-color: pink; */
   margin-bottom: 20px;
-  margin-top: 40px;
+  margin-top: 200px;
 }
 .projetIntAntony__container4-right .title__container-all {
   top: -30px;
@@ -54,27 +57,46 @@
   justify-content: flex-end;
 }
 .projetIntAntony__img-container-3 {
-  /* position: relative; */
   justify-content: space-between;
   align-items: flex-end;
   display: flex;
-  height: 850px;
+  height: 980px;
   /* background-color: yellowgreen; */
 }
+.container-3-img1,
+.container-3-img2,
+.container-3-img3 {
+  flex: 1;
+}
+.container-3-img1 {
+  margin-right: 20px;
+}
 .container-3-img2 {
+  margin-right: 20px;
   margin-bottom: 100px;
 }
 .container-3-img3 {
   margin-bottom: 200px;
 }
-.projetIntAntony__container4-right {
+.projetIntAntony__container4-right,
+.projetMontfermeil__img-container-2-part2 {
   margin-left: 30px;
+  flex: 1;
 }
 .projetIntAntony__img-container-4-part2 {
   display: flex;
   align-items: flex-end;
   background-color: #f2f3f3;
-  padding: 0 7% 100px 7%;
+  padding: 100px 10% 200px 10%;
+  justify-content: center;
+}
+.container-4-img1,
+.container-2-img1,
+.projetIntCliqueTv__img-container-2-part2 {
+  flex: 1;
+}
+.projetIntCliqueTv__img-container-2-part1 {
+  flex: 1.15;
 }
 
 /* /////////////////////////////////// PROJET MONTFERMEIL /////////////////////////////////// */
@@ -84,8 +106,10 @@
 .projetIntMali__container-1 {
   display: flex;
   align-items: flex-end;
-  padding: 0 7% 100px 7%;
+  justify-content: center;
+  padding: 100px 10% 200px 10%;
   background-color: #f2f3f3;
+  /* background-color: pink; */
 }
 .marginR {
   margin-right: 30px;
