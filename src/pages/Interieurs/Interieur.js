@@ -9,7 +9,13 @@ import interieurData from "../../data/interieur.json";
 
 const Interieur = ({ isSelectedMenu, isActive }) => {
   return (
-    <div className={isSelectedMenu === true ? " limitedHeight" : ""}>
+    <div
+      className={
+        isSelectedMenu === true
+          ? "exterieur__all-container limitedHeight"
+          : "exterieur__all-container"
+      }
+    >
       <div className="exterieur__header-img-title">
         <Header isActive={isActive}></Header>
         <HeaderResp isActive={isActive}></HeaderResp>

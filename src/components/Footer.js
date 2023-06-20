@@ -26,7 +26,7 @@ const Footer = () => {
         />
       </Link>
       <div className="footer__buttons-container2">
-        <Link className="footer__button" to="/aboutme">
+        <Link className="footer__button" to="/apropos">
           <div>
             <span>À PROPOS</span>
           </div>

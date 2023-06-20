@@ -42,7 +42,7 @@ const HeaderResp = ({ isActive }) => {
           <div className="headerResp__lines"></div>
           <div className="headerResp__lines"></div>
         </div>
-
+        {/* {console.log("HEADER RESP ISSELECTED MENU", isSelectedMenu)} */}
         <div className="headerResp__signature-container">
           <Link to="/">
             <img src={Signature} alt="sign" />
@@ -303,7 +303,7 @@ const HeaderResp = ({ isActive }) => {
               )}
             </div>
             <Link
-              to="/aboutme"
+              to="/apropos"
               className="headerResp__btn-container"
               onClick={() => {
                 setIsSelectedMenu(false);
@@ -319,8 +319,6 @@ const HeaderResp = ({ isActive }) => {
                 À PROPOS
               </span>
             </Link>
-            {console.log("SELECTED PAGE HEADER RESP", isSelectedMenu)}{" "}
-            {console.log("SELECTED PAGE HEADER RESP", isSelectedPage)}
             <Link
               to="/contact"
               className="headerResp__btn-container"

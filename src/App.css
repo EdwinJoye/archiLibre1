@@ -51,9 +51,10 @@ h4 {
 h5 {
   color: #f6edd9;
   font-family: Montserrat-Regular;
-  font-size: 25px;
+  font-size: 23px;
   text-align: center;
-  line-height: 25px;
+  line-height: 26px;
+  text-transform: uppercase;
 }
 p {
   white-space: pre-wrap;
@@ -89,6 +90,7 @@ img {
 .limitedHeight {
   overflow: hidden;
   height: 100vh;
+  background-color: red;
 }
 .fadeIn {
   animation: 2s ease fadeIn;
@@ -101,6 +103,10 @@ img {
 .relative {
   position: relative;
   min-height: 100vh;
+}
+.absolute {
+  width: 100%;
+  position: absolute;
 }
 .block {
   display: block;
@@ -148,6 +154,10 @@ img {
   h2 {
     font-size: 45px;
   }
+  h5 {
+    font-size: 15px;
+    line-height: 20px;
+  }
   p {
     /* font-size: 0.9rem; */
   }
@@ -157,10 +167,7 @@ img {
   .bg-diago-green,
   .bg-diago-grey {
     height: 200px;
-  }
-  .container {
-    margin-left: 7%;
-    margin-right: 7%;
+    margin-top: 150px;
   }
 }
 @media screen and (max-width: 1350px) {

@@ -78,7 +78,7 @@ const Header = ({ isActive }) => {
       <div className="header__buttons-container-2">
         {/* /////////////////////// A PROPOS /////////////////////// */}
 
-        <Link className="header__box-link" to="/aboutme">
+        <Link className="header__box-link" to="/apropos">
           <div className="header__button">
             <span>À PROPOS</span>
             <div

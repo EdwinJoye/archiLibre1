@@ -17,7 +17,7 @@ const Contact = ({ isSelectedMenu, isActive }) => {
           : "contact__container"
       }
     >
-      {/* {console.log("CONTACT SELECTED MENU", isSelectedMenu)} */}
+      {console.log("CONTACT ISSELECTEDMENU", isSelectedMenu)}
       <Header isActive={isActive}></Header>
       <HeaderResp isActive={isActive}></HeaderResp>
       <div className="contact__img-infos-map-container fadeIn">

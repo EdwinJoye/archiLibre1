@@ -62,10 +62,10 @@
   width: 80%;
 }
 .headerResp__menu-container-in {
-  animation: 1.5s ease-out SlideInFromLeft;
+  animation: 1.2s ease-out SlideInFromLeft;
 }
 .headerResp__menu-container-out {
-  animation: 1.5s ease-out SlideInFromRight;
+  animation: 1.2s ease-out SlideInFromRight;
 }
 .headerResp__croix-txt-container {
   display: flex;

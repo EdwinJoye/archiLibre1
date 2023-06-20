@@ -98,12 +98,14 @@ const ProjetInterieurAntony = ({
             </div>
           </div>
           <div className="projetInterieur__3-img-container container">
-            <Title
-              title={data.pagePictures[1].title}
-              cssTexte={data.pagePictures[1].cssTexte}
-              cssUnderline={data.pagePictures[1].cssUnderline}
-              cssBackground={data.pagePictures[1].cssBackground}
-            ></Title>
+            <div className="projetIntAntony__title-container-3">
+              <Title
+                title={data.pagePictures[1].title}
+                cssTexte={data.pagePictures[1].cssTexte}
+                cssUnderline={data.pagePictures[1].cssUnderline}
+                cssBackground={data.pagePictures[1].cssBackground}
+              ></Title>
+            </div>
             <div className="projetIntAntony__img-container-3">
               <div className="container-3-img1">
                 <PictureProjet

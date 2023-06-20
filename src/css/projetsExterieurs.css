@@ -104,7 +104,7 @@
   z-index: 3;
   right: 0;
   top: -70px;
-  width: 69%;
+  width: 68%;
   background-color: #37463d;
   padding: 30px 40px 40px 40px;
 }
@@ -189,8 +189,21 @@
   .projetMedium__PartTwo {
     height: 675px;
   }
+  .projets__PartTwo,
+  .projetTall__PartTwo,
+  .projetMedium__PartTwo {
+    margin-bottom: 150px;
+  }
+  .projets__imgPrincipal,
+  .projets__backgroundImgPrincipal {
+    width: 50%;
+  }
   .projets__texte-container {
-    top: -60px;
+    width: 60%;
+  }
+  .projetTall__texte-container,
+  .projetMedium__texte-container {
+    width: 55%;
   }
 }
 @media screen and (max-width: 1350px) {

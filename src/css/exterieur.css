@@ -1,3 +1,6 @@
+.exterieur__all-container {
+  overflow: hidden;
+}
 .exterieur__header-img-title {
   max-height: 100vh;
   overflow: hidden;

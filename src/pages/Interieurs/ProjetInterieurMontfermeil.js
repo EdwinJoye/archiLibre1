@@ -31,7 +31,7 @@ const ProjetInterieurMontfermeil = ({
           <div className="bg-diago-grey projetInt-bg"></div>
           {/* {console.log("DATA MONT", data)} */}
           <div className="projetIntMontfermeil__container-1">
-            <div className="container-2-img1 marginR">
+            <div className="container-2-img1">
               <PictureProjet
                 selectedId={selectedId}
                 setSelectedId={setSelectedId}

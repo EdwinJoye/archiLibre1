@@ -2,7 +2,7 @@ import "./App.css";
 import React, { useState } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
-import AboutMe from "./pages/AboutMe";
+import APropos from "./pages/APropos";
 import Exterieur from "./pages/Exterieurs/Exterieur";
 import Interieur from "./pages/Interieurs/Interieur";
 import Contact from "../src/pages/Contact";
@@ -30,7 +30,7 @@ function LocationWrapper() {
     isActive = 2;
   } else if (location.pathname === "/interieur") {
     isActive = 3;
-  } else if (location.pathname === "/aboutme") {
+  } else if (location.pathname === "/apropos") {
     isActive = 4;
   } else if (location.pathname === "/contact") {
     isActive = 5;
@@ -42,12 +42,12 @@ function LocationWrapper() {
     <Routes>
       <Route path="/" element={<Home isActive={isActive}></Home>}></Route>
       <Route
-        path="/aboutme"
+        path="/APropos"
         element={
-          <AboutMe
+          <APropos
             isActive={isActive}
             isSelectedMenu={isSelectedMenu}
-          ></AboutMe>
+          ></APropos>
         }
       ></Route>
       <Route

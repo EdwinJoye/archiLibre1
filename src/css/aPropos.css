@@ -1,0 +1,12 @@
+.aPropos__txt-img-bg-container {
+  display: flex;
+  background-color: pink;
+  height: 100%;
+}
+.aPropos__img {
+  width: 100%;
+}
+.aPropos__txt-img-bg-container span {
+  /* background-color: yellow; */
+  padding: 20px;
+}
