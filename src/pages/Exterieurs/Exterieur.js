@@ -18,7 +18,6 @@ const Exterieur = ({ isSelectedMenu, isActive }) => {
       }
     >
       <div className="exterieur__header-img-title">
-        {console.log("EXTERIEUR ISSELECTEDMENU", isSelectedMenu)}
         <Header isActive={isActive}></Header>
         <HeaderResp isActive={isActive}></HeaderResp>
         <div className="exterieur__img-title fadeIn">
