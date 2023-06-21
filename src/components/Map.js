@@ -1,11 +1,12 @@
 import React from "react";
 import GoogleMapReact from "google-map-react";
 import LocationPin from "./LocationPin";
+
 import "../css/contact.css";
 
 const AnyReactComponent = ({ text }) => <div>{text}</div>;
 
-export default function SimpleMap({ env }) {
+export default function SimpleMap() {
   const location = {
     address: "Cabinet AOtheninGirard",
     lat: 48.822430661529026,
@@ -23,7 +24,7 @@ export default function SimpleMap({ env }) {
     // Important! Always set the container height explicitly
     <div className="map__container">
       <GoogleMapReact
-        bootstrapURLKeys={{ key: env("API_KEY") }}
+        bootstrapURLKeys={process.env.API_KEY}
         defaultCenter={location}
         defaultZoom={defaultProps.zoom}
       >
