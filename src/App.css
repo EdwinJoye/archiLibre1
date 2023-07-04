@@ -88,9 +88,9 @@ img {
   margin-bottom: 10px;
 }
 .limitedHeight {
-  overflow: hidden;
   height: 100vh;
-  background-color: red;
+  overflow: hidden;
+  /* background-color: red; */
 }
 .fadeIn {
   animation: 2s ease fadeIn;

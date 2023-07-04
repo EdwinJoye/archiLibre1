@@ -8,3 +8,8 @@
   background-color: pink;
   width: 80px;
 }
+.backgroundRed {
+  background-color: red;
+  height: 100vh;
+  overflow: hidden;
+}

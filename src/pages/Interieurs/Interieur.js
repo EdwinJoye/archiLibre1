@@ -7,7 +7,7 @@ import Category2 from "../../components/Category2";
 import InterieurImg from "../../img/interieur.jpg";
 import interieurData from "../../data/interieur.json";
 
-const Interieur = ({ isSelectedMenu, isActive }) => {
+const Interieur = ({ isSelectedMenu, setIsSelectedMenu, isActive }) => {
   return (
     <div
       className={
@@ -18,7 +18,11 @@ const Interieur = ({ isSelectedMenu, isActive }) => {
     >
       <div className="exterieur__header-img-title">
         <Header isActive={isActive}></Header>
-        <HeaderResp isActive={isActive}></HeaderResp>
+        <HeaderResp
+          isSelectedMenu={isSelectedMenu}
+          setIsSelectedMenu={setIsSelectedMenu}
+          isActive={isActive}
+        ></HeaderResp>
         <div className="exterieur__img-title fadeIn">
           <img
             className="exterieur__img-principal"

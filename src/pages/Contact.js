@@ -8,7 +8,7 @@ import Footer from "../components/Footer";
 import FooterResp from "../components/FooterResp";
 import "../css/contact.css";
 
-const Contact = ({ isSelectedMenu, isActive }) => {
+const Contact = ({ isSelectedMenu, setIsSelectedMenu, isActive }) => {
   return (
     <div
       className={
@@ -19,7 +19,11 @@ const Contact = ({ isSelectedMenu, isActive }) => {
     >
       {console.log("CONTACT ISSELECTEDMENU", isSelectedMenu)}
       <Header isActive={isActive}></Header>
-      <HeaderResp isActive={isActive}></HeaderResp>
+      <HeaderResp
+        isSelectedMenu={isSelectedMenu}
+        setIsSelectedMenu={setIsSelectedMenu}
+        isActive={isActive}
+      ></HeaderResp>
       <div className="contact__img-infos-map-container fadeIn">
         <div className="contact__img-infos-container container">
           <div className="contact__container-1">

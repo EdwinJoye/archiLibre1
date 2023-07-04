@@ -11,8 +11,8 @@ const Test = ({
   isSelectedMenu,
 }) => {
   return (
-    <div className={isSelectedMenu === "principal-menu" ? "backgroundRed" : ""}>
-      {/* {console.log("TEST SELECTED MENU", isSelectedMenu)} */}
+    <div className={isSelectedMenu === true ? "backgroundRed" : ""}>
+      {console.log("TEST SELECTED MENU", isSelectedMenu)}
       <Header
         onOff={onOff}
         setOnOff={setOnOff}

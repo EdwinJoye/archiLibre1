@@ -41,7 +41,6 @@
 }
 .headerResp__overlay-container {
   position: absolute;
-  /* overflow: hidden; */
   overflow: scroll;
   width: 100%;
   top: 0;

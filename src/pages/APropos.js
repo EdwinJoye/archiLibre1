@@ -5,7 +5,7 @@ import FooterResp from "../components/FooterResp";
 import APropos from "../img/aPropos.jpg";
 import "../css/aPropos.css";
 
-const AboutMe = ({ isSelectedMenu, isActive }) => {
+const AboutMe = ({ isSelectedMenu, setIsSelectedMenu, isActive }) => {
   return (
     <div
       className={
@@ -13,7 +13,11 @@ const AboutMe = ({ isSelectedMenu, isActive }) => {
       }
     >
       <Header isActive={isActive}></Header>
-      <HeaderResp isActive={isActive}></HeaderResp>
+      <HeaderResp
+        isSelectedMenu={isSelectedMenu}
+        setIsSelectedMenu={setIsSelectedMenu}
+        isActive={isActive}
+      ></HeaderResp>
       <div className="aPropos__txt-img-bg-container container">
         <div>
           <img className="aPropos__img" src={APropos} alt="" />

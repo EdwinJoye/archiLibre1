@@ -10,8 +10,7 @@ import ArrowDownWhite from "../img/arrow-down-white.svg";
 import ArrowUpWhite from "../img/arrow-up-white.svg";
 import "../css/headerResp.css";
 
-const HeaderResp = ({ isActive }) => {
-  const [isSelectedMenu, setIsSelectedMenu] = useState(false);
+const HeaderResp = ({ isActive, isSelectedMenu, setIsSelectedMenu }) => {
   const [isSelectedPage, setIsSelectedPage] = useState(1);
   const [isOpenExt, setIsOpenExt] = useState(false);
   const [isOpenInt, setIsOpenInt] = useState(false);
@@ -34,6 +33,7 @@ const HeaderResp = ({ isActive }) => {
             : "headerResp__first-menu-green"
         }
       >
+        {console.log("MENU REST", isSelectedMenu)}
         <div
           className="headerResp__sousMenu"
           onClick={() => setIsSelectedMenu(true)}
@@ -119,6 +119,7 @@ const HeaderResp = ({ isActive }) => {
               onClick={handleClickExt}
             >
               <Link
+                isSelectedMenu={isSelectedMenu}
                 to="/exterieur"
                 onClick={() => {
                   setIsSelectedMenu(false);
@@ -191,10 +192,6 @@ const HeaderResp = ({ isActive }) => {
                             setIsSelectedPage(isSelectedPage === 40);
                           }}
                         >
-                          {console.log(
-                            "SELECTED PAGE HEADER RESP",
-                            isSelectedPage
-                          )}
                           <div className="headerResp__under-btn-green">
                             {data.btnName}
                           </div>

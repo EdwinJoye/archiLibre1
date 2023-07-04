@@ -8,7 +8,7 @@ import Category2 from "../../components/Category2";
 import exterieurData from "../../data/exterieur.json";
 import "../../css/exterieur.css";
 
-const Exterieur = ({ isSelectedMenu, isActive }) => {
+const Exterieur = ({ isSelectedMenu, setIsSelectedMenu, isActive }) => {
   return (
     <div
       className={
@@ -19,7 +19,11 @@ const Exterieur = ({ isSelectedMenu, isActive }) => {
     >
       <div className="exterieur__header-img-title">
         <Header isActive={isActive}></Header>
-        <HeaderResp isActive={isActive}></HeaderResp>
+        <HeaderResp
+          isActive={isActive}
+          isSelectedMenu={isSelectedMenu}
+          setIsSelectedMenu={setIsSelectedMenu}
+        ></HeaderResp>
         <div className="exterieur__img-title fadeIn">
           <img
             className="exterieur__img-principal"
