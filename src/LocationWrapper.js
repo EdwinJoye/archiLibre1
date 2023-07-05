@@ -40,7 +40,16 @@ function LocationWrapper() {
 
   return (
     <Routes>
-      <Route path="/" element={<Home isActive={isActive}></Home>}></Route>
+      <Route
+        path="/"
+        element={
+          <Home
+            isActive={isActive}
+            isSelectedMenu={isSelectedMenu}
+            setIsSelectedMenu={setIsSelectedMenu}
+          ></Home>
+        }
+      ></Route>
       <Route
         path="/APropos"
         element={
