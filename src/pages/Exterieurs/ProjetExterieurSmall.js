@@ -20,7 +20,6 @@ const ProjetExterieurSmall = ({
 
   return (
     <div className={isSelectedMenu === true ? "limitedHeight" : ""}>
-      {console.log("EXTERIEUR SMALL", isSelectedMenu)}
       <Header isActive={isActive}></Header>
       <HeaderResp
         isSelectedMenu={isSelectedMenu}

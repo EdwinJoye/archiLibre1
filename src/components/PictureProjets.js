@@ -34,7 +34,6 @@ const PictureProjet = ({
             : "pictureProjet__pics-overlay-container1"
         }
       >
-        {/* {console.log("SELECTEDPIC", selectedPic)} */}
         <img
           src={url}
           onClick={() => {

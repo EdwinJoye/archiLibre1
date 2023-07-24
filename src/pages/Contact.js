@@ -17,7 +17,6 @@ const Contact = ({ isSelectedMenu, setIsSelectedMenu, isActive }) => {
           : "contact__container"
       }
     >
-      {console.log("CONTACT ISSELECTEDMENU", isSelectedMenu)}
       <Header isActive={isActive}></Header>
       <HeaderResp
         isSelectedMenu={isSelectedMenu}

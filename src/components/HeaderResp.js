@@ -33,7 +33,6 @@ const HeaderResp = ({ isActive, isSelectedMenu, setIsSelectedMenu }) => {
             : "headerResp__first-menu-green"
         }
       >
-        {console.log("MENU REST", isSelectedMenu)}
         <div
           className="headerResp__sousMenu"
           onClick={() => setIsSelectedMenu(true)}
@@ -42,7 +41,6 @@ const HeaderResp = ({ isActive, isSelectedMenu, setIsSelectedMenu }) => {
           <div className="headerResp__lines"></div>
           <div className="headerResp__lines"></div>
         </div>
-        {/* {console.log("HEADER RESP ISSELECTED MENU", isSelectedMenu)} */}
         <div className="headerResp__signature-container">
           <Link to="/">
             <img src={Signature} alt="sign" />
@@ -280,14 +278,6 @@ const HeaderResp = ({ isActive, isSelectedMenu, setIsSelectedMenu }) => {
                               setIsSelectedPage(isSelectedPage === 39);
                             }}
                           >
-                            {console.log(
-                              "SELECTED PAGE HEADER RESP",
-                              isSelectedPage
-                            )}
-                            {console.log(
-                              "SELECTED PAGE HEADER RESP",
-                              isSelectedMenu
-                            )}
                             <div className="headerResp__under-btn-green">
                               {data.btnName}
                             </div>

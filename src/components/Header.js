@@ -51,7 +51,7 @@ const Header = ({ isActive }) => {
               ></div>
             </div>
           </Link>
-          {/* {console.log("HEADER ONOFF", onOff)} */}
+
           <div className={isActive === 6 ? "block" : "none"}>
             <div className="header__dropdown-content">
               {interieurData.map((data) => {
