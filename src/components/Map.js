@@ -21,7 +21,7 @@ export default function SimpleMap({ env }) {
   };
 
   return (
-    // Important! Always set the container height explicitly
+    // Important! Always set the container height explicitlydfdfd
     <div className="map__container">
       <GoogleMapReact
         bootstrapURLKeys={{ key: process.env.API_KEY }}
