@@ -20,8 +20,6 @@ export default function SimpleMap({ env }) {
     zoom: 15,
   };
 
-  console.log(process.env.REACT_APP_API_KEY);
-
   return (
     // Important! Always set the container height explicitlydfdfd
 
