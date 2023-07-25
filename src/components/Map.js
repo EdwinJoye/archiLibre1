@@ -20,14 +20,14 @@ export default function SimpleMap({ env }) {
     zoom: 15,
   };
 
-  console.log(process.env.API_KEY);
+  console.log(process.env.REACT_APP_API_KEY);
 
   return (
     // Important! Always set the container height explicitlydfdfd
 
     <div className="map__container">
       <GoogleMapReact
-        bootstrapURLKeys={{ key: process.env.API_KEY }}
+        bootstrapURLKeys={{ key: process.env.REACT_APP_API_KEY }}
         defaultCenter={location}
         defaultZoom={defaultProps.zoom}
       >
