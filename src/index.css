@@ -12,43 +12,43 @@ code {
     monospace;
 }
 @font-face {
-  font-family: "Montserrat-SemiBold"; /*Can be any text*/
+  font-family: "Montserrat-SemiBold";
   src: local("AirbnbCerealLight"),
     url("../src/fonts/Montserrat-SemiBold.ttf") format("truetype");
 }
 @font-face {
-  font-family: "Montserrat-Regular"; /*Can be any text*/
+  font-family: "Montserrat-Regular";
   src: local("AirbnbCerealLight"),
     url("../src/fonts/montserrat-Regular.ttf") format("truetype");
 }
 @font-face {
-  font-family: "Montserrat-Medium"; /*Can be any text*/
+  font-family: "Montserrat-Medium";
   src: local("AirbnbCerealLight"),
     url("../src/fonts/Montserrat-Medium.ttf") format("truetype");
 }
 @font-face {
-  font-family: "Montserrat-Bold"; /*Can be any text*/
+  font-family: "Montserrat-Bold";
   src: local("AirbnbCerealLight"),
     url("../src/fonts/Montserrat-Bold.ttf") format("truetype");
 }
 
 @font-face {
-  font-family: "PlayfairDisplay-Black"; /*Can be any text*/
+  font-family: "PlayfairDisplay-Black";
   src: local("AirbnbCerealLight"),
     url("../src/fonts/PlayfairDisplay-Black.ttf") format("truetype");
 }
 @font-face {
-  font-family: "PlayfairDisplay-Regular"; /*Can be any text*/
+  font-family: "PlayfairDisplay-Regular";
   src: local("AirbnbCerealLight"),
     url("../src/fonts/PlayfairDisplay-Regular.ttf") format("truetype");
 }
 @font-face {
-  font-family: "PlayfairDisplay-Bold"; /*Can be any text*/
+  font-family: "PlayfairDisplay-Bold";
   src: local("AirbnbCerealLight"),
     url("../src/fonts/PlayfairDisplay-Bold.ttf") format("truetype");
 }
 @font-face {
-  font-family: "PlayfairDisplay-ExtraBold"; /*Can be any text*/
+  font-family: "PlayfairDisplay-ExtraBold";
   src: local("AirbnbCerealLight"),
     url("../src/fonts/PlayfairDisplay-ExtraBold.ttf") format("truetype");
 }
